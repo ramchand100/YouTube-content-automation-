@@ -90,8 +90,17 @@ motivational filler. Write up to their intelligence.
 Scripts are **complete, un-cut, full-length production scripts.** No outlines
 handed off as if finished, no "[continue here]" placeholders.
 
-- **Length:** 1,800 to 2,500 words, equal to roughly 12 to 16 minutes of
-  voiceover at a documentary pace (~150 words/minute).
+- **Length:** default 1,800 to 2,500 words, equal to roughly 12 to 16 minutes of
+  voiceover at a documentary pace (~150 words/minute). This is the target for most
+  episodes.
+- **Length is set by the topic, not by a quota.** A topic that genuinely needs more
+  room to be explained properly may run longer, up to roughly 3,500 to 3,800 words
+  (about 24 to 26 minutes). Go long only when the extra length is carrying real
+  substance: more mechanics, more PKR math, a second case, a necessary piece of
+  history. Never pad to hit a number, and never stretch a simple idea. If a topic is
+  fully explained in 12 minutes, it ends at 12 minutes. Length must be earned, every
+  minute of it. The five-section spine holds at any length; longer episodes deepen
+  the sections, they do not add new ones.
 - **Timestamped visual cue annotations** throughout, in the form
   `[VISUAL 03:15 — description]`, so an editor can build to the script.
 - **Motion-graphic instructions for editors** written in plain, buildable terms

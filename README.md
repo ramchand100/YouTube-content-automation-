@@ -77,7 +77,18 @@ python3 scripts/script_engine.py --title "Raast vs The Card Networks" --pillar m
 
 This writes `scripts/02_raast_vs_the_card_networks.md`. Write each of the five
 sections to its word budget, sourcing every figure. See `scripts/TEMPLATE.md` for
-the bare structure. Target length: **1,800-2,500 words (~12-16 min voiceover).**
+the bare structure.
+
+**Length is set by the topic, not a quota.** Default is ~15 min (~2,250 words); most
+episodes run 12-16 min. For a topic that genuinely needs more depth, pass `--minutes`
+(up to ~26), and the engine scales every section's word budget and timestamps:
+
+```bash
+python3 scripts/script_engine.py --title "..." --pillar macro --number 06 --minutes 22
+```
+
+Go long only when the extra length carries real substance (more mechanics, more PKR
+math, a second case). Never pad to hit a number (CLAUDE.md section 5).
 
 ### 3. Build the storyboard  →  `storyboards/`
 

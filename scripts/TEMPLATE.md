@@ -3,7 +3,9 @@
 <!--
 PRODUCTION SCRIPT — conform to CLAUDE.md.
 Language: 100% English, plain but smart (grade 7-8; define all jargon on first
-use, keep full analytical depth). Length target: 1,800-2,500 words (~12-16 min).
+use, keep full analytical depth). Length: default 1,800-2,500 words (~12-16 min);
+a topic that needs more depth may run to ~3,500-3,800 words (~24-26 min). Length is
+set by the topic, not a quota. Never pad (see CLAUDE.md section 5).
 Annotate visuals inline as [VISUAL mm:ss - description].
 Cite inline as [SOURCE: publication/institution, year]. Tag unconfirmed or
 fast-moving numbers [VERIFY]. Collect citations in the Sources block below.

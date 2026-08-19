@@ -22,28 +22,55 @@ from pathlib import Path
 
 from jinja2 import Template
 
-# Total target ~2,200 words across five sections (150 wpm ~= 14.5 min).
 # Structure: The Investigative Brief (see CLAUDE.md section 7).
+# Each section carries a WEIGHT (share of the runtime). The actual word budget and
+# timestamps are computed from the target length (--minutes), so a topic that needs
+# more room simply scales every section up. Default 15 min ~= 2,250 words.
+# Length is set by the topic, not a quota (see CLAUDE.md section 5): most episodes run
+# 12-16 min; go longer only when the extra length carries real substance.
+WORDS_PER_MINUTE = 150
+
 PARTS = [
-    {"n": 1, "title": "The Unsolved Reality", "ts": "0:00 - 2:00", "words": 300,
+    {"n": 1, "title": "The Unsolved Reality", "weight": 0.135,
      "goal": "An on-the-ground entry point. Open in the field, on a concrete real-world scene or "
              "anomaly that poses the question the brief will answer. State the stakes plainly, no "
              "manufactured drama."},
-    {"n": 2, "title": "The Paper Trail", "ts": "2:00 - 6:00", "words": 560,
+    {"n": 2, "title": "The Paper Trail", "weight": 0.251,
      "goal": "The raw math. PKR unit economics and financial anatomy. Break down the actual "
              "numbers, costs, margins, and cash flows in rupees, so the viewer sees exactly how "
              "the money works."},
-    {"n": 3, "title": "The Field Reality", "ts": "6:00 - 10:00", "words": 560,
+    {"n": 3, "title": "The Field Reality", "weight": 0.251,
      "goal": "Ground-level mechanics. How the system actually runs day to day, the informal "
              "networks, the cash layer, and distributor and middleman dynamics the paper trail "
              "alone does not reveal."},
-    {"n": 4, "title": "The Systemic Domino Effect", "ts": "10:00 - 13:00", "words": 450,
+    {"n": 4, "title": "The Systemic Domino Effect", "weight": 0.202,
      "goal": "The macroeconomic impact on Pakistan. How this one system ripples into the wider "
              "economy, investors, and ordinary consumers. Tie to SBP / FBR / FX / energy reality."},
-    {"n": 5, "title": "The Verdict & Future Outlook", "ts": "13:00 - End", "words": 360,
+    {"n": 5, "title": "The Verdict & Future Outlook", "weight": 0.161,
      "goal": "A realistic market forecast. A grounded, honest read on where this goes next and the "
              "concrete implications for founders, executives, investors, and students."},
 ]
+
+
+def _fmt_ts(minutes: float) -> str:
+    total_seconds = int(round(minutes * 60))
+    return f"{total_seconds // 60}:{total_seconds % 60:02d}"
+
+
+def build_sections(target_minutes: float):
+    """Scale each section's timestamp span and word budget to the target length."""
+    total_weight = sum(p["weight"] for p in PARTS)
+    total_words = round(target_minutes * WORDS_PER_MINUTE)
+    sections = []
+    cursor = 0.0
+    for i, p in enumerate(PARTS):
+        span = target_minutes * p["weight"] / total_weight
+        start, end = cursor, cursor + span
+        cursor = end
+        ts = f"{_fmt_ts(start)} - " + ("End" if i == len(PARTS) - 1 else _fmt_ts(end))
+        words = round(total_words * p["weight"] / total_weight)
+        sections.append({**p, "ts": ts, "words": words})
+    return sections, total_words
 
 SKELETON = Template(
     """# {{ title }}
@@ -52,7 +79,9 @@ SKELETON = Template(
 PRODUCTION SCRIPT — conform to CLAUDE.md.
 Language: 100% English, plain but smart (grade 7-8; define all jargon on first
 use, keep full analytical depth). See CLAUDE.md section 2.
-Length target: 1,800-2,500 words (~12-16 min).
+Length target: ~{{ total_words }} words (~{{ target_minutes }} min). Length is set
+by the topic, not a quota; go longer only when the extra length carries real
+substance (see CLAUDE.md section 5).
 Annotate visuals inline as [VISUAL mm:ss - description].
 Cite inline as [SOURCE: publication/institution, year]. Tag unconfirmed/fast-moving
 numbers [VERIFY]. Collect all citations in the Sources block at the end.
@@ -61,7 +90,7 @@ numbers [VERIFY]. Collect all citations in the Sources block at the end.
 - **Episode:** {{ number }}
 - **Pillar:** {{ pillar }}
 - **Drafted:** {{ created }}
-- **Word target:** ~2,200 (five parts below carry per-section budgets)
+- **Word target:** ~{{ total_words }} (~{{ target_minutes }} min; five sections below carry per-section budgets)
 - **Companion files:** storyboards/{{ number }}_*.md, prompts/{{ number }}_*.md
 
 ---
@@ -104,14 +133,25 @@ def main(argv=None) -> None:
     parser.add_argument("--pillar", default="(set pillar)", help="Content pillar.")
     parser.add_argument("--number", default="NN", help="Episode number, e.g. 02.")
     parser.add_argument("--out", default="scripts", help="Output directory (default: scripts).")
+    parser.add_argument("--minutes", type=float, default=15.0,
+                        help="Target runtime in minutes (default 15). Use a larger value only "
+                             "for a topic that genuinely needs the depth, up to ~26. Scales every "
+                             "section's word budget and timestamps (see CLAUDE.md section 5).")
     args = parser.parse_args(argv)
 
+    if not 8.0 <= args.minutes <= 30.0:
+        parser.error("--minutes should be between 8 and 30. Most episodes are 12-16; "
+                     "go long only when the topic earns it.")
+
+    sections, total_words = build_sections(args.minutes)
     rendered = SKELETON.render(
         title=args.title,
         number=args.number,
         pillar=args.pillar,
         created=_dt.date.today().isoformat(),
-        parts=PARTS,
+        parts=sections,
+        total_words=total_words,
+        target_minutes=round(args.minutes),
     )
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
