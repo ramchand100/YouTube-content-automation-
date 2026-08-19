@@ -2,7 +2,8 @@
 
 <!--
 PRODUCTION SCRIPT — conform to CLAUDE.md.
-Language: 100% English. Length target: 1,800-2,500 words (~12-16 min).
+Language: 100% English, plain but smart (grade 7-8; define all jargon on first
+use, keep full analytical depth). Length target: 1,800-2,500 words (~12-16 min).
 Annotate visuals inline as [VISUAL mm:ss - description].
 Cite inline as [SOURCE: publication/institution, year]. Tag unconfirmed or
 fast-moving numbers [VERIFY]. Collect citations in the Sources block below.

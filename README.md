@@ -117,13 +117,16 @@ A full, finished example of the pipeline output:
 1. **`CLAUDE.md` is law.** If a script drifts from its language, sourcing, or
    structure rules, fix the script, not the rules (unless the editorial standard has
    genuinely changed).
-2. **Number files consistently.** `NN_<slug>` across `scripts/`, `storyboards/`, and
+2. **Plain but smart.** Write at a grade 7-8 reading level, define all jargon on
+   first use, and keep the analytical depth (CLAUDE.md section 2). Simple words,
+   hard ideas. Applies to Episode 03 onward; Episodes 01-02 predate this rule.
+3. **Number files consistently.** `NN_<slug>` across `scripts/`, `storyboards/`, and
    `prompts/` so an episode's three files sort together.
-3. **Re-verify `[VERIFY]` figures before recording.** Macro numbers (SBP rate,
+4. **Re-verify `[VERIFY]` figures before recording.** Macro numbers (SBP rate,
    inflation, FX, tax rates, sector values) move fast. Never record a stale figure.
-4. **Every on-screen number needs a source caption.** Sourcing is the channel's
+5. **Every on-screen number needs a source caption.** Sourcing is the channel's
    whole competitive moat.
-5. **Keep the speculation/analysis line clean.** State facts as facts, analysis as
+6. **Keep the speculation/analysis line clean.** State facts as facts, analysis as
    analysis, estimates as estimates. Never blur them.
 
 ---

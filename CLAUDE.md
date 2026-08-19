@@ -32,6 +32,26 @@ adoption. The edge is authenticity and local mechanics, not surface-level summar
 - Tone of the prose: the register of a sharp business documentary (think
   investigative business journalism), not a lecture and not a hype reel.
 
+### Clarity & readability (plain but smart)
+
+Write so that any curious adult or a sharp 14-year-old with no finance background
+follows every line on first listen, without pausing to look anything up. Aim for
+roughly a grade 7-8 reading level in the *words*, while keeping the *analysis* at
+full depth.
+
+- **Simplify the language, never the thinking.** Plain words and short sentences,
+  but the mechanics, the PKR math, and the rigor all stay. Simple wording, hard
+  ideas.
+- **No undefined jargon.** When a technical term is genuinely needed (MDR,
+  interchange, circular debt, dead capital), define it in plain English the moment
+  it appears, then use it. If a plain phrase works as well, use the plain phrase.
+- **One idea per sentence.** Prefer concrete over abstract. A number a viewer can
+  picture beats a percentage they can't.
+- **Explain hard mechanics with everyday analogies** (a fee is "a small cut," a
+  file is "a promise of land," an IMF program is "a loan with conditions").
+- **Read-aloud test.** If a line cannot be understood on first hearing at
+  documentary pace, rewrite it until it can.
+
 ---
 
 ## 3. Target Audience
