@@ -52,7 +52,11 @@ motivational filler. Write up to their intelligence.
 
 ## 4. Tone & Style
 
-- Sharp, analytical, data-backed, investigative.
+- **Investigative, analytical, data-driven, and pragmatic.** The register of a
+  business investigation, not a lecture.
+- **Avoid dramatic lecture tropes and textbook "David vs. Goliath" storytelling.**
+  No hero-versus-villain framing, no manufactured suspense. Let the numbers and
+  the mechanics carry the tension.
 - Grounded in **ground-truth local realities**, never abstract theory.
 - Confident and authoritative, never hyped or exaggerated.
 - Every claim is either (a) a cited fact, (b) clearly labelled analysis/opinion,
@@ -104,21 +108,29 @@ handed off as if finished, no "[continue here]" placeholders.
 
 ---
 
-## 7. The 5-Part Narrative Structure (every long-form episode)
+## 7. The Investigative Brief Structure (every long-form episode)
 
-Every flagship episode is built on this spine. Timestamps are targets for a
-~14-minute runtime and flex per topic.
+Every flagship episode is built on this five-section spine. Timestamps are targets
+for a ~14-minute runtime and flex per topic. This is an investigative brief, not a
+narrative arc: lead with the on-the-ground reality, then follow the money before
+you explain the mechanics.
 
-1. **The Hook (0:00 - 2:00):** open on a central paradox, a shocking metric, or a
-   hidden local anomaly. State the promise of the video and the stakes.
-2. **The Ground-Truth Mechanics (2:00 - 6:00):** step-by-step, how the business or
-   economic system actually operates on the ground in Pakistan.
-3. **The Core Conflict / Bottleneck (6:00 - 10:00):** the structural friction:
-   regulation, cash-flow traps, capital misallocation, or competitive dynamics.
-4. **The Broader Macro Impact (10:00 - 13:00):** how it ripples out to the wider
-   economy, investors, and ordinary consumers.
-5. **Strategic Takeaways & Future Outlook (13:00 - End):** concrete, honest
-   lessons for founders, executives, and students, plus a grounded forward view.
+1. **SECTION 1 — The Unsolved Reality (0:00 - 2:00):** an on-the-ground entry
+   point. Open in the field, on a concrete real-world scene or anomaly that poses
+   a question the rest of the brief will answer. State the stakes plainly, without
+   manufactured drama.
+2. **SECTION 2 — The Paper Trail (2:00 - 6:00):** the raw math. PKR unit
+   economics and financial anatomy. Break down the actual numbers, costs, margins,
+   and cash flows in rupees, so the viewer sees exactly how the money works.
+3. **SECTION 3 — The Field Reality (6:00 - 10:00):** ground-level mechanics. How
+   the system actually runs day to day, the informal networks, the cash layer, and
+   distributor and middleman dynamics that the paper trail alone does not reveal.
+4. **SECTION 4 — The Systemic Domino Effect (10:00 - 13:00):** the macroeconomic
+   impact on Pakistan. How this one system ripples out to the wider economy,
+   investors, and ordinary consumers, tied to SBP / FBR / FX / energy reality.
+5. **SECTION 5 — The Verdict & Future Outlook (13:00 - End):** a realistic market
+   forecast. A grounded, honest read on where this goes next and the concrete
+   implications for founders, executives, investors, and students.
 
 ---
 

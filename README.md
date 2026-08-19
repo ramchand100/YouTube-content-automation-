@@ -7,8 +7,8 @@ topic from raw idea to a research brief, to a full-length script, to an editor-r
 storyboard and thumbnail package.
 
 The editorial constitution lives in **[`CLAUDE.md`](CLAUDE.md)** and governs
-everything produced here (language, tone, length, sourcing, and the 5-Part
-Narrative Structure). Read it first.
+everything produced here (language, tone, length, sourcing, and the Investigative
+Brief structure). Read it first.
 
 ---
 
@@ -62,7 +62,7 @@ Promote an angle to a full research brief (written into `topics/`):
 python3 tools/topic_generator.py brief --title "Raast vs The Card Networks" --pillar macro
 ```
 
-The brief is pre-wired to the 5-Part Narrative Structure and to a Pakistani-source
+The brief is pre-wired to the Investigative Brief structure and to a Pakistani-source
 data checklist (SBP, PBS, FBR, SECP, PSX, and credible local reporting). **Fill it
 with sourced facts before writing the script.**
 
@@ -75,9 +75,9 @@ visual-cue slots, and citation slots:
 python3 scripts/script_engine.py --title "Raast vs The Card Networks" --pillar macro --number 02
 ```
 
-This writes `scripts/02_raast_vs_the_card_networks.md`. Write each of the five parts
-to its word budget, sourcing every figure. See `scripts/TEMPLATE.md` for the bare
-structure. Target length: **1,800-2,500 words (~12-16 min voiceover).**
+This writes `scripts/02_raast_vs_the_card_networks.md`. Write each of the five
+sections to its word budget, sourcing every figure. See `scripts/TEMPLATE.md` for
+the bare structure. Target length: **1,800-2,500 words (~12-16 min voiceover).**
 
 ### 3. Build the storyboard  →  `storyboards/`
 
@@ -105,6 +105,10 @@ A full, finished example of the pipeline output:
 - **Storyboard:** [`storyboards/01_real_estate_visuals.md`](storyboards/01_real_estate_visuals.md)
 - **Thumbnails:** [`prompts/01_real_estate_thumbnails.md`](prompts/01_real_estate_thumbnails.md)
 - **Research brief:** [`topics/the_500_billion_dollar_real_estate_trap.md`](topics/the_500_billion_dollar_real_estate_trap.md)
+
+> Note: Episode 01 was produced under the earlier five-part narrative structure.
+> The current standard is the Investigative Brief structure (CLAUDE.md section 7),
+> which all new episodes use.
 
 ---
 
