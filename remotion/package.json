@@ -1,0 +1,21 @@
+{
+  "name": "channel-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion motion-graphics proof-of-concept for the Pakistan business/economy channel.",
+  "scripts": {
+    "studio": "remotion studio",
+    "still": "remotion still FeeSplit out/fee-split.png --props=./src/data/feeSplit.json",
+    "render": "remotion render FeeSplit out/fee-split.mp4 --props=./src/data/feeSplit.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.0"
+  }
+}
