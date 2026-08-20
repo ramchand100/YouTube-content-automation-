@@ -131,7 +131,12 @@ handed off as if finished, no "[continue here]" placeholders.
    withholding regime, DC/FBR property valuations, import LC constraints, energy
    tariffs and circular debt, and regulatory friction. A generic global framing
    that could apply to any country is a failure.
-2. **No generic corporate clichés.** Ban phrases like "game-changer," "at the end
+2. **No repetition within a script.** Every concept, number, and definition is
+   stated once — at the point where it first matters. If a later section needs to
+   reference it, one clause is enough ("those DISCO losses," "the interest burden
+   already covered"). Never re-explain something already explained. This applies
+   across all five sections without exception.
+3. **No generic corporate clichés.** Ban phrases like "game-changer," "at the end
    of the day," "synergy," and "disrupt" unless used precisely and critically.
 3. **Data discipline.** Sources first. If a number cannot be sourced, either drop
    it or clearly label it an estimate. Never invent a statistic to sound credible.
