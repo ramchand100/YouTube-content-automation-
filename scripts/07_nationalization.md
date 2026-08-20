@@ -49,7 +49,7 @@ How Pakistan built this structure, what it destroyed in the process, and whether
 ## SECTION 2 — The Paper Trail  (2:00 - 5:45)
 *~530 words. PKR unit economics and financial anatomy.*
 
-The arithmetic of nationalization's legacy lives in three numbers: what the state pays to keep failed enterprises alive, what the private sector does not build because of the uncertainty that nationalization created, and what the economy loses from both.
+Those hundreds of billions of rupees have a name in the federal budget: grants to public sector enterprises. Follow that line item and three cases define the pattern.
 
 Start with Pakistan Steel Mills.
 
@@ -72,7 +72,7 @@ The subsidy mechanism is direct. SOE losses are covered by government transfers,
 ## SECTION 3 — The Field Reality  (5:45 - 9:30)
 *~530 words. Ground-level mechanics.*
 
-To understand why nationalization did lasting damage beyond the balance sheets, you need to understand what private capital does when it no longer trusts the state.
+The balance sheet damage is the visible part. The deeper damage happened off the books — in the decisions that private capital made the moment the nationalization order was published.
 
 In January 1972, the Economic Reforms Order listed 31 categories of industry for immediate nationalization. The list included cotton and textile mills, cement factories, vegetable ghee plants, chemical manufacturers, engineering goods producers, steel and metal works, and shipping companies. In most cases, these were family-owned businesses — the industrial families of Punjab and urban Sindh who had built Pakistan's first wave of manufacturing in the 1950s and 1960s.
 
@@ -95,7 +95,7 @@ The PIA privatization that completed in late 2024 broke this pattern for the fir
 ## SECTION 4 — The Systemic Domino Effect  (9:30 - 12:30)
 *~420 words. Macroeconomic impact.*
 
-The consequences of a fifty-year SOE legacy compound across every layer of the economy, because they reinforce each other at every connection point.
+Whether that PIA transaction holds or not, the SOE system it came from has already done its damage — and that damage does not stay contained in the enterprises themselves.
 
 Start with fiscal space. Every rupee the government transfers to a loss-making enterprise is a rupee that cannot go to primary healthcare, to a rural school, or to road maintenance. Pakistan's public health spending and education spending as a share of GDP are among the lowest in South Asia [VERIFY] [SOURCE: World Bank development indicators]. SOE losses are not the sole cause of that shortfall, but they are a structural drain on every other budget claim, every year.
 
@@ -112,7 +112,7 @@ The energy cost loop closes the circle. State-owned electricity distribution com
 ## SECTION 5 — The Verdict & Future Outlook  (12:30 - End)
 *~340 words. Realistic forecast and concrete implications.*
 
-Pakistan has a genuine, if narrow, window.
+That electricity bill in Faisalabad is a product of decisions made in 1972. Unwinding it requires decisions that Pakistan has been avoiding for fifty years. There is now some evidence it is starting to make them.
 
 The PIA privatization in late 2024 demonstrated that it is politically possible to transfer a major state enterprise to private ownership, even one with a resistant workforce and decades of accumulated losses. That matters not because PIA is the largest problem in the SOE portfolio — it is not — but because it broke the psychological precedent that major Pakistani privatizations always collapse before completion.
 
