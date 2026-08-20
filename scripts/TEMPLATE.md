@@ -23,6 +23,8 @@ fast-moving numbers [VERIFY]. Collect citations in the Sources block below.
 
 ## SECTION 1 — The Unsolved Reality  (0:00 - 2:00)
 *~300 words. On-the-ground entry point: a concrete field scene or anomaly that poses the question.*
+*Rhythm: short punchy sentences. Echo a key word for weight. Name the anomaly before explaining it.*
+*Use a transitional sentence: "That [X] was not an accident." End by stating the episode's single question.*
 
 ## SECTION 2 — The Paper Trail  (2:00 - 6:00)
 *~560 words. Raw math. PKR unit economics and financial anatomy. Costs, margins, cash flows in rupees.*

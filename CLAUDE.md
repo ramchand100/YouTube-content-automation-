@@ -158,6 +158,27 @@ you explain the mechanics.
    point. Open in the field, on a concrete real-world scene or anomaly that poses
    a question the rest of the brief will answer. State the stakes plainly, without
    manufactured drama.
+
+   **Section 1 sentence rhythm (non-negotiable):** Use short, punchy sentences to
+   create weight and pause. Echo a key word or phrase for emphasis. Name the anomaly
+   bluntly before explaining it. Use a transitional sentence that frames the anomaly
+   as deliberate, not accidental ("That silence was not an accident." / "That was not
+   a coincidence." / "That gap did not appear by itself."). End Section 1 by stating
+   — in plain English — the single question the episode will answer.
+
+   Pattern example:
+   > [Single concrete action, one sentence.] [What they needed, why it mattered.]
+   > [Result — blunt.] [Echo for weight: "Zero bids. No counter-offers. Just silence."]
+   >
+   > [That X was not an accident. Brief explanation of the larger force at work.]
+   >
+   > [Ground-level consequence — real people, real places, real shutdown.]
+   >
+   > [Name the trap / the system / the problem in one line.]
+   > [Then: one sentence of 50-year backstory — how the system got here.]
+   >
+   > [Closing line: "That [bill / gap / silence], and why it keeps growing, is what
+   > this episode is about."]
 2. **SECTION 2 — The Paper Trail (2:00 - 6:00):** the raw math. PKR unit
    economics and financial anatomy. Break down the actual numbers, costs, margins,
    and cash flows in rupees, so the viewer sees exactly how the money works.
