@@ -101,13 +101,11 @@ handed off as if finished, no "[continue here]" placeholders.
   fully explained in 12 minutes, it ends at 12 minutes. Length must be earned, every
   minute of it. The five-section spine holds at any length; longer episodes deepen
   the sections, they do not add new ones.
-- **Timestamped visual cue annotations** throughout, in the form
-  `[VISUAL 03:15 — description]`, so an editor can build to the script.
-- **Motion-graphic instructions for editors** written in plain, buildable terms
-  (what to show, what animates, what data appears). Assume a solo editor working
-  in After Effects and Premiere Pro. Do not spec anything that needs a 3D team.
-- **Source citations** inline as `[SOURCE: publication/institution, year]` and
-  collected in a Sources block at the end of every script.
+- **Scripts are pure voiceover prose.** No visual cue annotations inside the
+  script. All visual direction lives in the companion storyboard file
+  (`storyboards/NN_*.md`), which is the single source of truth for editors.
+- **Source citations** remain inline in the script as `[SOURCE: publication, year]`
+  and are collected in the Sources block at the end.
 - Any figure that moves fast or could not be fully confirmed is tagged
   `[VERIFY]` so it is re-checked before recording.
 

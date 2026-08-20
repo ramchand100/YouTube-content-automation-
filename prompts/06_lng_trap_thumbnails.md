@@ -97,21 +97,9 @@ Negative / avoid: `--no text, words, brand logos, faces, watermark, busy backgro
   increases.
 - Keep the title constant across the test to isolate the thumbnail variable.
 
-## Host thumbnail variant (on-camera format)
-Since Episode 06 uses the on-camera host format, also generate a host-facing
-variant for A/B testing:
-- Host face (or HeyGen avatar), medium close-up, expression: concerned or
-  disbelieving.
-- Same text overlay: `NOBODY SOLD US GAS` in white/red, left side.
-- Background: dark set or the empty-pipe image used as a blurred background plate.
-- Test this against Concept A to determine whether the host face or the pure
-  concept image drives higher CTR for this channel's early audience.
-
 ## Editor notes
 - Generate at 1280×720 or larger. Export final under 2 MB.
 - Set on-thumbnail text in Coolvetica, not an AI render — always retype the
   words after the AI generates the base image.
-- Host variant: photograph or HeyGen frame should be colour-graded to match
-  the channel's near-black palette before compositing text.
 - Reserve green strictly for the "gas infrastructure / what could work" cue,
   consistent with storyboard colour language.

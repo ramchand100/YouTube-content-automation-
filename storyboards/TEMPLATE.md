@@ -3,187 +3,261 @@
 
 <!--
 Timestamp-linked to scripts/NN_<slug>.md.
-Built for a solo on-camera host + editor: After Effects (motion graphics) and Premiere Pro (assembly).
-Three visual layers — mark every cue with one of:
-  HOST    = on-camera talking head (medium close-up, branded backdrop)
-  GRAPHIC = After Effects pre-comp or animation
-  FOOTAGE = stock or self-shot B-roll (voiceover continues, host off screen)
-Default rhythm: HOST opens each section → GRAPHIC carries data → HOST returns for analysis → repeat.
-Host is on screen roughly 30-40% of total runtime. Rest is graphics and footage.
+FACELESS FORMAT: voiceover + motion graphics + B-roll only. No on-camera host.
+Two visual layers — every cue is labelled:
+  GRAPHIC = After Effects pre-comp or animated data visual
+  FOOTAGE = stock or self-shot B-roll (voiceover continues over it)
+
+Every cue entry must include:
+  - Timecode in and out (mm:ss - mm:ss)
+  - Type: GRAPHIC or FOOTAGE
+  - What appears: specific elements, text, data
+  - How it builds: step-by-step animation sequence with sub-timings
+  - HOLD: how many seconds it stays static after building
+  - END: exact trigger and transition type (hard cut / fade / dissolve)
+  - Total duration of the cue
+
+Voiceover runs continuously. Visuals cut to match the prose, not the other way around.
 -->
 
-**Host frame:** medium close-up (chest to crown), eye level, rule-of-thirds or centred.
-**Lens:** 35 mm equivalent or wider. 50 mm on APS-C is too tight for a talking head.
-**Background:** dark branded backdrop, channel logo or minimal set dressing, softly out of focus.
-**Lighting:** key light 45° to face, fill opposite at 50% power, no harsh shadows under chin or eyes.
-**Audio:** lapel mic preferred; on-camera shotgun if no lapel. Room must be quiet.
-**Teleprompter:** phone or tablet just below the lens. Eyes through the lens, not at the screen.
-**Wardrobe:** solid dark colours. Avoid stripes, busy patterns, logos, or white (blows out under key light).
-**Palette:** background near-black `#0A0A0A`; white `#F5F5F5`; green `#1EB53A`; red `#FB5A5A`.
+**Voiceover:** ~150 wpm, documentary register. Recorded clean, no music bleed.
+**Palette:** near-black `#0A0A0A`; white `#F5F5F5`; green `#1EB53A`; red `#FB5A5A`.
 **Type:** Coolvetica / Archivo Black for numbers and titles; Inter for captions and definition cards.
+**Music:** low ambient score under all graphics; drop entirely for key analytical lines;
+silent under FOOTAGE cold opens unless specified.
 
 ---
 
 ## SECTION 1 — The Unsolved Reality (0:00 - 2:00)
 
-**[0:00 - 0:10] FOOTAGE — cold open.**
-- 5-10 seconds of establishing footage, ambient sound, no music, no host yet.
-- [Describe the specific scene: e.g., a shop front, a queue, a factory gate, a broken piece of infrastructure.]
-- Let it breathe. Cut on action, not on silence.
+**[0:00 - 0:10] FOOTAGE — cold open**
+- Shot: [describe specific scene — a location, object, or activity that opens the question]
+- Sound: ambient only — no music, no voiceover. Let the scene breathe.
+- HOLD: 10 seconds static. No graphics overlay.
+- END: hard cut to black at 0:10 as voiceover begins.
+- Duration: 10s
 
-**[0:10 - 0:50] HOST — hook.**
-- First cut to host. Deliver the opening anomaly or question straight to camera.
-- No greeting, no "hi guys", no intro. Start mid-thought.
-- Energy: calm, curious, direct. Lean slightly forward. Blink naturally.
-- Teleprompter active. ~90-110 words from the top of Section 1.
+**[0:10 - 0:45] GRAPHIC — opening context card (optional; use if the scene needs grounding)**
+- Canvas: near-black.
+- Element 1 [0:10 - 0:13]: single white line fades in — one sentence establishing time/place.
+- HOLD: 5s static.
+- END: fade out to black at 0:18. Voiceover continues over black.
+- Duration: 8s
 
-**[0:50 - 1:25] GRAPHIC — the scale of the problem.**
-- Key contrast stat or opening number visualised.
-- Pre-comp: `openingStats`. Two numbers side by side, or a single large number with context.
-- Source caption bottom-right on every figure.
+**[0:45 - 1:20] GRAPHIC — openingStats: the core contrast**
+- Canvas: near-black.
+- Element 1 [0:45 - 0:50]: left label fades in — white text, 1-2 words.
+- Element 2 [0:50 - 0:56]: left number counts up — green, large.
+- Element 3 [0:56 - 1:01]: right label fades in — white text.
+- Element 4 [1:01 - 1:07]: right number counts up — red, large.
+- Element 5 [1:07 - 1:13]: contrast line appears between them — white, smaller.
+- Element 6 [1:13 - 1:18]: source caption fades in bottom-right — Inter, 12px.
+- HOLD: 5s with all elements visible.
+- END: hard cut at 1:23. Voiceover has delivered the contrast line.
+- Duration: 35s
 
-**[1:25 - 1:50] HOST — stakes and roadmap.**
-- Host returns. State plainly what this episode will answer and why it matters.
-- 40-50 words. No padding. The last line should feel like a door opening.
+**[1:20 - 1:50] FOOTAGE — consequence scene**
+- Shot: [describe the real-world consequence the voiceover is describing]
+- Voiceover continues over footage. No graphic overlay.
+- HOLD: as long as the voiceover passage runs.
+- END: hard cut to title card.
+- Duration: ~30s
 
-**[1:50 - 2:00] GRAPHIC — title card.**
-- Cut to near-black. Episode title type-on, green accent on one word. Music lifts slightly.
+**[1:50 - 2:00] GRAPHIC — title card**
+- Canvas: near-black.
+- Element 1 [1:50 - 1:54]: episode title types on — Coolvetica, large, white.
+  One keyword in green or red accent.
+- Element 2 [1:55 - 1:58]: sub-caption fades in — one line, white, Inter.
+- Music lifts to full ambient level.
+- HOLD: 4s.
+- END: hard cut to Section 2 at 2:00.
+- Duration: 10s
 
 ---
 
 ## SECTION 2 — The Paper Trail (2:00 - 6:00)
 
-**[2:00 - 2:20] HOST — introduce the math.**
-- Host sets up the data section. "Here is what the money actually looks like."
-- 35-45 words. This is a handoff line into graphics, not analysis yet.
+**[2:00 - 2:45] GRAPHIC — supply/demand or unit economics setup**
+- Canvas: near-black.
+- Element 1 [2:00 - 2:05]: section label fades in top-left — "THE PAPER TRAIL", Inter, small, dim.
+- Element 2 [2:05 - 2:15]: first bar or number builds — green, animated count-up or bar fill.
+  Label and source caption appear simultaneously.
+- Element 3 [2:15 - 2:25]: second element builds — contrasting colour. Label and source.
+- Element 4 [2:25 - 2:35]: gap or difference highlighted — red band or delta label.
+- HOLD: 10s with all elements visible. Voiceover explains what is on screen.
+- END: hard cut to next graphic or footage at 2:45.
+- Duration: 45s
 
-**[2:20 - 3:15] GRAPHIC — unit economics.**
-- Animated cost / margin / revenue breakdown. Bar chart, table, or layered build.
-- Pre-comp: `unitEcon`. Every figure sourced. Source caption on every number that appears.
+**[2:45 - 3:15] GRAPHIC — defCard: key term definition**
+- Canvas: near-black.
+- Element 1 [2:45 - 2:48]: term appears in white — Coolvetica, centred or left-aligned.
+- Element 2 [2:48 - 2:52]: "=" separator appears.
+- Element 3 [2:52 - 3:05]: definition builds word-by-word or line-by-line — Inter, white.
+- HOLD: 8s with full definition visible.
+- END: fade out at 3:13. Next element fades in.
+- Duration: 28s
 
-**[3:15 - 3:40] HOST — analysis beat.**
-- Host cuts back in. 35-45 words interpreting what the numbers mean. "What that tells us is..."
-- Can be a full cut back to host, or host inset over a held graphic.
+**[3:15 - 4:30] GRAPHIC — second data layer (cost stack / comparison / flow)**
+- Canvas: near-black.
+- [Describe the specific chart type and the data it shows.]
+- Build sequence: [list each element with its sub-timecode — e.g., Element 1 [3:15-3:20]: ...]
+- Source captions on every figure that appears.
+- HOLD: [X]s after the build is complete.
+- END: hard cut / fade at [timecode].
+- Duration: ~75s
 
-**[3:40 - 4:30] GRAPHIC — second data layer.**
-- Second financial mechanic: cash flow, margin stack, year-on-year comparison, or industry benchmark.
-- Pre-comp: `[name]`. Source captions throughout.
+**[4:30 - 5:30] FOOTAGE — illustrative B-roll**
+- Shot: [describe what footage illustrates the paper trail mechanic — e.g., a port, a terminal, a market]
+- Voiceover continues. No graphic overlay except optional lower-third source caption.
+- HOLD: as long as the voiceover passage runs.
+- END: hard cut at 5:30.
+- Duration: ~60s
 
-**[4:30 - 5:00] HOST — PKR reality check.**
-- Host connects the number to what it means for a Pakistani business, consumer, or household.
-- 50-60 words. Concrete. No jargon without a definition.
-
-**[5:00 - 6:00] GRAPHIC — Paper Trail summary.**
-- Key figures from Section 2 held on screen cleanly. Viewer anchors before moving to field reality.
-- Pre-comp: `paperTrailSummary`.
+**[5:30 - 6:00] GRAPHIC — section summary card**
+- Canvas: near-black.
+- 2-3 key figures from Section 2 held cleanly on one card.
+- No animation — static summary the viewer can read before Section 3 begins.
+- Source captions visible.
+- HOLD: 20s.
+- END: hard cut to Section 3 at 6:00.
+- Duration: 30s
 
 ---
 
 ## SECTION 3 — The Field Reality (6:00 - 10:00)
 
-**[6:00 - 6:20] HOST — field transition.**
-- Host signals the gap between paper and ground truth. "But here is where it gets more interesting."
-- 35-45 words. Energy shifts slightly — more conversational, like the host is about to share something the paper trail missed.
+**[6:00 - 6:45] FOOTAGE — ground-level scene**
+- Shot: [specific scene — market, factory floor, distribution point, informal transaction]
+- Voiceover runs over footage. No graphics overlay.
+- HOLD: as long as the voiceover passage runs.
+- END: hard cut to graphic at 6:45.
+- Duration: ~45s
 
-**[6:20 - 7:10] FOOTAGE — ground-level scene.**
-- B-roll of the real-world mechanic in action: a market, a distribution point, an informal transaction, a factory floor.
-- Voiceover continues over footage. Host off screen.
-- [Describe the specific scene and what it illustrates.]
+**[6:45 - 7:30] GRAPHIC — informal mechanic / flow diagram**
+- Canvas: near-black.
+- Pre-comp: `informalFlow`.
+- Build sequence: nodes and arrows appear one step at a time, in the order the voiceover describes them.
+  [List each node with its sub-timecode and label.]
+- Source caption where applicable.
+- HOLD: 10s after the final node appears.
+- END: hard cut at 7:30.
+- Duration: 45s
 
-**[7:10 - 7:45] GRAPHIC — informal mechanic.**
-- Diagram of the informal layer: middlemen, cash flows, grey-market routes, or distributor network.
-- Pre-comp: `informalFlow`. Animated step-by-step build, not all at once.
+**[7:30 - 8:30] FOOTAGE — second ground-level scene**
+- Shot: [a different location or angle that illustrates the second field mechanic]
+- Duration: ~60s
 
-**[7:45 - 8:15] HOST — explain the mechanic.**
-- Host on camera breaking down what the graphic just showed.
-- 50-60 words. Most conversational moment of the episode — like explaining to a smart friend.
+**[8:30 - 9:30] GRAPHIC — defCard or data visual for second field mechanic**
+- [Describe the specific card or chart.]
+- Build sequence with sub-timecodes.
+- HOLD: [X]s.
+- END: hard cut at 9:30.
+- Duration: ~60s
 
-**[8:15 - 9:10] GRAPHIC — second field mechanic.**
-- Second informal layer, case example, or specific actor in the system (the middleman, the wholesaler, the fixer).
-- Pre-comp: `[name]`.
-
-**[9:10 - 9:40] HOST — connect paper trail to field reality.**
-- Host draws the explicit link between what the numbers said and what the field shows.
-- 45-55 words. This is the intellectual payoff of putting the two sections together.
-
-**[9:40 - 10:00] GRAPHIC — field reality summary.**
-- One clean takeaway from Section 3. Single line or two-item list on screen.
+**[9:30 - 10:00] GRAPHIC — field reality summary**
+- One clean takeaway: single line or two-item list on black.
+- HOLD: 20s.
+- END: hard cut to Section 4 at 10:00.
+- Duration: 30s
 
 ---
 
 ## SECTION 4 — The Systemic Domino Effect (10:00 - 13:00)
 
-**[10:00 - 10:20] HOST — zoom out.**
-- Host signals the macro shift. "Now let us zoom out."
-- 30-40 words. Slightly more deliberate pace — this is the consequence section.
+**[10:00 - 11:00] GRAPHIC — macroRipple: first domino chain**
+- Pre-comp: `macroRipple`.
+- Canvas: near-black.
+- Build sequence: each block appears and falls into the next, timed to the voiceover.
+  Block 1 [10:00 - 10:08]: [label] — white block, fades in.
+  Block 2 [10:08 - 10:16]: [label] — white block, falls from Block 1.
+  Block 3 [10:16 - 10:24]: [label] falls.
+  [Continue for all blocks in the chain.]
+- Source captions appear below each block as it lands.
+- HOLD: 10s after final block lands.
+- END: hard cut at 11:00.
+- Duration: 60s
 
-**[10:20 - 11:15] GRAPHIC — macro impact.**
-- Economy-wide ripple: GDP effect, tax revenue, FX, SBP rate, sector-level impact, or investor behaviour.
-- Pre-comp: `macroRipple`. Map animation or economy diagram. Source captions on every stat.
+**[11:00 - 11:45] GRAPHIC — FX / fiscal impact**
+- [Describe specific bars, maps, or data visuals for macro Section 4 second beat.]
+- Build sequence with sub-timecodes.
+- Source captions.
+- HOLD: [X]s.
+- END: hard cut at 11:45.
+- Duration: 45s
 
-**[11:15 - 11:45] HOST — make it personal.**
-- "This is why you see [X] in your business / your bill / your investment."
-- 45-55 words. Take the macro number and make it land in the viewer's daily life.
-
-**[11:45 - 12:25] GRAPHIC — second domino.**
-- Second systemic effect: government response, regulatory change, investor withdrawal, or consumer behaviour shift.
-- Pre-comp: `[name]`. Source captions.
-
-**[12:25 - 13:00] HOST — systemic summary.**
-- Host synthesises the chain reaction in plain language. No new information — synthesis only.
-- 60-70 words. Calm, authoritative, no overstating.
+**[11:45 - 13:00] FOOTAGE — macro consequence scene**
+- Shot: [a visual that represents the economy-wide consequence — e.g., factory, construction site, market]
+- Voiceover delivers the systemic summary over footage.
+- END: hard cut to Section 5 at 13:00.
+- Duration: ~75s
 
 ---
 
 ## SECTION 5 — The Verdict & Future Outlook (13:00 - End)
 
-**[13:00 - 13:10] GRAPHIC — clean slate.**
-- Cut to near-black. One forward-looking question on screen, white text. Let it sit for 5 seconds.
+**[13:00 - 13:10] GRAPHIC — forward question**
+- Canvas: near-black.
+- Single line, white: "[THE FORWARD QUESTION?]"
+- Fade in slowly over 3s.
+- HOLD: 7s static. Music drops slightly.
+- END: hard cut at 13:10.
+- Duration: 10s
 
-**[13:10 - 13:45] HOST — verdict.**
-- Host delivers the honest, grounded verdict. No hype, no "this is a game-changer."
-- 55-70 words. Slower pace than any earlier section. Eye contact. Let it land.
-- This is the most important host moment in the episode — do not rush it.
+**[13:10 - 13:55] GRAPHIC — outlook: forward paths**
+- Pre-comp: `outlook`.
+- Canvas: near-black.
+- Row 1 [13:10 - 13:20]: [Path 1] — icon + label + timeline appears. Green if underway.
+- Row 2 [13:20 - 13:30]: [Path 2] — icon + label + timeline. Amber if possible.
+- Row 3 [13:30 - 13:40]: [Path 3] — icon + label + timeline. Grey if uncertain.
+- Source captions where applicable.
+- HOLD: 12s with all three rows visible.
+- END: hard cut at 13:52.
+- Duration: 42s
 
-**[13:45 - 14:20] GRAPHIC — the path forward.**
-- Two or three concrete forward indicators: a policy signal, a market move, a company decision.
-- Pre-comp: `outlook`. Restrained — label as possibilities, not predictions. Source captions.
+**[13:55 - 14:30] FOOTAGE — closing scene**
+- Shot: [a scene that mirrors or resolves the opening — same location, different outcome, or forward-looking]
+- Voiceover delivers verdict and implications over footage.
+- END: fade to black at 14:30.
+- Duration: 35s
 
-**[14:20 - 14:45] HOST — implications by audience.**
-- Direct address to each viewer type in one sentence each.
-- "If you are a founder... If you are an investor... If you are a student..."
-- 40-50 words total. Practical and grounded.
-
-**[14:45 - 15:00] HOST — close.**
-- Host closes on camera. Brief, not salesy.
-- "If this helped, subscribe. Next episode: [ONE-LINE TEASE]."
-- End card graphic begins at 14:50 over host's last words. Hold to 15:00.
+**[14:30 - 14:50] GRAPHIC — end card**
+- Canvas: near-black.
+- Channel logo fades in centred.
+- Subscribe button or prompt appears below.
+- "[NEXT EPISODE TEASE]" line appears — one sentence.
+- Music fades out.
+- HOLD: 15s.
+- END: video ends at 14:45-15:00.
+- Duration: 15-20s
 
 ---
 
-## Reusable pre-comps (build once, use across every episode)
+## Reusable pre-comps (build once, parameterise, reuse every episode)
 
-| Pre-comp name | What it does | Sections used |
+| Pre-comp | Inputs | Typical duration |
 |---|---|---|
-| `defCard` | Plain-English definition card for any new term | Throughout |
-| `sourceCaption` | Bottom-right citation strip for every on-screen figure | Throughout |
-| `openingStats` | Two-stat contrast card or single large-number reveal | Section 1 |
-| `unitEcon` | Animated cost / margin / revenue breakdown table | Section 2 |
-| `paperTrailSummary` | Key figures from Section 2 held cleanly | Section 2 |
-| `informalFlow` | Animated network or flow diagram | Section 3 |
-| `macroRipple` | Economy-wide impact map or diagram | Section 4 |
-| `outlook` | Forward-indicator card row | Section 5 |
-
-Build each pre-comp once, parameterise the text and numbers, reuse every episode.
+| `defCard` | term, definition | 20-30s |
+| `sourceCaption` | source text string | overlay, no fixed duration |
+| `openingStats` | two labels, two numbers, contrast line | 30-40s |
+| `unitEcon` | cost/revenue row data | 45-75s |
+| `paperTrailSummary` | 2-3 key figures | 25-30s static |
+| `informalFlow` | node labels, arrow sequence | 40-60s |
+| `macroRipple` | block labels, sequence order | 50-70s |
+| `outlook` | path label, icon, timeline string × 3 | 40-50s |
 
 ---
 
 ## Global production notes
-
-- **Sourcing:** every on-screen number has a `sourceCaption`. Any `[VERIFY]` figure confirmed before the graphic is rendered.
-- **Host energy:** calm and authoritative throughout. Never hype, never a lecture. The mechanics carry the tension.
-- **Music:** low under host dialogue, lift slightly under pure graphic sequences, drop out entirely under key analytical lines so the point lands clean.
-- **Colour grade:** one consistent LUT across all episodes. Dark, slightly cool. Matches the near-black `#0A0A0A` brand palette.
-- **Cuts:** prefer cutting on host breath or sentence end, not mid-phrase. Jump cuts on the host are fine for pacing as long as the audio is clean.
-- **Export:** 1080p minimum, 4K preferred. Thumbnail export at 1280×720. Audio: -14 LUFS integrated, -1 dBTP true peak.
-- **Faith / sensitive topics:** when an episode touches religion, community, or named individuals, handle with neutral and factual framing. No imagery that mocks. This note carries forward from `CLAUDE.md` editorial rule 4.
+- Every on-screen number has a `sourceCaption`. Any `[VERIFY]` figure confirmed
+  from primary source before the graphic is rendered.
+- Source caption format: publication/institution, year — Inter font, 11px,
+  bottom-right corner, white at 60% opacity. Present for as long as the
+  number is on screen.
+- Music: ambient and low throughout. Drop entirely for key analytical conclusions
+  so the voiceover lands clean. Resume quietly after the pause.
+- Colour language is consistent across all episodes:
+  green = positive, viable, growing, target / red = cost, gap, risk, decline.
+  Viewers should read the colour without thinking after two episodes.
+- Cut rhythm: graphics should cut on a sentence end or a breath, not mid-phrase.
+  The voiceover edit determines the visual cut, not the other way around.
+- Export: 1080p minimum, 4K preferred. Audio: -14 LUFS integrated, -1 dBTP true peak.
