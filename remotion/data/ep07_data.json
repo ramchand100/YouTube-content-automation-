@@ -1,0 +1,115 @@
+{
+  "episode": {
+    "number": "Episode 07",
+    "title": "The Nationalization Trap",
+    "subtitle": "How the state swallowed Pakistan's industries — and why it cannot easily let go",
+    "pillar": "MACRO · INSTITUTIONS"
+  },
+  "openingStats": {
+    "left": {
+      "label": "PSM Employees on Payroll",
+      "value": "~9,000",
+      "color": "#D32F2F"
+    },
+    "right": {
+      "label": "Steel Tons Produced (2024)",
+      "value": "Zero",
+      "color": "#555555"
+    },
+    "contrastLine": "A payroll with no product — for nearly a decade [VERIFY]",
+    "sourceCaption": "PSM / Finance Division [VERIFY]"
+  },
+  "soeLosses": {
+    "title": "Annual SOE Losses — The Recurring Bill",
+    "bars": [
+      {
+        "label": "DISCOs (power utilities)",
+        "value": 200,
+        "displayValue": "Rs. 200B+ [VERIFY]",
+        "color": "#D32F2F"
+      },
+      {
+        "label": "PIA (pre-privatization)",
+        "value": 50,
+        "displayValue": "Rs. 50B+ [VERIFY]",
+        "color": "#D32F2F"
+      },
+      {
+        "label": "Pakistan Steel Mills",
+        "value": 30,
+        "displayValue": "Rs. 30B+ [VERIFY]",
+        "color": "#D32F2F"
+      }
+    ],
+    "gap": {
+      "label": "Total portfolio: estimated 1.5–2% of GDP annually [VERIFY — IMF estimate]",
+      "color": "#D32F2F"
+    },
+    "sourceCaption": "IMF Article IV / Finance Division [VERIFY]"
+  },
+  "nationalizationTimeline": {
+    "title": "50 Years of State Ownership",
+    "blocks": [
+      { "label": "Jan 1972\n31 industries nationalized" },
+      { "label": "1974\nBanks + agro-processing" },
+      { "label": "1985\nPSM opens" },
+      { "label": "2015\nPSM stops output" },
+      { "label": "2024\nPIA privatized", "color": "#1EB53A" }
+    ],
+    "sourceCaption": "Economic Reforms Order 1972 / Finance Division"
+  },
+  "sethFlow": {
+    "title": "The Capital Response to Nationalization",
+    "nodes": [
+      {
+        "id": "seize",
+        "label": "State seizes factory",
+        "sublabel": "1972 — below-market compensation",
+        "color": "#D32F2F"
+      },
+      {
+        "id": "signal",
+        "label": "Signal sent",
+        "sublabel": "Fixed capital is not secure",
+        "color": "#555555"
+      },
+      {
+        "id": "move",
+        "label": "Capital shifts",
+        "sublabel": "Land · gold · trading",
+        "color": "#555555"
+      },
+      {
+        "id": "informal",
+        "label": "Informal economy grows",
+        "sublabel": "Below FBR radar",
+        "color": "#D32F2F"
+      }
+    ],
+    "edges": [
+      { "from": "seize", "to": "signal" },
+      { "from": "signal", "to": "move" },
+      { "from": "move", "to": "informal" }
+    ],
+    "defCard": "This is a structural reason why Pakistan is trading-heavy and manufacturing-light compared to regional peers that did not nationalize.",
+    "sourceCaption": "Economic history / analysis"
+  },
+  "dominoImpact": {
+    "title": "The SOE Cascade",
+    "blocks": [
+      { "label": "SOE losses every year" },
+      { "label": "Budget transfers to cover them" },
+      { "label": "Government borrows more" },
+      { "label": "Debt interest rises" },
+      { "label": "Less for health + education" },
+      { "label": "IMF conditions imposed", "color": "#D32F2F" }
+    ],
+    "sourceCaption": "Ministry of Finance / IMF [VERIFY]"
+  },
+  "endCard": {
+    "channelName": "Decode Pakistan",
+    "tagline": "Business. Economics. Ground Truth.",
+    "cta": "Subscribe — New episodes every week",
+    "nextEpisode": "Next: The Textile Export Engine"
+  }
+}

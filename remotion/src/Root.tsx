@@ -12,6 +12,9 @@ import { CircularDebtChain } from "./components/CircularDebtChain";
 import { DominoChain } from "./components/DominoChain";
 import { DefCard } from "./components/DefCard";
 
+// Episode data
+import ep07 from "../data/ep07_data.json";
+
 // Episode 06 data
 import ep06 from "../data/ep06_data.json";
 
@@ -111,6 +114,101 @@ export const RemotionRoot: React.FC = () => {
         width={width}
         height={height}
         defaultProps={ep06.endCard}
+      />
+
+      {/* ── EP07 individual graphic clips ─────────────────────────────── */}
+
+      <Composition
+        id="ep07-title"
+        component={TitleCard}
+        durationInFrames={fps * 5}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={ep07.episode}
+      />
+
+      <Composition
+        id="ep07-opening-stats"
+        component={OpeningStats}
+        durationInFrames={fps * 9}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{
+          left: { label: ep07.openingStats.left.label, value: ep07.openingStats.left.value, color: ep07.openingStats.left.color },
+          right: { label: ep07.openingStats.right.label, value: ep07.openingStats.right.value, color: ep07.openingStats.right.color },
+          contrastLine: ep07.openingStats.contrastLine,
+          sourceCaption: ep07.openingStats.sourceCaption,
+        }}
+      />
+
+      <Composition
+        id="ep07-soe-losses"
+        component={BarChart}
+        durationInFrames={fps * 10}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={ep07.soeLosses}
+      />
+
+      <Composition
+        id="ep07-nationalization-timeline"
+        component={DominoChain}
+        durationInFrames={fps * 10}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={ep07.nationalizationTimeline}
+      />
+
+      <Composition
+        id="ep07-seth-flow"
+        component={FlowDiagram}
+        durationInFrames={fps * 11}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={ep07.sethFlow}
+      />
+
+      <Composition
+        id="ep07-domino-impact"
+        component={DominoChain}
+        durationInFrames={fps * 10}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={ep07.dominoImpact}
+      />
+
+      <Composition
+        id="ep07-export-bar"
+        component={BarChart}
+        durationInFrames={fps * 10}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{
+          title: "Textile Exports — Pakistan vs Bangladesh",
+          bars: [
+            { label: "Bangladesh", value: 47, displayValue: "$47B [VERIFY]", color: "#1EB53A" },
+            { label: "Pakistan", value: 16.5, displayValue: "$16.5B [VERIFY]", color: "#D32F2F" },
+          ],
+          gap: { label: "Bangladesh exports ~3× more textiles [VERIFY — WTO data]", color: "#D32F2F" },
+          sourceCaption: "WTO Trade Statistics [VERIFY]",
+        }}
+      />
+
+      <Composition
+        id="ep07-end-card"
+        component={EndCard}
+        durationInFrames={fps * 8}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={ep07.endCard}
       />
 
       {/* ── Reusable standalone compositions for future episodes ──────── */}
