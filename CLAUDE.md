@@ -83,6 +83,18 @@ motivational filler. Write up to their intelligence.
   or (c) a clearly labelled estimate. Never blur the three.
 - Avoid em dashes where a comma or a period will do.
 
+### Visual identity
+- **Background:** off-white `#F8F9FA` — clean, readable, not glaring.
+- **Primary text:** near-black `#1A1A1A`.
+- **Secondary text / captions:** mid-grey `#555555`.
+- **Green accent:** `#1EB53A` — growth, positive path, viable option.
+- **Red accent:** `#D32F2F` — cost gap, risk, circular debt, decline.
+- **Card background:** white `#FFFFFF` with subtle shadow.
+- **Divider / border:** light grey `#E0E0E0`.
+- **Type:** Inter (body, captions, definitions) · Archivo Black (numbers, titles).
+- **Motion graphics:** generated with Remotion (React). Data in JSON per episode.
+- **Footage:** assembled in CapCut — editor adds B-roll at FOOTAGE cues from storyboard.
+
 ---
 
 ## 5. Formatting & Length Rules

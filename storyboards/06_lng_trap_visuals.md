@@ -11,14 +11,13 @@ Every cue is labelled GRAPHIC or FOOTAGE and specifies:
 - How long each element holds after building
 - Exact end point and transition type
 
-**Canvas:** 1920×1080, near-black `#0A0A0A` background.
-**Palette:** white `#F5F5F5` · green `#1EB53A` · red `#FB5A5A` · dim grey `#666666`.
-**Type:** Coolvetica / Archivo Black for numbers and titles (bold, condensed) ·
-Inter for captions, definition cards, and source citations.
-**Source caption style:** Inter, 11px, white at 60% opacity, bottom-right corner,
-present for as long as any sourced number is visible on screen.
-**Music:** ambient, low. Drops to silence under key analytical conclusions.
-Resumes quietly after the pause.
+**Canvas:** 1920x1080. Background: off-white `#F8F9FA`. Card fill: white `#FFFFFF` with drop shadow.
+**Palette:** text `#1A1A1A` · captions/secondary `#555555` · green `#1EB53A` · red `#D32F2F` · border `#E0E0E0`.
+**Type:** Archivo Black for numbers and titles · Inter for body, captions, definitions.
+**Source captions:** Inter 11px, `#555555`, bottom-right, visible for the full duration any number is on screen.
+**Rendering:** all GRAPHIC cues built in Remotion from data/ep06_data.json, rendered as MP4 clips.
+**Assembly:** import Remotion clips + voiceover into CapCut. Add FOOTAGE (B-roll) at marked cues.
+**Music:** low ambient. Drops to silence at 11:50 and 12:30. Resumes quietly after.
 
 ---
 

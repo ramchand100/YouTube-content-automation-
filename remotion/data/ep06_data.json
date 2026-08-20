@@ -1,0 +1,139 @@
+{
+  "episode": {
+    "number": "Episode 06",
+    "title": "The LNG Trap",
+    "subtitle": "How Pakistan got hooked on expensive gas — and why it can't get off",
+    "pillar": "MACRO · ENERGY"
+  },
+  "openingStats": {
+    "left": {
+      "label": "Long-Term Qatar Contract",
+      "value": "~$10",
+      "sublabel": "per mmbtu (≈13% of Brent)"
+    },
+    "right": {
+      "label": "Spot LNG Price, Jan 2022",
+      "value": "~$70",
+      "sublabel": "per mmbtu (JKM spot)"
+    },
+    "contrastLine": "7× MORE EXPENSIVE — Pakistan went to bid during peak",
+    "sourceCaption": "ICIS / JKM Index, 2022 [VERIFY]"
+  },
+  "productionGap": {
+    "title": "Pakistan Gas Balance",
+    "bars": [
+      {
+        "label": "Domestic Production",
+        "value": 3.5,
+        "displayValue": "~3.5 bcfd",
+        "color": "#1EB53A"
+      },
+      {
+        "label": "Total Demand",
+        "value": 6.0,
+        "displayValue": "~6 bcfd",
+        "color": "#D32F2F"
+      }
+    ],
+    "gap": {
+      "label": "Supply gap: ~2.5 bcfd — filled by LNG imports [VERIFY]",
+      "color": "#D32F2F"
+    },
+    "sourceCaption": "OGRA / PBS estimate [VERIFY]"
+  },
+  "productionDecline": {
+    "title": "Pakistan Domestic Gas Production — Declining Trend",
+    "points": [
+      { "year": "2012", "value": 4.3 },
+      { "year": "2014", "value": 4.1 },
+      { "year": "2016", "value": 3.9 },
+      { "year": "2018", "value": 3.7 },
+      { "year": "2020", "value": 3.6 },
+      { "year": "2022", "value": 3.5 },
+      { "year": "2024", "value": 3.4 }
+    ],
+    "yLabel": "bcfd",
+    "color": "#D32F2F",
+    "sourceCaption": "OGRA Annual Reports [VERIFY]"
+  },
+  "dualPricingFlow": {
+    "title": "Dual-Pricing Distortion",
+    "nodes": [
+      {
+        "id": "import",
+        "label": "LNG Imported",
+        "sublabel": "$10–15 / mmbtu",
+        "color": "#D32F2F"
+      },
+      {
+        "id": "govt",
+        "label": "Govt Sets Tariff",
+        "sublabel": "Below cost (OGRA)",
+        "color": "#555555"
+      },
+      {
+        "id": "utility",
+        "label": "SNGPL / SSGCL",
+        "sublabel": "Sells below cost",
+        "color": "#D32F2F"
+      },
+      {
+        "id": "consumer",
+        "label": "Protected Consumer",
+        "sublabel": "Pays subsidised rate",
+        "color": "#1EB53A"
+      }
+    ],
+    "edges": [
+      { "from": "import", "to": "govt", "label": "cost flows in" },
+      { "from": "govt", "to": "utility", "label": "tariff set" },
+      { "from": "utility", "to": "consumer", "label": "subsidised" }
+    ],
+    "defCard": "The gap between what utilities pay and what they charge creates the circular debt — a bill that falls on the government, ultimately funded by all of us.",
+    "sourceCaption": "OGRA / Ministry of Energy [VERIFY]"
+  },
+  "circularDebtChain": {
+    "title": "Who Owes Whom — Gas Sector Circular Debt",
+    "nodes": [
+      {
+        "actor": "SNGPL / SSGCL",
+        "owes": "Rs. 400B+ [VERIFY]",
+        "owesTo": "PLL / LNG suppliers",
+        "color": "#D32F2F"
+      },
+      {
+        "actor": "Power sector",
+        "owes": "Rs. 500B+ [VERIFY]",
+        "owesTo": "Gas utilities (SNGPL / SSGCL)",
+        "color": "#D32F2F"
+      },
+      {
+        "actor": "Government (subsidies)",
+        "owes": "Balancing amount [VERIFY]",
+        "owesTo": "SNGPL / SSGCL (tariff differential)",
+        "color": "#555555"
+      }
+    ],
+    "totalLabel": "Total Gas Circular Debt: Rs. 2+ Trillion [VERIFY]",
+    "sourceCaption": "Ministry of Finance / OGRA [VERIFY]"
+  },
+  "dominoChain": {
+    "title": "The Domino Effect",
+    "blocks": [
+      { "label": "LNG spot price spike" },
+      { "label": "Import bill surges\n($3–4B / year)" },
+      { "label": "FX reserves fall" },
+      { "label": "Rupee under pressure" },
+      { "label": "Fertilizer cost rises" },
+      { "label": "Wheat price rises" },
+      { "label": "Food inflation", "color": "#D32F2F" }
+    ],
+    "sourceCaption": "SBP / PBS [VERIFY]"
+  },
+  "endCard": {
+    "channelName": "Decode Pakistan",
+    "tagline": "Business. Economics. Ground Truth.",
+    "cta": "Subscribe — New episodes every week",
+    "nextEpisode": "Next: The Textile Export Engine"
+  }
+}

@@ -5,8 +5,8 @@
 Timestamp-linked to scripts/NN_<slug>.md.
 FACELESS FORMAT: voiceover + motion graphics + B-roll only. No on-camera host.
 Two visual layers — every cue is labelled:
-  GRAPHIC = After Effects pre-comp or animated data visual
-  FOOTAGE = stock or self-shot B-roll (voiceover continues over it)
+  GRAPHIC = Remotion-rendered animation (built from data/epNN_data.json)
+  FOOTAGE = B-roll added in CapCut at the marked cue
 
 Every cue entry must include:
   - Timecode in and out (mm:ss - mm:ss)
@@ -21,8 +21,12 @@ Voiceover runs continuously. Visuals cut to match the prose, not the other way a
 -->
 
 **Voiceover:** ~150 wpm, documentary register. Recorded clean, no music bleed.
-**Palette:** near-black `#0A0A0A`; white `#F5F5F5`; green `#1EB53A`; red `#FB5A5A`.
-**Type:** Coolvetica / Archivo Black for numbers and titles; Inter for captions and definition cards.
+**Canvas:** 1920x1080. Background: off-white `#F8F9FA`. Card fill: white `#FFFFFF` with drop shadow.
+**Palette:** text `#1A1A1A` · captions `#555555` · green `#1EB53A` · red `#D32F2F` · border `#E0E0E0`.
+**Type:** Archivo Black for numbers and titles · Inter for body, captions, definitions.
+**Source captions:** Inter 11px, `#555555`, bottom-right, visible for the full duration any number is on screen.
+**Rendering:** GRAPHIC cues rendered with Remotion from data/epNN_data.json.
+**Assembly:** import Remotion clips + voiceover into CapCut. Add B-roll at FOOTAGE cues.
 **Music:** low ambient score under all graphics; drop entirely for key analytical lines;
 silent under FOOTAGE cold opens unless specified.
 
