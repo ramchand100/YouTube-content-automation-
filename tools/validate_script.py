@@ -175,7 +175,11 @@ def check_sources_block(text: str) -> list[tuple]:
 def check_frontmatter(text: str) -> list[tuple]:
     issues = []
     for field in REQUIRED_FRONTMATTER_FIELDS:
-        pattern = re.compile(rf"\*\*{re.escape(field)}\*\*\s*:", re.IGNORECASE)
+        # Accept both **Field**: value and **Field:** value
+        pattern = re.compile(
+            rf"\*\*{re.escape(field)}\*\*\s*:|\*\*{re.escape(field)}:\*\*",
+            re.IGNORECASE,
+        )
         if not pattern.search(text):
             issues.append(("WARN", "Front-matter",
                             f"Missing front-matter field: '{field}'."))
