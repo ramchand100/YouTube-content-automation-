@@ -26,7 +26,7 @@ Pakistan Railways is a state-owned carrier that once moved the country's people 
 | Field | Content |
 |-------|---------|
 | Lens | Winners and losers · Hidden cost transfer · Policy versus ground reality |
-| One-sentence framing | Pakistan Railways carried 73 million tonnes of freight in the 1980s and fewer than 8 million tonnes today — and that collapse is not a market outcome but a policy outcome that every Pakistani pays for in higher prices. |
+| One-sentence framing | Pakistan Railways once moved roughly 12 million tonnes of freight a year and commanded over 70% of national freight — today it moves fewer than 9 million tonnes and holds under 5% — and that collapse is not a market outcome but a policy outcome that every Pakistani pays for in higher prices. |
 | Central question | Why did Pakistan Railways effectively exit the freight business, and what has that cost the economy? |
 | Tentative thesis | The collapse of rail freight was the product of highway investment decisions, political management of an institution that could not prioritise commercial freight, and an entrenched road-transport economy that now makes the reversal structurally difficult. |
 | Main entities and institutions | Pakistan Railways (Ministry of Railways), National Highway Authority, Planning Commission, trucking associations, Ministry of Finance, World Bank, ADB |
