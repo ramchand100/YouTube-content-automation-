@@ -1,70 +1,75 @@
 # /write-script
 
-Write the full five-section voiceover script from approved research.
+Write a complete voiceover script from an approved angle and research brief.
 
-## Before running
+## Before writing
+
+Do not write the script until all of the following are confirmed:
 
 1. Read `CLAUDE.md` in full.
 2. Read `.claude/rules/scripts.md`.
-3. Confirm an approved angle exists (`topics/ANGLE_TEMPLATE.md`, `approval_status: approved`).
-4. Confirm a research brief exists in `research/briefs/NN_slug_brief.md`.
-5. Confirm the claim ledger has no UNRESOLVED claims without `[VERIFY]` tags.
-6. If any of these are missing, stop and redirect to the appropriate prior step.
+3. Read the approved angle from `topics/ANGLE_TEMPLATE.md` (`approval_status: approved`).
+4. Read the research brief from `research/briefs/NN_slug_brief.md`.
+5. Read the claim ledger from `research/claim-ledgers/NN_slug_claims.csv`.
+6. Confirm no UNRESOLVED claims exist without `[VERIFY]` tags.
+7. If any of these are missing, stop and redirect to the appropriate prior step.
 
-## Template selection
+## Structure selection — stop before writing
 
-Determine the correct template from the approved angle:
-- "How does this cost or earn money?" → Template A (Macro/Institutions) or Template B (Company)
-- "Why does this exist / how did we get here?" → Template C (Structural Dependency/History)
+After reading the research:
 
-| Section | Template A | Template B | Template C |
-|---------|-----------|-----------|-----------|
-| 1 | The Anomaly | The Anomaly | The Anomaly |
-| 2 | The Paper Trail | The Business Model | The Origin |
-| 3 | The Field Reality | The Operational Reality | How It Plays Out |
-| 4 | The Systemic Domino Effect | The Competitive Position | The Structural Risk |
-| 5 | The Verdict | The Verdict | The Verdict |
+1. Identify the central question.
+2. Identify the thesis or proposition.
+3. Classify the story logic:
+   - Causal
+   - Chronological
+   - Financial
+   - Comparative
+   - Institutional
+   - Operational
+   - Regulatory
+   - Company case study
+   - Decision-focused
+   - Structural or historical
+4. Propose the number and names of sections.
+5. For each section, state its distinct purpose.
+6. Explain why this structure fits the approved angle.
+7. Identify the evidence that will anchor each section.
+8. Flag any sections where evidence is thin or a [VERIFY] item is load-bearing.
 
-## What to write
+**Stop here. Present the proposed structure and wait for explicit approval.**
 
-Write complete, production-ready voiceover prose for all five sections.
+Do not write the full script until the structure is approved.
 
-**Section 1 — The Anomaly:**
-- Open on a documented, concrete anomaly (event, decision, filing, regulatory action).
-- Use short, punchy sentences.
-- Echo a key word or phrase across 2–3 consecutive sentences.
-- Include a transitional sentence: "That [X] was not an accident."
-- Close with the single central question in plain English.
-- Word target: ~280–320 words.
+## After structure approval
 
-**Sections 2–4:**
-- Explain financial or structural mechanics before opinion.
-- Use PKR figures where relevant.
-- State every concept, figure, and definition exactly once.
-- Do not repeat definitions or numbers from earlier sections.
-- Label analysis explicitly: do not present it as fact.
-
-**Section 5 — The Verdict:**
-- Deliver a grounded, honest outlook.
-- Name specifically what would need to change and why it has not happened.
-- Name the concrete obstacles.
-- State clearly who this matters to (founders, investors, professionals, students).
-
-## Script rules
-
-- Scripts are pure voiceover prose only.
-- Do not include `[VISUAL ...]`, `[FOOTAGE ...]`, or any production direction.
-- All visual direction belongs in the storyboard.
-- Cite inline: `[SOURCE: publication, year]`.
-- Tag unconfirmed figures: `[VERIFY]`.
-- Label analysis: `[ANALYSIS]` or "this suggests" / "this implies".
-
-## Output file
+Write a complete narration-only script using the approved number and section names.
 
 Save to: `scripts/NN_slug.md`
 
-Use the front-matter format from `.claude/rules/scripts.md`.
-Status: `draft`.
+Use the YAML front-matter from `scripts/TEMPLATE.md`. Set `status: draft`.
+
+### Script rules
+
+- Pure voiceover prose only — no `[VISUAL]`, `[FOOTAGE]`, or production direction.
+- All visual direction belongs in the companion storyboard file.
+- Cite inline: `[SOURCE: publication/institution, year]`.
+- Tag unconfirmed figures: `[VERIFY]`.
+- Label analysis: "this suggests" / "this implies" / "the evidence points to".
+- State every concept, figure, and definition exactly once. One-clause callbacks only.
+- No em dashes where a comma or period will do.
+- No banned clichés (game-changer, synergy, disrupt, journey, etc.).
+- No invented characters, scenes, conversations, or motives.
+- The opening section must be grounded in a documented event or anomaly.
+- The closing section must be honest and specific — name the real obstacles.
+
+### Do not force five sections
+
+Use as many sections as the structure approval specifies. Three, four, five, six, or
+more — the number must be justified by the story logic, not by a default.
+
+The five-section legacy format (Template A / B / C) is available only when explicitly
+requested or when the topic fits it cleanly.
 
 ## After writing
 

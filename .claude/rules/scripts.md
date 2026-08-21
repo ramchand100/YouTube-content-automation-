@@ -26,28 +26,50 @@ All visual and production direction belongs in the matching storyboard file:
 
 ## Required front-matter
 
-Every script must open with this front-matter block (after the title):
+Every script must open with a YAML front-matter block between `---` delimiters:
 
+```yaml
+---
+episode:
+title:
+topic:
+approved_angle:
+central_question:
+thesis:
+story_logic:
+structure_type:
+section_count:
+status: draft
+research_date:
+data_cutoff_date:
+freshness_status:
+word_count:
+estimated_duration:
+last_verified:
+---
 ```
-- **Episode:** NN
-- **Pillar:** [Template A: Macro · Institutions | Template B: Company · [Name] | Template C: Structural]
-- **Approved angle:** [angle name from the approved ANGLE_TEMPLATE]
-- **Central question:** [single question the episode answers]
-- **Thesis:** [one-sentence tentative thesis]
-- **Template:** A | B | C
-- **Status:** draft | reviewed | production-ready
-- **Drafted:** YYYY-MM-DD
-- **Word target:** ~NNNN (~NN min)
-- **Last verified:** YYYY-MM-DD
-- **Companion files:** storyboards/NN_*.md
-```
 
-## Five-section count (fixed)
+`structure_type` is one of: `flexible` or `legacy-A` / `legacy-B` / `legacy-C`
+(legacy types are only used when the five-section format is explicitly requested).
 
-Every script has exactly five numbered sections — `## SECTION 1` through `## SECTION 5`.
+`section_count` must match the number of `## Part N —` sections in the script body.
 
-Section 1 is always "The Anomaly". Section 5 is always "The Verdict".
-Sections 2, 3, and 4 names depend on the declared template:
+## Section count and structure
+
+The section count is determined by the approved structure, not by a template default.
+Scripts may have three, four, five, six, or more sections — whatever the story logic requires.
+
+Section headings use `## Part N — [Section Name]` format.
+
+The structure must be approved before writing begins. See `/write-script` for the
+approval gate and `.claude/skills/pakistan-documentary-production/SKILL.md` for the
+story logic classification system.
+
+### Legacy five-section format (optional)
+
+The A/B/C five-section system from earlier episodes is available when explicitly
+requested or when the topic fits one of the three templates cleanly. Legacy scripts
+use `## SECTION N — [Name]` headings. Do not use the legacy format by default.
 
 | Section | Template A | Template B | Template C |
 |---------|-----------|-----------|-----------|
@@ -55,7 +77,7 @@ Sections 2, 3, and 4 names depend on the declared template:
 | 3 | The Field Reality | The Operational Reality | How It Plays Out |
 | 4 | The Systemic Domino Effect | The Competitive Position | The Structural Risk |
 
-## Section 1 rhythm (non-negotiable)
+## Opening section rhythm (non-negotiable)
 
 - Short, punchy sentences (under 15 words each for the opening).
 - Echo a key word or phrase across two or three consecutive sentences.

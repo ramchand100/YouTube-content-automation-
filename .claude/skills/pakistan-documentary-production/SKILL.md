@@ -54,7 +54,57 @@ If the user asks for a script but no research brief exists for the approved angl
 1. Redirect to `/research` first.
 2. Do not write the script until the research brief exists and is complete.
 
-## Step 6 — Enforce nonfiction and no-fabrication
+## Step 6 — Select and approve a structure before writing
+
+Do not impose a fixed number of sections on every episode. The approved angle
+determines the narrative structure.
+
+Before drafting any script:
+
+1. Identify the central question.
+2. Identify the thesis or proposition to test.
+3. Classify the story logic:
+   - Causal
+   - Chronological
+   - Financial
+   - Comparative
+   - Institutional
+   - Operational
+   - Regulatory
+   - Company case study
+   - Decision-focused
+   - Structural or historical
+4. Propose the number and names of sections.
+5. Give every section a distinct purpose.
+6. Explain why the structure fits the approved angle.
+7. Identify evidence required for each section.
+8. Identify likely repetition and causality risks.
+9. Stop for structure approval before writing the full script.
+
+A structure is approved only when:
+
+- It serves the central question.
+- No two sections repeat the same mechanism or evidence.
+- Evidence precedes conclusions in every section.
+- The viewer has enough context at each step.
+- The opening is clear and grounded.
+- The ending is honest and specific.
+- It does not manufacture suspense.
+- Available evidence can support every section.
+
+The previous five-section system (Template A / B / C) is an optional legacy
+format. It must not be used automatically. A script may use three, four, five,
+six, or more sections when the subject requires it. The section count must be
+justified by the approved angle and story logic.
+
+Every script, regardless of section count, must contain:
+- A strong grounded opening.
+- A clear central question.
+- A logical progression from evidence to analysis.
+- Explicit uncertainty where required.
+- A grounded, specific ending.
+
+## Step 7 — Enforce nonfiction and no-fabrication
 
 The default mode is strict nonfiction. Never invent:
 - Characters, protagonists, or named individuals who are not documented
@@ -67,7 +117,7 @@ The default mode is strict nonfiction. Never invent:
 Section 1 of every script must open on a documented event, official decision,
 company filing, public statement, regulatory action, or verified market anomaly.
 
-## Step 7 — Keep scripts narration-only
+## Step 8 — Keep scripts narration-only
 
 Scripts contain voiceover prose only. Never insert into a script:
 - `[VISUAL ...]` or `[FOOTAGE ...]` cues
@@ -77,19 +127,19 @@ Scripts contain voiceover prose only. Never insert into a script:
 
 All visual direction lives in `storyboards/NN_slug_visuals.md`.
 
-## Step 8 — Keep visual instructions in storyboards
+## Step 9 — Keep visual instructions in storyboards
 
 Storyboards contain all visual, motion-graphic, B-roll, and editing direction.
 They never modify the script content. They translate approved script timestamps
 into concrete production directions.
 
-## Step 9 — Keep rights information in footage logs
+## Step 10 — Keep rights information in footage logs
 
 Footage rights are tracked in `research/source-registers/NN_slug_sources.csv`.
 Every footage cue in a storyboard must have a corresponding entry in that file.
 Public availability is not copyright permission.
 
-## Step 10 — Run the relevant audit before marking work complete
+## Step 11 — Run the relevant audit before marking work complete
 
 | Work | Audit required before completion |
 |------|----------------------------------|
