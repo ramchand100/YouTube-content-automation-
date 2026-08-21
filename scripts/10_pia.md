@@ -1,4 +1,4 @@
-# The Airline That Fell: Pakistan's PIA from Asia's Best to Privatised
+# The Airline That Helped Launch Emirates: How PIA Spent 40 Years Getting Left Behind
 
 <!--
 PRODUCTION SCRIPT — conform to CLAUDE.md.
@@ -18,7 +18,7 @@ reference only. No cross-references to other episodes.
 
 - **Episode:** 10
 - **Pillar:** Macro · Institutions
-- **Drafted:** 2026-08-20
+- **Drafted:** 2026-08-21
 - **Word target:** ~2,100 (~14 min)
 - **Companion files:** storyboards/10_pia_visuals.md
 
@@ -27,113 +27,123 @@ reference only. No cross-references to other episodes.
 ## SECTION 1 — The Unsolved Reality  (0:00 - 2:00)
 *~280 words. On-the-ground entry point.*
 *Rhythm: short punchy sentences. Echo a key word for weight. Name the anomaly before explaining it.*
-*Transition: End by stating the episode's single question.*
+*End by stating the episode's single question.*
 
-In May 2020, Pakistan's aviation minister stood before the National Assembly and announced that 262 of Pakistan's licensed commercial pilots held credentials that were either fraudulent or obtained through irregular means [VERIFY] [SOURCE: Pakistan Aviation Division, National Assembly statement, May 2020]. The pilots had not always sat for the written examinations themselves. Someone else had.
+In 1985, Pakistan International Airlines helped set up Emirates. PIA seconded staff, provided technical expertise, and helped a Gulf startup build its initial operations [SOURCE: PIA official history / historyofpia.com].
 
-The European Union Aviation Safety Agency suspended PIA from flying to European destinations within weeks [VERIFY] [SOURCE: EASA, 2020]. The United Kingdom's Civil Aviation Authority followed [VERIFY] [SOURCE: UK CAA, 2020]. Routes PIA had operated for decades — to London, to Frankfurt, to Paris — went dark.
+Four decades later, Emirates is one of the world's most recognised airlines, operating to nearly every continent. PIA, which helped it begin, was banned from flying to Europe.
 
-That announcement was not a sudden collapse. It was the visible face of a system that had been accumulating invisible failures for decades.
+That ban was imposed in June 2020 by the European Union Aviation Safety Agency — EASA, the body responsible for aviation safety standards across the EU. It came after Pakistan's aviation minister, Ghulam Sarwar Khan, announced on the floor of the National Assembly that 262 of Pakistan's 860 active commercial pilots — roughly 30 percent — held credentials that were either fraudulent or obtained through irregular means [SOURCE: Pakistan Aviation Division, National Assembly statement, June 2020 / CNN, VOA, Al Jazeera]. In many cases, the pilots had not sat their written examinations themselves.
 
-Pakistan International Airlines was founded in 1946 as Orient Airways, before Pakistan itself existed [VERIFY] [SOURCE: PIA official history]. By the 1960s, it was among Asia's leading carriers — profitable, well-regarded, and operating routes to New York, London, Tokyo, and Sydney [VERIFY]. In those years, PIA's training infrastructure was considered among the best in the region; Gulf carriers that are now global giants drew on Pakistani aviation expertise in their formative years [VERIFY].
+The ban lasted four years. EASA lifted it on November 29, 2024 [SOURCE: EASA, November 2024]. Forty billion rupees in annual revenue — the estimated value of PIA's European routes — was lost for each of those years [SOURCE: media estimates, Profit by Pakistan Today].
 
-The gap between that airline and the one whose pilot credentials were questioned in 2020 is what this episode is about. Not the scandal itself, which was a symptom. The structural reasons it became possible — and why they took decades to produce this outcome — is the question.
+That ban was not a sudden collapse. It was the visible face of a system that had been accumulating failures for decades.
+
+Pakistan International Airlines was founded in 1946 as Orient Airways, before Pakistan itself existed as a state [SOURCE: PIA official history]. By 1960, it was Asia's first jet airline, operating a Boeing 707 service to London [SOURCE: PIA official history]. In 1964, it became the first non-communist airline to fly to China [SOURCE: PIA official history]. By the mid-1960s it was flying to Paris, Bangkok, Tokyo, and New York.
+
+The question this episode asks is what happened in the four decades after that.
 
 ---
 
 ## SECTION 2 — The Paper Trail  (2:00 - 5:45)
-*~530 words. PKR unit economics and financial anatomy.*
+*~530 words. Financial anatomy.*
 
-By the time PIA was privatised in late 2024, its accumulated losses stood at approximately Rs. 700 billion [VERIFY] [SOURCE: PIA annual accounts / Finance Division]. That number did not appear in a single bad year. It built across five decades of a specific financial structure.
+The financial scale of PIA's decline requires a specific explanation before the numbers make sense.
 
-Start with the revenue side. A commercial airline's economics are straightforward in principle: fill enough seats on routes where yield — revenue per passenger kilometre — is high enough to cover fuel, crew, maintenance, and overhead, and the operation makes money. Routes that cannot cover costs are dropped.
+Between 2015 and 2024 — a single decade — PIA lost nearly Rs. 500 billion, averaging roughly Rs. 4.1 billion in losses every month [SOURCE: Finance Division data, reported by Fetch Pakistan / media, 2025]. The total accumulated debt on PIA's books by the time of privatisation stood at approximately Rs. 660 billion [SOURCE: Finance Division / PIA restructuring documents, 2025].
 
-PIA did not consistently apply that logic. Routes were maintained or expanded based on criteria beyond commercial performance. A politically important constituency might generate pressure to keep a domestic route open even if it flew half-empty [VERIFY]. An international route to a diaspora hub might be retained on social grounds even when yield was too low to cover fuel costs [VERIFY] [SOURCE: PIA internal audit summaries, reported in Dawn / Business Recorder]. The airline served purposes beyond aviation. The commercial result was predictable.
+Before the sale, the government moved that Rs. 660 billion off PIA's books and into a separate government holding company — a legal entity created specifically to absorb the debt. This left PIA's own accounts looking cleaner. The airline reported a profit of Rs. 26 billion in 2024 as a result of this accounting treatment [SOURCE: PIA annual accounts, 2024 / The Friday Times, April 2025]. That figure is not evidence that PIA's operations turned around. The debt did not disappear. It transferred from PIA's balance sheet to the state's — which means to taxpayers, sitting in the holding company that the government now owns alongside whatever debt remains.
 
-The cost side compounded this. At the time of privatisation, PIA employed roughly 14,000 to 15,000 people for a fleet of fewer than 30 operational aircraft [VERIFY] [SOURCE: Finance Division / PIA management accounts]. The international benchmark for a commercially efficient airline is roughly 100 to 150 employees per aircraft [VERIFY] [SOURCE: IATA benchmarks]. PIA's ratio was several times that. The excess did not result from a single decision. It accumulated across decades of government-managed employment, where hiring carried political benefit and redundancy carried political cost.
+The cost structure beneath that accounting explains why the losses ran so long.
 
-Fuel is a commercial airline's largest single operating cost — typically 25 to 35 percent of total expenditure [VERIFY] [SOURCE: IATA]. PIA paid market rates for fuel, as all airlines do. But its revenue per available seat kilometre — a standard industry measure of how much money an airline earns for every seat it flies one kilometre — was not competitive with carriers flying the same routes with newer aircraft and leaner workforces [VERIFY] [SOURCE: SBP / Pakistan Economic Survey aviation data]. It paid competitive input costs while generating below-competitive output revenue.
+At the time of privatisation, PIA employed 10,323 people for a fleet of 34 operational aircraft — a ratio of 304 employees per aircraft [SOURCE: National Assembly Standing Committee on Aviation briefing, July 2024, reported in Dawn]. The international industry benchmark for a commercially efficient carrier is roughly 100 to 150 employees per aircraft [SOURCE: IATA benchmarks]. PIA's ratio was roughly three times that. The excess staffing was not built overnight. It accumulated across decades of government employment, where hiring carried political benefit and redundancy carried political cost.
 
-Government transfers covered the gap. The federal budget allocated transfers and loan guarantees to PIA as losses accumulated. Those transfers appeared as grants to public sector enterprises in the federal budget. The mechanism is the same one that covers other loss-making state enterprises: when revenue does not cover costs, the state steps in.
+Routes were the second structural problem. A commercially run airline drops routes that cannot cover their costs. PIA did not consistently do this. Routes connecting politically important constituencies or diaspora hubs were maintained even when yield — the revenue the airline earns per seat per kilometre flown — did not cover operating expenses [SOURCE: PIA internal audit summaries, reported in Dawn / Business Recorder]. The airline served multiple purposes at once. Commercial viability was not always the primary one.
 
-The total picture by 2024 was a carrier with substantial historical route presence, a large workforce, and an accumulated financial hole that no realistic level of ticket revenue could close without restructuring the cost base or permanently shrinking the operation. The privatisation was the government's answer to that equation. What the new owners inherited — in debt, in staff numbers, and in regulatory standing — determined what the answer was actually worth.
+Fuel, the largest cost in commercial aviation at roughly 25 to 35 percent of total expenditure [SOURCE: IATA], sat on top of a cost base that could not generate competitive revenue per unit flown. An airline paying market fuel prices while running a fleet three times overstaffed, on routes that do not meet commercial yield thresholds, produces predictable results. The loss is structural before any single management decision enters the picture.
+
+Government transfers covered the shortfall year by year. Federal budget allocations to PIA appeared as grants to public sector enterprises. Those grants were funded by borrowing when revenues fell short, which in Pakistan's fiscal position is most years. The losses were not absorbed by PIA alone. They moved through the national budget.
 
 ---
 
 ## SECTION 3 — The Field Reality  (5:45 - 9:30)
 *~530 words. Ground-level mechanics.*
 
-The financial anatomy tells you the scale. The field reality explains how it got there.
+The financial anatomy tells you the scale. What actually produced it runs through a specific chain of ground-level failures.
 
-Management appointments at PIA were not primarily commercial decisions. Boards changed with governments. Senior management changed with boards. A carrier building a long-haul aviation strategy — selecting the right aircraft type, training specialist crew, building maintenance capacity, establishing relationships with global travel agents and corporate accounts — needs management continuity measured in years, not political cycles. PIA did not consistently have it.
+Management appointments at PIA were not primarily commercial decisions. Boards changed with governments. Senior executives changed with boards. An airline building a sustainable long-haul operation — selecting the right aircraft, training specialist crew, building maintenance depth, and establishing relationships with global travel agents and cargo customers — needs management continuity measured in years. PIA did not consistently have it.
 
-The consequences were concrete. Aircraft procurement became a series of periodic crises rather than a planned fleet strategy. PIA operated a mixed fleet at various points — different aircraft types requiring different maintenance certifications, separate spare parts inventories, and distinct pilot type ratings, which are the specific qualifications a pilot needs to fly a particular aircraft [VERIFY] [SOURCE: PIA fleet history / CAA Pakistan records]. Mixed fleets are expensive for any airline. For a carrier with constrained capital, they are structurally damaging.
+The fleet reflected this. PIA operated a mixed fleet at various points — different aircraft types requiring different maintenance certifications, separate spare parts inventories, and distinct type ratings, which are the specific qualifications a pilot must hold to fly a particular aircraft model. Mixed fleets are expensive for any carrier. For one with constrained capital and limited technical depth, they compound cost and complexity simultaneously [SOURCE: PIA fleet history / CAA Pakistan records].
 
-The pilot licence scandal of 2020 was the product of a regulatory failure that had accumulated over years. Pakistan's Civil Aviation Authority — the government body responsible for certifying pilots — had examination and verification processes that were penetrable [VERIFY] [SOURCE: EASA safety assessment / CAA Pakistan inquiry]. The investigation identified not just the fraud itself but gaps in the oversight system that had allowed it to go undetected [VERIFY]. The failure was institutional, not simply individual.
+On May 22, 2020, Pakistan International Airlines flight PK-8303 approached Karachi's Jinnah International Airport on final descent. The crew attempted to land without having deployed the landing gear. The aircraft touched the runway on its engines, skidded for nearly a kilometre, then pulled back into the air. Both engines, damaged by the belly landing, failed. The aircraft came down in a residential area near the airport. Ninety-seven of the ninety-nine people on board were killed, along with one person on the ground [SOURCE: Aircraft Accident Investigation Board Pakistan final report, 2020]. The investigation found the primary cause to be crew error — the captain's disregard of standard operating procedures during approach and landing — with contributing failures in communication between the cockpit and air traffic control [SOURCE: AAIB Pakistan final report, 2020].
 
-The Karachi crash of May 2020 — flight PK-8303, which came down in a residential area near Karachi airport killing 97 of the 99 people on board — occurred in the same month as the licence disclosure [VERIFY] [SOURCE: Aircraft Accident Investigation Board Pakistan report, 2020]. The investigation found crew error as the primary cause, alongside communication failures between the aircraft and Air Traffic Control [VERIFY]. The two events together — the crash and the licence revelations — were what triggered the EASA and UK CAA bans.
+The licence disclosure came one month later. The 262 pilots whose credentials were found to be fraudulent had passed through Pakistan's Civil Aviation Authority certification process without detection [SOURCE: EASA safety assessment / CAA Pakistan inquiry, 2020]. The investigation identified gaps in the PCAA's examination and verification systems that had allowed the fraud to accumulate over time [SOURCE: EASA / CAA Pakistan]. The failure was institutional — not simply individual fraud in isolation.
 
-The workforce structure added a further layer. PIA's employees were organised across multiple unions with overlapping jurisdictions and significant legal protections [VERIFY]. Previous restructuring attempts — reducing headcount, renegotiating conditions, changing work practices — encountered sustained union resistance and legal challenge. In 2016, when the government attempted a staff rationalisation programme, protests shut down PIA operations for several days [VERIFY] [SOURCE: Dawn, 2016]. The programme was scaled back.
-
-None of this is unique to PIA. Airlines with large unionised workforces and state ownership face comparable pressures in many countries. What made PIA's situation specific was duration. The combination of political management appointments, accumulated losses, regulatory failures, and structural overstaffing ran long enough to become self-reinforcing. Each element made the others harder to address.
+The workforce structure added a further constraint. PIA's employees were organised across multiple unions with overlapping jurisdictions and significant legal protections. In 2016, when the government attempted a staff rationalisation programme, protests shut PIA's operations for several days, and the programme was substantially scaled back [SOURCE: Dawn, 2016]. The combination of political management appointments, structural overstaffing, regulatory failures, and union protections ran long enough to become self-reinforcing. Each element made the others harder to address.
 
 ---
 
 ## SECTION 4 — The Systemic Domino Effect  (9:30 - 12:30)
 *~420 words. Macroeconomic impact.*
 
-A dysfunctional national carrier does not contain its consequences inside the airline.
+The consequences did not stay inside the airline.
 
-The most direct impact is on diaspora connectivity. Pakistan has an overseas workforce of roughly nine to ten million people [VERIFY] [SOURCE: Bureau of Emigration and Overseas Employment]. They travel home. Their families visit them. When PIA's route network contracted and its European routes closed, the capacity on those routes did not disappear — it was filled by Emirates, Qatar Airways, Turkish Airlines, and others. Diaspora travel costs did not fall; in many cases they rose, because direct-route competition reduced [VERIFY] [SOURCE: IATA fare data / SBP remittance analytics].
+The most direct impact was on diaspora connectivity. Pakistan has an overseas workforce of roughly nine to ten million people [VERIFY — figure moves; SOURCE: Bureau of Emigration and Overseas Employment]. They travel home. Their families visit them. PIA's European routes — London, Manchester, Birmingham, Paris, Frankfurt — serve one of the densest diaspora travel corridors in the world. When those routes closed, the capacity did not disappear. Emirates, Qatar Airways, Turkish Airlines, and others filled it. But direct-route competition fell, and fares on Pakistan-Europe routes did not improve for diaspora travellers in the years the ban was in place [SOURCE: media reports / IATA fare data].
 
-The trade dimension follows. Time-sensitive cargo — fresh produce, pharmaceutical products, certain manufactured goods — moves by air. Pakistan's perishable agricultural exports to Europe, the Gulf, and the UK depend on reliable air freight capacity [VERIFY] [SOURCE: Trade Development Authority of Pakistan]. When PIA's European routes closed, freight capacity on those routes thinned. Other carriers filled some of it, but not all, and not always at equivalent cost or frequency [VERIFY].
+The financial cost of the ban alone was estimated at Rs. 40 billion per year in lost revenue — roughly Rs. 160 billion across the four years the ban ran [SOURCE: Profit by Pakistan Today / media estimates]. That figure does not include the costs PIA continued incurring while those routes were dark: staff, maintenance, overhead.
 
-The domestic market carries its own distortion. When a state-owned carrier with a cost structure no private competitor can match holds route licences — including on profitable routes — on grounds other than commercial performance, it suppresses competition and sustains fares above what a competitive market would produce [VERIFY] [SOURCE: Competition Commission of Pakistan aviation sector review]. Consumers pay more than they should.
+Air freight carries a separate impact. Time-sensitive cargo — fresh produce, pharmaceutical exports, certain manufactured goods — moves by air. Pakistan's perishable agricultural exports to European markets depend on reliable air freight access [SOURCE: Trade Development Authority of Pakistan]. When PIA's European routes closed, freight capacity on those corridors reduced. Other carriers covered some of it; not all, and not always at equivalent cost or frequency.
 
-The safety regulatory consequence is the most consequential long-term damage. The EASA ban was not solely about PIA's operations. It was a finding about Pakistan's civil aviation regulatory system — the CAA's ability to certify pilots, monitor performance, and enforce standards. Rebuilding that regulatory credibility requires sustained demonstrated performance, not announcements [VERIFY] [SOURCE: EASA correspondence / CAA Pakistan reform plan]. The ban was lifted in 2024, four years after it was imposed [VERIFY]. The lifting is a beginning, not a conclusion.
+The domestic aviation market also reflects the distortion. A state-owned carrier holding route licences on grounds other than commercial performance suppresses the competitive discipline that would otherwise produce lower fares and better service for domestic passengers [SOURCE: Competition Commission of Pakistan aviation sector documentation, if available; otherwise note as analytical inference].
+
+The EASA ban's most consequential long-term dimension was regulatory. The suspension was not only a finding about PIA — it was a finding about Pakistan's Civil Aviation Authority, specifically its ability to certify pilots, monitor performance, and enforce safety standards. Rebuilding that institutional credibility took four years of demonstrated reform under EASA scrutiny. EASA confirmed in November 2024 that it had reestablished sufficient confidence in PCAA's oversight capabilities before lifting the ban [SOURCE: EASA, November 2024]. The UK Civil Aviation Authority maintained its own separate ban, with PIA aiming to resume UK routes pending UK approval as of late 2024 [SOURCE: Profit by Pakistan Today, December 2024].
 
 ---
 
 ## SECTION 5 — The Verdict & Future Outlook  (12:30 - End)
 *~340 words. Realistic forecast and concrete implications.*
 
-The privatisation completed in late 2024 transferred ownership to a private consortium [VERIFY — confirm buyer identity and terms before recording] [SOURCE: Finance Division / Dawn / Business Recorder, 2024]. The transfer price and terms have been characterised differently by different parties; an independent assessment of whether the asset was fairly valued requires the full transaction documents, which have not been fully public [VERIFY].
+The privatisation of PIA happened in two stages, and the first one failed.
 
-What is observable is what the new owners face.
+In October 2024, the Privatisation Commission held a bidding session for a 60 percent stake in PIA. One consortium — Blue World City — submitted a bid of Rs. 10 billion. The government's minimum expectation was Rs. 85 billion. The bid was rejected [SOURCE: Business Recorder / Express Tribune / Profit by Pakistan Today, October 2024].
 
-The first challenge is the workforce. A carrier with 14,000 to 15,000 employees and fewer than 30 aircraft cannot achieve commercial viability without restructuring that ratio. The legal, human, and political dimension of doing so — what happens to displaced workers, and on what terms — is not a financial question alone. It requires a settlement that is workable for the workforce, not just for the balance sheet.
+A second auction was held in December 2025. This time, two consortia competed. The Arif Habib Corporation-led consortium — which also included Fatima Fertilizer, City Schools Private Limited, and Lake City Holdings — submitted a winning bid of Rs. 135 billion for a 75 percent stake, outbidding a Lucky Cement-led consortium that offered Rs. 134 billion [SOURCE: Dawn / Geo.tv / Business Recorder, December 2025]. Of that Rs. 135 billion, the government receives Rs. 10.12 billion in cash. The remainder is committed as investment back into PIA [SOURCE: Arab News / media reports, December 2025]. New management was expected to take operational control from April 2026 [VERIFY — confirm handover timing before recording].
 
-The second is regulatory standing. The EASA ban was lifted, which restored European route access in principle. Maintaining it requires continuous compliance — regular audits, maintained safety standards, no recurrence of the certification failures that triggered the ban. In commercial aviation, regulatory compliance is not a one-time achievement. It is an ongoing operational discipline that cannot be delegated.
+What that management inherits is specific.
 
-The third is fleet financing. A commercially competitive long-haul airline needs modern, fuel-efficient aircraft. Acquiring them requires either capital or lease financing from aircraft lessors who are willing to place equipment with the carrier. Lessors price risk. PIA's track record with lessors has included payment disputes and, in at least one case, attempts by foreign jurisdictions to detain PIA aircraft over unpaid lease obligations [VERIFY] [SOURCE: media reports 2021-2023]. Rebuilding lessor confidence requires demonstrated payment performance over time.
+The workforce restructuring question has not been resolved by the sale. Ten thousand employees and thirty-four aircraft is not a viable long-haul carrier ratio. The terms on which staff numbers are addressed — through retirement, redundancy, redeployment, or renegotiated contracts — will determine whether the airline can reach operational sustainability or becomes another change of ownership without change of structure.
 
-Privatisation transfers ownership. It does not automatically transfer viability. The outcome depends on whether the three challenges above — workforce restructuring, regulatory compliance, and lessor credibility — can be resolved simultaneously, with limited capital, while operating an airline.
+Regulatory compliance is not a threshold to cross once. EASA's confidence in PCAA was reestablished through demonstrated reform. Maintaining European route access requires continuous operational discipline — every audit, every certification cycle, every safety procedure. A single regulatory failure restarts that process.
 
-The demand is there. Pakistan's diaspora is large, its domestic aviation market is growing [VERIFY] [SOURCE: CAA Pakistan traffic statistics], and its geographic position between the Gulf, Central Asia, and South Asia gives a well-run carrier real commercial options. Whether the conditions now exist to sustain a commercially run airline — rather than a politically managed one — is the question the next few years will answer.
+Fleet financing requires lessor confidence. Aircraft lessors price risk. PIA's track record with lessors has included payment disputes. Rebuilding that relationship requires demonstrated payment performance over time, not promises made at signing.
+
+Pakistan's aviation demand is real. The diaspora exists. The domestic market is growing. The question the new owners have to answer is whether a commercially run airline can be sustained in practice — not just established on paper.
 
 ---
 
 ## SOURCES
-1. Pakistan Aviation Division — National Assembly statement, May 2020, pilot licence figures [VERIFY exact count]
-2. EASA — PIA operating licence suspension, 2020 [VERIFY]
-3. UK CAA — PIA ban, 2020 [VERIFY]
-4. PIA official history — founding as Orient Airways, 1946 [VERIFY]
-5. PIA annual accounts / Finance Division — Rs. 700B accumulated losses [VERIFY current figure]
-6. IATA — employee-per-aircraft benchmarks; fuel share of airline operating costs [VERIFY]
-7. Dawn / Business Recorder — route economics, subsidy reporting, 2016 strike coverage
-8. Aircraft Accident Investigation Board Pakistan — PK-8303 final report, 2020 [VERIFY]
-9. EASA / CAA Pakistan — regulatory assessment and reform plan [VERIFY]
-10. Bureau of Emigration and Overseas Employment — overseas Pakistani workforce estimate [VERIFY current]
-11. IATA fare data / SBP remittance analytics — diaspora route fare impact [VERIFY]
-12. Trade Development Authority of Pakistan — perishable agricultural air freight [VERIFY]
-13. Competition Commission of Pakistan — aviation sector review [VERIFY if published]
-14. Finance Division / Dawn / Business Recorder — PIA privatisation 2024 [VERIFY buyer, terms]
-15. CAA Pakistan traffic statistics — domestic aviation demand [VERIFY current]
+1. PIA official history / historyofpia.com — founding (Orient Airways, 1946), Asia's first jet airline (1960), first non-communist airline to China (1964), Emirates founding support (1985)
+2. Pakistan Aviation Division — aviation minister Ghulam Sarwar Khan, National Assembly statement, June 2020; 262 of 860 pilots figure
+3. CNN / VOA / Al Jazeera — pilot licence scandal coverage, June 2020
+4. EASA — PIA operating ban, June 2020; ban lifted November 29, 2024
+5. Profit by Pakistan Today / media estimates — Rs. 40 billion annual revenue loss from EASA ban; UK routes status, December 2024
+6. Finance Division / Fetch Pakistan / media — Rs. 500 billion in losses 2015-2024 (avg Rs. 4.1B/month); Rs. 660 billion total debt moved to Holdco
+7. PIA annual accounts 2024 / The Friday Times, April 2025 — Rs. 26 billion reported "profit" via accounting treatment
+8. National Assembly Standing Committee on Aviation briefing, July 2024 / Dawn — 10,323 employees, 34 aircraft, 304 employees per aircraft
+9. IATA benchmarks — 100-150 employees per aircraft industry standard; fuel as 25-35% of airline costs
+10. Dawn / Business Recorder — PIA route economics, internal audit reports
+11. Aircraft Accident Investigation Board Pakistan final report, 2020 — PK-8303 crash, May 22 2020; 97 onboard + 1 ground killed; crew error finding
+12. EASA safety assessment / CAA Pakistan inquiry 2020 — PCAA certification gaps; regulatory failure finding
+13. Dawn, 2016 — PIA staff rationalisation protests, operational shutdown
+14. Bureau of Emigration and Overseas Employment — overseas Pakistani workforce [VERIFY current figure]
+15. Business Recorder / Express Tribune / Profit by Pakistan Today, October 2024 — Blue World City Rs. 10B bid rejected; Rs. 85B government minimum
+16. Dawn / Geo.tv / Business Recorder / Arab News, December 2025 — Arif Habib consortium Rs. 135B winning bid; 75% stake; Rs. 10.12B cash to government; April 2026 handover target
 
 ## PRODUCTION NOTES
-- Voiceover pace: ~150 wpm, documentary register. Re-verify all [VERIFY] before recording.
+- Voiceover pace: ~150 wpm, documentary register.
 - All visual direction in storyboards/10_pia_visuals.md (to be created).
-- Define on first use: yield (revenue per passenger kilometre), available seat kilometre, type rating.
+- Define on first use: yield (revenue per passenger kilometre), type rating, EASA, PCAA.
 - No cross-references to other episodes in this script.
-- Neutral framing throughout: union resistance, management failures, and government decisions are presented as structural and systemic, not attributed to any specific political party or group.
-- Buyer identity for the 2024 privatisation must be confirmed and named before recording.
+- Neutral framing throughout: structural and systemic causes, no blame assigned to specific political party or group.
+- [VERIFY] items: overseas Pakistani workforce figure (Bureau of Emigration); April 2026 handover timing (confirm with current reporting before recording).
+- The Rs. 26B "profit" in 2024 is an accounting artefact — clarify in voiceover if needed.
