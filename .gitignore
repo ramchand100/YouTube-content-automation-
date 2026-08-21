@@ -7,3 +7,12 @@ __pycache__/
 
 # Tool output
 out/
+
+# Raw media files (store on external drive or cloud, not in repo)
+/media/
+*.mp4
+*.mov
+*.wav
+*.aif
+*.aiff
+*.m4a

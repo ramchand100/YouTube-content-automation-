@@ -3,24 +3,52 @@
 An end-to-end execution framework for a high-production, English-language YouTube
 channel analyzing **Pakistan's business ecosystem, macroeconomics, corporate
 strategy, and economic mechanics.** This repository is the media engine: it takes a
-topic from raw idea to a research brief, to a full-length script, to an editor-ready
-storyboard and thumbnail package.
+topic from raw idea through angle selection, research, scripting, storyboarding,
+and footage clearance to a production-ready package.
 
 The editorial constitution lives in **[`CLAUDE.md`](CLAUDE.md)** and governs
-everything produced here (language, tone, length, sourcing, and the Investigative
-Brief structure). Read it first.
+everything produced here. Read it first.
 
 ---
 
 ## Repository structure
 
 ```
-CLAUDE.md            Editorial constitution — rules every file must follow
-topics/              Staging area: video ideas & deep research briefs
-scripts/             Production-ready full-length English scripts + the scripting engine
-storyboards/         Visual & motion-graphic blueprints for editors (timestamp-linked)
-prompts/             Midjourney visual prompts & thumbnail layout specs
-tools/               Automation scripts + requirements.txt
+CLAUDE.md                   Editorial constitution — governs every file
+README.md                   This file
+requirements.txt            Python dependencies (Jinja2, rich)
+.gitignore                  Excludes /media/, *.mp4, *.mov, *.wav
+.claude/
+  rules/                    Path-scoped rules for scripts, research, storyboards, etc.
+  skills/                   The pakistan-documentary-production skill
+  commands/                 Slash commands: /angles /research /write-script etc.
+  agents/                   Specialised agents: researcher, script-editor, etc.
+topics/
+  ANGLE_TEMPLATE.md         Angle selection form — fill before research begins
+  *.md                      Research briefs and topic ideas
+research/
+  briefs/                   NN_slug_brief.md — full research briefs per episode
+  timelines/                NN_slug_timeline.md — chronological source timelines
+  claim-ledgers/            NN_slug_claims.csv — claim-by-claim classification
+  source-registers/         NN_slug_sources.csv — all sources + footage rights
+  audits/                   NN_slug_research-audit.md — source audit per final script
+scripts/
+  TEMPLATE.md               Three-template script skeleton (A / B / C)
+  script_engine.py          CLI scaffolder: generates skeleton with correct section names
+  NN_*.md                   Production scripts — pure voiceover prose
+storyboards/
+  TEMPLATE.md               Visual production plan template
+  NN_*_visuals.md           Visual direction for editors — one per episode
+prompts/
+  NN_*_thumbnails.md        Thumbnail specs and Midjourney prompts
+docs/
+  footage-guidelines.md     Copyright and licence rules for B-roll footage
+tools/
+  topic_generator.py        Research brief generator by pillar
+  validate_script.py        Script compliance checker
+remotion/
+  src/Root.tsx              Remotion motion-graphic compositions
+  data/epNN_data.json       Per-episode animation data
 ```
 
 ---
@@ -30,122 +58,190 @@ tools/               Automation scripts + requirements.txt
 Requires Python 3.9+.
 
 ```bash
-pip install -r tools/requirements.txt
+pip install -r requirements.txt
 ```
-
-Dependencies: `Jinja2` (templating) and `rich` (readable CLI output; the tools
-still run without it).
 
 ---
 
-## The pipeline, end to end
+## The production workflow
 
-The workflow moves left to right. Each stage has a tool or a template.
+Every episode follows this exact sequence. **No step may be skipped.**
 
-### 1. Pick a topic and generate a research brief  →  `topics/`
+### Step 1 — Broad topic → angle options (`/angles`)
 
-List the four content pillars:
+A broad topic must never go directly to scripting.
 
-```bash
-python3 tools/topic_generator.py list
+Invoke `/angles` with a topic. Claude will generate 6–10 scored angle options,
+recommend one, and **stop for your approval**.
+
+```
+/angles K-Electric
 ```
 
-See research angles for a pillar (`startup`, `seth`, `macro`, `brands`):
+No research brief or script may begin until you have explicitly approved one angle.
 
-```bash
-python3 tools/topic_generator.py ideas --pillar macro
+### Step 2 — Approved angle → research brief (`/research`)
+
+Once an angle is approved, invoke `/research`. This creates:
+
+- `research/briefs/NN_slug_brief.md` — full research brief
+- `research/claim-ledgers/NN_slug_claims.csv` — claim-by-claim classification
+- `research/source-registers/NN_slug_sources.csv` — all sources consulted
+
+```
+/research
 ```
 
-Promote an angle to a full research brief (written into `topics/`):
+**Claude searches live sources before writing.** It does not use training-data
+memory for current statistics. Every claim is classified:
+VERIFIED / REPORTED / ANALYSIS / ESTIMATE / UNRESOLVED.
+
+Alternatively, use the CLI tool to scaffold a brief:
 
 ```bash
-python3 tools/topic_generator.py brief --title "Raast vs The Card Networks" --pillar macro
+python3 tools/topic_generator.py brief --title "K-Electric: The Karachi Power Trap" --pillar macro
 ```
 
-The brief is pre-wired to the Investigative Brief structure and to a Pakistani-source
-data checklist (SBP, PBS, FBR, SECP, PSX, and credible local reporting). **Fill it
-with sourced facts before writing the script.**
+### Step 3 — Research brief → script (`/write-script`)
 
-### 2. Scaffold the full-length script  →  `scripts/`
+Once the research brief is complete, invoke `/write-script`. Claude selects the
+correct template and writes complete five-section voiceover prose.
 
-Generate a production-ready script skeleton with enforced word budgets, timestamps,
-visual-cue slots, and citation slots:
+```
+/write-script
+```
+
+Or scaffold a skeleton manually:
 
 ```bash
-python3 scripts/script_engine.py --title "Raast vs The Card Networks" --pillar macro --number 02
+# Template A (Macro/Institutions)
+python3 scripts/script_engine.py --title "K-Electric" --template A --number 11 --pillar macro
+
+# Template B (Company Case Study)
+python3 scripts/script_engine.py --title "Interloop: Pakistan's Sock Empire" --template B --number 12
+
+# Template C (Structural/History)
+python3 scripts/script_engine.py --title "The Remittance Engine" --template C --number 13
 ```
 
-This writes `scripts/02_raast_vs_the_card_networks.md`. Write each of the five
-sections to its word budget, sourcing every figure. See `scripts/TEMPLATE.md` for
-the bare structure.
+**Script rules (non-negotiable):**
+- Scripts are pure voiceover prose — no visual directions inside script files.
+- All visual direction lives in the companion storyboard file.
+- Every statistical claim cites `[SOURCE: publication, year]`.
+- Every concept, figure, and definition is stated once — no repetition.
 
-**Length is set by the topic, not a quota.** Default is ~15 min (~2,250 words); most
-episodes run 12-16 min. For a topic that genuinely needs more depth, pass `--minutes`
-(up to ~26), and the engine scales every section's word budget and timestamps:
+### Step 4 — Script review (`/review-script`)
+
+```
+/review-script scripts/11_slug.md
+```
+
+Or run the automated validator:
 
 ```bash
-python3 scripts/script_engine.py --title "..." --pillar macro --number 06 --minutes 22
+python3 tools/validate_script.py scripts/11_slug.md
 ```
 
-Go long only when the extra length carries real substance (more mechanics, more PKR
-math, a second case). Never pad to hit a number (CLAUDE.md section 5).
+The validator checks: five sections, Sources block, no visual cues inside the
+script, no banned clichés, sourcing density, [VERIFY] count, and more.
 
-### 3. Build the storyboard  →  `storyboards/`
+### Step 5 — Source audit (`/audit-sources`)
 
-Create `storyboards/NN_<slug>.md` mapping each `[VISUAL mm:ss]` cue in the script to
-concrete After Effects / Premiere directions (motion specs, chart overlays, map
-animations, split-screens, reusable pre-comps). Use
-`storyboards/01_real_estate_visuals.md` as the reference standard.
+For every final script, verify the exact source behind every major claim.
 
-### 4. Package the thumbnails  →  `prompts/`
+```
+/audit-sources scripts/11_slug.md
+```
 
-Create `prompts/NN_<slug>_thumbnails.md` with 2 high-CTR concepts and Midjourney
-prompts. Follow the rules in `prompts/01_real_estate_thumbnails.md`: black-based
-palette, green/white text, one focal point, 2-4 words that add a new idea rather
-than repeat the title.
+Creates `research/audits/11_slug_research-audit.md`. No script may be marked
+`production-ready` until every claim is Confirmed or Removed.
+
+### Step 6 — Storyboard (`/storyboard`)
+
+Create the visual production plan for the approved script.
+
+```
+/storyboard scripts/11_slug.md
+```
+
+Creates `storyboards/11_slug_visuals.md`. The storyboard translates script
+timestamps into motion-graphic, B-roll, on-screen text, and chart directions.
+**It never modifies the script.**
+
+### Step 7 — Footage rights (`/footage`)
+
+Verify licences for every B-roll cue in the storyboard.
+
+```
+/footage storyboards/11_slug_visuals.md
+```
+
+Updates `research/source-registers/11_slug_sources.csv` with cleared/pending status.
+**Public availability is not copyright permission.** Every clip needs a documented licence.
+
+### Step 8 — Final validation
+
+```bash
+python3 tools/validate_script.py scripts/11_slug.md
+```
+
+Script is production-ready when:
+- Validator exits with PASS.
+- Source audit is complete (all claims Confirmed or Removed).
+- All footage cues are cleared (no "pending" entries).
+- All `[VERIFY]` figures have been re-checked against current sources.
 
 ---
 
-## Episode 01 (complete reference package)
+## Three content templates
 
-A full, finished example of the pipeline output:
+| Template | Use for | Sections 2 / 3 / 4 |
+|----------|---------|---------------------|
+| **A** — Macro / Institutions | SOEs, energy, policy, monetary/fiscal, regulation | Paper Trail → Field Reality → Systemic Domino Effect |
+| **B** — Company Case Study | Named companies, corporate strategy, sector leaders | Business Model → Operational Reality → Competitive Position |
+| **C** — Structural / History | Long-cycle stories, historical investigations, debt cycles | The Origin → How It Plays Out → The Structural Risk |
 
-- **Script:** [`scripts/01_pakistan_real_estate_trap.md`](scripts/01_pakistan_real_estate_trap.md)
-  — "The $500 Billion Trap: Why Pakistan's Wealth Is Locked in Real Estate"
-  (~2,150 spoken words, fully cited).
-- **Storyboard:** [`storyboards/01_real_estate_visuals.md`](storyboards/01_real_estate_visuals.md)
-- **Thumbnails:** [`prompts/01_real_estate_thumbnails.md`](prompts/01_real_estate_thumbnails.md)
-- **Research brief:** [`topics/the_500_billion_dollar_real_estate_trap.md`](topics/the_500_billion_dollar_real_estate_trap.md)
-
-> Note: Episode 01 was produced under the earlier five-part narrative structure.
-> The current standard is the Investigative Brief structure (CLAUDE.md section 7),
-> which all new episodes use.
+Sections 1 (The Anomaly) and 5 (The Verdict) are the same for all templates.
 
 ---
 
-## Maintenance rules
+## Key rules (quick reference)
 
-1. **`CLAUDE.md` is law.** If a script drifts from its language, sourcing, or
-   structure rules, fix the script, not the rules (unless the editorial standard has
-   genuinely changed).
-2. **Plain but smart.** Write at a grade 7-8 reading level, define all jargon on
-   first use, and keep the analytical depth (CLAUDE.md section 2). Simple words,
-   hard ideas. Applies to Episode 03 onward; Episodes 01-02 predate this rule.
-3. **Number files consistently.** `NN_<slug>` across `scripts/`, `storyboards/`, and
-   `prompts/` so an episode's three files sort together.
-4. **Re-verify `[VERIFY]` figures before recording.** Macro numbers (SBP rate,
-   inflation, FX, tax rates, sector values) move fast. Never record a stale figure.
-5. **Every on-screen number needs a source caption.** Sourcing is the channel's
-   whole competitive moat.
-6. **Keep the speculation/analysis line clean.** State facts as facts, analysis as
-   analysis, estimates as estimates. Never blur them.
+| Rule | Detail |
+|------|--------|
+| Scripts are narration only | No `[VISUAL]`, `[FOOTAGE]`, camera, or editing directions |
+| Storyboards hold all visuals | Every shot, graphic, and on-screen text goes there |
+| Angle approval required | No research or scripting before the user approves an angle |
+| Research must precede scripting | No script without a completed research brief |
+| Public availability ≠ copyright | Every footage clip needs a documented licence |
+| No fabrication | Never invent characters, scenes, conversations, or motives |
+| Verify before recording | Re-check all `[VERIFY]` and macro figures before the session |
 
 ---
 
-## Conventions cheat-sheet
+## Episode reference (complete packages)
 
-| Annotation | Meaning |
-|---|---|
-| `[VISUAL mm:ss — ...]` | On-screen visual cue for the editor |
-| `[SOURCE: publication, year]` | Inline citation (also collected in the Sources block) |
-| `[VERIFY]` | Figure must be re-checked against a current primary source before recording |
+| Ep | Script | Storyboard | Prompts |
+|----|--------|------------|---------|
+| 01 | ✓ | ✓ | ✓ |
+| 02–05 | ✓ | ✓ | ✓ |
+| 06 | ✓ | ✓ | ✓ |
+| 07 | ✓ | ✓ | — |
+| 08–10 | ✓ | — | — |
+
+Episodes 01–05 storyboards and prompts use the old dark palette (`#0A0A0A`).
+Episodes 06+ use the current light palette (`#F8F9FA`). See `.claude/rules/visual-system.md`.
+
+---
+
+## Available slash commands
+
+| Command | What it does |
+|---------|-------------|
+| `/angles` | Generate and score angle options; recommend one; stop for approval |
+| `/research` | Build research brief, claim ledger, and source register |
+| `/write-script` | Write the complete five-section voiceover script |
+| `/review-script` | Audit the script for structural and editorial compliance |
+| `/audit-sources` | Verify source behind every major claim; create audit file |
+| `/storyboard` | Create the visual production plan |
+| `/footage` | Verify footage licences; create rights register |
