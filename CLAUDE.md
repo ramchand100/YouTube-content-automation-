@@ -112,7 +112,8 @@ handed off as if finished, no "[continue here]" placeholders.
   history. Never pad to hit a number, and never stretch a simple idea. If a topic is
   fully explained in 12 minutes, it ends at 12 minutes. Length must be earned, every
   minute of it. The five-section spine holds at any length; longer episodes deepen
-  the sections, they do not add new ones.
+  the sections, they do not add new ones. The five-section count is fixed regardless
+  of length or template.
 - **Scripts are pure voiceover prose.** No visual cue annotations inside the
   script. All visual direction lives in the companion storyboard file
   (`storyboards/NN_*.md`), which is the single source of truth for editors.
@@ -154,48 +155,103 @@ handed off as if finished, no "[continue here]" placeholders.
 
 ## 7. The Investigative Brief Structure (every long-form episode)
 
-Every flagship episode is built on this five-section spine. Timestamps are targets
-for a ~14-minute runtime and flex per topic. This is an investigative brief, not a
-narrative arc: lead with the on-the-ground reality, then follow the money before
-you explain the mechanics.
+Every episode is built on a five-section spine. The **section count is fixed at
+five**. The section names and focus areas adapt to the content type — three
+templates are defined below. Timestamps are targets for a ~14-minute runtime and
+flex per topic. This is an investigative brief, not a narrative arc.
 
-1. **SECTION 1 — The Unsolved Reality (0:00 - 2:00):** an on-the-ground entry
-   point. Open in the field, on a concrete real-world scene or anomaly that poses
-   a question the rest of the brief will answer. State the stakes plainly, without
-   manufactured drama.
+**Three commitments that never flex, regardless of template:**
+1. Section 1 always opens with a concrete real-world anomaly in short, punchy
+   sentences, and closes with the episode's single question.
+2. The middle three sections always show the financial or structural mechanics
+   before the verdict. Never jump from anomaly to opinion.
+3. Section 5 always delivers a grounded, honest outlook — naming specifically what
+   would need to change, and who it matters to (founders, investors, professionals,
+   or students), depending on the episode's subject.
 
-   **Section 1 sentence rhythm (non-negotiable):** Use short, punchy sentences to
-   create weight and pause. Echo a key word or phrase for emphasis. Name the anomaly
-   bluntly before explaining it. Use a transitional sentence that frames the anomaly
-   as deliberate, not accidental ("That silence was not an accident." / "That was not
-   a coincidence." / "That gap did not appear by itself."). End Section 1 by stating
-   — in plain English — the single question the episode will answer.
+---
 
-   Pattern example:
-   > [Single concrete action, one sentence.] [What they needed, why it mattered.]
-   > [Result — blunt.] [Echo for weight: "Zero bids. No counter-offers. Just silence."]
-   >
-   > [That X was not an accident. Brief explanation of the larger force at work.]
-   >
-   > [Ground-level consequence — real people, real places, real shutdown.]
-   >
-   > [Name the trap / the system / the problem in one line.]
-   > [Then: one sentence of 50-year backstory — how the system got here.]
-   >
-   > [Closing line: "That [bill / gap / silence], and why it keeps growing, is what
-   > this episode is about."]
-2. **SECTION 2 — The Paper Trail (2:00 - 6:00):** the raw math. PKR unit
-   economics and financial anatomy. Break down the actual numbers, costs, margins,
-   and cash flows in rupees, so the viewer sees exactly how the money works.
-3. **SECTION 3 — The Field Reality (6:00 - 10:00):** ground-level mechanics. How
-   the system actually runs day to day, the informal networks, the cash layer, and
-   distributor and middleman dynamics that the paper trail alone does not reveal.
-4. **SECTION 4 — The Systemic Domino Effect (10:00 - 13:00):** the macroeconomic
-   impact on Pakistan. How this one system ripples out to the wider economy,
-   investors, and ordinary consumers, tied to SBP / FBR / FX / energy reality.
-5. **SECTION 5 — The Verdict & Future Outlook (13:00 - End):** a realistic market
-   forecast. A grounded, honest read on where this goes next and the concrete
-   implications for founders, executives, investors, and students.
+### Section 1 — The Anomaly (0:00 - 2:00) — universal across all templates
+
+An on-the-ground entry point. Open on a concrete real-world scene or anomaly that
+poses a question the rest of the brief will answer. State the stakes plainly,
+without manufactured drama.
+
+**Sentence rhythm (non-negotiable):** Use short, punchy sentences to create weight
+and pause. Echo a key word or phrase for emphasis. Name the anomaly bluntly before
+explaining it. Use a transitional sentence that frames the anomaly as deliberate,
+not accidental ("That silence was not an accident." / "That was not a coincidence."
+/ "That gap did not appear by itself."). End Section 1 by stating — in plain
+English — the single question the episode will answer.
+
+Pattern example:
+> [Single concrete action, one sentence.] [What they needed, why it mattered.]
+> [Result — blunt.] [Echo for weight: "Zero bids. No counter-offers. Just silence."]
+>
+> [That X was not an accident. Brief explanation of the larger force at work.]
+>
+> [Ground-level consequence — real people, real places, real numbers.]
+>
+> [Name the trap / the system / the problem in one line.]
+>
+> [Closing line: "That [bill / gap / silence], and why it keeps growing, is what
+> this episode is about."]
+
+---
+
+### Section 5 — The Verdict (13:00 - End) — universal across all templates
+
+A realistic, grounded forecast. No manufactured optimism or pessimism. Name
+specifically what would need to change for the situation to improve, what the
+concrete obstacles are, and who this matters to — founders, executives, investors,
+or students — depending on the episode's subject.
+
+---
+
+### Templates for Sections 2, 3, and 4
+
+Sections 2, 3, and 4 adapt to the dominant question the episode answers. Pick one
+template before writing. If the question is "how does this cost or earn money?"
+use Template A or B. If the question is "why does this exist / how did we get
+here?" use Template C. A historical episode about a company still uses Template C
+— template choice follows the question, not the subject category.
+
+---
+
+**Template A — Macro / Institutions**
+*Use for: government policy, SOEs, energy, monetary and fiscal topics, regulatory
+structures, trade policy, sector-wide failures.*
+
+| Section | Name | Focus |
+|---------|------|-------|
+| 2 | The Paper Trail | PKR unit economics, government budgets, subsidy flows, cost-margin anatomy in rupees |
+| 3 | The Field Reality | How the system runs day to day; informal networks, the cash layer, middleman dynamics the numbers alone don't show |
+| 4 | The Systemic Domino Effect | How this one system ripples into the wider economy; SBP / FBR / FX / energy connections |
+
+---
+
+**Template B — Company Case Study**
+*Use for: named companies, corporate strategy, industry deep-dives, listed or
+private firms, sector leaders and failures.*
+
+| Section | Name | Focus |
+|---------|------|-------|
+| 2 | The Business Model | Revenue model, unit economics, margin structure — how this company actually makes or loses money |
+| 3 | The Operational Reality | Supply chain, workforce, compliance, the informal layer, what actually makes the operation run |
+| 4 | The Competitive Position | Market position vs. regional and global peers; FX, energy, and regulatory exposure; what threatens the model |
+
+---
+
+**Template C — Structural Dependency / History**
+*Use for: long-cycle structural stories (remittances, migration, debt cycles, land),
+historical investigations ("how did we get here"), and policy decisions whose
+consequences play out over decades.*
+
+| Section | Name | Focus |
+|---------|------|-------|
+| 2 | The Origin | How and when the structure was built; the decision, policy, or event that created it |
+| 3 | How It Plays Out | Ground-level consequences — households, towns, industries — that the origin story produced |
+| 4 | The Structural Risk | What threatens the model, what has already begun to change, and what the numbers say |
 
 ---
 
