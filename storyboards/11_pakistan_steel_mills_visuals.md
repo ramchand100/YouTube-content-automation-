@@ -99,14 +99,17 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 - END: cut at 03:40. Voiceover: *"In 1971, Pakistan lost half its territory… Bhutto came to power…"*
 - Duration: 40s
 
-**[03:40 – 04:20] FOOTAGE F003 — 1970s industrial Pakistan context**
-- Shot: generic archival-style footage of heavy industry construction, port infrastructure, or large government infrastructure projects from the 1970s. No Pakistan-specific news archive footage.
-- Source: Pixabay / Pexels — "construction 1970s", "industrial construction vintage", "steel plant construction". CC0. [RIGHTS: pending — clip_id F003]
-- Fallback (preferred): GRAPHIC — static text card on `#F8F9FA`:
-  - "1971 – 1981" (Archivo Black, large, `#1A1A1A`)
-  - "The logic: reduce steel imports · create industrial capacity · substitute foreign exchange" (Inter, `#555555`, three bullet points appearing one at a time)
+**[03:40 – 04:20] GRAPHIC — 1970s founding logic text card** *(F003: no CC0 vintage footage found; GRAPHIC is primary)*
+- Pre-comp: `foundingLogic` (static text card, no animation required)
+- Canvas: `#F8F9FA`.
+- Element 1 [03:40 – 03:46]: "1971 – 1981", Archivo Black large, `#1A1A1A`, centred upper third.
+- Element 2 [03:46 – 03:54]: bullet 1 fades in — "Reduce steel imports", Inter, `#555555`.
+- Element 3 [03:54 – 04:02]: bullet 2 fades in — "Create industrial capacity", Inter, `#555555`.
+- Element 4 [04:02 – 04:10]: bullet 3 fades in — "Substitute foreign exchange", Inter, `#555555`.
+- Element 5 [04:10 – 04:16]: annotation — "ANALYSIS — development economics consensus of the period", Inter 9px, `#555555`.
+- [RIGHTS: F003 cleared — no footage; graphic confirmed as primary. See sources CSV.]
 - Voiceover: *"The development logic of the era supported this kind of investment…"*
-- HOLD: run for voiceover duration (~40s).
+- HOLD: 4s after all elements visible.
 - END: hard cut at 04:20.
 - Duration: ~40s
 
