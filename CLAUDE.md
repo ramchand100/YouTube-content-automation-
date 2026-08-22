@@ -142,7 +142,8 @@ does not belong in the script.
   scripting engine (`script_engine.py`) and the script template (`TEMPLATE.md`).
 - `storyboards/` — visual and motion-graphic blueprints for editors, timestamp-
   linked to the matching script.
-- `prompts/` — AI visual prompts (Midjourney) and thumbnail layout specs.
+- `prompts/` — thumbnail layout specs and Canva design briefs for static promotional
+  assets. Animated in-video graphics belong in Remotion, not Canva.
 - `tools/` — automation scripts (`topic_generator.py`) and shared research
   templates, with dependencies in `requirements.txt`.
 - `research/` — research briefs, claim ledgers, and source registers per episode.
