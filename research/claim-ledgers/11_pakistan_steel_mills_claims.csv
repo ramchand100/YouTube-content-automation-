@@ -1,0 +1,32 @@
+claim_id,claim_text,classification,source,url,verified
+C01,PSM stopped production on June 10 2015,VERIFIED,"Dawn / Express Tribune / Herald / SAMAA — multiple consistent reports",multiple,yes
+C02,Shutdown triggered by SSGC cutting gas supply due to Rs 19 billion in overdue bills,VERIFIED,"Multiple Pakistani news sources (Dawn, Express Tribune, SAMAA)",multiple,yes
+C03,PSM accumulated losses reached Rs 245.9 billion by FY2023-24,VERIFIED,"AGP audit report, June 2026 — reported by ProPakistani / The News / Bloom Pakistan",https://propakistani.pk,yes
+C04,Government loans to PSM totalled Rs 106.2 billion from 2013 to 2025,VERIFIED,"AGP audit report, June 2026",https://propakistani.pk,yes
+C05,Average annual net loss FY2009-FY2024 was Rs 25.5 billion,VERIFIED,"AGP audit report, June 2026",https://propakistani.pk,yes
+C06,FY2023-24 loss rate was Rs 6 million per hour,REPORTED,"Ministry of Industries-cited figure; cited in search summaries — not directly verified from ministry document","",partial
+C07,ECC approved Rs 935.78 million for FY2024-25 PSM salary disbursements,VERIFIED,"ProPakistani, January 2025, citing ECC approval",https://propakistani.pk,yes
+C08,Supreme Court privatisation ruling was issued June 23 2006,VERIFIED,"PLD 2006 SC 697; confirmed by Business Recorder and ResearchGate academic paper","",yes
+C09,Supreme Court ruled the privatisation process was vitiated by acts of omissions and commissions on the part of certain state functionaries,VERIFIED,"PLD 2006 SC 697 (direct quotation from ruling)",PLD 2006 SC 697,yes
+C10,PSM was designed for 1.1 million tonnes annual production capacity,VERIFIED,"Multiple historical sources — Express Tribune, Paradigm Shift, Grokipedia — all consistent",multiple,yes
+C11,PSM reached full operations in April 1981,VERIFIED,"Multiple historical sources — consistent across Express Tribune, Paradigm Shift",multiple,yes
+C12,Foundation stone was laid on December 30 1973 by PM Zulfikar Ali Bhutto,VERIFIED,"Multiple historical sources — Express Tribune, Paradigm Shift",multiple,yes
+C13,Pakistan-USSR technical and financial assistance agreement was signed in January 1971,VERIFIED,"Multiple historical sources — consistent",multiple,yes
+C14,PSM site at Bin Qasim was chosen for proximity to Karachi port for iron ore and coking coal imports,ANALYSIS,"Consistent with publicly available site descriptions; logistical rationale documented","",yes
+C15,Pakistan nationalised a wide range of industries under Bhutto and launched several large state enterprises,VERIFIED,"Dawn historical reporting on Bhutto-era industrialisation policy","",yes
+C16,Import substitution industrialisation was mainstream economic policy across South Asia and developing world in 1960s-1970s,ANALYSIS,"Historical consensus — no single source required; consistent with development economics literature","",yes
+C17,USSR assisted India's Bhilai and Bokaro steel plants under similar arrangements,VERIFIED,"Historical record — well established in multiple sources",multiple,yes
+C18,PSM operated under administered pricing — government set prices not market,ANALYSIS,"Consistent with structure of Pakistani public enterprises in that era; referenced in multiple Pakistan economic history sources","",yes
+C19,PSM had no direct domestic competitor for primary steel in its early operating life,ANALYSIS,"Consistent with Pakistan steel sector history — private re-rolling sector developed in 1980s-1990s",multiple,yes
+C20,Private re-rolling mills use scrap steel not iron ore giving lower capital cost and overhead,ANALYSIS,"Structural difference between integrated mills and re-rollers — documented in Pakistan steel sector analysis",multiple,yes
+C21,Private re-rollers could produce construction steel at a cost PSM could not match,REPORTED,"Business Recorder, multiple reports from late 1990s and 2000s on PSM cost competitiveness",multiple,partial
+C22,Government approved a Rs 18.5 billion bailout for PSM turnaround in 2014,REPORTED,"Search results referencing PIDE and press reports — PIDE website blocked during research","",partial
+C23,PSM break-even threshold was 77% capacity utilisation,REPORTED,"Press reports referencing government/ministry targets","","partial"
+C24,PSM was operating at approximately 33% of designed capacity at the time of shutdown,REPORTED,"Pakistani press — multiple sources consistent","",partial
+C25,ECC approved retrenchment of all 9350 remaining employees in June 2020,VERIFIED,"Dawn, reporting on June 2020 ECC decision",multiple,yes
+C26,4544 employees were sacked in November 2020,VERIFIED,"Dawn / Tribune / SAMAA — consistent across outlets",multiple,yes
+C27,Pakistan imports iron and steel products at a cost exceeding US$3 billion annually,REPORTED,"COMTRADE database 2024 figure cited by search results; finished steel $2.062B Jul-May FY2024","",partial
+C28,PSM assets were valued at Rs 83 billion in 2023,REPORTED,"Ministry of Industries / search results — not confirmed via direct document access","",partial
+C29,PSM gas obligations to SSGC were Rs 33.5 billion as of June 2023,REPORTED,"Business Recorder / search results","",partial
+C30,PSM cost of production exceeded the price it could charge in the domestic market before shutdown,ANALYSIS,"Below-break-even operation confirmed by Rs 18.5B bailout attempt and 33% capacity at shutdown; no specific per-tonne figure available","",yes
+C31,Pakistan imports more steel now than at any point in its history,ANALYSIS,"Supported by COMTRADE/PBS trend data and absence of domestic primary steel production since 2015; exact peak year not verified","",partial
