@@ -146,7 +146,9 @@ does not belong in the script.
   assets. Animated in-video graphics belong in Remotion, not Canva.
 - `tools/` — automation scripts (`topic_generator.py`) and shared research
   templates, with dependencies in `requirements.txt`.
-- `research/` — research briefs, claim ledgers, and source registers per episode.
+- `research/` — research briefs, claim ledgers, source registers, audits, verification
+  queues, and footage queues per episode. See `.claude/rules/verification-queue.md`
+  for the queue format used to hand off unresolved claims and footage to a human.
 - `docs/editorial/` — detailed prose, storytelling, and structure guidelines.
 - `docs/templates/` — reusable document templates.
 

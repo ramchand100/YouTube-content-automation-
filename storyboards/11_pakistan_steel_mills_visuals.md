@@ -28,7 +28,7 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 
 **[00:00 – 00:12] FOOTAGE F001 — cold open: idle industrial site**
 - Shot: aerial drone footage of a deserted, rusted factory complex — industrial decay, no activity. Adjust cut from "wide-then-push" to a slow aerial descent/hold, matching the actual clip's camera movement.
-- Source: Pexels — `pexels.com/video/aerial-shot-of-an-abandoned-factory-854412/`. Free to use, commercial OK, no attribution required. [RIGHTS: CLEARED — see clip_id F001 in sources CSV]
+- Source: Pexels — `pexels.com/video/aerial-shot-of-an-abandoned-factory-854412/`. Licence type confirmed: free to use, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see clip_id F001 in sources CSV and F-001 in the footage queue]
 - Fallback: GRAPHIC — single still photograph or Remotion frame showing PSM site schematic. Text card: "BIN QASIM, KARACHI" on `#F8F9FA`.
 - Sound: ambient only — wind, distant machinery hum if available. No music, no voiceover. Silence frames the scale.
 - HOLD: 12 seconds static wide shot.
@@ -166,7 +166,7 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 
 **[07:10 – 07:55] FOOTAGE F004 — industrial steel yard / re-rolling operation**
 - Shot: active metal recycling/scrap yard. Contrast with the idle PSM footage from the open — this steel is moving.
-- Source: Pixabay — `pixabay.com/videos/scrap-recycling-recovery-metal-223170/`. Pixabay Content License, commercial OK, no attribution required. [RIGHTS: CLEARED — clip_id F004]
+- Source: Pixabay — `pixabay.com/videos/scrap-recycling-recovery-metal-223170/`. Licence type confirmed: Pixabay Content License, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see F-004 in the footage queue]
 - Fallback: GRAPHIC — split-screen text card: "RE-ROLLING SECTOR (active)" vs. "PSM (idle)". Same frame, same composition.
 - Voiceover: *"Through the 1980s and 1990s, the global steel market changed…"*
 - HOLD: run for voiceover duration (~45s).
@@ -234,7 +234,7 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 
 **[12:00 – 12:45] FOOTAGE F005 — active construction: Pakistan buying imported steel**
 - Shot: workers reinforcing a concrete structure at an outdoor building site. The construction sector that has no domestic primary steel alternative.
-- Source: Pexels — `pexels.com/video/construction-workers-on-building-site-35631533/`. Free to use, commercial OK, no attribution required. [RIGHTS: CLEARED — clip_id F005]
+- Source: Pexels — `pexels.com/video/construction-workers-on-building-site-35631533/`. Licence type confirmed: free to use, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see F-005 in the footage queue]
 - Fallback: GRAPHIC — text card: "Pakistan's construction sector, infrastructure projects, and manufacturing base buy steel. They buy it from importers."
 - Voiceover: *"Pakistan's construction sector, infrastructure projects, and manufacturing base buy steel…"*
 - HOLD: run for voiceover duration (~45s).
@@ -295,7 +295,7 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 
 **[16:30 – 17:30] FOOTAGE F006 — port and steel cargo**
 - Shot: aerial drone footage of cargo container ships and crane activity at a busy port. Representing the continuing import dependency — steel arriving from abroad that PSM was supposed to replace.
-- Source: Pexels — `pexels.com/video/cargo-container-ships-in-port-3840442/`. Free to use, commercial OK, no attribution required. [RIGHTS: CLEARED — clip_id F006]
+- Source: Pexels — `pexels.com/video/cargo-container-ships-in-port-3840442/`. Licence type confirmed: free to use, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see F-006 in the footage queue]
 - Fallback: GRAPHIC — animated map showing steel import routes from China, Ukraine, and other origins into Karachi port. `#F8F9FA` canvas with `#D32F2F` import arrows.
 - Voiceover: *"None of these paths is simple… Each requires a specific constituency to absorb a real cost…"*
 - HOLD: run for voiceover duration (~60s).
@@ -387,12 +387,18 @@ The following cues must be added to `research/source-registers/11_pakistan_steel
 
 | clip_id | description | source | licence | url | cleared | fallback |
 |---------|-------------|--------|---------|-----|---------|----------|
-| F001 | Dormant industrial facility exterior — idle machinery, empty yard | Pexels | Pexels Licence | pexels.com/video/aerial-shot-of-an-abandoned-factory-854412/ | yes | GRAPHIC: PSM schematic + "BIN QASIM, KARACHI" text card |
+| F001 | Dormant industrial facility exterior — idle machinery, empty yard | Pexels | Pexels Licence (type confirmed) | pexels.com/video/aerial-shot-of-an-abandoned-factory-854412/ | candidate | GRAPHIC: PSM schematic + "BIN QASIM, KARACHI" text card |
 | F002 | Industrial machinery interiors — furnaces, pipes, cranes, empty halls | — | — | — | no (GRAPHIC primary) | GRAPHIC: annotated integrated mill schematic — no idle-equipment clip found that didn't contradict the voiceover |
 | F003 | 1970s industrial construction context footage | Pixabay / Pexels | — | — | no (GRAPHIC primary) | GRAPHIC: founding logic text card (three bullet points) |
-| F004 | Steel scrap yard or rebar construction footage | Pixabay | Pixabay Content License | pixabay.com/videos/scrap-recycling-recovery-metal-223170/ | yes | GRAPHIC: re-roller vs. PSM split-screen card |
-| F005 | Active construction site — rebar placement, structural steel | Pexels | Pexels Licence | pexels.com/video/construction-workers-on-building-site-35631533/ | yes | GRAPHIC: text card explaining import dependency |
-| F006 | Port cranes or cargo ships — representing import dependency | Pexels | Pexels Licence | pexels.com/video/cargo-container-ships-in-port-3840442/ | yes | GRAPHIC: animated import route map from origin countries to Karachi |
+| F004 | Steel scrap yard or rebar construction footage | Pixabay | Pixabay Content License (type confirmed) | pixabay.com/videos/scrap-recycling-recovery-metal-223170/ | candidate | GRAPHIC: re-roller vs. PSM split-screen card |
+| F005 | Active construction site — rebar placement, structural steel | Pexels | Pexels Licence (type confirmed) | pexels.com/video/construction-workers-on-building-site-35631533/ | candidate | GRAPHIC: text card explaining import dependency |
+| F006 | Port cranes or cargo ships — representing import dependency | Pexels | Pexels Licence (type confirmed) | pexels.com/video/cargo-container-ships-in-port-3840442/ | candidate | GRAPHIC: animated import route map from origin countries to Karachi |
+
+"Candidate" means: licence *type* is confirmed (Pexels/Pixabay site-wide terms), but
+the clip's actual visual content has not been watched by a human or by Claude — a
+page title/description is not an inspection. See `research/footage-queues/
+11_pakistan_steel_mills_footage-queue.md` for the F-XXX tickets an editor should
+work through before any of these move to EDITOR VERIFIED / cleared=yes.
 
 **Do not use:**
 - PSM corporate footage or news coverage (Pakistani TV networks: Geo, ARY, Hum, Dawn News)
@@ -433,4 +439,4 @@ The following cues must be added to `research/source-registers/11_pakistan_steel
 - Colour language consistent throughout: `#1EB53A` = target / milestone / what was intended. `#D32F2F` = cost / gap / failure / decline. Viewers learn this language across episodes.
 - Cut rhythm: every graphic cut falls on a sentence end or a breath pause. Voiceover sets the cut point — visuals do not drive the edit.
 - Export: 1080p minimum, 4K preferred. Audio: -14 LUFS integrated, -1 dBTP true peak.
-- Footage rights: F001, F004, F005, F006 cleared with live clip URLs (2026-08-22 — verified via page-content fetch, not frame-by-frame viewing; a final visual spot-check before render is standard practice but not blocking). F002 and F003 run as GRAPHIC primary — no suitable idle-equipment / vintage-1970s CC0 clip exists that doesn't contradict the voiceover. See `research/source-registers/11_pakistan_steel_mills_sources.csv` for full notes.
+- Footage rights: F001, F004, F005, F006 have CANDIDATE clips with confirmed licence type and live URLs (2026-08-22), but are NOT yet cleared — an editor must actually watch each clip and confirm content before use; see `research/footage-queues/11_pakistan_steel_mills_footage-queue.md` for the per-clip tickets. F002 and F003 run as GRAPHIC primary — no suitable idle-equipment / vintage-1970s CC0 clip exists that doesn't contradict the voiceover. See `research/source-registers/11_pakistan_steel_mills_sources.csv` for full notes.
