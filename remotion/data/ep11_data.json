@@ -1,0 +1,57 @@
+{
+  "episode": 11,
+  "title": "The Factory That Stopped Making Steel",
+  "openingContrast": {
+    "leftLabel": "STEEL PRODUCED (2024)",
+    "leftValue": "0 tonnes",
+    "rightLabel": "ACCUMULATED LOSSES",
+    "rightValue": "Rs 245.9 billion",
+    "source": "AGP Audit Report, June 2026"
+  },
+  "lossTrajectory": {
+    "startYear": "FY2008-09",
+    "startValue": "Rs 16.9B",
+    "endYear": "FY2023-24",
+    "endValue": "Rs 245.9B",
+    "delta": "+1,355%",
+    "deltaNote": "ESTIMATE — calculated",
+    "source": "AGP Audit Report, June 2026"
+  },
+  "shutdownEvent": {
+    "date": "June 10, 2015",
+    "trigger": "SSGC cuts gas supply",
+    "amountOwed": "Rs 19 billion",
+    "source": "Dawn / Express Tribune, 2015"
+  },
+  "timeline": [
+    { "year": "Jan 1971", "event": "Pakistan-USSR agreement signed", "colour": "neutral" },
+    { "year": "Dec 30, 1973", "event": "Foundation stone laid by PM Bhutto", "colour": "neutral" },
+    { "year": "April 1981", "event": "Full operations commenced", "colour": "green" },
+    { "year": "June 10, 2015", "event": "Shutdown — SSGC gas cutoff", "colour": "red" }
+  ],
+  "breakEven": {
+    "targetPct": 77,
+    "achievedPct": 33,
+    "bailoutAmt": "Rs 18.5 billion",
+    "source": "REPORTED — VERIFY via PIDE or Ministry of Industries before rendering"
+  },
+  "doubleCost": {
+    "importBill": "$3 billion+",
+    "finishedSteelEstimate": "3-4 million tonnes/year",
+    "annualLoss": "Rs 25.5B (FY2023-24)",
+    "payroll": "Rs 936M (FY2024-25)",
+    "interest": "Rs 20B+ annual",
+    "sources": {
+      "imports": "COMTRADE 2024 — VERIFY via PBS before rendering",
+      "losses": "AGP Audit Report, June 2026",
+      "payroll": "ProPakistani, citing ECC, January 2025",
+      "interest": "REPORTED — VERIFY via Ministry of Finance before rendering"
+    }
+  },
+  "scCitation": "PLD 2006 SC 697, June 23, 2006",
+  "govLoans": {
+    "amount": "Rs 106.2 billion",
+    "period": "2013-2025",
+    "source": "AGP Audit Report, June 2026"
+  }
+}
