@@ -75,13 +75,14 @@ Use this exact format:
 - Why it is strongest: [one paragraph]
 - Central question: [one sentence]
 - Thesis to test: [one sentence]
-- Recommended template: A (Macro/Institutions) | B (Company) | C (Structural)
-- Proposed five-section structure:
-  - Section 1: The Anomaly — [specific opening scene or anomaly]
-  - Section 2: [template-appropriate name] — [focus]
-  - Section 3: [template-appropriate name] — [focus]
-  - Section 4: [template-appropriate name] — [focus]
-  - Section 5: The Verdict — [what changes, who it matters to]
+- Story logic: [one of: Causal | Chronological | Financial | Institutional | Comparative | Operational | Regulatory | Company case study | Decision-focused | Structural/historical | combination]
+- Rationale for logic: [one sentence — why does this story type fit this angle?]
+- Proposed part count: [N] — [one sentence justifying the count from the story logic, not from a default]
+- Proposed structure:
+  - Part 1: [Name] — [Opening function: concrete anomaly or consequence that creates the central question]
+  - Part 2: [Name] — [focus]
+  [add or remove parts as the logic requires — do not default to five]
+  - Part N: [Name] — [Closing function: defensible finding, what would need to change, who this matters to]
 - Research gaps: [what must be confirmed before scripting]
 - Main counterargument: [strongest objection to the thesis]
 - Deliberate exclusions: [what this angle does not cover and why]
