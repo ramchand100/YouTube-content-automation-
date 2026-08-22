@@ -5,6 +5,16 @@ It supplements `CLAUDE.md`, which takes precedence on any conflict.
 
 ---
 
+## Examples in this file
+
+Examples below are illustrative, not templates.
+
+Do not copy the rhythm, sentence count, emotional temperature, or wording of an
+example unless the topic genuinely requires it. The writer must generate a fresh
+opening appropriate to the documented event and approved angle.
+
+---
+
 ## Core principle
 
 The script must be an evidence-based story, not a research summary.
