@@ -79,12 +79,14 @@ use `## SECTION N — [Name]` headings. Do not use the legacy format by default.
 
 ## Opening section rhythm (non-negotiable)
 
-- Short, punchy sentences (under 15 words each for the opening).
-- Echo a key word or phrase across two or three consecutive sentences.
-- Include a transitional sentence: "That [X] was not an accident."
-- Open on a documented concrete event, decision, filing, or institutional anomaly.
-- Close with the single central question in plain English.
+- Open on a documented concrete event, decision, filing, price, shutdown, or institutional anomaly.
+- Begin with the strongest documented anomaly or consequence available.
+- Use sentence-length variation naturally. Short sentences for weight; do not force a sequence of fragments.
+- Do not use formulaic transitions such as "That was not an accident," "That was not a coincidence," or "The numbers tell the story." If the evidence points to a causal chain, explain it directly.
+- Close the opening section with the central question in a natural sentence.
 - Never open on a fictional character, invented scene, or unverifiable anecdote.
+
+See `docs/editorial/storytelling.md` — Opening rhythm for full guidance.
 
 ## No-repetition rule
 

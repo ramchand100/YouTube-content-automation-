@@ -273,7 +273,11 @@ def check_opening_section(sections: list[dict]) -> list[tuple]:
     s1 = sections[0]
     body = s1["body"]
 
-    sentences = re.split(r"(?<=[.!?])\s+", body.strip())
+    # Strip annotation tags before checking sentence length so [VERIFY ...] and
+    # [SOURCE: ...] notes don't inflate the word count of narration sentences.
+    body_stripped = re.sub(r"\[(?:VERIFY|SOURCE|ANALYSIS|REPORTED|ESTIMATE)[^\]]*\]",
+                           "", body, flags=re.IGNORECASE).strip()
+    sentences = re.split(r"(?<=[.!?])\s+", body_stripped)
     long_sentences = [s for s in sentences[:10] if len(s.split()) > 25]
     if long_sentences:
         for s in long_sentences:
@@ -281,15 +285,16 @@ def check_opening_section(sections: list[dict]) -> list[tuple]:
                             f"Long sentence in opening ({len(s.split())} words): "
                             f"'{s[:80]}...'"))
 
-    transition_patterns = [
+    formulaic_patterns = [
         r"was not an accident", r"was not a coincidence", r"did not appear by itself",
-        r"this was not", r"that was not",
+        r"the numbers tell the story", r"but the real story is",
+        r"you will not believe", r"this changes everything",
     ]
-    has_transition = any(re.search(p, body, re.IGNORECASE) for p in transition_patterns)
-    if not has_transition:
-        issues.append(("WARN", f"Part {s1['n']} (opening)",
-                        "No transitional echo sentence found "
-                        "('That [X] was not an accident' or equivalent)."))
+    for fp in formulaic_patterns:
+        if re.search(fp, body, re.IGNORECASE):
+            issues.append(("WARN", f"Part {s1['n']} (opening)",
+                            f"Formulaic phrase found in opening: '{fp}'. "
+                            "See docs/editorial/storytelling.md — Opening rhythm."))
 
     question_pattern = re.compile(r"[A-Z][^.!?]*\?", re.MULTILINE)
     questions = question_pattern.findall(body)
@@ -338,11 +343,15 @@ def check_cliches(text: str) -> list[tuple]:
 
 def check_em_dashes(text: str) -> list[tuple]:
     issues = []
-    count = text.count("—")
-    if count > 0:
+    # Strip annotation brackets ([VERIFY ...] and [SOURCE: ...]) before counting
+    # so em dashes used inside research notes do not inflate the narration count.
+    stripped = re.sub(r"\[(?:VERIFY|SOURCE)[^\]]*\]", "", text, flags=re.IGNORECASE)
+    count = stripped.count("—")
+    if count > 5:
         issues.append(("WARN", "Language",
-                        f"Found {count} em dash(es). Replace with comma or period "
-                        "where possible (CLAUDE.md section 4)."))
+                        f"Found {count} em dash(es) in narration (annotations excluded). "
+                        "Avoid em dashes where a comma or period will do "
+                        "(docs/editorial/prose-style.md)."))
     return issues
 
 
@@ -368,7 +377,7 @@ def check_repetition(sections: list[dict]) -> list[tuple]:
 def check_sourcing(text: str, sections: list[dict]) -> list[tuple]:
     issues = []
     source_tag_count = len(re.findall(r"\[SOURCE:", text, re.IGNORECASE))
-    verify_count = len(re.findall(r"\[VERIFY\]", text, re.IGNORECASE))
+    verify_count = len(re.findall(r"\[VERIFY\b", text, re.IGNORECASE))
 
     number_pattern = re.compile(
         r"(?:Rs\.?\s*[\d,.]+\s*(?:billion|million|crore|trillion)?|"
