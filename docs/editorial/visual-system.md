@@ -30,19 +30,24 @@ Do not use palette colours for decorative purposes. Each colour carries meaning.
 
 ---
 
-## Motion graphics
+## Graphics tool policy
 
-Generated with **Remotion** (React). Episode data lives in `remotion/data/` as
-JSON files (`epNN_data.json`).
+**Remotion** is the primary system for all animated in-video graphics, data
+visualisations, timelines, maps, diagrams, animated labels, and reusable motion
+components. Episode data lives in `remotion/data/epNN_data.json`. Claude may create
+and modify Remotion compositions using that JSON.
 
----
+**Canva** is the primary system for thumbnails, static promotional graphics, social
+assets, title cards, and designs requiring fast manual layout or collaboration.
 
-## Footage assembly
-
-Assembled in **CapCut**. The editor adds B-roll at `[FOOTAGE ...]` cues from the
-matching storyboard file.
+**CapCut** is used for final footage assembly, narration, music, captions, and
+placement of Remotion exports at storyboard timecodes. The editor adds B-roll at
+`[FOOTAGE ...]` cues from the matching storyboard file.
 
 Footage cues live in storyboards only. They never appear inside the script.
+
+Do not recreate a Remotion data visualisation manually in Canva unless the graphic
+is static and does not require timing, animation, or data-driven updates.
 
 ---
 

@@ -52,8 +52,19 @@ When referencing episodes 01–05 visuals, note the palette divergence.
 - Avoid stock-photo faces; prefer motion-graphic data visuals or abstract
   representations of the topic.
 
-## Production toolchain
+## Graphics tool policy
 
-- **Remotion** — motion-graphic sequences (React/JSON data-driven)
-- **CapCut** — final assembly: Remotion MP4 exports + voiceover + B-roll
-- **After Effects** — complex pre-comps referenced in storyboards
+**Remotion** is the primary system for all animated in-video graphics, data
+visualisations, timelines, maps, diagrams, animated labels, and reusable motion
+components.
+
+Claude may create and modify Remotion compositions using episode-specific JSON data.
+
+**Canva** is the primary system for thumbnails, static promotional graphics, social
+assets, title cards, and designs requiring fast manual layout or collaboration.
+
+**CapCut** is used for final footage assembly, narration, music, captions, and
+placement of Remotion exports at storyboard timecodes.
+
+Do not recreate a Remotion data visualisation manually in Canva unless the graphic
+is static and does not require timing, animation, or data-driven updates.
