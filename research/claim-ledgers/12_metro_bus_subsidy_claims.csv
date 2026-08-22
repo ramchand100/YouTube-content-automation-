@@ -1,0 +1,44 @@
+claim_id,claim_text,classification,source,url,verified
+C001,Lahore Metro Bus opened February 11 2013,REPORTED,Wikipedia/general reference,https://en.wikipedia.org/wiki/Lahore_Metrobus,partial
+C002,Lahore Metro Bus capital cost was Rs 29.65 billion (Rs 29.61bn per Punjab Transport Department),REPORTED,Express Tribune coverage of AGP findings,https://tribune.com.pk/story/1309164/worth-millions-agp-reports-payments-lahore-metro-bus-project,partial
+C003,AGP found overpayments of Rs 318.68 million during Lahore Metro Bus construction,REPORTED,Express Tribune,https://tribune.com.pk/story/1309164/worth-millions-agp-reports-payments-lahore-metro-bus-project,partial
+C004,Lahore Metro Bus current fare is Rs 30 per trip,VERIFIED,Punjab Masstransit Authority fare policy page,https://pma.punjab.gov.pk/fare-policy,yes
+C005,Lahore Metro Bus ridership is approximately 135000/day (2024),REPORTED,Punjab Masstransit Authority (cited via press),https://en.wikipedia.org/wiki/Lahore_Metro,partial
+C006,Lahore Metro Bus annual subsidy is Rs 2.75 billion (Nov 2025 report),REPORTED,undated November 2025 aggregate report,,partial
+C007,Lahore Metro Bus annual subsidy was Rs 4.25 billion in an earlier (c.2016-18) period,REPORTED,PIDE "Exposing the Metro Bus Scheme" era estimate,https://pide.org.pk/blog/exposing-the-metro-bus-scheme/,partial
+C008,Orange Line Metro Train (OLMT) inaugurated October 25 2020,REPORTED,general press coverage,,partial
+C009,OLMT capital cost approximately Rs 162 billion,UNRESOLVED,AI-generated social media post (X/Grok) — DISCARDED as invalid source,,no
+C010,OLMT-Metrobus transfer fare is Rs 25-45 by distance,VERIFIED,Punjab Masstransit Authority fare policy page,https://pma.punjab.gov.pk/fare-policy,yes
+C011,OLMT break-even fare per passenger is Rs 171 (Rs128 loan service + Rs43 operating) vs Rs65 for Metro Bus,REPORTED,Express Tribune - OLMT revenue shortfall coverage,https://tribune.com.pk/story/2282693/olmts-revenue-shortfall-soars,partial
+C012,OLMT fare revenue covers approximately 24% of operating costs,REPORTED,Express Tribune,https://tribune.com.pk/story/2282693/olmts-revenue-shortfall-soars,partial
+C013,OLMT annual subsidy is Rs 7-8 billion (2025-26),REPORTED,press aggregate reporting,,partial
+C014,Punjab government projected to bear Rs 193 billion subsidy on OLMT over 20 years,REPORTED,Express Tribune,https://tribune.com.pk/story/2163466/punjab-govt-bear-rs193b-subsidy-olmt-20-years,partial
+C015,OLMT/Green Line Lahore combined ridership 250000+/day (2026 figures),UNRESOLVED,press aggregate — unclear if OLMT alone or combined with Green Line,,no
+C016,Islamabad/Rawalpindi Metro Bus Red Line opened June 4 2015,REPORTED,Wikipedia/general reference,https://en.wikipedia.org/wiki/Rawalpindi-Islamabad_Metrobus,partial
+C017,Islamabad Metro Bus (Rawalpindi-Islamabad line) capital cost approximately Rs 46 billion,REPORTED,PIDE "Exposing the Metro Bus Scheme",https://pide.org.pk/blog/exposing-the-metro-bus-scheme/,partial
+C018,Islamabad Metro Bus original ridership target was 150000/day; actual ridership two years after launch (2016) was 80000/day,REPORTED,PIDE "Exposing the Metro Bus Scheme",https://pide.org.pk/blog/exposing-the-metro-bus-scheme/,partial
+C019,Islamabad Metro Bus current ridership approximately 85000+/day (2025),REPORTED,press aggregate reporting,,partial
+C020,Islamabad Metro Bus current fare is Rs 50/trip after a June 2025 hike to Rs100 was rolled back by PM order,REPORTED,ProPakistani / Dawn / Profit by Pakistan Today (multiple outlets),https://propakistani.pk/2025/06/01/cda-announces-100-increase-in-ticket-prices-of-metro-and-electric-buses-in-islamabad/,partial
+C021,At Rs50 fare CDA annual expenses are Rs5.12 billion vs revenue Rs1.46 billion producing a Rs3.66 billion annual subsidy,REPORTED,Profit by Pakistan Today,https://profit.pakistantoday.com.pk/2025/06/02/cda-increases-electric-bus-fares-from-rs50-to-rs100-per-ride-for-islamabad-commuters/,partial
+C022,CDA pays the Metro Bus operating contractor approximately Rs350/km,REPORTED,press aggregate reporting,,partial
+C023,Peshawar BRT inaugurated August 13 2020,REPORTED,Wikipedia/general reference,https://en.wikipedia.org/wiki/TransPeshawar,partial
+C024,Peshawar BRT capital cost escalated from Rs49.453 billion (2017 PC-1) to Rs70.7-71 billion (2019-2020),REPORTED,Dawn — multiple reports 2018-2020,https://www.dawn.com/news/1535774,partial
+C025,Supreme Court found Peshawar BRT cost rose 17% over an unspecified baseline,UNRESOLVED,Express Tribune,https://tribune.com.pk/story/2178309/sc-says-peshawar-brt-cost-rose-17,partial
+C026,Peshawar BRT current fare is Rs28/trip against an operating cost of Rs80/passenger with a Rs50/passenger subsidy,REPORTED,press aggregate reporting (thenews.com.pk / Geo.tv),https://www.thenews.com.pk/latest/1178621-increase-in-brt-peshawar-fare-on-cards-to-cut-billions-of-rupees-loss,partial
+C027,Peshawar BRT annual subsidy is Rs4 billion raised to Rs5 billion as of July 2025,REPORTED,press aggregate reporting,,partial
+C028,Peshawar BRT annual loss exceeded Rs6 billion as of April 2024,REPORTED,press aggregate reporting,,partial
+C029,Peshawar BRT monthly electricity and diesel cost exceeds Rs200 million,REPORTED,press aggregate reporting,,partial
+C030,Multan Metrobus capital cost is Rs29 billion,REPORTED,press aggregate reporting (2018-era),,partial
+C031,Multan Metrobus current fare per Punjab Masstransit Authority is Rs25/trip,VERIFIED,Punjab Masstransit Authority fare policy page,https://pma.punjab.gov.pk/fare-policy,yes
+C032,Multan Metrobus fare due to rise to Rs40 (33% increase) from March 26 2026,UNRESOLVED,press report — conflicts with C031 (PMA site still shows Rs25 as of research date 2026-08-22),,partial
+C033,Multan Metrobus annual subsidy is Rs2.1 billion (2018 report — likely stale),REPORTED,press aggregate reporting,,partial
+C034,Combined Lahore + Rawalpindi/Islamabad + Multan metro bus ridership is approximately 331000/day,REPORTED,press aggregate reporting,,partial
+C035,Karachi Green Line BRT commercial operations began December 25 2021 (PM inauguration December 10 2021),REPORTED,press aggregate reporting (Express Tribune / The News / Nation),https://tribune.com.pk/story/2331479/karachi-green-line-will-become-operational-from-dec-25-umar,partial
+C036,Karachi Green Line fare ranges Rs15-55 by distance with the Rs55 maximum reflecting a federal subsidy,REPORTED,press aggregate reporting,,partial
+C037,Karachi Green Line ridership target is 135000/day initially rising to 300000+/day at full capacity,REPORTED,press aggregate reporting,,partial
+C038,Sindh government allocated Rs1 billion to hold Green Line fare level for four months (March-June 2025),REPORTED,Dawn,https://www.dawn.com/news/1896926,partial
+C039,Combined annual subsidy across Lahore Orange Line + Lahore Metro Bus + feeder buses + Rawalpindi/Islamabad + Multan systems is Rs21 billion (Nov 2025 report),REPORTED,undated November 2025 aggregate report,,partial
+C040,Fares across these systems cover approximately 24% of operating and maintenance cost,REPORTED,press aggregate reporting,,partial
+C041,"PIDE: Pakistan Metrobus system cost is 65% higher than international benchmark; needs additional Rs71 billion to keep running through 2035; cannot cover half its operating cost",REPORTED,PIDE "Exposing the Metro Bus Scheme",https://pide.org.pk/research/exposing-the-metro-bus-scheme/,partial
+C042,US national average farebox recovery ratio was 16% in 2024; North American typical range 20-30%; European median ~44%; Canada ~56%; Asia median ~137% (skewed by Hong Kong MTR and Singapore),REPORTED,TransitWiki / Eno Center for Transportation (transit-industry sources),https://www.transitwiki.org/TransitWiki/index.php/Farebox_Recovery_Ratio,partial
+C043,Karachi Green Line fare-support subsidy annualises to approximately Rs3 billion/year (Claude's calculation from the reported Rs1bn/4-month figure — not itself a reported annual figure),ESTIMATE,derived from S13 (Dawn),https://www.dawn.com/news/1896926,partial
