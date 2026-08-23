@@ -127,7 +127,7 @@ Pakistan Steel Mills is a state-owned integrated steel facility at Bin Qasim, Ka
 
 ## Broad subject
 
-Public transport in Pakistan spans a fractured system — collapsed municipal bus networks, politically prestigious Metro Bus/BRT corridors, and a large informal sector that fills the gaps the state doesn't. This episode isolates one mechanism: the fiscal economics of the flagship Metro Bus/BRT systems specifically.
+Public transport in Pakistan spans a fractured system — collapsed municipal bus networks, high-profile Metro Bus/BRT corridors, and a large informal sector that fills the gaps the state doesn't. This episode isolates one mechanism: the fiscal economics of the flagship Metro Bus/BRT systems specifically.
 
 ---
 
@@ -138,9 +138,9 @@ Public transport in Pakistan spans a fractured system — collapsed municipal bu
 | Field | Content |
 |-------|---------|
 | Lens | Hidden subsidy / cost transfer · Institutional incentive conflict · Policy versus ground reality |
-| One-sentence framing | Pakistan's flagship Metro Bus/BRT systems deliver a visible political win at opening, but the fare is set below the true cost of operation from day one — turning a celebrated infrastructure launch into a compounding, largely invisible fiscal liability. |
+| One-sentence framing | Pakistan's flagship Metro Bus/BRT systems deliver a highly visible, popular launch, but the fare is set below the true cost of operation from day one — turning a celebrated infrastructure launch into a compounding, largely invisible fiscal liability. |
 | Central question | Do Pakistan's flagship Metro Bus/BRT systems (Lahore, Islamabad, Peshawar) solve urban mobility, or are they subsidy commitments governments underprice at launch and cannot sustain? |
-| Tentative thesis | The same underpricing-becomes-permanent-liability mechanism already documented in PSM and PIA applies to urban transit: each system's fare was set for political acceptability rather than cost recovery, and the resulting subsidy gap compounds rather than shrinks over time. |
+| Tentative thesis | The same underpricing-becomes-permanent-liability mechanism already documented in PSM and PIA applies to urban transit: each system's fare was set low enough to be popular at launch, not high enough to cover its running cost, and the resulting subsidy gap compounds rather than shrinks over time. |
 | Main entities and institutions | Punjab Metro Bus Authority, KP BRT (TransPeshawar), Islamabad Metro (CDA), Sindh/Karachi Green Line administration, provincial finance departments, provincial transport departments |
 | Evidence required | Farebox recovery ratio and annual subsidy by system; capital cost at launch vs. actual; current ridership by system; an internationally-recognised farebox-recovery benchmark for context |
 | Pakistani economic relevance | Multiple provinces are actively expanding or proposing new BRT/Metro corridors — the fiscal pattern established by existing systems directly shapes what taxpayers are committing to going forward |
@@ -163,7 +163,7 @@ Public transport in Pakistan spans a fractured system — collapsed municipal bu
 - **Recommended story logic:** Financial + Institutional (combination)
 - **Proposed four-part structure:**
   - Part 1 — The Ticket That Costs More Than It Says: open on one system's actual subsidy-per-ride figure next to its fare price.
-  - Part 2 — Why They Get Built This Way: the political logic of a flagship transit launch — visible benefit now, subsidy cost deferred to future budgets.
+  - Part 2 — Why They Get Built This Way: the institutional logic of a flagship transit launch — visible benefit now, subsidy cost deferred to future budgets.
   - Part 3 — The Subsidy Mechanics, System by System: comparative look at Lahore Metro Bus, Islamabad Metro, and Peshawar BRT — how each fare was set and why the gap grows.
   - Part 4 — What Pakistan Pays, and What Breaks If It Doesn't: aggregate fiscal exposure, sustainability as more cities want their own system, and honest engagement with the counterargument that transit subsidies are normal worldwide.
 

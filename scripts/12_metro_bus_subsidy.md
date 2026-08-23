@@ -6,7 +6,7 @@ title: "The Ride That Costs More Than the Ticket"
 topic: Public Transport — Pakistan's Metro Bus / BRT systems
 approved_angle: "The Metro Bus Subsidy Machine"
 central_question: "Do Pakistan's flagship Metro Bus and BRT systems solve urban mobility, or are they subsidy commitments governments underprice at launch and cannot sustain?"
-thesis: "Each system's fare was set for political acceptability rather than cost recovery at launch, and the resulting subsidy gap has grown, not shrunk, as more systems came online."
+thesis: "Each system's fare was set low enough to be popular at launch, not high enough to cover its running cost, and the resulting subsidy gap has grown, not shrunk, as more systems came online."
 story_logic: Financial + Institutional
 structure_type: flexible
 section_count: 4
@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-22
 data_cutoff_date: 2026-08-22
 freshness_status: fare figures confirmed against Punjab Masstransit Authority's published fare policy, accessed 2026-08-22; most subsidy, cost, and ridership figures were gathered via search-result synthesis rather than direct document review and carry [VERIFY] tags pending a pre-recording verification pass
-word_count: 1847
-estimated_duration: 12 minutes
+word_count: 1916
+estimated_duration: 13 minutes
 last_verified: 2026-08-22
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-08-22
 
 ### Approved angle
 
-The Metro Bus Subsidy Machine — Pakistan's flagship Metro Bus/BRT systems deliver a visible political win at opening, but the fare is set below the true cost of operation from day one, turning a celebrated infrastructure launch into a compounding, largely invisible fiscal liability.
+The Metro Bus Subsidy Machine — Pakistan's flagship Metro Bus/BRT systems deliver a highly visible, popular launch, but the fare is set below the true cost of operation from day one, turning a celebrated infrastructure launch into a compounding, largely invisible fiscal liability.
 
 ### Central question
 
@@ -31,7 +31,7 @@ Do Pakistan's flagship Metro Bus and BRT systems solve urban mobility, or are th
 
 ### Thesis
 
-Each system's fare was set for political acceptability rather than cost recovery at launch, and the resulting subsidy gap has grown, not shrunk, as more systems came online, the same underpricing-becomes-permanent-liability mechanism this channel has already documented in state industry, now applied to urban transit.
+Each system's fare was set low enough to be popular at launch, not high enough to cover its running cost, and the resulting subsidy gap has grown, not shrunk, as more systems came online, the same underpricing-becomes-permanent-liability mechanism this channel has already documented in state industry, now applied to urban transit.
 
 ### Story logic
 
@@ -39,7 +39,7 @@ Financial and institutional. The story needs hard unit economics, fare against c
 
 ### Structure rationale
 
-Four parts. Part 1 establishes the anomaly through one system's numbers, then widens to the full picture. Part 2 explains the political mechanism that produces this pattern. Part 3 shows the mechanism repeating, system by system, across every province that has built one of these lines. Part 4 totals the national bill and tests the thesis honestly against how public transit is funded everywhere else in the world.
+Four parts. Part 1 establishes the anomaly through one system's numbers, then widens to the full picture. Part 2 explains why this pattern happens. Part 3 shows the mechanism repeating, system by system, across every province that has built one of these lines. Part 4 totals the national bill and tests the thesis honestly against how public transit is funded everywhere else in the world.
 
 ---
 
@@ -49,27 +49,27 @@ In Lahore, a ride on the Orange Line, the city's rail based metro, costs between
 
 Every passenger who buys a ticket is paying somewhere between a sixth and a quarter of what their trip costs the public. The rest is covered by the Punjab government, meaning by taxpayers who may never set foot on the Orange Line.
 
-This gap is not unique to one train in one city. It repeats, with different numbers attached, in every Pakistani city that has built a flagship bus or metro system over the past decade. Lahore has two such systems. Islamabad and Rawalpindi share one. Peshawar has one. Multan has one. Karachi's is the newest. Each was announced as a solution to traffic congestion and a symbol of a government delivering visible infrastructure. Each was also priced, from its very first day of service, below what it costs to run. Across these systems, Pakistani press reporting puts the combined annual subsidy bill at approximately twenty one billion rupees a year, just to hold fares below cost. [REPORTED: Pakistani press reporting, November 2025; a separate report cites a broadly similar but not identical figure for what may be an overlapping scope; VERIFY the precise total and its components before recording]
+This gap is not unique to one train in one city. It repeats, with different numbers attached, in every Pakistani city that has built a flagship bus or metro system over the past decade. Lahore has two such systems. Islamabad and Rawalpindi share one. Peshawar has one. Multan has one. Karachi's is the newest. Each was announced as a way to fix traffic congestion and give the city a modern piece of infrastructure people could see and use right away. Each was also priced, from its very first day of service, below what it costs to run. Across these systems, Pakistani press reporting puts the combined annual subsidy bill at approximately twenty one billion rupees a year, just to hold fares below cost. [REPORTED: Pakistani press reporting, November 2025; a separate report cites a broadly similar but not identical figure for what may be an overlapping scope; VERIFY the precise total and its components before recording]
 
-Twenty one billion rupees a year is not a one time construction cost. It is a recurring bill, paid out of general provincial budgets, year after year, with no fixed end date. The question this episode asks is not whether Pakistan should have public transport. It is whether these systems were built as public transport, or built as a subsidy that no one had to put to a vote.
+Twenty one billion rupees a year is not a one time construction cost. It is a bill that comes back every year, paid out of general provincial budgets, with no fixed end date. The question this episode asks is not whether Pakistan should have public transport. It is whether these systems were built to move people at a price that pays for itself, or built in a way that locked in a large, growing cost nobody planned for out loud.
 
 ---
 
 ## Part 2 — Why They Get Built This Way
 
-A Metro Bus or BRT project is, from a government's point of view, one of the most politically efficient investments available. It is visible. It opens with a ribbon cutting, a prime minister or chief minister riding the first bus, and a launch date a government can put its name on before the next election. The bill for running it lands on whichever government is in office years later, long after the officials who approved the original fare have moved on to other posts.
+A Metro Bus or BRT project is easy to feel good about on opening day. It is big, it is new, and it is something people can see and ride immediately, unlike a hospital budget or a tax reform that takes years to show results. The bill for running it, on the other hand, lands on whichever authority is in charge of it years later, long after the officials who approved the original fare have moved on to other jobs.
 
 Islamabad's Metro Bus makes this pattern visible in detail. When the Rawalpindi to Islamabad line opened in 2015, planners expected it to carry one hundred fifty thousand passengers a day. [SOURCE: Pakistan Institute of Development Economics, "Exposing the Metro Bus Scheme"] Two years later, it was carrying eighty thousand, roughly half the ridership the project's economics had assumed. [SOURCE: Pakistan Institute of Development Economics, "Exposing the Metro Bus Scheme"] Today, ridership sits at approximately eighty five thousand passengers a day, still well short of the original target a decade on. [REPORTED: press aggregate reporting; VERIFY current figure]
 
-The fare has proven just as hard to move as the ridership forecast was optimistic. In June 2025, the Capital Development Authority doubled the Islamabad Metro Bus fare from fifty rupees to one hundred, an attempt to close a subsidy gap that, at the old fare, was costing the authority three point six six billion rupees a year against just one point four six billion rupees in ticket revenue. [REPORTED: Profit by Pakistan Today, 2025] The new fare lasted four days before the Prime Minister ordered it reversed, and the authority restored the fifty rupee fare immediately. [REPORTED: Profit by Pakistan Today, 2025]
+The fare has proven just as hard to move as the ridership forecast was optimistic. In June 2025, the Capital Development Authority doubled the Islamabad Metro Bus fare from fifty rupees to one hundred, an attempt to close a subsidy gap that, at the old fare, was costing the authority three point six six billion rupees a year against just one point four six billion rupees in ticket revenue. [REPORTED: Profit by Pakistan Today, 2025] The new fare lasted four days before the federal government stepped in and had it reversed, and the authority restored the fifty rupee fare immediately. [REPORTED: Profit by Pakistan Today, 2025]
 
-This is what happens when the fare that makes a launch popular and the fare that would make a system solvent are two different numbers, and no government stays in office long enough, or has the political incentive, to close the gap between them.
+This is what happens when the fare that makes a launch popular and the fare that would make a system pay for itself are two different numbers. Closing that gap means charging daily riders more, and so far, no transit authority has been willing to do it and make it stick.
 
 ---
 
 ## Part 3 — The Subsidy Mechanics, System by System
 
-Lay the systems side by side and the same shape appears in each one: a construction budget that grew before the ribbon was cut, a fare set below cost at launch, and a subsidy that most riders never see itemised anywhere.
+Line the systems up side by side and the same shape appears in each one: a construction budget that grew before the system opened, a fare set below cost from day one, and a subsidy that most riders never see written down anywhere.
 
 Lahore's original Metro Bus, the oldest of the group, opened in 2013 at a construction cost of roughly twenty nine point six five billion rupees. [SOURCE: Express Tribune, reporting on Auditor-General findings] Pakistan's Auditor-General later found overpayments of just over three hundred eighteen million rupees during its construction. [SOURCE: Express Tribune] Today it carries approximately one hundred thirty five thousand passengers a day for thirty rupees a ride, and the province reports paying two point seven five billion rupees a year to keep it running. [SOURCE: Punjab Masstransit Authority, fare policy, accessed 2026; REPORTED subsidy figure, November 2025 reporting]
 
@@ -87,15 +87,17 @@ Five systems, in four cities, built by different provincial and federal authorit
 
 ## Part 4 — What Pakistan Pays, and What Breaks If It Doesn't
 
-Add the individual subsidies together and press reporting puts the combined burden, across Lahore's two systems, Islamabad's, Peshawar's, Multan's, and the feeder routes that connect them, at approximately twenty one billion rupees a year. [REPORTED, November 2025 reporting; VERIFY the precise total before using it as a confirmed figure] Karachi's Green Line, funded separately by the federal government, adds to that number rather than being part of it. Across the systems whose figures are public, fares cover roughly a quarter of what it actually costs to run these buses and trains. Government budgets cover the rest. [REPORTED]
+Add the individual subsidies together and press reporting puts the combined burden at approximately twenty one billion rupees a year. That covers Lahore's two systems, Islamabad's, Peshawar's, Multan's, and the feeder routes that connect them. [REPORTED, November 2025 reporting; VERIFY the precise total before using it as a confirmed figure] Karachi's Green Line, funded separately by the federal government, adds to that number rather than being part of it. Across the systems whose figures are public, fares cover roughly a quarter of what it actually costs to run these buses and trains. Government budgets cover the rest. [REPORTED]
 
 That fact, on its own, is not the indictment it might sound like. Public transit is subsidised almost everywhere in the world. In the United States, fares cover about sixteen percent of transit operating costs nationally. [SOURCE: Eno Center for Transportation, transit industry data] Across North America, the typical range is twenty to thirty percent. [SOURCE: TransitWiki, farebox recovery ratio data] Pakistan's systems, recovering roughly a quarter of their costs through fares, sit inside that range, not far outside it. If subsidy alone were the measure, Pakistan's Metro Bus and BRT systems would not look unusual.
 
-A small number of systems worldwide do cover their full operating cost through fares, Hong Kong and Singapore among them, but they do it through a model Pakistan's systems do not use. Their transit authorities also develop and sell the property around their stations, and use that revenue to subsidise the fare box indirectly. [REPORTED: TransitWiki, farebox recovery ratio data] Pakistan's Metro Bus and BRT authorities were not set up to capture that value. They were set up to run buses and trains, and to send the bill for the difference to the finance department every year.
+A small number of systems worldwide do cover their full running cost through fares alone, Hong Kong and Singapore among them, but they do it through a model Pakistan's systems do not use. Their transit authorities also build and sell shops and apartments around their own stations, and use that extra money to help cover the cost of running the trains. [REPORTED: TransitWiki, farebox recovery ratio data] Pakistan's Metro Bus and BRT authorities were never set up that way. They were set up to run buses and trains, and to send the bill for the difference to the finance department every year.
 
-What is unusual is what happened before the ribbon was cut and what has happened since. Construction budgets approved at one figure and finished at a higher one, in Peshawar's case by more than twenty billion rupees. Ridership forecasts, in Islamabad's case, roughly double what the system actually achieved two years after opening. And a fare that, once set at a politically comfortable level, has proven almost impossible to move, as the four day reversal of Islamabad's price increase showed. A subsidised transit system that meets its ridership targets and was honestly budgeted from the start is a normal cost of running a city. A subsidised system that missed its ridership target, cost more to build than approved, and locks in a fare no later government can safely raise is a different kind of commitment, one that compounds rather than resolves.
+What is unusual is what happened before each system opened, and what has happened since. Construction budgets were approved at one figure and finished at a higher one. In Peshawar's case, the final cost was more than twenty billion rupees above the original budget. Ridership forecasts missed badly too. In Islamabad's case, the system carried roughly half of what planners expected, two years after it opened. And once a fare is set at a level people accept, it has proven almost impossible to raise, as the four day reversal of Islamabad's price increase showed.
 
-Every province with a Metro Bus or BRT system today inherited the fare its predecessor set. None has found a way to raise that fare without a political cost that has, so far, outweighed the fiscal one. More cities want their own systems. Multan already has one. Karachi's is still expanding its routes. Other provincial capitals have floated proposals of their own. Each new line adds to a subsidy bill currently reported near twenty one billion rupees a year, a bill that has not gone down in any of these systems since it was first disclosed. Whether that total is manageable is a question no single government has had to answer in full, because no single government has been the one paying all of it. It has been passed forward, system by system, from the government that opened each line to every government that came after it.
+A subsidised transit system is not, by itself, a problem. One that meets its ridership targets and was honestly budgeted from the start is simply a normal cost of running a city, the same as roads or streetlights. A system that missed its ridership target, cost more to build than approved, and locks in a fare that cannot safely be raised is a different kind of commitment. It does not settle over time. It grows.
+
+Every province with a Metro Bus or BRT system today inherited the fare that was already in place when it took over. None has found a way to raise that fare without the kind of public pushback that gets the decision reversed, the way it did in Islamabad. More cities want their own systems. Multan already has one. Karachi's is still expanding its routes. Other provincial capitals have floated proposals of their own. Each new line adds to a subsidy bill currently reported near twenty one billion rupees a year, a bill that has not gone down in any of these systems since it was first disclosed. Whether that total is manageable is a question no single authority has had to answer in full, because no single authority has been the one paying all of it. It has been passed forward, system by system, from whoever opened each line to whoever inherited it after them.
 
 ---
 
