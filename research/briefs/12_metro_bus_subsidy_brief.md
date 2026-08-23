@@ -21,7 +21,7 @@ companion verification queue this brief will generate flags for. Do not treat
 ## Approved angle
 
 **The Metro Bus Subsidy Machine** — Pakistan's flagship Metro Bus/BRT systems deliver
-a visible political win at opening, but the fare is set below the true cost of
+a highly visible, popular launch, but the fare is set below the true cost of
 operation from day one, turning a celebrated infrastructure launch into a
 compounding, largely invisible fiscal liability.
 
@@ -35,8 +35,9 @@ underprice at launch and cannot sustain?
 
 The same underpricing-becomes-permanent-liability mechanism already documented in
 this channel's PSM and PIA episodes applies to urban transit: each system's fare
-was set for political acceptability rather than cost recovery, and the resulting
-subsidy gap has grown rather than shrunk as more systems were added.
+was set low enough to be popular at launch, not high enough to cover its running
+cost, and the resulting subsidy gap has grown rather than shrunk as more systems
+were added.
 
 ---
 

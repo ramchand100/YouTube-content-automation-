@@ -30,6 +30,8 @@ concepts only. Define each term in plain English the first time it appears.
 
 **Simple words. Full analytical depth.** Write for an intelligent viewer who
 knows little about finance or economics. Simplify the language, never the
+analysis. If an eighth-grade student or a small shop owner could not follow the
+argument on first listen, simplify the language further without cutting the
 analysis.
 
 **No undefined jargon.** When a technical term is required, define it in plain
@@ -81,7 +83,14 @@ motivational filler. Write up to their intelligence.
 5. **Fairness and safety.** Frame around documented facts and mechanics. Present
    multiple sides on contested points. Never state an unproven allegation as fact.
    This protects credibility and the creator.
-6. **Freshness.** Macro figures (SBP rate, inflation, FX, tax rates) change fast.
+6. **Neutral, non-political framing.** Describe decisions, budgets, and
+   incentives in administrative and economic terms, not as political strategy.
+   Avoid election-timing, ribbon-cutting, and campaign imagery. Do not attribute
+   motives to a named office-holder unless a specific claim requires it and is
+   directly evidenced — name the institution and describe what it did, not why
+   an individual wanted credit or blame for it. See
+   `docs/editorial/prose-style.md` for worked examples.
+7. **Freshness.** Macro figures (SBP rate, inflation, FX, tax rates) change fast.
    Re-verify all time-sensitive figures before recording. Do not reuse a stale
    number from an older episode.
 

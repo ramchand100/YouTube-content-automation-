@@ -366,7 +366,10 @@ Whenever possible, connect a structural result to a decision:
 - Was the outcome intended or unintended?
 
 Do not assign motives without evidence. Use "the effect was," "the incentive
-was," or "the policy created" when intent cannot be proven.
+was," or "the policy created" when intent cannot be proven. Describe the
+decision and its effect in administrative or economic terms, not as political
+strategy — see `docs/editorial/prose-style.md`, "Political neutrality," for
+worked examples.
 
 ---
 

@@ -51,6 +51,45 @@ Use:
 > The current arrangement leaves the system exposed if demand rises or external
 > financing becomes less available.
 
+### Political neutrality
+
+Describe decisions, budgets, and incentives in administrative and economic
+terms. Do not frame a decision as political strategy, campaign timing, or a
+named office-holder's personal motive unless a specific claim requires it and
+is directly evidenced. Institutions are the actors; describe what an
+institution did, not why an individual wanted credit or blame for it.
+
+Instead of:
+> A Metro Bus project is one of the most politically efficient investments
+> available. It opens with a ribbon cutting, a prime minister riding the first
+> bus, and a launch date a government can put its name on before the next
+> election.
+
+Use:
+> A Metro Bus project is easy to feel good about on opening day. It is big, it
+> is new, and it is something people can see and ride immediately.
+
+Instead of:
+> The new fare lasted four days before the Prime Minister ordered it reversed.
+
+Use:
+> The new fare lasted four days before the federal government stepped in and
+> had it reversed.
+
+Instead of:
+> No government has the political incentive to close the gap.
+
+Use:
+> Closing that gap means charging daily riders more, and so far no authority
+> has been willing to do it and make it stick.
+
+This does not mean omitting real institutional incentives or realistic
+obstacles — a script can and should say that raising a price triggered public
+pushback that reversed the decision. It means describing the mechanism (what
+happened, who reversed it, what the effect was) instead of the strategy
+(why a specific politician wanted the launch, what it cost them at the ballot
+box). See CLAUDE.md §4 for the underlying rule.
+
 ### Authority
 
 Sound authoritative through:
@@ -84,7 +123,9 @@ concepts. Define each term in plain English the first time it appears.
 
 Write for an intelligent viewer who knows little about finance or economics.
 
-Use simple words without simplifying the analysis.
+Use simple words without simplifying the analysis. A useful test: could a small
+shop owner or an eighth-grade student follow the argument on first listen? If
+not, simplify the language, not the analysis.
 
 Prefer:
 
