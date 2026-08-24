@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-22
 data_cutoff_date: 2026-08-22
 freshness_status: Port Qasim throughput figure confirmed directly against Port Qasim Authority's published data, accessed 2026-08-22; most other figures gathered via search-result synthesis and carry [VERIFY] tags pending a pre-recording verification pass
-word_count: 1932
-estimated_duration: 13 minutes
+word_count: 2089
+estimated_duration: 14 minutes
 last_verified: 2026-08-22
 ---
 
@@ -45,19 +45,21 @@ Four parts. Part 1 opens on the clearest documented contradiction and widens it 
 
 ## Part 1 — The Port Built for Cargo That Never Came
 
-In December 2024, a government official spoke to Pakistan's National Assembly. He said Gwadar port was fully operational. He said it was ready to handle any kind of cargo. [SOURCE: Arab News, 2024]
+In 2024, Karachi Port moved more cargo in a single day than Gwadar moved in the entire year. [ESTIMATE — Karachi Port Trust's FY2024-25 total of 53.95 million tonnes, divided by 365 days, compared against Gwadar's reported full-year 2024 total of 34,000 tonnes; SOURCE: multiple outlets citing Karachi Port Trust and government Gwadar figures]
 
-That same year, Gwadar moved a total of 34,000 tonnes of cargo. That is down from 592,000 tonnes the year before. [REPORTED: multiple outlets citing government figures; VERIFY exact publication dates before recording] Since the port opened, it has handled a cumulative total of 4,789 containers. The port was built to handle 240,000 containers every single year. [REPORTED: government statement to the National Assembly, cited by press]
+That same year, in December, a government official stood up in Pakistan's National Assembly. He said Gwadar port was fully operational. He said it was ready to handle any kind of cargo. [SOURCE: Arab News, 2024]
+
+So which one is true? In this episode, we look at both sides of that gap. What Gwadar was actually promised. Why the cargo never came. And what it costs the rest of Pakistan, that one of its biggest port projects still barely moves anything at all.
+
+Start with the numbers everyone agrees on. Gwadar's 34,000 tonnes in 2024 was already a drop. The year before, in 2023, the port had moved 592,000 tonnes. [REPORTED: multiple outlets citing government figures; VERIFY exact publication dates before recording] Since the port opened, it has handled a cumulative total of 4,789 containers. The port was built to handle 240,000 containers every single year. [REPORTED: government statement to the National Assembly, cited by press]
 
 Picture a warehouse built with a hundred rooms, all empty, waiting to be filled. Gwadar has used about two of them. Not two this year. Two, total, since the day it opened.
 
-That is the gap between what was said and what the numbers show. Hold onto that gap. It is the clearest fact in this whole story.
+Now look at the other side of Karachi. Port Qasim, right next to Karachi Port, handled 45.3 million tonnes that same year. [SOURCE: Port Qasim Authority, official port performance data, accessed 2026-08-22] Between Karachi Port and Port Qasim, these two ports move something close to 90 percent of everything Pakistan ships in or out by sea. [REPORTED: multiple sources]
 
-Now look at the other side of Karachi. In that same year, Karachi Port handled 53.95 million tonnes of cargo. That was the highest amount in its 138 year history. [SOURCE: multiple outlets citing Karachi Port Trust, FY2024-25] Port Qasim, right next door, handled another 45.3 million tonnes. [SOURCE: Port Qasim Authority, official port performance data, accessed 2026-08-22] Together, these two ports move something close to 90 percent of everything Pakistan ships in or out by sea. [REPORTED: multiple sources]
+Picture it this way. If Karachi Port and Port Qasim's cargo for that year were a small mountain, Gwadar's cargo would be a single brick sitting at the bottom of it. Gwadar is not simply a smaller port than its neighbours. By the numbers, it has barely started.
 
-Picture it this way. If Karachi Port and Port Qasim's cargo for that year were a small mountain, Gwadar's cargo would be a single brick sitting at the bottom of it. Ninety nine million tonnes at one end. Thirty four thousand tonnes at the other. Gwadar is not simply a smaller port than its neighbours. By the numbers, it has barely started.
-
-Gwadar was never meant to be that brick. It was designed and promoted as Pakistan's third option, a deep sea port built so the country did not have to send almost all of its trade through one stretch of coastline near Karachi. Billions of dollars went into building it. So this episode asks a simple question. Why did the cargo never follow the money?
+Gwadar was never meant to be that brick. It was designed and promoted as Pakistan's third option, a deep sea port built so the country did not have to send almost all of its trade through one stretch of coastline near Karachi. Billions of dollars went into building it. So why did the cargo never follow the money?
 
 ---
 
@@ -65,11 +67,11 @@ Gwadar was never meant to be that brick. It was designed and promoted as Pakista
 
 Start with why Gwadar was picked in the first place. It sits on the Arabian Sea, about 400 kilometres outside the Strait of Hormuz. That strait is a narrow passage. Close to a fifth of the world's oil and gas passes through it. [REPORTED] For ships moving goods between China and the Middle East, Africa, or Central Asia, a route through Gwadar can be shorter than the usual path through the Strait of Malacca. A shorter route means real savings in time and fuel. [REPORTED] On paper, the location made sense.
 
-Gwadar's story as a modern port begins in February 2013. That is when Pakistan handed the port's second phase of construction to a Chinese state owned company, China Overseas Port Holding Company. [REPORTED: multiple sources] That handover sat inside a much bigger commitment. Investment pledges under the China Pakistan Economic Corridor started at around 46 billion dollars. They eventually grew to around 62 billion dollars. At the time, that was roughly a fifth of Pakistan's entire economy. [REPORTED: Middle East Institute analysis]
+Gwadar's story as a modern port begins in February 2013. That is when Pakistan handed the port's second phase of construction to a Chinese state owned company, China Overseas Port Holding Company. [REPORTED: multiple sources] That was just one piece of a much bigger commitment. Investment pledges under the China Pakistan Economic Corridor started at around 46 billion dollars. They eventually grew to around 62 billion dollars. At the time, that was roughly a fifth of Pakistan's entire economy, one rupee out of every five the country produced in a year. [REPORTED: Middle East Institute analysis]
 
-The port company itself put in around 1.62 billion dollars to build Gwadar's deep water facilities. [REPORTED: VERIFY exact figure and whether a separate later phase added further investment before recording] By 2016, the port had three berths. It could formally handle 137,000 containers a year. That milestone came a full decade after the first phase of construction had already finished. [REPORTED: multiple sources]
+Out of that huge pledge, the port company itself put in around 1.62 billion dollars to build Gwadar's deep water facilities, a small slice, well under 3 percent, of the full 62 billion dollar plan. [REPORTED: VERIFY exact figure and whether a separate later phase added further investment before recording] By 2016, the port had three berths. It could formally handle 137,000 containers a year. That milestone came a full decade after the first phase of construction had already finished. [REPORTED: multiple sources]
 
-Around the port, the government set up the Gwadar Free Zone. Inside this zone, new businesses get lower taxes and fewer rules on moving goods in and out. The idea is simple. A factory that brings in raw material, turns it into a finished product, and ships that product back out should not have to pay full tax twice, once coming in and once going out. Waiving that cost is meant to pull in manufacturers who would otherwise build their factory somewhere else. A company can join for as little as 500,000 dollars plus a registration fee. [REPORTED] Several dozen businesses have registered there over the years. Only a handful are reported as fully up and running. [REPORTED, VERIFY the exact current count before recording]
+Around the port, the government set up the Gwadar Free Zone. Inside this zone, new businesses get lower taxes and fewer rules on moving goods in and out. The idea is simple. A factory that brings in raw material, turns it into a finished product, and ships that product back out should not have to pay full tax twice, once coming in and once going out. Waiving that cost is meant to pull in manufacturers who would otherwise build their factory somewhere else. A company can join for as little as 500,000 dollars plus a registration fee, roughly 139 million rupees at today's exchange rate. [REPORTED; SOURCE: exchange rate approx. Rs 278/USD, accessed 2026-08-24] That is well beyond what almost any small or medium Pakistani business could put down. Several dozen businesses have registered there over the years. Only a handful are reported as fully up and running. [REPORTED, VERIFY the exact current count before recording]
 
 This was the full case for Gwadar. A deep water port. Built with serious money. Backed by a tax free zone. Connected to the rest of the country by new roads, and eventually a railway. The plan was to give Pakistan a second major gateway to the sea, and give Balochistan a real share in the growth that gateway would bring.
 
@@ -83,7 +85,7 @@ In 2017, a year after Gwadar had formally opened, the port received 145 containe
 
 Part of the answer is simple. The port itself was finished. The country around it was not. A ship can dock at Gwadar. But the roads and the railway that would let cargo actually move in and out of the country were never built at the same pace as the berths.
 
-Take the main road first. The M8 motorway was planned to run nearly 900 kilometres, connecting Gwadar to Ratodero in Sindh. A 193 kilometre stretch out of Gwadar opened in 2016. Large parts of the rest are still unfinished today, even though planning for this road goes back close to two decades. [REPORTED] Now take the railway. A direct rail line connecting Gwadar to the national network has not been built at all. It is currently listed as a mid term project. It is expected to start in 2025 and finish by 2030. [REPORTED] In plain terms, a port promoted as Pakistan's future gateway still has no working train line to the rest of the country.
+Take the main road first. The M8 motorway was planned to run nearly 900 kilometres, connecting Gwadar to Ratodero in Sindh, roughly the same distance as driving from Karachi to Multan. [REPORTED] A 193 kilometre stretch out of Gwadar opened in 2016. Large parts of the rest are still unfinished today, even though planning for this road goes back close to two decades. [REPORTED] Now take the railway. A direct rail line connecting Gwadar to the national network has not been built at all. It is currently listed as a mid term project. It is expected to start in 2025 and finish by 2030. [REPORTED] In plain terms, a port promoted as Pakistan's future gateway still has no working train line to the rest of the country.
 
 A report prepared for the Prime Minister looked into why cargo has stayed away. It pointed to several reasons. High costs of running the port. A lack of supporting infrastructure. Limited interest from international shipping companies. [REPORTED: report to the Prime Minister, cited by press] It also pointed to security concerns, serious enough that global insurance companies have been reluctant to cover cargo passing through the port.
 
@@ -101,7 +103,7 @@ Picture almost everything Pakistan buys and sells by sea passing through a singl
 
 That alone is not a crisis. But it is a concentration. And any concentration carries a cost. If something disrupts either port, bad weather, a labour dispute, heavy congestion, there is no working alternative to absorb that trade. A third working port nearby would not remove that risk completely. But it would give the country somewhere else to send at least some of that cargo, if the other two ports go down at the same time. Gwadar was supposed to be that somewhere else. For most of its history, it has not been able to play that role.
 
-To be fair, 2026 has looked different. In April alone, Gwadar processed around 11,000 containers, more cargo than it handled in the whole of 2025. Over a three month stretch, the port moved roughly 200,000 tonnes of cargo passing through on its way to other destinations. [REPORTED] That is real growth. It deserves to be said plainly, not brushed aside.
+To be fair, 2026 has looked different. In April alone, Gwadar processed around 11,000 containers, more cargo than it handled in the whole of 2025. Over a three month stretch, the port moved roughly 200,000 tonnes of cargo passing through on its way to other destinations. [REPORTED] That sounds like a lot, until you compare it to Port Qasim, which moves that much cargo in about a day and a half. [ESTIMATE — Port Qasim's FY2024-25 total of 45.3 million tonnes divided by 365 days] Still, it is real growth. It deserves to be said plainly, not brushed aside.
 
 But it also deserves a closer look. Reporting on that growth ties much of it to trouble in the Strait of Hormuz, the narrow passage most Gulf shipping normally relies on. [REPORTED] When that route gets less reliable, some cargo gets redirected to nearby ports. Gwadar is one of them. That is a real increase in traffic. It is not the same thing as Pakistan finally finishing the roads, the railway, and the cost problems the original plan depended on solving. If shipping through Hormuz goes back to normal, there is no evidence yet that this cargo stays at Gwadar.
 
@@ -126,3 +128,6 @@ Whether that changes now comes down to roads still being built, and a railway st
 11. Report submitted to the Prime Minister on Gwadar port operationalization, cited by Profit by Pakistan Today, February 2025 — barriers including security/insurance costs, high operational costs, lack of infrastructure, and limited international interest. [Locate and verify the underlying report directly if possible before recording]
 12. Industry trade press (breakbulk.news) and other outlets — 2026 cargo increase at Gwadar (approximately 11,000 containers in April 2026; approximately 200,000 tonnes of transit cargo over three months), linked to Strait of Hormuz shipping disruption. [VERIFY specific sources and current figures before recording]
 13. Multiple sources — Gwadar's distance from the Strait of Hormuz (approximately 400 km) and its comparative route-distance advantage over the Strait of Malacca for China-Middle East/Africa shipping. [VERIFY specific figures before recording]
+14. Claude's own calculations (ESTIMATE, method shown inline) — Karachi Port's and Port Qasim's average daily throughput, derived by dividing their respective FY2024-25 annual totals (sources 3 and 4) by 365 days, used for the single-day and day-and-a-half comparisons in Parts 1 and 4.
+15. Exchange rate reference for the Gwadar Free Zone minimum investment conversion — approximately Rs 278 per US dollar, accessed 2026-08-24. [VERIFY current rate before recording, given how fast this figure moves]
+16. Distance calculators (distancecalculator.net and others) — Karachi to Multan road distance (approximately 885-1,024 km depending on route), used as a comparative reference for the M8 motorway's planned length. [VERIFY before recording]
