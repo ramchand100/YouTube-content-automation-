@@ -151,6 +151,9 @@ does not belong in the script.
   scripting engine (`script_engine.py`) and the script template (`TEMPLATE.md`).
 - `storyboards/` — visual and motion-graphic blueprints for editors, timestamp-
   linked to the matching script.
+- `delivery-notes/` — optional narrator performance markup (emphasis, pauses,
+  pacing) for a script that has reached a stable draft. Never changes the
+  narration itself. See `.claude/rules/delivery-notes.md`.
 - `prompts/` — thumbnail layout specs and Canva design briefs for static promotional
   assets. Animated in-video graphics belong in Remotion, not Canva.
 - `tools/` — automation scripts (`topic_generator.py`) and shared research

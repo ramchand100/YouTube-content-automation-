@@ -34,6 +34,7 @@ Determine which stage of the production workflow applies:
 Load the rule file that matches the current stage before writing any output:
 
 - Writing or reviewing scripts → `.claude/rules/scripts.md`
+- Marking up narrator delivery/pacing for a stable script → `.claude/rules/delivery-notes.md`
 - Research, claim ledgers, topic briefs → `.claude/rules/research.md`
 - Storyboard creation → `.claude/rules/storyboards.md`
 - Source auditing → `.claude/rules/source-audits.md`
