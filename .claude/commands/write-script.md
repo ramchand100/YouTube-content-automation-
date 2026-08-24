@@ -61,6 +61,12 @@ Use the YAML front-matter from `scripts/TEMPLATE.md`. Set `status: draft`.
 - No banned clichés (game-changer, synergy, disrupt, journey, etc.).
 - No invented characters, scenes, conversations, or motives.
 - The opening section must be grounded in a documented event or anomaly.
+- Land the hook in the first one or two sentences — the strongest documented
+  anomaly or comparison, not several paragraphs of setup. See
+  `docs/editorial/storytelling.md`, "Land the hook fast."
+- Immediately after the hook, include a two-to-three sentence retention bridge
+  previewing what the episode investigates, before widening into the full
+  documentary chain. See `docs/editorial/storytelling.md`, "Retention bridge."
 - The closing section must be honest and specific — name the real obstacles.
 
 ### Do not force five sections
