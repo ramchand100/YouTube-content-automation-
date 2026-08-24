@@ -14,7 +14,7 @@ status: draft
 research_date: 2026-08-22
 data_cutoff_date: 2026-08-22
 freshness_status: Port Qasim throughput figure confirmed directly against Port Qasim Authority's published data, accessed 2026-08-22; most other figures gathered via search-result synthesis and carry [VERIFY] tags pending a pre-recording verification pass
-word_count: 1883
+word_count: 1932
 estimated_duration: 13 minutes
 last_verified: 2026-08-22
 ---
@@ -49,6 +49,8 @@ In December 2024, a government official spoke to Pakistan's National Assembly. H
 
 That same year, Gwadar moved a total of 34,000 tonnes of cargo. That is down from 592,000 tonnes the year before. [REPORTED: multiple outlets citing government figures; VERIFY exact publication dates before recording] Since the port opened, it has handled a cumulative total of 4,789 containers. The port was built to handle 240,000 containers every single year. [REPORTED: government statement to the National Assembly, cited by press]
 
+Picture a warehouse built with a hundred rooms, all empty, waiting to be filled. Gwadar has used about two of them. Not two this year. Two, total, since the day it opened.
+
 That is the gap between what was said and what the numbers show. Hold onto that gap. It is the clearest fact in this whole story.
 
 Now look at the other side of Karachi. In that same year, Karachi Port handled 53.95 million tonnes of cargo. That was the highest amount in its 138 year history. [SOURCE: multiple outlets citing Karachi Port Trust, FY2024-25] Port Qasim, right next door, handled another 45.3 million tonnes. [SOURCE: Port Qasim Authority, official port performance data, accessed 2026-08-22] Together, these two ports move something close to 90 percent of everything Pakistan ships in or out by sea. [REPORTED: multiple sources]
@@ -71,7 +73,7 @@ Around the port, the government set up the Gwadar Free Zone. Inside this zone, n
 
 This was the full case for Gwadar. A deep water port. Built with serious money. Backed by a tax free zone. Connected to the rest of the country by new roads, and eventually a railway. The plan was to give Pakistan a second major gateway to the sea, and give Balochistan a real share in the growth that gateway would bring.
 
-That was the plan. What actually happened in Gwadar's early years looked nothing like it.
+That was the plan on paper. So what actually happened once the port opened?
 
 ---
 
@@ -89,13 +91,15 @@ That last point matters more than it might sound. Before a shipping company send
 
 None of this means building a port at Gwadar was the wrong call. Deep water access on that stretch of coast is real. The location does sit close to shipping lanes that matter for the wider region. What the evidence actually shows is narrower than that. A port needs a few basic things to move real cargo. Roads that work end to end. A working railway. Lower costs. Enough trust from shipping companies to send ships there. All of that was promised long before any of it was delivered. A berth without a finished road leading to it is a berth that ships have very little reason to use.
 
+So if Gwadar has barely moved any cargo, what does that actually cost the rest of the country?
+
 ---
 
 ## Part 4 — What Concentration Costs, and Whether Gwadar Can Still Matter
 
-Nearly all of Pakistan's trade by sea now depends on two ports, sitting close together, on one stretch of Karachi's coastline. That alone is not a crisis. But it is a concentration. And any concentration carries a cost. If something disrupts either port, bad weather, a labour dispute, heavy congestion, there is no working alternative to absorb that trade.
+Picture almost everything Pakistan buys and sells by sea passing through a single gate. Machinery for factories. Fuel for power plants and cars. Textiles and rice heading out to buyers overseas. That gate is not one port. It is two, sitting close together, on one stretch of Karachi's coastline. Nearly all of the country's trade by sea depends on them.
 
-Think about what actually moves through that stretch of coast. Machinery for factories. Fuel for power plants and cars. Textiles and rice heading out to buyers overseas. Almost all of it passes through the same short piece of coastline. A third working port nearby would not remove that risk completely. But it would give the country somewhere else to send at least some of that cargo, if the other two ports go down at the same time. Gwadar was supposed to be that somewhere else. For most of its history, it has not been able to play that role.
+That alone is not a crisis. But it is a concentration. And any concentration carries a cost. If something disrupts either port, bad weather, a labour dispute, heavy congestion, there is no working alternative to absorb that trade. A third working port nearby would not remove that risk completely. But it would give the country somewhere else to send at least some of that cargo, if the other two ports go down at the same time. Gwadar was supposed to be that somewhere else. For most of its history, it has not been able to play that role.
 
 To be fair, 2026 has looked different. In April alone, Gwadar processed around 11,000 containers, more cargo than it handled in the whole of 2025. Over a three month stretch, the port moved roughly 200,000 tonnes of cargo passing through on its way to other destinations. [REPORTED] That is real growth. It deserves to be said plainly, not brushed aside.
 
