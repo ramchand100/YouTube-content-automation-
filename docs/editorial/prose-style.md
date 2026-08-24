@@ -356,6 +356,45 @@ scale. If using a conversion:
 Do not convert every foreign figure automatically. Convert only when it improves
 understanding.
 
+### Relatable scale
+
+A large or technical number does not mean much to a viewer who has never had a
+reason to picture a million tonnes of cargo or a billion dollars of investment.
+The first time a script states a large figure, especially in the opening or in
+any section carrying the episode's central comparison, give the viewer a way to
+picture it against something from daily life. This is not decoration — it is
+what makes "simple language" real instead of just an instruction to sound simple.
+
+Prefer, in this order:
+
+- A derived rate calculated from figures already cited in the same script (per
+  day, per truck, per household), with the method shown.
+- A share or fraction of another figure already cited in the same script (what
+  percentage of a total commitment one piece represents).
+- A conversion to rupees at a clearly stated, dated exchange rate, when the
+  source figure is in a foreign currency (see "Foreign-currency conversions").
+- A comparison to a distance, price, or scale most Pakistani viewers already
+  have some feel for — a driving distance between two well-known cities, for
+  example.
+
+Label any such comparison `[ESTIMATE]` and show the calculation, per the claim
+classification rules in `.claude/rules/scripts.md`, unless the comparison is
+itself a directly reported figure. Do not invent a comparison you cannot verify
+(a specific city's annual budget, a named company's revenue) unless it is
+actually sourced — an honest derived comparison from figures already in the
+script is safer than an unverified external one that merely sounds impressive.
+
+Examples:
+> The port company itself put in around 1.62 billion dollars, a small slice,
+> well under 3 percent, of the full 62 billion dollar plan.
+
+> A company can join for as little as 500,000 dollars plus a registration fee,
+> roughly 139 million rupees at today's exchange rate. That is well beyond what
+> almost any small or medium Pakistani business could put down.
+
+> The M8 motorway was planned to run nearly 900 kilometres, roughly the same
+> distance as driving from Karachi to Multan.
+
 ### Dates and financial years
 
 Use the source's reporting period precisely. Distinguish between calendar year 2025,

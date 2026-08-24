@@ -32,7 +32,8 @@ concepts only. Define each term in plain English the first time it appears.
 knows little about finance or economics. Simplify the language, never the
 analysis. If an eighth-grade student or a small shop owner could not follow the
 argument on first listen, simplify the language further without cutting the
-analysis.
+analysis. Give large or technical numbers a daily-life reference point wherever
+possible — see `docs/editorial/prose-style.md`, "Relatable scale."
 
 **No undefined jargon.** When a technical term is required, define it in plain
 English immediately, then use it.

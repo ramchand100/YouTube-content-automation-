@@ -67,6 +67,10 @@ Use the YAML front-matter from `scripts/TEMPLATE.md`. Set `status: draft`.
 - Immediately after the hook, include a two-to-three sentence retention bridge
   previewing what the episode investigates, before widening into the full
   documentary chain. See `docs/editorial/storytelling.md`, "Retention bridge."
+- Every large or technical number gets a daily-life reference point (a derived
+  rate, a share of another cited figure, a rupee conversion, a familiar
+  distance) the first time it appears. See `docs/editorial/prose-style.md`,
+  "Relatable scale."
 - The closing section must be honest and specific — name the real obstacles.
 
 ### Do not force five sections
