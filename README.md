@@ -32,20 +32,26 @@ research/
   claim-ledgers/            NN_slug_claims.csv — claim-by-claim classification
   source-registers/         NN_slug_sources.csv — all sources + footage rights
   audits/                   NN_slug_research-audit.md — source audit per final script
+  verification-queues/      NN_slug_verification-queue.md — actionable to-do list from an audit's open claims
+  footage-queues/           NN_slug_footage-queue.md — actionable to-do list from unresolved footage cues
 scripts/
-  TEMPLATE.md               Three-template script skeleton (A / B / C)
-  script_engine.py          CLI scaffolder: generates skeleton with correct section names
+  TEMPLATE.md               Script skeleton — flexible Part-N structure (default)
+  script_engine.py          CLI scaffolder for the optional legacy Template A/B/C skeleton only
   NN_*.md                   Production scripts — pure voiceover prose
 storyboards/
-  TEMPLATE.md               Visual production plan template
+  TEMPLATE.md               Visual production plan template (flexible Part-N, cue-level detail)
   NN_*_visuals.md           Visual direction for editors — one per episode
+delivery-notes/
+  NN_*_delivery-notes.md    Optional narrator performance markup (emphasis/pause/pace), never the script itself
 prompts/
-  NN_*_thumbnails.md        Thumbnail specs and Midjourney prompts
+  NN_*_thumbnails.md        Thumbnail specs and Canva design briefs (not yet populated)
 docs/
+  editorial/                Prose, storytelling, structure, and visual-system guidance
   footage-guidelines.md     Copyright and licence rules for B-roll footage
 tools/
-  topic_generator.py        Research brief generator by pillar
-  validate_script.py        Script compliance checker
+  topic_generator.py        Idea and starting-research-scaffold generator by pillar
+  validate_script.py        Thin wrapper — delegates to the canonical validator in
+                             .claude/skills/pakistan-documentary-production/scripts/
 remotion/
   src/Root.tsx              Remotion motion-graphic compositions
   data/epNN_data.json       Per-episode animation data
@@ -96,7 +102,9 @@ Once an angle is approved, invoke `/research`. This creates:
 memory for current statistics. Every claim is classified:
 VERIFIED / REPORTED / ANALYSIS / ESTIMATE / UNRESOLVED.
 
-Alternatively, use the CLI tool to scaffold a brief:
+Alternatively, use the CLI tool to generate a starting research scaffold
+(not a finished brief — still needs claim classification, a claim ledger,
+and a source register before it can support scripting):
 
 ```bash
 python3 tools/topic_generator.py brief --title "K-Electric: The Karachi Power Trap" --pillar macro
@@ -104,14 +112,20 @@ python3 tools/topic_generator.py brief --title "K-Electric: The Karachi Power Tr
 
 ### Step 3 — Research brief → script (`/write-script`)
 
-Once the research brief is complete, invoke `/write-script`. Claude selects the
-correct template and writes complete five-section voiceover prose.
+Once the research brief is complete, invoke `/write-script`. Claude classifies
+the story logic (causal, financial, institutional, comparative, and so on),
+proposes a number and names of `## Part N —` sections sized to what the story
+actually needs — three, four, five, six, or more, never a default — and
+**stops for your approval** before writing the full script.
 
 ```
 /write-script
 ```
 
-Or scaffold a skeleton manually:
+The five-section `## SECTION N —` format (legacy Template A / B / C) is
+available only when explicitly requested or when a topic fits it cleanly. To
+scaffold that legacy skeleton manually instead of using `/write-script`'s
+flexible structure:
 
 ```bash
 # Template A (Macro/Institutions)
@@ -123,6 +137,9 @@ python3 scripts/script_engine.py --title "Interloop: Pakistan's Sock Empire" --t
 # Template C (Structural/History)
 python3 scripts/script_engine.py --title "The Remittance Engine" --template C --number 13
 ```
+
+There is no CLI scaffolder for the flexible structure — `/write-script`
+writes it directly once you approve the proposed Part structure.
 
 **Script rules (non-negotiable):**
 - Scripts are pure voiceover prose — no visual directions inside script files.
@@ -142,8 +159,13 @@ Or run the automated validator:
 python3 tools/validate_script.py scripts/11_slug.md
 ```
 
-The validator checks: five sections, Sources block, no visual cues inside the
-script, no banned clichés, sourcing density, [VERIFY] count, and more.
+The validator checks mechanical/structural things only: the declared
+`section_count` matches the actual `## Part N —` headings, front-matter
+completeness, a populated Sources block, no visual cues or delivery-notes
+markup inside the script, no banned clichés or banned formulaic transitions,
+political-framing patterns, paragraph rhythm, sourcing density, `[VERIFY]`
+count, and more. It does not judge hook quality, retention-bridge quality,
+or factual accuracy — that's `/review-script`.
 
 ### Step 5 — Source audit (`/audit-sources`)
 
@@ -193,7 +215,20 @@ Script is production-ready when:
 
 ---
 
-## Three content templates
+## Script structure
+
+The default is a **flexible structure**: `/write-script` classifies the
+story logic (causal, chronological, financial, institutional, comparative,
+operational, regulatory, company case study, decision-focused, or
+structural/historical) and proposes as many `## Part N —` sections as that
+logic actually needs, then stops for approval before writing. Do not default
+to five sections — the count must be justified by the story, not a template.
+
+### Legacy five-section templates (optional)
+
+Available only when explicitly requested or when a topic fits one of these
+three cleanly. Legacy scripts use `## SECTION N —` headings instead of
+`## Part N —`.
 
 | Template | Use for | Sections 2 / 3 / 4 |
 |----------|---------|---------------------|
@@ -201,7 +236,7 @@ Script is production-ready when:
 | **B** — Company Case Study | Named companies, corporate strategy, sector leaders | Business Model → Operational Reality → Competitive Position |
 | **C** — Structural / History | Long-cycle stories, historical investigations, debt cycles | The Origin → How It Plays Out → The Structural Risk |
 
-Sections 1 (The Anomaly) and 5 (The Verdict) are the same for all templates.
+Sections 1 (The Anomaly) and 5 (The Verdict) are the same for all three legacy templates.
 
 ---
 
@@ -211,26 +246,34 @@ Sections 1 (The Anomaly) and 5 (The Verdict) are the same for all templates.
 |------|--------|
 | Scripts are narration only | No `[VISUAL]`, `[FOOTAGE]`, camera, or editing directions |
 | Storyboards hold all visuals | Every shot, graphic, and on-screen text goes there |
+| Delivery notes are separate too | Narrator emphasis/pause/pace markup lives only in `delivery-notes/`, never in the script |
 | Angle approval required | No research or scripting before the user approves an angle |
 | Research must precede scripting | No script without a completed research brief |
+| Structure is flexible, not fixed | `/write-script` proposes the Part count the story logic needs — never a default five |
+| Neutral, non-political framing | Decisions described in administrative/economic terms, not political strategy |
+| Plain, everyday language | Every sentence should be followable by an eighth-grade student or small shop owner |
 | Public availability ≠ copyright | Every footage clip needs a documented licence |
 | No fabrication | Never invent characters, scenes, conversations, or motives |
 | Verify before recording | Re-check all `[VERIFY]` and macro figures before the session |
 
 ---
 
-## Episode reference (complete packages)
+## Episode reference
 
-| Ep | Script | Storyboard | Prompts |
-|----|--------|------------|---------|
-| 01 | ✓ | ✓ | ✓ |
-| 02–05 | ✓ | ✓ | ✓ |
-| 06 | ✓ | ✓ | ✓ |
-| 07 | ✓ | ✓ | — |
-| 08–10 | ✓ | — | — |
+Reflects what actually exists in this repo, not an aspirational target.
 
-Episodes 01–05 storyboards and prompts use the old dark palette (`#0A0A0A`).
-Episodes 06+ use the current light palette (`#F8F9FA`). See `.claude/rules/visual-system.md`.
+| Ep | Topic | Script | Storyboard | Audit | Delivery notes |
+|----|-------|--------|------------|-------|-----------------|
+| 01 | Pakistan Railways freight | ✓ | — | — | — |
+| 11 | Pakistan Steel Mills | ✓ | ✓ | ✓ | — |
+| 12 | Metro Bus subsidy | ✓ | — | — | — |
+| 13 | Gwadar vs. Karachi port | ✓ | — | — | ✓ |
+
+Episodes 12 and 13 still need `/storyboard` and `/audit-sources`; episode
+11's footage/verification queues still have open items. See
+`.claude/rules/visual-system.md` for the palette (episodes 01–05 archived
+dark `#0A0A0A`; episode 06+ light `#F8F9FA` — episode 01 predates any
+storyboard in this repo, so it has not been assigned a palette).
 
 ---
 
@@ -240,7 +283,7 @@ Episodes 06+ use the current light palette (`#F8F9FA`). See `.claude/rules/visua
 |---------|-------------|
 | `/angles` | Generate and score angle options; recommend one; stop for approval |
 | `/research` | Build research brief, claim ledger, and source register |
-| `/write-script` | Write the complete five-section voiceover script |
+| `/write-script` | Propose a flexible Part structure, then write the complete voiceover script |
 | `/review-script` | Audit the script for structural and editorial compliance |
 | `/audit-sources` | Verify source behind every major claim; create audit file |
 | `/storyboard` | Create the visual production plan |
