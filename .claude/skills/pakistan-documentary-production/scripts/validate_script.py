@@ -128,7 +128,13 @@ def extract_frontmatter(text: str) -> dict:
     `key: "value"` lines. Multi-line/nested YAML values are not needed by
     any field this repo's scripts actually use.
     """
-    m = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
+    # Use search, not match: every real script opens with a '# Title' heading
+    # (see scripts/TEMPLATE.md) before the '---' front-matter block, so the
+    # block is never at position 0 of the file. An earlier version of this
+    # function used re.match here, which silently found no front-matter on
+    # every real script in the repo. MULTILINE lets '^' anchor to the start
+    # of the '---' line rather than the start of the whole file.
+    m = re.search(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL | re.MULTILINE)
     if not m:
         return {}
     fm = {}

@@ -18,6 +18,20 @@ Every cue entry must include:
   - Total duration of the cue
 
 Voiceover runs continuously. Visuals cut to match the prose, not the other way around.
+
+STRUCTURE: check the companion script's front-matter first. Most scripts use
+structure_type: flexible with `## Part N — [Name]` headings, and the number
+of Parts is whatever the script's section_count says — three, four, five,
+six, or more, not a fixed five. The five `## Part` blocks below are a single
+worked example (based on legacy Template A's section names and a ~15-minute
+runtime) showing the cue-level density and format expected in every Part —
+GRAPHIC/FOOTAGE cues, Element-by-element builds, HOLD, END, pre-comp names.
+Copy that density, not the count: add or remove Part blocks to match the
+actual script, rename each Part after the script's own Part names, and
+retime every cue against the script's actual timestamps and
+estimated_duration rather than the 0:00-15:00 range used here. Only a script
+with structure_type: legacy-A/B/C should keep exactly five Sections named
+to match that template.
 -->
 
 **Voiceover:** ~150 wpm, documentary register. Recorded clean, no music bleed.
@@ -32,7 +46,7 @@ silent under FOOTAGE cold opens unless specified.
 
 ---
 
-## SECTION 1 — The Unsolved Reality (0:00 - 2:00)
+## Part 1 — The Unsolved Reality (0:00 - 2:00)
 
 **[0:00 - 0:10] FOOTAGE — cold open**
 - Shot: [describe specific scene — a location, object, or activity that opens the question]
@@ -74,12 +88,12 @@ silent under FOOTAGE cold opens unless specified.
 - Element 2 [1:55 - 1:58]: sub-caption fades in — one line, white, Inter.
 - Music lifts to full ambient level.
 - HOLD: 4s.
-- END: hard cut to Section 2 at 2:00.
+- END: hard cut to Part 2 at 2:00.
 - Duration: 10s
 
 ---
 
-## SECTION 2 — The Paper Trail (2:00 - 6:00)
+## Part 2 — The Paper Trail (2:00 - 6:00)
 
 **[2:00 - 2:45] GRAPHIC — supply/demand or unit economics setup**
 - Canvas: near-black.
@@ -119,16 +133,16 @@ silent under FOOTAGE cold opens unless specified.
 
 **[5:30 - 6:00] GRAPHIC — section summary card**
 - Canvas: near-black.
-- 2-3 key figures from Section 2 held cleanly on one card.
-- No animation — static summary the viewer can read before Section 3 begins.
+- 2-3 key figures from Part 2 held cleanly on one card.
+- No animation — static summary the viewer can read before Part 3 begins.
 - Source captions visible.
 - HOLD: 20s.
-- END: hard cut to Section 3 at 6:00.
+- END: hard cut to Part 3 at 6:00.
 - Duration: 30s
 
 ---
 
-## SECTION 3 — The Field Reality (6:00 - 10:00)
+## Part 3 — The Field Reality (6:00 - 10:00)
 
 **[6:00 - 6:45] FOOTAGE — ground-level scene**
 - Shot: [specific scene — market, factory floor, distribution point, informal transaction]
@@ -161,12 +175,12 @@ silent under FOOTAGE cold opens unless specified.
 **[9:30 - 10:00] GRAPHIC — field reality summary**
 - One clean takeaway: single line or two-item list on black.
 - HOLD: 20s.
-- END: hard cut to Section 4 at 10:00.
+- END: hard cut to Part 4 at 10:00.
 - Duration: 30s
 
 ---
 
-## SECTION 4 — The Systemic Domino Effect (10:00 - 13:00)
+## Part 4 — The Systemic Domino Effect (10:00 - 13:00)
 
 **[10:00 - 11:00] GRAPHIC — macroRipple: first domino chain**
 - Pre-comp: `macroRipple`.
@@ -182,7 +196,7 @@ silent under FOOTAGE cold opens unless specified.
 - Duration: 60s
 
 **[11:00 - 11:45] GRAPHIC — FX / fiscal impact**
-- [Describe specific bars, maps, or data visuals for macro Section 4 second beat.]
+- [Describe specific bars, maps, or data visuals for macro Part 4 second beat.]
 - Build sequence with sub-timecodes.
 - Source captions.
 - HOLD: [X]s.
@@ -192,12 +206,12 @@ silent under FOOTAGE cold opens unless specified.
 **[11:45 - 13:00] FOOTAGE — macro consequence scene**
 - Shot: [a visual that represents the economy-wide consequence — e.g., factory, construction site, market]
 - Voiceover delivers the systemic summary over footage.
-- END: hard cut to Section 5 at 13:00.
+- END: hard cut to Part 5 at 13:00.
 - Duration: ~75s
 
 ---
 
-## SECTION 5 — The Verdict & Future Outlook (13:00 - End)
+## Part 5 — The Verdict & Future Outlook (13:00 - End)
 
 **[13:00 - 13:10] GRAPHIC — forward question**
 - Canvas: near-black.
