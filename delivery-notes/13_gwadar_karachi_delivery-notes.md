@@ -48,29 +48,37 @@ Gwadar was never meant to be that brick. It was designed and promoted as Pakista
 
 ## Part 2 — What Was Promised
 
-*(overall: this part is explanatory, not dramatic — keep it closer to normal conversational pace throughout, reserve the slow treatment for Part 1's numbers and Part 3's mechanism)*
+*(overall: this part now reads as a decision chain — a bet with dependent parts — not a flat timeline. Keep forward momentum: each paragraph should feel like it's building toward the next, not resetting)*
 
-Start with why Gwadar was picked in the first place. It sits on the Arabian Sea, about **400 kilometres** outside the Strait of Hormuz. That strait is a narrow passage. Close to a **fifth** of the world's oil and gas passes through it. For ships moving goods between China and the Middle East, Africa, or Central Asia, a route through Gwadar can be **shorter** than the usual path through the Strait of Malacca. A shorter route means real savings in time and fuel. On paper, / the location made sense.
+Before Gwadar, / Pakistan had one real problem. Almost the entire country's trade by sea already moved through Karachi. If Pakistan wanted a genuine second option, / not just a second port, but one ships would **actually choose,** / it needed a location with a **real** advantage, not just an available stretch of coast.
+
+*(land weight on "actually choose" and "real" — this paragraph sets the stakes for everything that follows)*
+
+Geography handed it one candidate. Gwadar sits on the Arabian Sea, about **400 kilometres** outside the Strait of Hormuz, the narrow passage close to a **fifth** of the world's oil and gas has to pass through. For ships moving goods between China and the Middle East, Africa, or Central Asia, a route through Gwadar can be **shorter** than the usual path through the Strait of Malacca. A shorter route means real savings in time and fuel. On paper, / the location made sense.
 
 *(slight emphasis on "on paper" — it's doing real work, foreshadowing the turn later)*
 
-Gwadar's story as a modern port begins in February 2013. That is when Pakistan handed the port's second phase of construction to a Chinese state owned company, China Overseas Port Holding Company. That was just one piece of a much bigger commitment. Investment pledges under the China Pakistan Economic Corridor started at around **46 billion dollars.** They eventually grew to around **62 billion dollars.** At the time, / that was roughly a **fifth of Pakistan's entire economy,** / one rupee out of every five the country produced in a year.
+A deep water port is expensive to build from nothing, / more than Pakistan could fund on its own. So in February 2013, / Pakistan brought in a partner large enough to pay for it. It handed the port's second phase of construction to a Chinese state owned company, China Overseas Port Holding Company. That partnership sat inside a much bigger **bet.** Investment pledges under the China Pakistan Economic Corridor started at around **46 billion dollars.** They eventually grew to around **62 billion dollars,** / roughly a **fifth of Pakistan's entire economy,** / one rupee out of every five the country produced in a year.
 
-*(slower on "one rupee out of every five" — that's the relatable version of the number, give it room)*
+*(slower on "one rupee out of every five" — that's the relatable version of the number, give it room; land "bet" with real weight, it's the word the rest of the part hangs on)*
 
-Out of that huge pledge, the port company itself put in around **1.62 billion dollars** to build Gwadar's deep water facilities, / a small slice, / **well under 3 percent,** / of the full 62 billion dollar plan. By 2016, the port had three berths. It could formally handle **137,000 containers** a year. That milestone came a full decade after the first phase of construction had already finished.
+The bet had a specific shape: / build the capacity first, / and the trade would follow.
 
-Around the port, the government set up the Gwadar Free Zone. Inside this zone, new businesses get lower taxes and fewer rules on moving goods in and out. The idea is simple. A factory that brings in raw material, turns it into a finished product, and ships that product back out should not have to pay full tax twice, once coming in and once going out. Waiving that cost is meant to pull in manufacturers who would otherwise build their factory somewhere else. A company can join for as little as **500,000 dollars** plus a registration fee, / roughly **139 million rupees** at today's exchange rate. That is well beyond what almost any small or medium Pakistani business could put down. Several dozen businesses have registered there over the years. Only a handful are reported as **fully up and running.**
+*(pause after "shape" — this sentence is the thesis of Part 2, let it stand alone)*
+
+Out of that huge pledge, the port company itself put in around **1.62 billion dollars** to build Gwadar's deep water facilities, / a small slice, / **well under 3 percent,** / of the full 62 billion dollar plan. By 2016, the port had three berths. It could formally handle **137,000 containers** a year, / a full decade after the first phase of construction had already finished.
+
+Around the port, the government built the **other half** of the bet: the Gwadar Free Zone, meant to pull in the businesses that would actually fill those berths. Inside this zone, new businesses get lower taxes and fewer rules on moving goods in and out. The idea is simple. A factory that brings in raw material, turns it into a finished product, and ships that product back out should not have to pay full tax twice, once coming in and once going out. A company can join for as little as **500,000 dollars** plus a registration fee, / roughly **139 million rupees** at today's exchange rate. That is well beyond what almost any small or medium Pakistani business could put down. Several dozen businesses have registered there over the years. Only a handful are reported as **fully up and running.**
 
 *(land "fully up and running" with a touch of weight — it's the quiet undercut at the end of an otherwise upbeat paragraph)*
 
-This was the full case for Gwadar. A deep water port. Built with serious money. Backed by a tax free zone. Connected to the rest of the country by new roads, and eventually a railway. The plan was to give Pakistan a second major gateway to the sea, and give Balochistan a real share in the growth that gateway would bring.
+Every piece of this bet depended on the next piece **actually working.** The berths needed cargo to arrive, which meant roads and a railway strong enough to move it. The free zone needed manufacturers willing to commit real money to a location with no proven trade yet. And the whole plan needed shipping companies willing to trust a brand new route over the one they already knew.
 
-*(this list sentence — "A deep water port. Built with serious money..." — reads well as short, near-equal beats, almost like ticking off a checklist)*
+*(this three-part list — berths/free zone/shipping trust — should land as three distinct, roughly equal beats; this is the "dependencies" the rest of the episode will test one by one)*
 
-That was the plan **on paper.** So what actually happened / once the port opened?
+Pakistan built the port. So what happened / when it actually opened?
 
-*(pause before "once the port opened" — this is the turn into Part 3, let it breathe)*
+*(pause before "when it actually opened" — this is the turn into Part 3, let it breathe)*
 
 ---
 
