@@ -71,6 +71,12 @@ Use the YAML front-matter from `scripts/TEMPLATE.md`. Set `status: draft`.
   rate, a share of another cited figure, a rupee conversion, a familiar
   distance) the first time it appears. See `docs/editorial/prose-style.md`,
   "Relatable scale."
+- Keep narration paragraphs to one or two sentences throughout — one spoken
+  beat per paragraph break, not dense multi-sentence blocks. See
+  `docs/editorial/prose-style.md`, "Paragraph rhythm."
+- No channel greeting or preamble before the hook. Every part (except the
+  last) ends by creating the next analytical question — see
+  `docs/editorial/storytelling.md`, "Section and part transitions."
 - The closing section must be honest and specific — name the real obstacles.
 
 ### Do not force five sections

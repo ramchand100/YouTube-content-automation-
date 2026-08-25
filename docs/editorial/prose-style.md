@@ -184,6 +184,40 @@ Use fragments rarely and deliberately.
 
 Do not repeat the same sentence pattern across paragraphs.
 
+## Paragraph rhythm
+
+Sentence rhythm governs how a sentence is built. Paragraph rhythm governs how
+much lands in one spoken breath before the next line break — a separate thing,
+and one this channel's scripts have under-used.
+
+Keep narration paragraphs to one or two sentences. Each paragraph is a single
+spoken beat: one idea, one number, or one short pair of connected sentences,
+then a break. A paragraph break in a script is a breath, not just a formatting
+convention — it tells the narrator where the pace resets.
+
+This does not shorten the sentences themselves — "Sentence rhythm" above still
+governs that, and medium or longer sentences remain correct where they connect
+a real chain of cause and effect. It only means breaking a block of three to
+six sentences into three to six short paragraphs instead of bundling them into
+one dense unit.
+
+Weak (one dense block):
+> Gwadar's 34,000 tonnes in 2024 was already a drop. The year before, in 2023,
+> the port had moved 592,000 tonnes. Since the port opened, it has handled a
+> cumulative total of 4,789 containers. The port was built to handle 240,000
+> containers every single year.
+
+Stronger (same sentences, broken into spoken beats):
+> Gwadar's 34,000 tonnes in 2024 was already a drop. The year before, in 2023,
+> the port had moved 592,000 tonnes.
+>
+> Since the port opened, it has handled a cumulative total of 4,789 containers.
+> The port was built to handle 240,000 containers every single year.
+
+Apply this across the whole script, not just the opening — a script that reads
+as short spoken beats in Part 1 and dense blocks by Part 3 will feel like the
+pacing broke down partway through.
+
 ---
 
 ## Analytical clarity

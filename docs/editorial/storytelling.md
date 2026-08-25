@@ -91,6 +91,10 @@ statements such as:
 - "This is an important issue."
 - "The numbers tell a troubling story."
 
+Do not open with a channel greeting, a "welcome back" line, or any preamble
+before the hook. The first words of narration are the hook itself — see "Land
+the hook fast" below.
+
 If a personal scene is not documented, use an institutional or commercial scene:
 a port waiting for cargo, a factory choosing between transport options, a company
 filing showing a cost shift, a ministry changing an allocation, a regulator
