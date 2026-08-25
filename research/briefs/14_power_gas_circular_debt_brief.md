@@ -1,58 +1,59 @@
-# Research Brief — Episode 14: The Gas-Power Doom Loop
+# Research Brief — Episode 14: The Machine That Never Stops Growing
 
-- **Topic:** Pakistan's power-sector circular debt combined with gas-sector circular debt
-- **Angle source:** `topics/angles/14_power_gas_circular_debt_angle.md`, approved 2026-08-25
+- **Topic:** Pakistan's circular debt, comprehensive — capacity-payment architecture, distribution-side non-payment, the gas-sector linkage, and three decades of reform attempts
+- **Angle source:** `topics/angles/14_power_gas_circular_debt_angle.md`, approved 2026-08-25 (redesigned from the original narrower "Gas-Power Doom Loop" angle at the user's request, same date)
 - **Research date:** 2026-08-25
 
 ## Methodology note
 
-Six articles were directly fetched and read in full this session (The Nation;
-The News; Express Tribune ×2; EnergyUpdate.com.pk). Business Recorder and
-Profit by Pakistan Today — two of the most load-bearing outlets for this
-topic — returned HTTP 403 on every direct WebFetch attempt; their figures
-below come from WebSearch's synthesis of their content, not a direct read,
-and are flagged `[VERIFY]` accordingly, consistent with this project's
-`.claude/rules/research.md` requirement to open and read the actual source
-document. A pre-recording verification pass should re-attempt these
-directly (a different fetch method, or a human opening the article) before
-any `[VERIFY]` figure sourced to Business Recorder or Profit is used as
-stated fact rather than attributed reporting.
+Nine articles were directly fetched and read in full this session (The
+Nation; The News; Express Tribune ×2; EnergyUpdate.com.pk — all from the
+original gas-power research pass). The additional capacity-payment and
+IPP-renegotiation research below (added after the angle was widened) was
+gathered via WebSearch synthesis only — no new direct fetches — so every
+claim in the new "Capacity-payment architecture" and "Reform history"
+sections carries `[VERIFY]`. Business Recorder and Profit by Pakistan Today
+continued to return HTTP 403 on direct WebFetch attempts throughout. A
+pre-recording verification pass should re-attempt all `[VERIFY]` items
+directly before they're used as stated fact rather than attributed
+reporting.
 
 ---
 
 ## Approved angle
 
-**The Gas-Power Doom Loop** — Pakistan's power-sector circular debt and its
-gas-sector circular debt are not two separate problems: unpaid bills in one
-sector directly starve the other of cash, so fixing either alone just moves
-the debt sideways.
+**The Machine That Never Stops Growing** — Pakistan built its power system
+on a contract structure that pays for capacity whether or not it's used,
+layered a distribution system that doesn't collect what it's owed on top of
+it, wired the result into the gas sector's own finances, and has spent
+three decades renegotiating the edges of that structure without ever
+touching its foundation.
 
 ## Central question
 
-Is Pakistan's circular debt actually one problem or two feeding each other —
-and why do reforms aimed at one sector keep failing to shrink the total?
+Why does Pakistan's circular debt keep growing — through capacity-payment
+contracts, distribution losses, a linked gas sector, and trillions of
+rupees in claimed reforms — and what would it actually take to stop it?
 
 ## Tentative thesis
 
-Power-sector non-payment (DISCO under-collection, unrecovered tariffs,
-delayed subsidy payments) leaves gas-fired power plants unable to pay their
-gas suppliers on time; that unpaid gas bill starves SNGPL/SSGC of the cash
-needed to import LNG and maintain supply, which raises gas-sector costs and
-arrears, which in turn raises the cost of gas-fired power generation — a
-closed loop where reforms that treat the two sectors as separate accounts
-can't actually shrink the combined debt.
+The debt has one root architecture (take-or-pay capacity payments adopted
+in the 1994 Power Policy) and two amplifiers (distribution-side
+non-payment, and a gas sector wired to absorb the power sector's
+shortfalls). Every reform round — 1998, 2012, 2020, 2024 — has renegotiated
+the terms of individual contracts without changing the take-or-pay
+structure itself, which is why the debt keeps returning even after each
+round claims trillions of rupees in savings.
 
-**Thesis refinement from research (read before structure approval):** the
-evidence supports a real, worsening, well-documented power-to-gas payment
-channel (see Raw findings, "The mechanism" and "The Liberty Daharki case"
-below) — but it does not support power-sector non-payment as the *dominant*
-driver of total gas-sector circular debt. Independent reporting attributes
-the larger share of the Rs3.611 trillion gas-sector stock to domestic
-consumer underpricing and RLNG-to-domestic-tariff diversion, a pricing
-problem distinct from power-sector arrears (see C011, C013, C025). The
-honest version of this thesis is: the two debts are linked and mutually
-reinforcing, and reforms that ignore the linkage keep failing — not that
-power-sector non-payment *causes* the gas circular debt. The script should
+**Thesis refinement carried over from the original gas-power research (read
+before structure approval):** the power-to-gas payment channel documented
+below (see "The mechanism" and "The Liberty Daharki case") is real and
+well-documented, but is not the dominant driver of total gas-sector
+circular debt — independent reporting attributes the larger share of the
+Rs3.611 trillion gas-sector stock to domestic consumer underpricing and
+RLNG-to-domestic-tariff diversion (see C011, C013, C025). Part 4 of the
+proposed structure should state this precisely: the gas linkage is one real
+amplifier among several, not the whole explanation. The script should
 state this precisely rather than overclaim causation. This directly answers
 the approved angle's own flagged research risk.
 
@@ -61,10 +62,12 @@ the approved angle's own flagged research risk.
 ## Claims required (from the angle's sub-questions)
 
 1. What is the current scale of power-sector, gas-sector, and combined circular debt, and how has it moved recently?
-2. Exactly how does money (or its absence) move between the power and gas sectors — where does the chain actually break?
-3. Is there a specific, documented case showing a power-sector shortfall causing a gas-sector consequence (or vice versa)?
-4. Has this loop repeated despite reform announcements, or is it improving?
-5. Is gas-sector circular debt actually caused by power-sector non-payment, or mainly by something else (the counterargument)?
+2. What is the take-or-pay capacity-payment contract structure, where did it come from, and how large a share of the total power bill does it represent?
+3. Who fails to pay their share on the distribution side, and why (DISCO losses, K-Electric)?
+4. Exactly how does money (or its absence) move between the power and gas sectors — where does the chain actually break?
+5. Is there a specific, documented case showing a power-sector shortfall causing a gas-sector consequence (or vice versa)?
+6. What has been tried to fix this (IPP renegotiation rounds, IMF programs), what savings were claimed, and did the debt actually shrink afterward?
+7. Is gas-sector circular debt actually caused by power-sector non-payment, or mainly by something else (the counterargument)?
 
 ---
 
@@ -98,6 +101,86 @@ the approved angle's own flagged research risk.
   Rs1.839 trillion is principal; the remainder is accumulated late-payment
   surcharges. [REPORTED — The Nation, directly fetched; corroborated by
   multiple other outlets in search results]
+
+### Capacity-payment architecture: the root mechanism
+
+- Pakistan's reliance on Independent Power Producers (IPPs) dates to the
+  **1994 Power Policy**, introduced to attract private investment and
+  address chronic power shortages. On the IMF and ADB's advice, the policy
+  built in a capacity-payment mechanism, with an internal rate of return set
+  at 18%, indexed to the US dollar. [REPORTED — SDPI (Sustainable
+  Development Policy Institute) / World Bank policy research working paper
+  "Learning from Power Sector Reform: The Case of Pakistan," via WebSearch
+  synthesis only — `[VERIFY]`, high research-institute/multilateral
+  credibility but not yet directly read]
+- Under a **take-or-pay** contract, the buyer (ultimately the government,
+  via CPPA-G) must pay for a fixed share of a plant's generating capacity
+  regardless of how much electricity it actually draws — a capacity payment
+  that does not fall when demand falls. [REPORTED — multiple outlets via
+  WebSearch synthesis — `[VERIFY]`]
+- For calendar year 2026, NEPRA approved estimated capacity charges of
+  **Rs17.19 per unit** in the power purchase price, up 5.33% from
+  Rs16.32/unit projected for the first half of FY2025-26. The total
+  projected Power Purchase Price for CY2026 is **Rs3,185.97 billion**, of
+  which **Rs2,163.316 billion** — roughly **63%** — is capacity and
+  use-of-system charges; energy (fuel) cost makes up the remaining ~37%.
+  [REPORTED — NEPRA determination document and Nation coverage, via
+  WebSearch synthesis only — `[VERIFY]`, this is a primary regulatory
+  figure and should be confirmed by opening the NEPRA document directly
+  before scripting]
+- DISCOs sought a Rs33.778 billion quarterly tariff adjustment for
+  April-June 2026, citing capacity payments owed to idle power plants as a
+  driver. [REPORTED — Profit by Pakistan Today, via WebSearch synthesis
+  only — `[VERIFY]`]
+- Total capacity payments reached **Rs2.1 trillion** in 2024, a figure
+  IEEFA (Institute for Energy Economics and Financial Analysis) links
+  directly to reduced industrial output and shrinking grid demand — i.e.,
+  the same fixed bill spread over less electricity actually sold.
+  [REPORTED — IEEFA, via WebSearch synthesis only — `[VERIFY]`]
+
+### Reform history: renegotiation rounds and their claimed results
+
+- Pakistan has attempted to renegotiate IPP power purchase agreements
+  (PPAs) in **1998, 2012, 2020, and 2024**. [REPORTED — multiple outlets
+  synthesizing a Dawn analysis piece, via WebSearch synthesis only —
+  `[VERIFY]`]
+- In the 2024 round, PPAs with five IPPs were terminated as a first step;
+  two of those five accepted "haircut" deals worth up to Rs20 billion in
+  discounts. Eighteen other IPPs faced conversion from take-or-pay to
+  take-and-pay contracts, under which the government would only pay for
+  energy actually consumed, eliminating the capacity charge for those
+  plants. [REPORTED — via WebSearch synthesis only — `[VERIFY]`]
+- The Power Division projected total savings of **Rs3.498 trillion** from
+  renegotiating/terminating contracts with 29 IPPs and government power
+  plants (GPPs) over their remaining tenures (3-20 years): approximately
+  Rs411 billion from the five early terminations, Rs238 billion from
+  tariff revisions on eight bagasse power projects, and Rs922 billion from
+  tariff revisions on 14 other IPPs. [REPORTED — EnergyUpdate.com.pk, via
+  WebSearch synthesis only — `[VERIFY]`]
+- A separate, later report states the government claims **Rs4.3 trillion**
+  in total IPP-renegotiation savings — a different total than the
+  Rs3.498tn figure above. [UNRESOLVED — the two figures are not reconciled
+  in available reporting; `[VERIFY]` whether this is an updated total, a
+  different scope, or a discrepancy worth noting on screen]
+- One earlier report (predating the Rs1.675tn FY26 figure used elsewhere in
+  this brief) states circular debt stood at Rs2.4 trillion and was expected
+  to fall to Rs400-450 billion following a Rs1.23 trillion loan
+  restructuring. [REPORTED — via WebSearch synthesis only — `[VERIFY]`.
+  This figure is from an earlier point in time than the Aug 2026 Power
+  Division report (C001-C003) and should not be read as contradicting it —
+  it is an earlier snapshot and, notably, an earlier *projection* of debt
+  falling that the later, higher Rs1.675tn/Rs5.286tn figures show did not
+  hold. This gap between projected and actual outcomes is itself useful
+  evidence for Part 5's "reforms keep missing" argument, but the dates and
+  scope must be precisely stated on screen, not implied as directly
+  comparable numbers.]
+- The throughline for Part 5: despite three decades of renegotiation
+  rounds and trillions of rupees in claimed savings, the power sector's
+  gross circular-debt flow was still Rs364 billion in FY2025-26 alone
+  (C004), and the combined stock was still growing as of the most recent
+  report (C001). None of the renegotiation rounds altered the underlying
+  take-or-pay structure itself — they revised individual contract terms
+  within it.
 
 ### FY2025-26 power-sector debt: what actually drove the Rs364bn gross flow
 
@@ -257,6 +340,15 @@ the approved angle's own flagged research risk.
 - Liberty Daharki Power Limited's gas arrears to SNGPL: **Rs20.029 billion**
   as of December 9, 2025, against a Rs3.085 billion security deposit
   `[SOURCE: Profit by Pakistan Today / Business Recorder, 2025]` `[VERIFY]`
+- Capacity charges: **~63%** of the total projected power purchase price
+  for CY2026 (Rs2.163tn of Rs3.186tn), at Rs17.19/unit `[SOURCE: NEPRA
+  determination / The Nation, 2026]` `[VERIFY]`
+- Total capacity payments: **Rs2.1 trillion** in 2024 `[SOURCE: IEEFA,
+  2024]` `[VERIFY]`
+- IPP renegotiation claimed savings: **Rs3.498 trillion** (Power Division
+  projection, 29 IPPs/GPPs, 3-20 year remaining tenures) — a separate later
+  report states **Rs4.3 trillion**; not reconciled `[SOURCE: EnergyUpdate.com.pk
+  / PhotoNews Pakistan, 2025-2026]` `[VERIFY]`
 
 No figure in this brief is presented as VERIFIED in the strict sense
 (source directly opened and confirmed by Claude or a human) except where
@@ -270,21 +362,31 @@ session and need either a different retrieval method or a human open.
 
 1. LDPL's stated reason for non-payment ("limited payments received from
    CPPA-G") — the single most load-bearing quote for the thesis.
-2. The chronology of LDPL's 2021 PPA amendment vs. its reported March 2023
+2. The NEPRA CY2026 capacity-charge figures (Rs17.19/unit; Rs2.163tn of
+   Rs3.186tn total power purchase price) — a primary regulatory figure that
+   anchors Part 2 and should be confirmed by opening the NEPRA document
+   directly, not left as WebSearch synthesis.
+3. Reconciling the two different claimed IPP-renegotiation savings totals
+   (Rs3.498tn vs. Rs4.3tn) — Part 5 needs one defensible number, or an
+   explicit on-screen note that the figure itself is disputed.
+4. The chronology of LDPL's 2021 PPA amendment vs. its reported March 2023
    force majeure notice — currently reads as internally inconsistent.
-3. Current status of the December 2025 LDPL-SNGPL dispute (resolved,
+5. Current status of the December 2025 LDPL-SNGPL dispute (resolved,
    escalated, or still open) — needs a check closer to the recording date.
-4. The root-cause quote attributing SNGPL's power-sector receivables to
+6. The root-cause quote attributing SNGPL's power-sector receivables to
    "inadequate fund releases by CPPA-G."
-5. The August 2025 Rs76.5bn breakdown by plant/IPP (WAPDA, Liberty Power,
+7. The 1994 Power Policy / IMF-ADB capacity-payment design history — should
+   be confirmed against the SDPI or World Bank paper directly, not just a
+   WebSearch synthesis of them.
+8. The August 2025 Rs76.5bn breakdown by plant/IPP (WAPDA, Liberty Power,
    Orient Power, Engro Energy) — highly specific, needs primary confirmation
    before using named figures on screen.
-6. The GCDMP's five-point structure and savings targets.
-7. The IMF's Rs300-325bn flow-limit figure and the ECC's Rs200bn subsidy
-   approval.
-8. The "official source" behind the Rs5.286 trillion combined figure —
-   should be traced to a specific Power Division / Petroleum Division report
-   rather than left as an unnamed attribution.
+9. The GCDMP's five-point structure and savings targets.
+10. The IMF's Rs300-325bn flow-limit figure and the ECC's Rs200bn subsidy
+    approval.
+11. The "official source" behind the Rs5.286 trillion combined figure —
+    should be traced to a specific Power Division / Petroleum Division
+    report rather than left as an unnamed attribution.
 
 ---
 
@@ -310,6 +412,15 @@ session and need either a different retrieval method or a human open.
   detail. Not yet fetched.
 - ADB, "Circular Debt Impact on Power Sector Investment" — a multilateral
   primary-adjacent source. Not yet fetched.
+- World Bank, "Learning from Power Sector Reform: The Case of Pakistan"
+  (Policy Research Working Paper 8842) — primary multilateral source for
+  the 1994 Power Policy's capacity-payment design. Not yet fetched.
+- SDPI (Sustainable Development Policy Institute), "The History of Private
+  Power in Pakistan" (Fahd Ali and Fatima Beg) — research-institute source
+  for the same history. Not yet fetched.
+- IEEFA, "Pakistan's PKR2.1 trillion capacity payments crisis triggers
+  power purchase agreement renegotiations" — for the capacity-payment scale
+  and renegotiation-trigger narrative. Not yet fetched.
 
 ---
 
