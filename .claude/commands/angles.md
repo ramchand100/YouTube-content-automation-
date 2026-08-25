@@ -6,7 +6,7 @@ Generate scored angle options for a broad topic. Recommend one. Stop for approva
 
 1. Read `CLAUDE.md`.
 2. Read `.claude/rules/research.md`.
-3. Confirm no approved angle already exists for this topic in `topics/`.
+3. Confirm no approved angle already exists for this topic in `topics/angles/`.
 
 ## What to do
 
@@ -97,5 +97,7 @@ End every angles output with this exact line:
 Do not begin research or scripting until the user explicitly approves an angle
 (either by number, name, or by saying "approved" or "go with [angle]").
 
-Once approved, save the angle details to `topics/ANGLE_TEMPLATE.md` with
-`approval_status: approved` and today's date, then proceed to `/research`.
+Once approved, save the angle details to `topics/angles/NN_slug_angle.md` (fill out
+the blank form in `topics/ANGLE_TEMPLATE.md` and save the completed copy under the
+episode's own number and slug) with `approval_status: approved` and today's date,
+then proceed to `/research`.

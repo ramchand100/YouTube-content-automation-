@@ -24,8 +24,8 @@ requirements.txt            Python dependencies (Jinja2, rich)
   commands/                 Slash commands: /angles /research /write-script etc.
   agents/                   Specialised agents: researcher, script-editor, etc.
 topics/
-  ANGLE_TEMPLATE.md         Angle selection form — fill before research begins
-  *.md                      Research briefs and topic ideas
+  ANGLE_TEMPLATE.md         Blank angle selection form — fill before research begins
+  angles/                   NN_slug_angle.md — one completed, approved angle per episode
 research/
   briefs/                   NN_slug_brief.md — full research briefs per episode
   timelines/                NN_slug_timeline.md — chronological source timelines

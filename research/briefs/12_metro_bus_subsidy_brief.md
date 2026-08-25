@@ -1,7 +1,7 @@
 # Research Brief — Episode 12: The Metro Bus Subsidy Machine
 
 - **Topic:** Public Transport — Pakistan's Metro Bus / BRT systems
-- **Angle source:** `topics/ANGLE_TEMPLATE.md`, approved 2026-08-22
+- **Angle source:** `topics/angles/12_metro_bus_subsidy_angle.md`, approved 2026-08-22
 - **Research date:** 2026-08-22
 
 ## Methodology note (read before using these figures in a script)

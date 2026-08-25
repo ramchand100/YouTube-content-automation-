@@ -1,7 +1,7 @@
 # Research Brief — Episode 13: The Gwadar Promise vs. The Karachi Reality
 
 - **Topic:** Karachi Port / Port Qasim — Gwadar's continued low trade share
-- **Angle source:** `topics/ANGLE_TEMPLATE.md`, approved 2026-08-22
+- **Angle source:** `topics/angles/13_gwadar_karachi_angle.md`, approved 2026-08-22
 - **Research date:** 2026-08-22
 
 ## Methodology note

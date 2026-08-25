@@ -8,7 +8,7 @@ Do not write the script until all of the following are confirmed:
 
 1. Read `CLAUDE.md` in full.
 2. Read `.claude/rules/scripts.md`.
-3. Read the approved angle from `topics/ANGLE_TEMPLATE.md` (`approval_status: approved`).
+3. Read the approved angle from `topics/angles/NN_slug_angle.md` (`approval_status: approved`).
 4. Read the research brief from `research/briefs/NN_slug_brief.md`.
 5. Read the claim ledger from `research/claim-ledgers/NN_slug_claims.csv`.
 6. Confirm no UNRESOLVED claims exist without `[VERIFY]` tags.

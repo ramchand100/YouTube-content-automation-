@@ -107,7 +107,7 @@ Before a research brief is promoted to scripting:
 2. Claim ledger is complete — one row per major claim.
 3. Source register lists every source consulted (not just those cited).
 4. Counterarguments are documented and addressed.
-5. The brief is reviewed and approved (record in `topics/ANGLE_TEMPLATE.md`).
+5. The brief is reviewed and approved (record in `topics/angles/NN_slug_angle.md`).
 
 ---
 

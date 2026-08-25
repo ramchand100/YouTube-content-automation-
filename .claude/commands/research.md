@@ -7,7 +7,7 @@ Do not write the script.
 
 1. Read `CLAUDE.md`.
 2. Read `.claude/rules/research.md`.
-3. Confirm an approved angle exists in `topics/ANGLE_TEMPLATE.md` with
+3. Confirm an approved angle exists in `topics/angles/NN_slug_angle.md` with
    `approval_status: approved`.
 4. If no approved angle exists, redirect to `/angles` first.
 
@@ -20,7 +20,7 @@ Work only from the approved angle. Do not reopen the angle decision.
 ### 1. Research brief — `research/briefs/NN_slug_brief.md`
 
 Structure:
-- Approved angle (copy from ANGLE_TEMPLATE)
+- Approved angle (copy from `topics/angles/NN_slug_angle.md`)
 - Central question
 - Tentative thesis
 - Claims required (from the angle's sub-questions)
