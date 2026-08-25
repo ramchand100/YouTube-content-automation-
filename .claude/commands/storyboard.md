@@ -19,18 +19,28 @@ production directions. It never changes the narration or the section structure.
 
 ## Structure
 
+Read the script's front-matter first. `structure_type: flexible` scripts use
+`## Part N — [Name]` headings, and the number of Parts is whatever the
+script's `section_count` field says — three, four, five, six, or more. Do
+not assume five. Only `structure_type: legacy-A/B/C` scripts use the fixed
+five-`SECTION` format.
+
+Build one storyboard block per script Part (or Section, for legacy scripts),
+using the script's own Part names and in the script's own order:
+
 ```markdown
 # [Episode Title] — Visual Production Plan
 
 - **Episode:** NN
 - **Script file:** scripts/NN_slug.md
+- **Structure:** flexible, N parts (matches script `section_count`) | legacy-A/B/C
 - **Palette:** light (#F8F9FA background) — current standard for ep 06+
 - **Remotion data:** remotion/data/epNN_data.json
 - **Footage rights log:** research/source-registers/NN_slug_sources.csv
 
 ---
 
-## SECTION 1 — The Anomaly (00:00 – MM:SS)
+## Part 1 — [Name from script] (00:00 – MM:SS)
 
 ### Motion graphic
 [Composition name, animation type, duration, data source, palette tokens used]
@@ -44,12 +54,14 @@ production directions. It never changes the narration or the section structure.
 ### Chart / data overlay (if applicable)
 [Chart type; data file reference; annotation text]
 
-### Transition to Section 2
+### Transition to Part 2
 [Cut / dissolve / wipe; duration]
 
 ---
 
-[Repeat for Sections 2–5]
+[Repeat for each remaining Part in the script, using its actual name and
+heading number. The last Part has no "Transition to next Part" — end with a
+closing treatment instead.]
 ```
 
 ## Visual system
