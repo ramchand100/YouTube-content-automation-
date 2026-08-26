@@ -54,6 +54,41 @@ Primary / Tier-1 journalism / Secondary
 - Tag any figure that could not be confirmed `[VERIFY]`.
 - Do not include UNRESOLVED claims without a `[VERIFY]` tag and a note.
 
+## Firecrawl — use for every research pass
+
+If an `mcp__Firecrawl__firecrawl_search` tool is available this session, use it
+as the default first attempt for any source that returns a fetch error (HTTP
+403 or similar) to a direct WebFetch — this has repeatedly gotten past blocks
+on sites like shaukatkhanum.org.pk, the UK Charity Commission register,
+Business Recorder, and Profit by Pakistan Today that direct fetch could not
+reach, because Firecrawl crawls with its own infrastructure rather than
+routing through this session's network path. Try it before giving up on a
+blocked primary or official source and falling back to WebSearch-synthesis-only
+sourcing.
+
+If the Firecrawl tool is not available in a given session (its MCP connector
+can disconnect between sessions), say so plainly and fall back to the normal
+WebFetch/WebSearch approach — do not silently skip this step or claim a source
+was checked via Firecrawl when it wasn't.
+
+**Firecrawl results still count as a "search-result snippet" unless the tool
+returns full page content** — some results come back as a short
+title/description snippet, others as the full page markdown (this varies by
+page, not predictably). Check which you got:
+- Full page content returned → this satisfies "open and read the actual
+  source document." Classify normally and cite it as a direct read.
+- Short snippet only → this is still not final evidence per the rule above.
+  Use it to identify the correct figure and cite it as `REPORTED` with a note
+  that it was Firecrawl-search-confirmed but not a full document read, and add
+  a verification-queue ticket (status `CANDIDATE`) for a human — or a follow-up
+  full read — to close it out. Do not mark a snippet-sourced claim `VERIFIED`
+  or a verification-queue ticket `EDITOR VERIFIED`.
+
+If Firecrawl's own crawl surfaces information that contradicts something
+already believed true (a claimed completion date, a cost figure, a status),
+treat that as a real finding to investigate, not noise — it may be catching a
+stale assumption the way it did for episode 15's Karachi campus opening date.
+
 ## Nonfiction constraint
 
 Do not invent scenes, examples, or illustrative characters to make the research
