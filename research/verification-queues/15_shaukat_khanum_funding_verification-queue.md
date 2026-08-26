@@ -24,11 +24,19 @@
   donation/zakat share was materially understated, and the paying-patient share was
   materially overstated; both are now fixed with precise audited figures). See
   each ticket below for specifics.
-- All eight tickets have now moved forward from OPEN. V-006 and the free-treatment
-  half of V-002 are EDITOR VERIFIED via full document reads (Charity Commission and
-  "Our Story" respectively); V-001, V-003, V-004, V-005 are EDITOR VERIFIED via the
-  user-supplied annual report/audit; V-007 is EDITOR VERIFIED for the date only;
-  V-008 is RESOLVED as a decision not to use a figure.
+- All eight original tickets have now moved forward from OPEN. V-006 and the
+  free-treatment half of V-002 are EDITOR VERIFIED via full document reads
+  (Charity Commission and "Our Story" respectively); V-001, V-003, V-004, V-005 are
+  EDITOR VERIFIED via the user-supplied annual report/audit; V-007 is EDITOR
+  VERIFIED for the date only; V-008 is RESOLVED as a decision not to use a figure.
+- **Update, 2026-08-26 — `/audit-sources` pass.** Full source audit run against the
+  corrected script (`research/audits/15_shaukat_khanum_funding_research-audit.md`,
+  30 claims). Directly fetched and read in full: the PMC chemotherapy-drug-shortage
+  study (previously unread). Cross-corroborated via WebSearch (not a full read):
+  Peshawar's Rs 4bn cost figure, the endowment fund's Oman transaction (now backed
+  by four Tier-1 journalism outlets, an upgrade from the original single academic
+  source), and the Part 4 public-health figures. **New finding: V-009**, a genuine
+  numeric conflict on the oncologist-count claim, not previously caught.
 
 ### Footage
 
@@ -37,10 +45,18 @@
 
 ### Priority (before this script can move to `production-ready`)
 
-1. **V-007** — the only remaining genuinely open item: the Rs 4bn Peshawar
-   first-phase cost figure is still single-sourced to one 2015 news article. Low
-   stakes (a historical, non-headline figure) but worth a look if time allows.
-2. **V-006's flagged side-finding** — an unreconciled £49m UK zakat figure was
+1. **V-009 (new, Conflicting)** — highest priority now. The script says "fewer than
+   250" trained cancer specialists; a separate search this session found a
+   specific "260 board-certified oncologists" figure. This is an unresolved
+   numeric conflict, not just an unread source, and should be resolved before
+   `production-ready`.
+2. **V-001 (public-health cluster: hospital count, oncologist caseload, radiotherapy
+   access)** — the underlying JCPSP article returned HTTP 503 on three attempts
+   this session (server error, not a block) and remains unread; all three figures
+   are otherwise well cross-corroborated via independent WebSearch results.
+3. **V-007** — the Rs 4bn Peshawar first-phase cost figure is still
+   search-corroborated only, not from a directly-read document. Low stakes.
+4. **V-006's flagged side-finding** — an unreconciled £49m UK zakat figure was
    found but not used; worth a note to a human researcher in case it resurfaces in
    a future pass, so it isn't accidentally used without reconciliation.
 3. Everything else is now EDITOR VERIFIED or a settled RESOLVED decision — this
@@ -328,3 +344,37 @@
   resolves, the case for the script's existing choice to not use the 90% figure.
 - Status: RESOLVED — keep using only the 75% network-wide figure; do not add the
   90% figure to the script
+
+## V-009 — Oncologist-count conflict (fewer than 250 vs. 260)
+
+- Script location: Part 4 ("Pakistan has fewer than 250 trained cancer specialists
+  for a population of over 240 million.")
+- Current wording: "fewer than 250 trained cancer specialists" (`C018`).
+- Why verification is needed: found during the 2026-08-26 `/audit-sources` pass.
+  The script's figure traces to JCPSP (unread — see below), but a separate
+  WebSearch this session, run to cross-check the same claim, surfaced a specific
+  different number: "260 board-certified oncologists (accredited by the College of
+  Physicians and Surgeons, Pakistan) across the entire country." This is not just
+  an unread source — it's a specific, named alternative figure that directly
+  contradicts "fewer than 250."
+- Go to: The original JCPSP article
+  (jcpsp.pk/article-detail/prising-trend-of-cancer-in-pakistan-an-urgent-call-for-actionorp),
+  which returned HTTP 503 on three separate attempts this session — this looks
+  like a transient server issue, not a hard block, so retrying later has a
+  reasonable chance of success. Also worth checking the College of Physicians and
+  Surgeons Pakistan's own register of board-certified oncologists directly, since
+  that's the primary source behind the competing 260 figure.
+- Search terms:
+  - College of Physicians and Surgeons Pakistan board-certified oncologists count
+  - Pakistan trained cancer specialists total number 2025 2026
+- Check for: Whether "fewer than 250" (JCPSP) and "260 board-certified" describe
+  the same population. If JCPSP's figure is "trained cancer specialists" broadly
+  (potentially including radiation oncologists, non-board-certified practitioners,
+  or a different reference year) while 260 is specifically "board-certified
+  oncologists," these could both be accurate without contradicting each other —
+  but that has not been confirmed either way.
+- Do not use: Either figure as a precise headline number until this is resolved.
+- Safe fallback wording: soften to a range that both figures support, e.g.
+  "roughly 250 to 260 trained cancer specialists" or "only a few hundred," if the
+  distinction can't be resolved before recording.
+- Status: OPEN (Conflicting) — highest-priority open item for this episode
