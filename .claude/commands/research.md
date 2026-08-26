@@ -59,16 +59,46 @@ Primary / Tier-1 journalism / Secondary
 Do not invent scenes, examples, or illustrative characters to make the research
 feel more concrete. Record only what is documented.
 
+## Verification queue — required for every episode
+
+Once the claim ledger and source register are complete, generate:
+
+`research/verification-queues/NN_slug_verification-queue.md`
+
+using the ticket format and status vocabulary in
+`.claude/rules/verification-queue.md`. This is not optional and does not wait for a
+`/review-script` or `/audit-sources` pass — generate it as part of `/research`
+itself, from the claim ledger and source register directly, so the human handoff
+list exists from the first draft rather than being reconstructed later.
+
+Do not open a V-XXX ticket for every REPORTED or ESTIMATE claim mechanically.
+Prioritize, the same way a source audit does: claims that are load-bearing (opening
+hooks, headline figures, the thesis's central number), claims with directly
+conflicting sources, claims sourced only through a site that returned a fetch
+error (ACCESS BLOCKED) rather than a directly read document, and claims marked
+UNRESOLVED. A claim that is REPORTED, attributed, and consistent across two or more
+independently corroborating sources does not need its own ticket just because it
+wasn't independently fetched.
+
+End the file with the same Human Verification Handoff structure used in
+`research/verification-queues/11_pakistan_steel_mills_verification-queue.md`:
+research and footage status counts, and a priority-ordered list of the 3-5 items
+that matter most before the script can move to `production-ready`. If no storyboard
+exists yet for this episode, state that explicitly and skip the footage-queue file
+until `/footage` runs.
+
 ## After this command
 
 Report:
 - Research brief path
 - Claim ledger path
 - Source register path
+- Verification queue path
 - Count of VERIFIED claims
 - Count of REPORTED claims
 - Count of ESTIMATE claims
 - Count of UNRESOLVED / `[VERIFY]` items that need resolution before scripting
+- Count of open verification-queue tickets and the top priority items among them
 
 Do not begin the script. Wait for the user to review the research brief and
 confirm readiness to proceed.
