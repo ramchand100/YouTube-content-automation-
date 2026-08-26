@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
 freshness_status: Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and are the strongest-sourced claims in the script; the hospital's own budget and free-treatment figures (Part 2) and Pakistan's public-capacity figures (Part 4) are REPORTED via WebSearch synthesis only, not a directly-opened primary source, and carry [VERIFY]
-word_count: 2516
-estimated_duration: 16 minutes 46 seconds
+word_count: 2478
+estimated_duration: 16 minutes 31 seconds
 last_verified: 2026-08-25
 ---
 
@@ -92,8 +92,6 @@ Most of that trust, and most of that money, is raised inside Pakistan. But a mea
 The hospital doesn't only raise money inside Pakistan. It has registered fundraising charities in other countries too, including the United States and the United Kingdom, built specifically to channel donations from Pakistanis living abroad. [SOURCE: UK Charity Commission, Charity Navigator, via reporting] [VERIFY]
 
 The clearest picture of how this works comes from the American chapter, Imran Khan Cancer Appeal Incorporated, which files its finances with the US tax authority every year. Those filings are public.
-
-Its most recent public filing covers the year ending September 2024. Nonprofit tax filings like this typically run about a year behind, which is why 2024 is the latest figure available, not a sign of slower reporting today.
 
 In the 2022 filing year, it raised 16.04 million dollars. By the 2024 filing year, that had grown to 23.26 million dollars, an increase of about 45 percent in two years. [SOURCE: ProPublica Nonprofit Explorer, IRS Form 990 filings]
 
