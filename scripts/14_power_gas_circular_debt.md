@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
 freshness_status: Every headline figure is REPORTED via WebSearch synthesis of live outlets, not a directly-opened primary source; the brief's [VERIFY] priority list must be resolved before recording, especially the NEPRA capacity-charge figures and the Liberty Daharki/CPPA-G quote
-word_count: 2918
-estimated_duration: 19 minutes 27 seconds
+word_count: 3065
+estimated_duration: 20 minutes 26 seconds
 last_verified: 2026-08-25
 ---
 
@@ -45,15 +45,19 @@ Five parts, approved by the user. Part 1 opens on the paradox of billions spent 
 
 ## Part 1 — The Machine That Never Stops Growing
 
-In one year, Pakistan's government poured more than 300 billion rupees into subsidies for its power sector. [SOURCE: The News, 2026] [VERIFY]
+In FY2025-26, Pakistan's government put 302 billion rupees of fresh subsidies into its power sector, money meant to shrink the sector's debt. [SOURCE: The News, 2026] [VERIFY]
 
-That same year, the sector's unpaid debt still grew by 364 billion rupees. [SOURCE: Express Tribune, 2026] [VERIFY]
+That same year, the debt grew anyway, by 364 billion rupees. [SOURCE: Express Tribune, 2026] [VERIFY]
 
-This episode looks at why. Not one villain, but a fixed-cost contract from three decades ago, a distribution system that doesn't collect what it's owed, a gas sector wired into the same shortfall, and a string of reforms that keep missing the actual problem.
+This is called circular debt. It means debt that never gets paid off.
+
+It just moves from one part of the system to the next, growing a little more each time it moves.
+
+This episode looks at why it keeps growing. Not one villain, but a fixed-cost contract from three decades ago, a distribution system that doesn't collect what it's owed, a gas sector wired into the same shortfall, and a string of reforms that keep missing the actual problem.
 
 Add up everything Pakistan's power and gas companies are owed and can't collect, and the number is 5.286 trillion rupees. [SOURCE: The Nation, 2026] [VERIFY]
 
-That is roughly two and a half times the 2.1 trillion rupees Pakistan spent in a single year just on capacity payments, the fixed bill you'll meet in a moment. [ANALYSIS: Claude's calculation, 5.286 trillion divided by 2.1 trillion] [SOURCE: IEEFA, 2024] [VERIFY]
+Picture it this way. That's roughly two and a half times what Pakistan spent in a single year just on capacity payments, the fixed bill you'll meet in a moment. [ANALYSIS: Claude's calculation, 5.286 trillion divided by 2.1 trillion] [SOURCE: IEEFA, 2024] [VERIFY]
 
 Split the total in two. The power sector alone owes 1.675 trillion rupees. [SOURCE: The News, 2026] [VERIFY]
 
@@ -85,7 +89,7 @@ So it made those companies an offer. Build a power plant, and Pakistan will guar
 
 The International Monetary Fund and the Asian Development Bank helped design the mechanism that made that guarantee possible. [SOURCE: SDPI, World Bank, via reporting] [VERIFY]
 
-It's called a capacity payment.
+It's called a capacity payment, and the contract behind it is called take-or-pay.
 
 Here's what that actually means. Pakistan agreed to pay these power plants for being available to generate electricity, whether or not anyone actually used that electricity.
 
@@ -93,7 +97,9 @@ Think of it like a gym membership charged every month, whether you go three time
 
 That isn't a side effect of the system. It's the system, working exactly as designed.
 
-By 2026, this fixed bill has become the single largest piece of what Pakistan pays for electricity. Regulators approved capacity charges of 17.19 rupees for every unit of power priced into the system for 2026. [SOURCE: NEPRA, The Nation, 2026] [VERIFY]
+Take, or pay. In practice, Pakistan almost always ends up paying.
+
+By 2026, this fixed bill has become the single largest piece of what Pakistan pays for electricity. Regulators approved capacity charges of 17.19 rupees for every unit of power priced into the system for 2026. [REPORTED: NEPRA determination, via The Nation, 2026, not yet independently confirmed against the primary regulatory document] [VERIFY]
 
 Out of every 100 rupees in Pakistan's total power purchase bill for that year, 63 go to capacity charges. Only 37 pay for the electricity actually burned and delivered. [SOURCE: NEPRA, 2026] [ANALYSIS: derived from NEPRA's reported total] [VERIFY]
 
@@ -113,7 +119,7 @@ So how much of it do they actually collect?
 
 Not all of it.
 
-In the last financial year alone, Pakistan's distribution companies added 262 billion rupees to the debt through what regulators call inefficiency losses. [SOURCE: The News, 2026] [VERIFY]
+In the last financial year alone, Pakistan's distribution companies added 262 billion rupees to the debt through what regulators call inefficiency losses. That's about seven out of every ten rupees the whole power sector added to its debt that year, from one cause. [SOURCE: The News, 2026] [ANALYSIS: 262bn divided by the 364bn gross flow cited earlier] [VERIFY]
 
 That's electricity generated, sent down the wires, and never paid for. Some of it stolen, some of it simply never billed correctly.
 
@@ -121,7 +127,7 @@ That's a large number on its own. But it isn't even the biggest single non-payer
 
 That title belongs to K-Electric, the company that runs Karachi's power grid. In the same year, K-Electric added 194 billion rupees to the circular debt. [SOURCE: The News, 2026] [VERIFY]
 
-By June 2026, its total unpaid bill had grown to 421 billion rupees, split between what it owes in principal and years of accumulated late fees. [SOURCE: The News, 2026] [VERIFY]
+By June 2026, its total unpaid bill had grown to 421 billion rupees. That's more than the entire power sector added to its debt in the whole of that year, owed by one company. [SOURCE: The News, 2026] [ANALYSIS: 421bn compared to the 364bn gross flow cited earlier] [VERIFY]
 
 K-Electric says this isn't simply a case of refusing to pay. It says it's owed money too, over a regulatory dispute that goes back years.
 
@@ -155,7 +161,7 @@ Its security deposit, the cash SNGPL holds specifically to cover exactly this ki
 
 SNGPL warned it would cut the plant's gas supply. Liberty Daharki's response was blunt.
 
-It said it couldn't pay because it hadn't been paid, blaming limited payments from CPPA-G, the government body that buys electricity from every power plant in the country. [SOURCE: Business Recorder, 2025] [VERIFY]
+It said it couldn't pay because it hadn't been paid, blaming limited payments from CPPA-G, the government body that buys electricity from every power plant in the country. [REPORTED: Business Recorder, 2025, not yet independently confirmed] [VERIFY]
 
 One power plant, one gas utility, one missed government payment. That's the entire mechanism, in miniature.
 
@@ -195,7 +201,9 @@ Here's the test. If the fix is real, the debt should stop growing, or at least g
 
 In the same year all of this was being announced, Pakistan's power sector still added 364 billion rupees in new circular debt, the exact figure this episode opened with. [SOURCE: Express Tribune, 2026]
 
-Government subsidy injections brought that number down to a net increase of 61 billion rupees. Still growing, and only because the government spent 302 billion rupees in fresh subsidies to make it look smaller. [SOURCE: The News, 2026]
+That 302 billion rupees in fresh subsidies from this episode's opening brought the number down to a net increase of 61 billion rupees.
+
+The debt was still growing. It just grew slower, and only because of that spending. [SOURCE: The News, 2026]
 
 The International Monetary Fund had asked Pakistan to keep the year's new debt under roughly 300 to 325 billion rupees. Even with the subsidy, Pakistan didn't hit that number either. [SOURCE: multiple outlets, via reporting] [VERIFY]
 
@@ -217,7 +225,7 @@ And new contracts, not just renegotiated old ones, built without a guarantee tha
 
 None of that has happened yet.
 
-Until it does, the number this episode opened with will keep doing what it's done for three decades. Growing, no matter how many billions get spent trying to make it stop.
+Until it does, the pattern this episode opened with will keep repeating. The government will keep spending hundreds of billions of rupees trying to shrink the debt, and the debt will keep growing anyway, the way it did in the very same year those subsidies were paid.
 
 ---
 
