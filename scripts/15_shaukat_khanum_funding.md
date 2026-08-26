@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
 freshness_status: The hospital's own free-treatment, cumulative-care, budget, donation/zakat-share, audit, and Karachi-construction figures (Parts 1, 2, 5) were upgraded on 2026-08-26 to VERIFIED/REPORTED-with-primary-source status, sourced directly from the user-supplied Shaukat Khanum Memorial Trust Annual Report 2025 and audited financial statements (year ended December 31, 2025) — both read in full. Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and the UK Charity Commission's full filing record. Pakistan's public-capacity figures (Part 4) and the Peshawar first-phase cost and endowment-fund figures (Part 5) remain REPORTED via WebSearch synthesis only and still carry [VERIFY]. See research/verification-queues/15_shaukat_khanum_funding_verification-queue.md for what remains open.
-word_count: 1995
-estimated_duration: 13 minutes 18 seconds
+word_count: 2091
+estimated_duration: 13 minutes 56 seconds
 last_verified: 2026-08-26
 ---
 
@@ -65,9 +65,9 @@ So how does a hospital give away most of what it does, year after year, and stil
 
 Start with the money that comes in every year.
 
-According to the Trust's own audited financial statements, total income grew from 31.9 billion rupees in 2024 to 38.25 billion rupees in 2025, a rise of nearly 20 percent in a single year. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements for the year ended December 31, 2025]
+The Trust's own audited accounts show total income climbing fast: 31.9 billion rupees in 2024, 38.25 billion rupees in 2025. That's a rise of nearly 20 percent in a single year. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements for the year ended December 31, 2025]
 
-For 2026, the hospital's own reporting points to a budgeted total closer to 43.3 billion rupees — though that figure won't be audited until the year closes. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official statistics, 2026] [VERIFY: unaudited, forward-looking figure]
+For 2026, the hospital's own reporting points to a budgeted total closer to 43.3 billion rupees, though that figure won't be audited until the year closes. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official statistics, 2026] [VERIFY: unaudited, forward-looking figure]
 
 Donations and zakat combined made up roughly two thirds of that income in both years: 64 percent in 2024, and 67 percent in 2025. [SOURCE: Shaukat Khanum Memorial Trust, audited Income and Expenditure Account, FY2024-25]
 
@@ -77,7 +77,9 @@ The rest comes mostly from paying patients, treated at the same hospital, by the
 
 Every patient goes through a financial assessment before treatment begins. Based on that assessment, a patient may be asked to pay in full, pay partially, or pay nothing at all. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, via reporting] [VERIFY]
 
-That's the mechanism in one sentence. Patients who can pay, and donors who choose to give, together cover the cost of patients who can't — though it's donors, not paying patients, who carry most of that weight.
+That's the mechanism in one sentence. Patients who can pay, and donors who choose to give, together cover the cost of patients who can't.
+
+But it's donors, not paying patients, who carry most of that weight.
 
 The hospital's financial statements are audited every year by A.F. Ferguson and Co, one of Pakistan's established accounting firms. [SOURCE: Shaukat Khanum Memorial Trust, Independent Auditor's Report, year ended December 31, 2025]
 
@@ -95,7 +97,7 @@ The clearest picture of how this works comes from the American chapter, Imran Kh
 
 In the 2022 filing year, it raised 16.04 million dollars. By the 2024 filing year, that had grown to 23.26 million dollars, an increase of about 45 percent in two years. [SOURCE: ProPublica Nonprofit Explorer, IRS Form 990 filings]
 
-At roughly the exchange rate through that same year, about 280 rupees to the dollar, that 23.26 million dollar figure works out to about 6.5 billion rupees. Measured against the hospital's own 34.8 billion rupee budget for that same year, 2024, that's nearly one rupee in every five, raised from one country's diaspora alone. [ESTIMATE: 23.26 million dollars converted at an approximate 2024 exchange rate of Rs 280/USD, compared against the Rs 34.8 billion 2024 budget figure cited in Part 2, both figures matched to the same year] [VERIFY]
+At roughly the exchange rate through that same year, about 280 rupees to the dollar, that 23.26 million dollar figure works out to about 6.5 billion rupees. Measured against the Trust's own 31.9 billion rupee total income for that same year, 2024, that's roughly one rupee in every five, raised from one country's diaspora alone. [ESTIMATE: 23.26 million dollars converted at an approximate 2024 exchange rate of Rs 280/USD, compared against the Rs 31.9 billion 2024 total income figure cited in Part 2, both figures matched to the same year] [VERIFY]
 
 Almost all of that money came from ordinary donors, not big institutional grants. In 2024, direct contributions made up 89.5 percent of the American chapter's revenue. [SOURCE: ProPublica Nonprofit Explorer, IRS Form 990 filings]
 
@@ -103,7 +105,9 @@ Independent charity evaluators rate it highly for transparency. Charity Navigato
 
 The hospital's UK-registered charity shows a similar pattern in its own filed accounts. For the year ending December 2024, it reported income of about 17.7 million pounds against expenditure of about 18.1 million pounds. [SOURCE: UK Charity Commission, charity registration #1000580, financial year ending 31 December 2024]
 
-This is not pocket change or symbolic goodwill. It's a fast growing, foreign currency funding channel that now makes up a real share of how the hospital pays its bills.
+Converted to rupees at 2024's average exchange rate, about 356 to the pound, that income works out to roughly 6.3 billion rupees, almost exactly the same scale as the American chapter's giving that same year. [ESTIMATE: 17.7 million pounds converted at an approximate 2024 average exchange rate of Rs 356/GBP, compared against the Rs 6.5 billion American-chapter 2024 figure cited earlier in this Part]
+
+This is not pocket change or symbolic goodwill. It's a fast-growing, foreign-currency funding channel that now makes up a real share of how the hospital pays its bills.
 
 But raising money is only half the story. The other half is what that money is actually being asked to cover.
 
@@ -111,25 +115,23 @@ But raising money is only half the story. The other half is what that money is a
 
 ## Part 4 — What the State Doesn't Provide
 
-Go back to that first number. Only about twenty seven hospitals in the entire country are built specifically to treat cancer. [SOURCE: public-health literature, via reporting] [VERIFY]
+Go back to that first number, twenty seven hospitals nationwide built specifically to treat cancer.
 
 Three of those twenty seven are run by this one hospital network. That's more than one in every ten of the country's dedicated cancer centres, operated by a single charitable trust. [ANALYSIS: 3 divided by approximately 27 nationally cited centers] [VERIFY]
 
 The shortage goes well beyond buildings. Pakistan has fewer than 250 trained cancer specialists for a population of over 240 million. [SOURCE: public-health literature, via reporting] [VERIFY]
 
-Each of those specialists is estimated to see between 1,300 and 1,500 patients a year. [SOURCE: public-health literature, via reporting] [VERIFY]
+That means each specialist is estimated to see between 1,300 and 1,500 patients a year, far more than one doctor can realistically give proper attention to. [SOURCE: public-health literature, via reporting] [VERIFY] [ANALYSIS: interpretive framing of the caseload figure]
 
-Only about 21 percent of Pakistani cancer patients have access to radiation therapy at all. [SOURCE: public-health literature, via reporting] [VERIFY]
+Access breaks down the same way. Only about 21 percent of Pakistani cancer patients have access to radiation therapy at all, and pharmacists across the country regularly report running short of basic chemotherapy drugs. [SOURCE: public-health literature, via reporting] [SOURCE: qualitative study, via reporting] [VERIFY]
 
-And pharmacists across the country regularly report running short of basic chemotherapy drugs. [SOURCE: qualitative study, via reporting] [VERIFY]
-
-Pakistan records somewhere between 173,000 and 185,000 new cancer cases every year, depending on the estimate used. [SOURCE: public-health literature, via reporting] [VERIFY]
+Put together, Pakistan records somewhere between 173,000 and 185,000 new cancer cases every year, depending on the estimate used, against a system this thin. [SOURCE: public-health literature, via reporting] [VERIFY]
 
 That's the scale of the problem one hospital network, however large, was never going to be able to solve alone.
 
 To be clear, none of this is a failure of the hospital. Every patient it treats for free is a patient the public system would otherwise have to absorb, with far less capacity to do it.
 
-The honest way to read these numbers together is this. A private, donor funded institution is carrying a share of the national cancer burden that the state's own hospitals and clinics were supposed to carry, and largely have not.
+The honest way to read these numbers together is this. A private, donor-funded institution is carrying a share of the national cancer burden that the state's own hospitals and clinics were supposed to carry, and largely have not.
 
 If that's true, the real test isn't whether this one hospital can keep growing. It's whether a model built on need this large can actually keep scaling forever.
 
@@ -139,13 +141,15 @@ If that's true, the real test isn't whether this one hospital can keep growing. 
 
 Growth costs money before it saves any.
 
-The Peshawar campus opened in December 2015, after a first phase that cost about 4 billion rupees, roughly a quarter of what the Karachi campus is now costing. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, "Our Story," for the opening date; The Express Tribune for the first-phase cost] [ANALYSIS: Peshawar's Rs 4bn compared against Karachi's Rs 16.4bn]
+The Peshawar campus opened in December 2015, after a first phase that cost about 4 billion rupees. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, "Our Story," for the opening date; The Express Tribune for the first-phase cost]
 
 The Karachi campus has taken even longer, and cost far more than first planned. An early 2019 estimate put the total project at 6.2 billion rupees, with an opening date of December 2021.
 
-Construction actually began in September 2020. The Trust's own audited accounts show 16.6 billion rupees tied up in the Karachi project as of the end of 2025, more than two and a half times the original estimate — with 12.6 billion rupees of that spent in 2025 alone. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements and Annual Report 2025, year ended December 31, 2025] [ANALYSIS: Rs 16.6bn capital work-in-progress compared to the original Rs 6.2bn estimate]
+Construction actually began in September 2020. The Trust's own audited accounts show 16.6 billion rupees tied up in the Karachi project as of the end of 2025, more than two and a half times the original estimate. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements and Annual Report 2025, year ended December 31, 2025] [ANALYSIS: Rs 16.6bn capital work-in-progress compared to the original Rs 6.2bn estimate]
 
-As of the Annual Report, the campus still had not opened. Exterior work was expected to finish in the first quarter of 2026, equipment installation in the third quarter, with the hospital targeting a December 2026 opening. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, Annual Report 2025]
+Of that, 12.6 billion rupees was spent in 2025 alone, more than three times what Peshawar's entire first phase cost, in a single year on a single campus. [ANALYSIS: Rs 12.6bn (2025 Karachi spend) compared against Peshawar's Rs 4bn total first-phase cost, cited earlier in this Part]
+
+As of the most recent annual report, the campus still had not opened. Exterior work was expected to finish in the first quarter of 2026, equipment installation in the third quarter, with the hospital targeting a December 2026 opening. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, Annual Report 2025]
 
 Cost overruns like that aren't unique to this hospital. They're common across large medical construction projects anywhere.
 
@@ -157,7 +161,7 @@ Most of the hospital's donor base gives in rupees. When the rupee weakens agains
 
 That's a structural mismatch between where the money comes from and where the money has to go.
 
-The hospital has tried to build some insulation against exactly this kind of pressure. It operates an endowment fund, meant to generate steady income rather than relying only on year to year fundraising.
+The hospital has tried to build some insulation against exactly this kind of pressure. It operates an endowment fund, meant to generate steady income rather than relying only on year-to-year fundraising.
 
 In 2008, that endowment fund invested 3 million dollars in a real estate project in Oman, structured with a full capital guarantee. When the investment was exited in 2015, the entire 3 million dollars was recovered. [SOURCE: academic case study, via reporting] [VERIFY]
 
@@ -165,7 +169,7 @@ That's a small, carefully protected bet, not a large standing reserve. It shows 
 
 It doesn't show that buffer is anywhere close to large enough to absorb a real funding shock on its own.
 
-So where does that leave the model.
+So where does that leave the model?
 
 Right now, it works. Patients get treated for free, the numbers keep growing, and donors, at home and abroad, keep giving enough to cover the gap.
 
@@ -183,11 +187,12 @@ For anyone giving to an institution built this way, or judging whether one deser
 2. Shaukat Khanum Memorial Trust — Audited financial statements for the year ended December 31, 2025, audited by A.F. Ferguson and Co. (user-supplied PDF, read in full): total income (2024/2025), donations and zakat share, net clinical income, capital work-in-progress (Karachi), Independent Auditor's Report.
 3. ProPublica Nonprofit Explorer — Imran Khan Cancer Appeal Inc. IRS Form 990 filings, FY2011-2024 revenue and expense history.
 4. Charity Navigator — rating and accountability metrics for Imran Khan Cancer Appeal Inc.
-5. UK Charity Commission — full filing record for Shaukat Khanum Memorial Trust (#1000580), financial year ending 31 December 2024. Retrieved via Firecrawl search after direct access returned HTTP 403.
+5. UK Charity Commission — full filing record for Shaukat Khanum Memorial Trust (#1000580), financial year ending 31 December 2024. Retrieved via Firecrawl search (full document, not a snippet) after direct access returned HTTP 403.
 6. Public-health literature (Journal of the College of Physicians and Surgeons Pakistan and related sources) — Pakistan's national cancer-centre count, oncologist workforce figures, radiotherapy access, and annual cancer incidence estimates. [VERIFY: via reporting, not yet independently confirmed against a single named primary registry]
 7. Qualitative study on chemotherapy drug shortages among Pakistani pharmacists. [VERIFY: via reporting]
-8. Shaukat Khanum Memorial Cancer Hospital and Research Centre — official "Our Story" page (Karachi construction start date, campus opening dates), retrieved via Firecrawl search after direct fetch returned HTTP 403.
+8. Shaukat Khanum Memorial Cancer Hospital and Research Centre — official "Our Story" page (Karachi construction start date, campus opening dates), retrieved via Firecrawl search (full page, not a snippet) after direct fetch returned HTTP 403.
 9. The Express Tribune — Peshawar campus first-phase construction cost. [VERIFY: figure itself still single-sourced, though the opening date is independently confirmed via source 8]
 10. Academic case study — Shaukat Khanum Memorial Cancer Hospital and Research Centre Endowment Fund's 2008 Oman real estate investment. [VERIFY: via reporting]
+11. exchange-rates.org / poundsterlinglive.com — 2024 average GBP/PKR exchange rate (≈ Rs 356/GBP), used for the UK-chapter rupee conversion in Part 3.
 
 Full claim-by-claim sourcing is recorded in `research/claim-ledgers/15_shaukat_khanum_funding_claims.csv` and `research/source-registers/15_shaukat_khanum_funding_sources.csv`. Open items are tracked in `research/verification-queues/15_shaukat_khanum_funding_verification-queue.md`.
