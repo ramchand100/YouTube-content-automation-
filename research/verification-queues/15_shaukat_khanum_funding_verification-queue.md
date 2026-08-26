@@ -13,20 +13,22 @@
   crawls with its own infrastructure rather than routing through this session's
   network path, so it got past the HTTP 403 blocks on shaukatkhanum.org.pk and the
   UK Charity Commission register that stopped this episode's original research pass.
-  It resolved most of what was open below, and caught one real accuracy error
-  already in the script (see V-005). It generally returns short search snippets,
-  not full page reads — per `.claude/rules/research.md`, a snippet is not final
-  evidence on its own, so items marked CANDIDATE below still need a full human (or
-  full-document) read before they're truly closed out, even though the specific
-  figures are now much better sourced than a WebSearch synthesis.
-- V-001, V-002, V-003, V-004, V-005, V-006, V-007 all moved forward (see per-ticket
-  status below); V-008 was effectively answered (evidence points against using the
-  90% Peshawar figure).
-- The user has downloaded the hospital's annual report and annual audit report and
-  plans to provide them directly. These remain the best way to fully close V-001,
-  V-003 (donation/zakat >50% share specifically), and V-004, and to move the
-  CANDIDATE items below to EDITOR VERIFIED with a full document read instead of a
-  search snippet.
+  It generally returns short search snippets, not full page reads — items it
+  resolved were held at CANDIDATE, not EDITOR VERIFIED, per the no-snippets rule.
+- **Update, 2026-08-26 — user-supplied primary documents.** The user uploaded the
+  Trust's Annual Report 2025 and its audited financial statements for the year
+  ended December 31, 2025 (audited by A.F. Ferguson & Co.), both read in full by
+  Claude. This is the strongest sourcing pass this episode has had: it fully closed
+  V-001, V-003, and V-004 as EDITOR VERIFIED, and substantially upgraded V-005 —
+  while also catching a real, previously-unnoticed inaccuracy in the script (the
+  donation/zakat share was materially understated, and the paying-patient share was
+  materially overstated; both are now fixed with precise audited figures). See
+  each ticket below for specifics.
+- All eight tickets have now moved forward from OPEN. V-006 and the free-treatment
+  half of V-002 are EDITOR VERIFIED via full document reads (Charity Commission and
+  "Our Story" respectively); V-001, V-003, V-004, V-005 are EDITOR VERIFIED via the
+  user-supplied annual report/audit; V-007 is EDITOR VERIFIED for the date only;
+  V-008 is RESOLVED as a decision not to use a figure.
 
 ### Footage
 
@@ -35,16 +37,17 @@
 
 ### Priority (before this script can move to `production-ready`)
 
-1. **V-005** — now resolved and corrected in the script: Karachi campus has NOT
-   opened as of Aug 2026 (previous script text wrongly said "opening slipped to
-   2023"). Worth a final human confirmation given how load-bearing this is.
-2. **V-001, V-003, V-004** — upgrade from Firecrawl snippet (CANDIDATE) to fully
-   read/EDITOR VERIFIED once the annual report/audit report is available.
-3. **V-006** — UK chapter income/expenditure/year now confirmed via a full
-   Charity Commission filing-print read; low remaining risk.
-4. **V-007, V-002** — lower-priority precision items; V-002's core 75% figure is
-   now confirmed via a full page read, V-007's Peshawar cost figure is still
-   single-sourced to one 2015 news article.
+1. **V-007** — the only remaining genuinely open item: the Rs 4bn Peshawar
+   first-phase cost figure is still single-sourced to one 2015 news article. Low
+   stakes (a historical, non-headline figure) but worth a look if time allows.
+2. **V-006's flagged side-finding** — an unreconciled £49m UK zakat figure was
+   found but not used; worth a note to a human researcher in case it resurfaces in
+   a future pass, so it isn't accidentally used without reconciliation.
+3. Everything else is now EDITOR VERIFIED or a settled RESOLVED decision — this
+   episode's research is in noticeably stronger shape than the original pass, and
+   no further verification work is required before `production-ready` on the
+   grounds of open V-XXX tickets specifically (a normal `/review-script` and
+   `/audit-sources` pass on the corrected script is still the right next step).
 
 ---
 
@@ -74,13 +77,17 @@
 - Do not use: A source that only repeats the round Rs 88bn figure without dating it.
 - Safe fallback wording (already in script, softened with `[ESTIMATE]`): keep as-is
   if the annual report does not give a more precise or more current figure.
-- **2026-08-26 update:** Firecrawl search found the hospital's own "Facts and
-  Statistics" page states "Philanthropic spending to date, Rs. 137 billion
-  (US$ 857 Million)" as of 2026 — script updated to use this figure (replacing the
-  stale Rs 88bn/Dawn figure). This was a search snippet, reproduced identically
-  across three separate queries, not a full page read.
-- Status: CANDIDATE (upgrade to EDITOR VERIFIED once the uploaded annual report
-  confirms the same figure, or a human opens the page directly)
+- **2026-08-26 update (Firecrawl):** Firecrawl search found the hospital's own
+  "Facts and Statistics" page states "Philanthropic spending to date, Rs. 137
+  billion (US$ 857 Million)" as of 2026. Snippet only, not a full page read.
+- **2026-08-26 update (Annual Report 2025, full document read):** The Trust's own
+  Annual Report states, precisely dated: "Rs. 125 Billion — Spent on patient
+  support from 1994-2025." This is a more authoritative and more precisely dated
+  figure than the live website counter (which is presumably a running total that
+  has since grown past the audited 2025 figure). Script updated to use Rs 125bn,
+  1994-2025, with the per-year estimate recalculated accordingly (~Rs 4bn/year
+  across 31 years).
+- Status: EDITOR VERIFIED (full document read of a user-supplied primary source)
 
 ## V-002 — 7,300 new cancer cases in 2022 and the 75% free-treatment rate
 
@@ -135,15 +142,25 @@
 - Safe fallback wording (already in script, `REPORTED` with attribution to SKMCH&RC's
   own published figures): keep if the audited report is not year-matched to these
   specific figures.
-- **2026-08-26 update:** Firecrawl confirmed the 2026 figure directly (Rs 43.3
-  billion, "Year 2026", on the official Facts and Statistics page — snippet, not a
-  full read). The 2024 figure (Rs 34.8bn) and the donation/zakat >50% share are
-  still unconfirmed — a Financial Statistics page revenue table was found but
-  returned only a garbled, partially-truncated snippet ("Zakat, Donations, Other
-  Income, Total... 2025, 10,476, 11,204, 14,337, 1,463...") that cannot be trusted
-  as-is. This table is exactly what the uploaded annual audit report should settle.
-- Status: CANDIDATE for the 2026 figure; OPEN for the 2024 figure and the
-  donation/zakat share — both need the annual audit report
+- **2026-08-26 update (Firecrawl):** Confirmed the 2026 figure directly (Rs 43.3
+  billion, "Year 2026", on the official Facts and Statistics page — snippet only).
+  The 2024 figure (Rs 34.8bn) and the donation/zakat share remained unconfirmed —
+  a Financial Statistics page revenue table returned only a garbled snippet.
+- **2026-08-26 update (audited financial statements, full document read) —
+  important correction, not just a resolution.** The audited Income and
+  Expenditure Account gives real total income of Rs 31.93bn (2024) and Rs 38.25bn
+  (2025) — the Rs 34.8bn/2024 "budget" figure from Fund Meter does not match the
+  audited actual and has been dropped from the script. More importantly: donations
+  and zakat combined were **64% of income in 2024 and 67% in 2025** — not "more
+  than half" as the script vaguely stated, and Net Clinical Income (paying
+  patients) was only **~27% of 2025 income**, not "the other half" as Part 2
+  previously implied. The script materially understated how donor-dependent this
+  institution is and overstated the paying-patient contribution; both are now
+  corrected with precise audited figures. The Rs 43.3bn/2026 figure is kept but
+  explicitly labeled unaudited/forward-looking, since FY2026 has not closed yet.
+- Status: EDITOR VERIFIED for 2024/2025 actuals and the donation/zakat/clinical
+  split (full document read of a user-supplied primary source); the 2026 figure
+  stays CANDIDATE/`[VERIFY]` since it cannot be audit-confirmed until the year ends
 
 ## V-004 — Auditor of record (A.F. Ferguson & Co.)
 
@@ -163,13 +180,14 @@
   actual audited document.
 - Safe fallback wording: if unconfirmed, soften to "audited annually by an
   independent chartered accountancy firm" and drop the specific firm name.
-- **2026-08-26 update:** Firecrawl returned an exact-wording match from the
-  Financial Statistics page: "The financial statements of the Shaukat Khanum
-  Memorial Trust are annually audited by a reputable auditing firm, that is,
-  A.F. Ferguson and Co." This was a snippet, not a full page read, but the wording
-  is specific enough to be a strong match.
-- Status: CANDIDATE (upgrade to EDITOR VERIFIED with a full page read or the
-  auditor's report page of the uploaded audit report)
+- **2026-08-26 update (Firecrawl):** An exact-wording snippet match from the
+  Financial Statistics page named A.F. Ferguson and Co. as auditor. Snippet only.
+- **2026-08-26 update (audited financial statements, full document read):** The
+  Independent Auditor's Report itself was read directly — letterhead "A.F.
+  Ferguson & Co., a member firm of the PwC network," signed by the firm in
+  Lahore, dated May 19, 2026, engagement partner Muhammad Masood named explicitly.
+  This is as primary as sourcing gets for this claim.
+- Status: EDITOR VERIFIED (full document read of the primary audit report itself)
 
 ## V-005 — Karachi campus cost and opening-date conflict
 
@@ -199,19 +217,29 @@
 - Do not use: Either endpoint figure alone without noting the other exists.
 - Safe fallback wording (already in script): keep both figures with explicit
   attribution to their respective years/sources if no more granular data surfaces.
-- **2026-08-26 update — important correction, not just a resolution.** Firecrawl
-  search surfaced the hospital's own June 2026 project-status posts (Facebook,
-  Instagram) and its "Karachi Project Sponsorships" page. These confirm the ~Rs
-  16.4bn cost (also given as ~USD 109 million) but reveal that **the campus has
-  not opened at all** — Phase I is targeted for December 2026, with full
-  completion pushed to 2027-28. The script previously stated the opening "slipped
-  to 2023," which is wrong per the hospital's own current disclosure. The script
-  has been corrected. Construction start was also corrected from an assumed 2019
-  to September 2020, per the hospital's own "Our Story" page (full read).
-- Status: CANDIDATE for the cost/timeline figures (snippets, not full reads) —
-  worth a direct human visit to the sponsorship page or a check against the
-  uploaded annual report before recording, precisely because this reverses a
-  claim that was already in the script
+- **2026-08-26 update (Firecrawl) — important correction, not just a resolution.**
+  Firecrawl search surfaced the hospital's own June 2026 project-status posts
+  (Facebook, Instagram) and its "Karachi Project Sponsorships" page. These
+  confirmed the ~Rs 16.4bn cost (also given as ~USD 109 million) but revealed that
+  **the campus has not opened at all** — the script previously stated the opening
+  "slipped to 2023," which is wrong. Snippets only, not full reads.
+- **2026-08-26 update (annual report + audited financial statements, full
+  document reads):** Both user-supplied primary documents corroborate and refine
+  the Firecrawl finding. The audited Statement of Financial Position shows Rs
+  16.608 billion in capital work-in-progress as of December 31, 2025 (matching the
+  Firecrawl figure closely). The Annual Report's Karachi update states Rs 12.6
+  billion of that was spent in 2025 alone, exterior finishing was expected Q1
+  2026, equipment installation Q3 2026, and the hospital was "on track to become
+  operational in December 2026" — consistent across the CEO's message, the
+  Projects section, and the dedicated Karachi update page. This is now a primary,
+  audited figure rather than a social-media snippet. Note: the CWIP balance may
+  include minor non-Karachi capital projects too, though Karachi is almost
+  certainly the overwhelming majority given Lahore and Peshawar are both
+  operational; this is a reasonable, disclosed assumption, not a certainty.
+- Status: EDITOR VERIFIED for the cost and opening-status correction (full
+  document reads of two user-supplied primary sources); the CWIP-is-mostly-Karachi
+  assumption is worth a footnote if a human ever drills into Note 10 of the
+  audited accounts directly
 
 ## V-006 — UK chapter (Shaukat Khanum Memorial Trust) income/spending and financial year
 

@@ -13,9 +13,9 @@ section_count: 5
 status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
-freshness_status: Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and the UK Charity Commission's full filing record, and are the strongest-sourced claims in the script; the hospital's own free-treatment, cumulative-care, budget, audit, and campus-construction figures (Parts 1, 2, 5) were upgraded on 2026-08-26 from WebSearch-synthesis-only to figures retrieved directly from shaukatkhanum.org.pk via Firecrawl search, after this session's own direct fetches to that domain returned HTTP 403; Pakistan's public-capacity figures (Part 4) remain REPORTED via WebSearch synthesis only and still carry [VERIFY]. See research/verification-queues/15_shaukat_khanum_funding_verification-queue.md for what remains open.
-word_count: 1864
-estimated_duration: 12 minutes 26 seconds
+freshness_status: The hospital's own free-treatment, cumulative-care, budget, donation/zakat-share, audit, and Karachi-construction figures (Parts 1, 2, 5) were upgraded on 2026-08-26 to VERIFIED/REPORTED-with-primary-source status, sourced directly from the user-supplied Shaukat Khanum Memorial Trust Annual Report 2025 and audited financial statements (year ended December 31, 2025) — both read in full. Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and the UK Charity Commission's full filing record. Pakistan's public-capacity figures (Part 4) and the Peshawar first-phase cost and endowment-fund figures (Part 5) remain REPORTED via WebSearch synthesis only and still carry [VERIFY]. See research/verification-queues/15_shaukat_khanum_funding_verification-queue.md for what remains open.
+word_count: 1995
+estimated_duration: 13 minutes 18 seconds
 last_verified: 2026-08-26
 ---
 
@@ -47,7 +47,7 @@ Five parts, approved by the user. Part 1 opens on the scale contrast and states 
 
 Pakistan has only about twenty seven hospitals built specifically to treat cancer. [SOURCE: public-health literature, via reporting] [VERIFY]
 
-One of them has given away 137 billion rupees of free cancer treatment since 1994. That works out to roughly 4 billion rupees of free care every year, on average, for more than three decades. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official statistics, 2026] [ESTIMATE: Rs 137 billion divided across approximately 32 years, 1994 to 2026]
+One of them has given away 125 billion rupees of free cancer treatment between 1994 and 2025. That works out to roughly 4 billion rupees of free care every year, on average, across 31 years. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, Annual Report 2025] [ESTIMATE: Rs 125 billion divided across 31 years, 1994 to 2025]
 
 This episode looks at how that hospital actually pays for itself. Who covers the cost of the treatment it gives away, where that money actually comes from, and whether a system built this way can keep up as costs keep rising.
 
@@ -65,19 +65,21 @@ So how does a hospital give away most of what it does, year after year, and stil
 
 Start with the money that comes in every year.
 
-The hospital's total operating budget was 34.8 billion rupees in 2024. By 2026, it had grown to 43.3 billion rupees, a rise of about 24 percent in two years. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official statistics, 2026, for the 2026 figure; Fund Meter social-media disclosure for the 2024 figure] [VERIFY: 2024 figure only]
+According to the Trust's own audited financial statements, total income grew from 31.9 billion rupees in 2024 to 38.25 billion rupees in 2025, a rise of nearly 20 percent in a single year. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements for the year ended December 31, 2025]
 
-In each of those years, the hospital says more than half of that budget came from donations and zakat. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, via reporting] [VERIFY]
+For 2026, the hospital's own reporting points to a budgeted total closer to 43.3 billion rupees — though that figure won't be audited until the year closes. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official statistics, 2026] [VERIFY: unaudited, forward-looking figure]
+
+Donations and zakat combined made up roughly two thirds of that income in both years: 64 percent in 2024, and 67 percent in 2025. [SOURCE: Shaukat Khanum Memorial Trust, audited Income and Expenditure Account, FY2024-25]
 
 Zakat is the Islamic obligation to give a share of savings to those in need. For a hospital treating the poor, it functions as a direct, recurring source of funding, not a one-time gift.
 
-That leaves the other half of the budget. Some of it comes from paying patients, treated at the same hospital, by the same doctors, at rates that cover the actual cost of their own care and more.
+The rest comes mostly from paying patients, treated at the same hospital, by the same doctors, at rates that cover the actual cost of their own care and more. In 2025, that income from paying patients made up about a quarter of the hospital's total revenue, far smaller than the donor share. [SOURCE: Shaukat Khanum Memorial Trust, audited Income and Expenditure Account, FY2025] [ANALYSIS: Net Clinical Income of Rs 10.48 billion divided by total income of Rs 38.25 billion]
 
 Every patient goes through a financial assessment before treatment begins. Based on that assessment, a patient may be asked to pay in full, pay partially, or pay nothing at all. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, via reporting] [VERIFY]
 
-That's the mechanism in one sentence. Patients who can pay, and donors who choose to give, together cover the cost of patients who can't.
+That's the mechanism in one sentence. Patients who can pay, and donors who choose to give, together cover the cost of patients who can't — though it's donors, not paying patients, who carry most of that weight.
 
-The hospital's financial statements are audited every year by A.F. Ferguson and Co, one of Pakistan's established accounting firms. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, Financial Statistics page, 2026]
+The hospital's financial statements are audited every year by A.F. Ferguson and Co, one of Pakistan's established accounting firms. [SOURCE: Shaukat Khanum Memorial Trust, Independent Auditor's Report, year ended December 31, 2025]
 
 That audit trail matters, because a model like this only works if donors keep trusting it enough to keep giving.
 
@@ -141,7 +143,9 @@ The Peshawar campus opened in December 2015, after a first phase that cost about
 
 The Karachi campus has taken even longer, and cost far more than first planned. An early 2019 estimate put the total project at 6.2 billion rupees, with an opening date of December 2021.
 
-Construction actually began in September 2020. By mid-2026, the hospital's own project updates put the total cost at roughly 16.4 billion rupees, more than two and a half times the original estimate — and the campus still had not opened. As of this research, the hospital is targeting a December 2026 opening for the first phase, with full completion pushed to 2027 or 2028. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, project status updates, 2026] [ANALYSIS: 16.4bn compared to the original 6.2bn estimate]
+Construction actually began in September 2020. The Trust's own audited accounts show 16.6 billion rupees tied up in the Karachi project as of the end of 2025, more than two and a half times the original estimate — with 12.6 billion rupees of that spent in 2025 alone. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements and Annual Report 2025, year ended December 31, 2025] [ANALYSIS: Rs 16.6bn capital work-in-progress compared to the original Rs 6.2bn estimate]
+
+As of the Annual Report, the campus still had not opened. Exterior work was expected to finish in the first quarter of 2026, equipment installation in the third quarter, with the hospital targeting a December 2026 opening. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, Annual Report 2025]
 
 Cost overruns like that aren't unique to this hospital. They're common across large medical construction projects anywhere.
 
@@ -175,15 +179,15 @@ For anyone giving to an institution built this way, or judging whether one deser
 
 ## Sources
 
-1. Shaukat Khanum Memorial Cancer Hospital and Research Centre — official "Facts and Statistics" and "Cancer Statistics" pages (cumulative free-treatment value, cumulative cancer cases, 2026 annual budget) and "Our Story" page (75% free-treatment rate, campus opening dates, Karachi construction start). Retrieved via Firecrawl search after this session's direct fetches to shaukatkhanum.org.pk returned HTTP 403.
-2. Shaukat Khanum Memorial Cancer Hospital and Research Centre — Financial Statistics page (auditor of record, A.F. Ferguson and Co.) and Fund Meter social-media disclosures (2024 budget figure, still [VERIFY]). Retrieved via Firecrawl search.
+1. Shaukat Khanum Memorial Trust — Annual Report 2025 (user-supplied PDF, read in full): cumulative philanthropic spending (Rs 125bn, 1994-2025), 75% free-treatment rate, SKMT Revenue 2025 breakdown, Karachi construction spend and timeline, Peshawar and Lahore updates.
+2. Shaukat Khanum Memorial Trust — Audited financial statements for the year ended December 31, 2025, audited by A.F. Ferguson and Co. (user-supplied PDF, read in full): total income (2024/2025), donations and zakat share, net clinical income, capital work-in-progress (Karachi), Independent Auditor's Report.
 3. ProPublica Nonprofit Explorer — Imran Khan Cancer Appeal Inc. IRS Form 990 filings, FY2011-2024 revenue and expense history.
 4. Charity Navigator — rating and accountability metrics for Imran Khan Cancer Appeal Inc.
 5. UK Charity Commission — full filing record for Shaukat Khanum Memorial Trust (#1000580), financial year ending 31 December 2024. Retrieved via Firecrawl search after direct access returned HTTP 403.
 6. Public-health literature (Journal of the College of Physicians and Surgeons Pakistan and related sources) — Pakistan's national cancer-centre count, oncologist workforce figures, radiotherapy access, and annual cancer incidence estimates. [VERIFY: via reporting, not yet independently confirmed against a single named primary registry]
 7. Qualitative study on chemotherapy drug shortages among Pakistani pharmacists. [VERIFY: via reporting]
-8. Shaukat Khanum Memorial Cancer Hospital and Research Centre project status updates (Facebook, Instagram, Karachi Project Sponsorships page) — Karachi campus construction start date, current cost estimate, and revised opening timeline. Retrieved via Firecrawl search.
-9. The Express Tribune — Peshawar campus first-phase construction cost. [VERIFY: figure itself still single-sourced, though the opening date is now independently confirmed via source 1]
+8. Shaukat Khanum Memorial Cancer Hospital and Research Centre — official "Our Story" page (Karachi construction start date, campus opening dates), retrieved via Firecrawl search after direct fetch returned HTTP 403.
+9. The Express Tribune — Peshawar campus first-phase construction cost. [VERIFY: figure itself still single-sourced, though the opening date is independently confirmed via source 8]
 10. Academic case study — Shaukat Khanum Memorial Cancer Hospital and Research Centre Endowment Fund's 2008 Oman real estate investment. [VERIFY: via reporting]
 
 Full claim-by-claim sourcing is recorded in `research/claim-ledgers/15_shaukat_khanum_funding_claims.csv` and `research/source-registers/15_shaukat_khanum_funding_sources.csv`. Open items are tracked in `research/verification-queues/15_shaukat_khanum_funding_verification-queue.md`.
