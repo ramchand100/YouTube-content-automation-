@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
 freshness_status: Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and are the strongest-sourced claims in the script; the hospital's own budget and free-treatment figures (Part 2) and Pakistan's public-capacity figures (Part 4) are REPORTED via WebSearch synthesis only, not a directly-opened primary source, and carry [VERIFY]
-word_count: 2478
-estimated_duration: 16 minutes 31 seconds
+word_count: 2586
+estimated_duration: 17 minutes 14 seconds
 last_verified: 2026-08-25
 ---
 
@@ -47,15 +47,13 @@ Five parts, approved by the user. Part 1 opens on the scale contrast and states 
 
 Pakistan has only about twenty seven hospitals built specifically to treat cancer. [SOURCE: public-health literature, via reporting] [VERIFY]
 
-One of them has given away 88 billion rupees of free cancer treatment since 1994. [SOURCE: Dawn, via reporting] [VERIFY]
+One of them has given away 88 billion rupees of free cancer treatment since 1994. That works out to roughly 3 billion rupees of free care every year, on average, for close to three decades. [SOURCE: Dawn, via reporting] [ESTIMATE: Rs 88 billion divided across approximately 28 years, 1994 to when the cumulative figures were reported] [VERIFY]
 
 This episode looks at how that hospital actually pays for itself. Who covers the cost of the treatment it gives away, where that money actually comes from, and whether a system built this way can keep up as costs keep rising.
 
-The hospital is Shaukat Khanum Memorial Cancer Hospital and Research Centre, and it has treated more than 127,900 patients since it opened in Lahore in December 1994. [SOURCE: Dawn, via reporting] [VERIFY]
+The hospital is Shaukat Khanum Memorial Cancer Hospital and Research Centre. It has treated more than 127,900 patients since it opened in Lahore in December 1994, and in 2022 alone, more than 7,300 new patients joined that number. [SOURCE: Dawn, via reporting] [VERIFY]
 
 More than 75 percent of them were treated completely free of charge. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, via reporting] [VERIFY]
-
-In 2022 alone, its cancer registry recorded more than 7,300 new cases. [SOURCE: Dawn, via reporting] [VERIFY]
 
 None of that is cheap. Cancer treatment involves surgery, radiation, chemotherapy drugs, and months of follow-up care.
 
@@ -137,7 +135,7 @@ If that's true, the real test isn't whether this one hospital can keep growing. 
 
 Growth costs money before it saves any.
 
-The Peshawar campus opened in December 2015, after a first phase that cost about 4 billion rupees. [SOURCE: Express Tribune, via reporting] [VERIFY]
+The Peshawar campus opened in December 2015, after a first phase that cost about 4 billion rupees, roughly a quarter of what the Karachi campus would eventually cost. [SOURCE: Express Tribune, via reporting] [ANALYSIS: Peshawar's Rs 4bn compared against Karachi's eventual Rs 16.4bn, cited in the next sentence] [VERIFY]
 
 The Karachi campus took even longer, and cost far more than first planned. An early 2019 estimate put the total project at 6.2 billion rupees, with an opening date of December 2021.
 
@@ -168,6 +166,8 @@ Right now, it works. Patients get treated for free, the numbers keep growing, an
 But every part of that sentence depends on next year looking at least as generous as this one. A slower fundraising year, a weaker rupee, or a new campus running over budget would all land on the same institution, at the same time, with no other hospital network in the country large enough to absorb the difference.
 
 The state could close part of that gap by building oncology capacity of its own, training more specialists, and funding radiation and chemotherapy access outside of one donor-dependent network. Until it does, one hospital will keep carrying a share of the country's cancer burden that was never supposed to rest on a single institution, however well it's run.
+
+For anyone giving to an institution built this way, or judging whether one deserves that trust, the honest question isn't how much good it's already done. It's whether the arithmetic behind it can keep holding, year after year, at the scale the country actually needs.
 
 ---
 
