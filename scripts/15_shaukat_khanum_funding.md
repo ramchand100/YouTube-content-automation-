@@ -14,8 +14,8 @@ status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
 freshness_status: Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and are the strongest-sourced claims in the script; the hospital's own budget and free-treatment figures (Part 2) and Pakistan's public-capacity figures (Part 4) are REPORTED via WebSearch synthesis only, not a directly-opened primary source, and carry [VERIFY]
-word_count: 3180
-estimated_duration: 21 minutes 12 seconds
+word_count: 2516
+estimated_duration: 16 minutes 46 seconds
 last_verified: 2026-08-25
 ---
 
@@ -93,9 +93,11 @@ The hospital doesn't only raise money inside Pakistan. It has registered fundrai
 
 The clearest picture of how this works comes from the American chapter, Imran Khan Cancer Appeal Incorporated, which files its finances with the US tax authority every year. Those filings are public.
 
-In the 2022 financial year, it raised 16.04 million dollars. By 2024, that had grown to 23.26 million dollars, an increase of about 45 percent in just two years. [SOURCE: ProPublica Nonprofit Explorer, IRS Form 990 filings]
+Its most recent public filing covers the year ending September 2024. Nonprofit tax filings like this typically run about a year behind, which is why 2024 is the latest figure available, not a sign of slower reporting today.
 
-At roughly 280 rupees to the dollar, that 2024 figure works out to about 6.5 billion rupees, close to 15 percent of the entire hospital network's 43.3 billion rupee budget for 2026, raised from one country's diaspora alone. [ESTIMATE: 23.26 million dollars converted at approximately Rs 280/USD, exchange rate as of 2026; compared against the Rs 43.3 billion total budget cited earlier] [VERIFY]
+In the 2022 filing year, it raised 16.04 million dollars. By the 2024 filing year, that had grown to 23.26 million dollars, an increase of about 45 percent in two years. [SOURCE: ProPublica Nonprofit Explorer, IRS Form 990 filings]
+
+At roughly the exchange rate through that same year, about 280 rupees to the dollar, that 23.26 million dollar figure works out to about 6.5 billion rupees. Measured against the hospital's own 34.8 billion rupee budget for that same year, 2024, that's nearly one rupee in every five, raised from one country's diaspora alone. [ESTIMATE: 23.26 million dollars converted at an approximate 2024 exchange rate of Rs 280/USD, compared against the Rs 34.8 billion 2024 budget figure cited in Part 2, both figures matched to the same year] [VERIFY]
 
 Almost all of that money came from ordinary donors, not big institutional grants. In 2024, direct contributions made up 89.5 percent of the American chapter's revenue. [SOURCE: ProPublica Nonprofit Explorer, IRS Form 990 filings]
 
