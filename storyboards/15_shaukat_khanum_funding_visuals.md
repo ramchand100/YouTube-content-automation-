@@ -138,8 +138,8 @@ Footage is topic-specific to what's being narrated at that moment — no generic
 - Duration: 25s
 
 **[05:55 – 06:25] FOOTAGE — hospital waiting area / capacity**
-- Shot: a busy or crowded hospital waiting room — represents the specialist-shortage and capacity-gap point.
-- Source: search at `/footage` time — "crowded hospital waiting room" on Pexels/Pixabay.
+- Shot: a spacious hospital waiting area with seated patients — represents the specialist-shortage and capacity-gap point.
+- Source: Pexels — `pexels.com/video/people-sitting-in-a-hospital-waiting-area-3197799/`. Licence: Pexels Licence (page directly fetched and confirmed 2026-08-27: commercial use OK, no attribution required). [RIGHTS: CANDIDATE — see clip_id F007]
 - Fallback: plain text card, "250–260 SPECIALISTS. 240 MILLION+ PEOPLE."
 - Animation: none.
 - Duration: 30s
@@ -170,9 +170,9 @@ Footage is topic-specific to what's being narrated at that moment — no generic
 - Duration: 25s
 
 **[07:40 – 08:20] FOOTAGE — construction site**
-- Shot: a generic building under construction — cranes, structural work.
-- Source: Pixabay — `pixabay.com/videos/construction-crane-construction-site-206315/`. Licence: Pixabay Content License (confirmed site-wide; content not yet watched). [RIGHTS: CANDIDATE — see clip_id F005]
-- Note: generic stock — not the actual Karachi campus, no branding will be visible.
+- Shot: a construction crane operating at a building site, skyline in the background.
+- Source: Pixabay — `pixabay.com/videos/construction-crane-construction-site-206315/`. Licence: Pixabay Content License (page directly fetched and confirmed 2026-08-27: commercial use OK, no attribution required). [RIGHTS: CANDIDATE — see clip_id F005]
+- Note: generic stock (filmed in Oostende, per the clip's own description) — not the actual Karachi campus, no branding visible.
 - Fallback: plain text card, "KARACHI CAMPUS — UNDER CONSTRUCTION."
 - Animation: none.
 - Duration: 40s
@@ -184,9 +184,9 @@ Footage is topic-specific to what's being narrated at that moment — no generic
 - Animation: zoom-in on each
 - Duration: 40s
 
-**[09:00 – 09:30] FOOTAGE — continue construction, or medical equipment**
-- Shot: a second angle on construction, or a clip of imported medical equipment/machinery being installed — supports the "costs priced in dollars" point coming next.
-- Source: search at `/footage` time.
+**[09:00 – 09:30] FOOTAGE — medical equipment**
+- Shot: close-up of vital-signs monitors and equipment in an operating-room setting — supports the "costs priced in dollars" point coming next (imported medical technology).
+- Source: Pexels — `pexels.com/video/medical-equipment-in-the-operating-room-4976486/`. Licence: Pexels Licence (page directly fetched and confirmed 2026-08-27: commercial use OK, no attribution required). [RIGHTS: CANDIDATE — see clip_id F008]
 - Animation: none.
 - Duration: 30s
 
@@ -197,8 +197,8 @@ Footage is topic-specific to what's being narrated at that moment — no generic
 - Duration: 30s
 
 **[10:00 – 10:40] FOOTAGE — closing scene**
-- Shot: a hospital exterior or hopeful patient-care scene, echoing the cold open.
-- Source: Pexels — `pexels.com/video/view-of-a-hospital-building-5971052/`. Licence: Pexels Licence (confirmed site-wide; content not yet watched). [RIGHTS: CANDIDATE — see clip_id F006]
+- Shot: a healthcare professional walking through a modern, spacious hospital corridor — calm, forward-moving, echoes the cold open's hopeful tone.
+- Source: Pexels — `pexels.com/video/view-of-a-hospital-building-5971052/`. Licence: Pexels Licence (page directly fetched and confirmed 2026-08-27: commercial use OK, no attribution required). Note: page title says "hospital building" but the actual clip is a corridor/interior shot, not an exterior — corrected here after directly fetching the page. [RIGHTS: CANDIDATE — see clip_id F006]
 - Animation: none.
 - Duration: 40s
 
@@ -232,19 +232,23 @@ Add to `research/source-registers/15_shaukat_khanum_funding_sources.csv`:
 
 | clip_id | description | source | licence | url | cleared | fallback |
 |---------|-------------|--------|---------|-----|---------|----------|
-| F001 | Cancer patients in a hospital setting, hopeful/resilience tone (generic stock, not a real SKMCH patient) | Pexels | Pexels Licence (type confirmed) | pexels.com/video/cancer-patients-in-a-hospital-6011522/ | candidate | Text card: "PAKISTAN'S CANCER-CARE SYSTEM." |
-| F002 | Person reviewing financial documents/receipts with a calculator | Pexels | Pexels Licence (type confirmed) | pexels.com/video/accounting-of-finances-with-receipts-5981287/ | candidate | Text card: "AUDITED FINANCIAL STATEMENTS, FY2025." |
-| F003 | Young cancer patient in a hospital setting (generic stock) | Pexels | Pexels Licence (type confirmed) | pexels.com/video/a-young-cancer-patient-in-the-hospital-6011520/ | candidate | Text card: "EVERY PATIENT IS FINANCIALLY ASSESSED." |
-| F004 | Phone-based money transfer / mobile banking interface | Pixabay | Pixabay Content License (type confirmed) | pixabay.com/videos/money-transfer-mobile-banking-49049/ | candidate | Text card: "REGISTERED CHARITIES ABROAD: US & UK." |
-| F005 | Generic construction site — cranes, structural work, no branding | Pixabay | Pixabay Content License (type confirmed) | pixabay.com/videos/construction-crane-construction-site-206315/ | candidate | Text card: "KARACHI CAMPUS — UNDER CONSTRUCTION." |
-| F006 | Generic hospital exterior, wide shot, no signage | Pexels | Pexels Licence (type confirmed) | pexels.com/video/view-of-a-hospital-building-5971052/ | candidate | Text card, hospital silhouette. |
+| F001 | Cancer patients in a hospital setting, hopeful/resilience tone (generic stock, not a real SKMCH patient) | Pexels | Pexels Licence (page fetched, confirmed) | pexels.com/video/cancer-patients-in-a-hospital-6011522/ | candidate | Text card: "PAKISTAN'S CANCER-CARE SYSTEM." |
+| F002 | Person reviewing financial documents/receipts with a calculator | Pexels | Pexels Licence (page fetched, confirmed) | pexels.com/video/accounting-of-finances-with-receipts-5981287/ | candidate | Text card: "AUDITED FINANCIAL STATEMENTS, FY2025." |
+| F003 | Young cancer patient in a hospital setting (generic stock) | Pexels | Pexels Licence (page fetched, confirmed) | pexels.com/video/a-young-cancer-patient-in-the-hospital-6011520/ | candidate | Text card: "EVERY PATIENT IS FINANCIALLY ASSESSED." |
+| F004 | Phone-based money transfer / mobile banking interface | Pixabay | Pixabay Content License (page fetched, confirmed) | pixabay.com/videos/money-transfer-mobile-banking-49049/ | candidate | Text card: "REGISTERED CHARITIES ABROAD: US & UK." |
+| F005 | Construction crane at a building site, skyline background (filmed in Oostende — generic, no branding) | Pixabay | Pixabay Content License (page fetched, confirmed) | pixabay.com/videos/construction-crane-construction-site-206315/ | candidate | Text card: "KARACHI CAMPUS — UNDER CONSTRUCTION." |
+| F006 | Healthcare professional walking through a modern hospital corridor (page title says "hospital building" but content is an interior corridor shot) | Pexels | Pexels Licence (page fetched, confirmed) | pexels.com/video/view-of-a-hospital-building-5971052/ | candidate | Text card, hospital silhouette. |
+| F007 | Spacious hospital waiting area with seated patients, natural light | Pexels | Pexels Licence (page fetched, confirmed) | pexels.com/video/people-sitting-in-a-hospital-waiting-area-3197799/ | candidate | Text card: "250–260 SPECIALISTS. 240 MILLION+ PEOPLE." |
+| F008 | Close-up of vital-signs monitors / medical equipment in an operating room | Pexels | Pexels Licence (page fetched, confirmed) | pexels.com/video/medical-equipment-in-the-operating-room-4976486/ | candidate | Text card: "COSTS: PRICED IN DOLLARS." |
 
-"Candidate" means: licence *type* confirmed via site-wide terms; the clip's actual
-visual content has not been watched by a human or by Claude. Run `/footage` to
-generate the F-XXX ticket queue and move these toward EDITOR VERIFIED / cleared=yes.
-Two cues (Part 4's waiting-room shot, Part 5's second construction/equipment shot)
-still need a specific clip found — flagged for the `/footage` pass rather than
-guessed at here.
+"Candidate" means: for every clip above, the actual clip page (not a search
+snippet) was directly fetched this session and both its licence terms and its
+own content description were read and confirmed. What's still missing is an
+actual watch-through — confirming the clip plays as described and that nothing
+in frame (logos, signage, an identifiable real person) creates a problem the
+page's text description wouldn't show. Run `/footage`'s ticket queue
+(`research/footage-queues/15_shaukat_khanum_funding_footage-queue.md`) to track
+that watch-through and move these toward EDITOR VERIFIED / cleared=yes.
 
 **Do not use:**
 - SKMCH&RC's own branded/promotional footage or social-media video posts
@@ -280,5 +284,5 @@ taking the screenshot.
 - Animation: exactly one CapCut preset per layer (fade in, slide in, or zoom in). Never stack animations, never hand-keyframe.
 - Colour language: `#1EB53A` = positive/growth, `#D32F2F` = cost/risk/gap. Neutral figures (e.g. the donor-vs-patient income split) stay `#1A1A1A`/`#555555`.
 - Music: ambient low throughout. Drop entirely for the Part 4 thesis card and the Part 5 closing verdict. Resume quietly after each.
-- Footage-to-graphic balance: 6 footage cues (2 more to be found at `/footage` time) vs. 9 graphic cues, most of which are a single screenshot + one highlight + one animation — not a build. This is a large reduction in production work from the original Remotion-based version.
+- Footage-to-graphic balance: 8 footage cues (all found and licence-confirmed, see footage rights log) vs. 9 graphic cues, most of which are a single screenshot + one highlight + one animation — not a build. This is a large reduction in production work from the original Remotion-based version.
 - Export: 1080p minimum. Audio: -14 LUFS integrated, -1 dBTP true peak.
