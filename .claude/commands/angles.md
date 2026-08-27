@@ -31,6 +31,16 @@ Tax and compliance burden · Informal versus documented economy · Corporate str
 Market power · Consumer impact · Historical transformation · Failed promise ·
 Unintended consequence · Future transition · Foreign-exchange exposure · Regional competitiveness
 
+**No overlapping angles.** Before finalizing the list, check every pair of draft angles
+against each other. If two or more angles would answer the same central question, rely on
+the same core evidence, or one is really just a supporting mechanic of another (e.g. "why
+the deal succeeded" and "how the debt was restructured" when the restructuring *is* the
+reason it succeeded), merge them into a single angle rather than listing them as separate
+rows. A merged angle keeps the strongest framing, folds the others in as supporting
+mechanics or as the opening hook, and gets one row in the table and one line in scoring —
+never present near-duplicates side by side and note the overlap only in prose. The 6–10
+angle count applies to the post-merge, de-duplicated list.
+
 ## Scoring
 
 Score every angle 1–5 on each dimension:
