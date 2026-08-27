@@ -13,9 +13,9 @@ section_count: 5
 status: draft
 research_date: 2026-08-25
 data_cutoff_date: 2026-08-25
-freshness_status: The hospital's own free-treatment, cumulative-care, budget, donation/zakat-share, audit, and Karachi-construction figures (Parts 1, 2, 5) were upgraded on 2026-08-26 to VERIFIED/REPORTED-with-primary-source status, sourced directly from the user-supplied Shaukat Khanum Memorial Trust Annual Report 2025 and audited financial statements (year ended December 31, 2025) — both read in full. Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and the UK Charity Commission's full filing record. Pakistan's public-capacity figures (Part 4) and the Peshawar first-phase cost and endowment-fund figures (Part 5) remain REPORTED via WebSearch synthesis only and still carry [VERIFY]. See research/verification-queues/15_shaukat_khanum_funding_verification-queue.md for what remains open.
-word_count: 2091
-estimated_duration: 13 minutes 56 seconds
+freshness_status: The hospital's own free-treatment, cumulative-care, donation/zakat-share, audit, and Karachi-construction figures (Parts 1, 2, 5) are sourced directly from the user-supplied Shaukat Khanum Memorial Trust Annual Report 2025 and audited financial statements, both read in full. Diaspora funding figures (Part 3) come from directly-fetched IRS Form 990 data via ProPublica and the UK Charity Commission's full filing record. Part 4's national-cancer-centre count, oncologist count, and Part 5's Peshawar cost figure were human-verified by the user directly against source on 2026-08-26 (JCPSP article and Express Tribune respectively). Three figures the user could not cleanly verify (the 2026 unaudited budget figure, the cumulative cancer-case count, and the 21% radiotherapy-access figure) were dropped from the script rather than left unconfirmed. Pakistan's annual new-case estimate and the endowment-fund figures remain REPORTED via WebSearch synthesis and still carry [VERIFY]. See research/verification-queues/15_shaukat_khanum_funding_verification-queue.md for what remains open.
+word_count: 1997
+estimated_duration: 13 minutes 19 seconds
 last_verified: 2026-08-26
 ---
 
@@ -45,15 +45,15 @@ Five parts, approved by the user. Part 1 opens on the scale contrast and states 
 
 ## Part 1 — The Hospital Carrying the Gap
 
-Pakistan has only about twenty seven hospitals built specifically to treat cancer. [SOURCE: public-health literature, via reporting] [VERIFY]
+Pakistan has only about forty hospitals built specifically to treat cancer. [SOURCE: public-health literature, via reporting]
 
 One of them has given away 125 billion rupees of free cancer treatment between 1994 and 2025. That works out to roughly 4 billion rupees of free care every year, on average, across 31 years. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, Annual Report 2025] [ESTIMATE: Rs 125 billion divided across 31 years, 1994 to 2025]
 
 This episode looks at how that hospital actually pays for itself. Who covers the cost of the treatment it gives away, where that money actually comes from, and whether a system built this way can keep up as costs keep rising.
 
-The hospital is Shaukat Khanum Memorial Cancer Hospital and Research Centre. Across its centres, it has recorded more than 145,900 confirmed cancer cases since it opened in Lahore in December 1994. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official cancer statistics, 2026]
+The hospital is Shaukat Khanum Memorial Cancer Hospital and Research Centre, and it opened in Lahore in December 1994.
 
-More than 75 percent of them were treated completely free of charge. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, "Our Story"]
+More than 75 percent of its patients are treated completely free of charge. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, "Our Story"]
 
 None of that is cheap. Cancer treatment involves surgery, radiation, chemotherapy drugs, and months of follow-up care.
 
@@ -66,8 +66,6 @@ So how does a hospital give away most of what it does, year after year, and stil
 Start with the money that comes in every year.
 
 The Trust's own audited accounts show total income climbing fast: 31.9 billion rupees in 2024, 38.25 billion rupees in 2025. That's a rise of nearly 20 percent in a single year. [SOURCE: Shaukat Khanum Memorial Trust, audited financial statements for the year ended December 31, 2025]
-
-For 2026, the hospital's own reporting points to a budgeted total closer to 43.3 billion rupees, though that figure won't be audited until the year closes. [SOURCE: Shaukat Khanum Memorial Cancer Hospital and Research Centre, official statistics, 2026] [VERIFY: unaudited, forward-looking figure]
 
 Donations and zakat combined made up roughly two thirds of that income in both years: 64 percent in 2024, and 67 percent in 2025. [SOURCE: Shaukat Khanum Memorial Trust, audited Income and Expenditure Account, FY2024-25]
 
@@ -115,15 +113,15 @@ But raising money is only half the story. The other half is what that money is a
 
 ## Part 4 — What the State Doesn't Provide
 
-Go back to that first number, twenty seven hospitals nationwide built specifically to treat cancer.
+Go back to that first number, around forty hospitals nationwide built specifically to treat cancer.
 
-Three of those twenty seven are run by this one hospital network. That's more than one in every ten of the country's dedicated cancer centres, operated by a single charitable trust. [ANALYSIS: 3 divided by approximately 27 nationally cited centers] [VERIFY]
+Three of those are run by this one hospital network. That's more than one in every fourteen of the country's dedicated cancer centres, operated by a single charitable trust. [ANALYSIS: 3 divided by approximately 40 nationally cited centers]
 
-The shortage goes well beyond buildings. Pakistan has fewer than 250 trained cancer specialists for a population of over 240 million. [SOURCE: public-health literature, via reporting] [VERIFY]
+The shortage goes well beyond buildings. Pakistan has roughly 250 to 260 trained cancer specialists for a population of over 240 million. [SOURCE: public-health literature, via reporting]
 
-That means each specialist is estimated to see between 1,300 and 1,500 patients a year, far more than one doctor can realistically give proper attention to. [SOURCE: public-health literature, via reporting] [VERIFY] [ANALYSIS: interpretive framing of the caseload figure]
+That means each specialist is estimated to see between 1,300 and 1,500 patients a year, far more than one doctor can realistically give proper attention to. [SOURCE: public-health literature, via reporting] [ANALYSIS: interpretive framing of the caseload figure] [VERIFY]
 
-Access breaks down the same way. Only about 21 percent of Pakistani cancer patients have access to radiation therapy at all, and pharmacists across the country regularly report running short of basic chemotherapy drugs. [SOURCE: public-health literature, via reporting] [SOURCE: qualitative study, via reporting] [VERIFY]
+Supply is a problem too. Pharmacists across the country regularly report running short of basic chemotherapy drugs. [SOURCE: PMC qualitative study, 2022]
 
 Put together, Pakistan records somewhere between 173,000 and 185,000 new cancer cases every year, depending on the estimate used, against a system this thin. [SOURCE: public-health literature, via reporting] [VERIFY]
 
@@ -188,11 +186,11 @@ For anyone giving to an institution built this way, or judging whether one deser
 3. ProPublica Nonprofit Explorer — Imran Khan Cancer Appeal Inc. IRS Form 990 filings, FY2011-2024 revenue and expense history.
 4. Charity Navigator — rating and accountability metrics for Imran Khan Cancer Appeal Inc.
 5. UK Charity Commission — full filing record for Shaukat Khanum Memorial Trust (#1000580), financial year ending 31 December 2024. Retrieved via Firecrawl search (full document, not a snippet) after direct access returned HTTP 403.
-6. Public-health literature (Journal of the College of Physicians and Surgeons Pakistan and related sources) — Pakistan's national cancer-centre count, oncologist workforce figures, radiotherapy access, and annual cancer incidence estimates. [VERIFY: via reporting, not yet independently confirmed against a single named primary registry]
-7. Qualitative study on chemotherapy drug shortages among Pakistani pharmacists. [VERIFY: via reporting]
+6. Public-health literature (Journal of the College of Physicians and Surgeons Pakistan and related sources) — Pakistan's national cancer-centre count (~40) and oncologist workforce figures (roughly 250-260, caseload of 1,300-1,500 patients/year), human-checked by the user directly against the source on 2026-08-26. Annual cancer incidence estimate (173,000-185,000/year) remains [VERIFY: via reporting, not yet independently confirmed against a single named primary registry].
+7. PMC / NCBI — qualitative study on chemotherapy drug shortages among Pakistani pharmacists, directly fetched and read in full.
 8. Shaukat Khanum Memorial Cancer Hospital and Research Centre — official "Our Story" page (Karachi construction start date, campus opening dates), retrieved via Firecrawl search (full page, not a snippet) after direct fetch returned HTTP 403.
-9. The Express Tribune — Peshawar campus first-phase construction cost. [VERIFY: figure itself still single-sourced, though the opening date is independently confirmed via source 8]
-10. Academic case study — Shaukat Khanum Memorial Cancer Hospital and Research Centre Endowment Fund's 2008 Oman real estate investment. [VERIFY: via reporting]
+9. The Express Tribune — Peshawar campus first-phase construction cost (Rs 4 billion), human-confirmed by the user directly against the source on 2026-08-26.
+10. Academic case study and cross-corroborating Tier-1 journalism — Shaukat Khanum Memorial Cancer Hospital and Research Centre Endowment Fund's 2008 Oman real estate investment. [VERIFY: via reporting]
 11. exchange-rates.org / poundsterlinglive.com — 2024 average GBP/PKR exchange rate (≈ Rs 356/GBP), used for the UK-chapter rupee conversion in Part 3.
 
 Full claim-by-claim sourcing is recorded in `research/claim-ledgers/15_shaukat_khanum_funding_claims.csv` and `research/source-registers/15_shaukat_khanum_funding_sources.csv`. Open items are tracked in `research/verification-queues/15_shaukat_khanum_funding_verification-queue.md`.

@@ -37,6 +37,14 @@
   by four Tier-1 journalism outlets, an upgrade from the original single academic
   source), and the Part 4 public-health figures. **New finding: V-009**, a genuine
   numeric conflict on the oncologist-count claim, not previously caught.
+- **Update, 2026-08-26 — user self-verification pass (same day).** The user opened
+  JCPSP and Express Tribune directly (both blocked/erroring for Claude this
+  session) and reported back: cancer-centre count corrected to ~40 (not 27);
+  oncologist count resolved to roughly 250-260 (closing V-009); Peshawar's Rs 4bn
+  cost confirmed. The 21% radiotherapy-access figure and the 145,900 cumulative-case
+  figure were checked and dropped rather than used unconfirmed, as was the
+  unaudited Rs 43.3bn/2026 budget figure. Script, claim ledger, and source audit
+  all updated to match. V-001 and V-009 are now CLOSED.
 
 ### Footage
 
@@ -45,25 +53,27 @@
 
 ### Priority (before this script can move to `production-ready`)
 
-1. **V-009 (new, Conflicting)** — highest priority now. The script says "fewer than
-   250" trained cancer specialists; a separate search this session found a
-   specific "260 board-certified oncologists" figure. This is an unresolved
-   numeric conflict, not just an unread source, and should be resolved before
-   `production-ready`.
-2. **V-001 (public-health cluster: hospital count, oncologist caseload, radiotherapy
-   access)** — the underlying JCPSP article returned HTTP 503 on three attempts
-   this session (server error, not a block) and remains unread; all three figures
-   are otherwise well cross-corroborated via independent WebSearch results.
-3. **V-007** — the Rs 4bn Peshawar first-phase cost figure is still
-   search-corroborated only, not from a directly-read document. Low stakes.
-4. **V-006's flagged side-finding** — an unreconciled £49m UK zakat figure was
+1. **Oncologist caseload figure (1,300-1,500 patients/year)** — same JCPSP article
+   the user just checked for the hospital and oncologist counts, but this specific
+   figure wasn't addressed in their check. Still flagged `[VERIFY]` in the script.
+   Worth a quick look given the page is already open.
+2. **V-025/V-030 (endowment fund, Peshawar construction detail)** — lowest
+   priority, not load-bearing, already better-corroborated than the original
+   research pass (four Tier-1 journalism outlets for the endowment fund).
+3. **V-006's flagged side-finding** — an unreconciled £49m UK zakat figure was
    found but not used; worth a note to a human researcher in case it resurfaces in
    a future pass, so it isn't accidentally used without reconciliation.
-3. Everything else is now EDITOR VERIFIED or a settled RESOLVED decision — this
-   episode's research is in noticeably stronger shape than the original pass, and
-   no further verification work is required before `production-ready` on the
-   grounds of open V-XXX tickets specifically (a normal `/review-script` and
-   `/audit-sources` pass on the corrected script is still the right next step).
+
+**V-009 is now CLOSED**, resolved via the user's own direct check of the JCPSP
+source. The hospital-count correction (27 → ~40), the Peshawar cost confirmation,
+and the three removals (145,900 cumulative cases, the unaudited Rs 43.3bn/2026
+budget, and 21% radiotherapy access) were never separately ticketed here — they
+surfaced during the `/audit-sources` pass and are tracked claim-by-claim in
+`research/audits/15_shaukat_khanum_funding_research-audit.md` instead, not
+duplicated as new V-XXX tickets. Every original V-001 through V-008 ticket in this
+file remains EDITOR VERIFIED or a settled RESOLVED decision as recorded above. See
+the audit file for the full claim-by-claim breakdown — 22 of 30 claims Confirmed,
+3 Removed, 5 Needs verification (none load-bearing), 0 Conflicting.
 
 ---
 
@@ -312,7 +322,10 @@
   first-phase cost figure remains sourced only to the single 2015 Express Tribune
   article found in the original research pass — Firecrawl did not surface an
   independent confirmation of the cost specifically.
-- Status: RESOLVED for the opening date (EDITOR VERIFIED); OPEN for the cost figure
+- **2026-08-26 update (same day) — resolved.** The user opened the Express Tribune
+  article directly (it returned HTTP 403 to Claude) and confirmed the Rs 4bn
+  first-phase cost figure. Both components of this claim are now human-verified.
+- Status: CLOSED — EDITOR VERIFIED for both the date and the cost figure
 
 ## V-008 — Peshawar-specific 90%+ free-treatment rate vs. 75% network-wide figure
 
@@ -377,4 +390,11 @@
 - Safe fallback wording: soften to a range that both figures support, e.g.
   "roughly 250 to 260 trained cancer specialists" or "only a few hundred," if the
   distinction can't be resolved before recording.
-- Status: OPEN (Conflicting) — highest-priority open item for this episode
+- **2026-08-26 update (same day) — resolved.** The user opened the JCPSP article
+  directly in their own browser (it returned HTTP 503 to Claude on every attempt)
+  and confirmed the figure spans roughly 250 to 260. Script updated to use the
+  exact safe-fallback wording above: "roughly 250 to 260 trained cancer
+  specialists." While checking the same source, the user also reported the
+  national cancer-centre count is around 40, not the 27 originally used elsewhere
+  in the script — corrected in Part 1 and Part 4 (see the source audit for detail).
+- Status: CLOSED — resolved via the user's own direct check of the primary source
