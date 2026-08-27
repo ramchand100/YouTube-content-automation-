@@ -35,13 +35,20 @@ When referencing episodes 01–05 visuals, note the palette divergence.
 - **Inter** — body text, captions, definitions, supporting labels
 - **Archivo Black** — numbers, titles, key stats, callout figures
 
-## Motion principles (Remotion)
+## Motion principles (CapCut)
 
-- Compositions are defined in `remotion/src/Root.tsx`.
-- Data per episode lives in `remotion/data/epNN_data.json`.
-- Animations: simple entrances (fade, slide-up); no complex motion unless the data
-  requires it.
-- On-screen text and chart overlays must match the palette tokens above.
+The channel's editor works exclusively in CapCut and has no prior editing
+experience. Every storyboard must describe things achievable with CapCut's
+built-in tools only:
+
+- Text layers, image layers, and simple shapes (a highlight box/rectangle).
+- One-tap animation presets: fade in/out, slide in/out, zoom in/out. Applied to
+  a whole layer with a single tap — never hand-keyframed.
+- No multi-element animated sequences, no custom-built charts that animate
+  piece by piece. If a graphic needs more than one simple in/out animation to
+  read correctly, it's too complex for this pipeline — simplify it or split it
+  into two separate, simpler cards.
+- On-screen text and cards must match the palette tokens above.
 
 ## Thumbnail conventions
 
@@ -49,22 +56,49 @@ When referencing episodes 01–05 visuals, note the palette divergence.
 - One focal point (a stat, a face, a building) — no cluttered compositions.
 - 2–4 words that add a new idea rather than repeat the title.
 - Green (`#1EB53A`) or red (`#D32F2F`) as the single accent colour.
-- Avoid stock-photo faces; prefer motion-graphic data visuals or abstract
-  representations of the topic.
+- Avoid stock-photo faces; prefer a clean stat card or an abstract
+  representation of the topic.
 
 ## Graphics tool policy
 
-**Remotion** is the primary system for all animated in-video graphics, data
-visualisations, timelines, maps, diagrams, animated labels, and reusable motion
-components.
+**CapCut is the default and primary tool for all in-video graphics, text, and
+animation.** Every storyboard cue should describe something buildable directly
+in CapCut, or as a static image imported into CapCut — never a custom-rendered
+composition.
 
-Claude may create and modify Remotion compositions using episode-specific JSON data.
+**Source-screenshot cards are the default graphic technique.** For any
+on-screen figure traceable to a real visual source document — an uploaded PDF
+(annual report, audited accounts), an official webpage, a news article —
+screenshot the actual source rather than building a custom chart:
+1. Screenshot or crop the relevant page/section (headline, chart, or the
+   sentence containing the cited figure). Crop tightly.
+2. Draw a simple highlight box over the key figure (CapCut's shape tool,
+   semi-transparent fill) — no redrawing or recreating the source's own chart.
+3. Add a caption: "Source: [Institution/Publication], [Date]" — Inter,
+   `#555555`.
+4. Apply one simple CapCut zoom-in or fade-in animation. Nothing more.
 
-**Canva** is the primary system for thumbnails, static promotional graphics, social
-assets, title cards, and designs requiring fast manual layout or collaboration.
+This is preferred over a custom chart: no design work, faster to produce, and
+more credible — the viewer sees the actual primary document.
 
-**CapCut** is used for final footage assembly, narration, music, captions, and
-placement of Remotion exports at storyboard timecodes.
+**Plain text/number cards** (Archivo Black number + Inter label, on the
+palette background, built in Canva or directly in CapCut) are the fallback,
+used only when no source document exists to screenshot — typically the
+channel's own ESTIMATE/ANALYSIS calculations, or a claim with no single
+document to point to.
 
-Do not recreate a Remotion data visualisation manually in Canva unless the graphic
-is static and does not require timing, animation, or data-driven updates.
+**Canva** may be used to build a static text/number card when CapCut's own
+text tools aren't sufficient, or for thumbnails and social assets. Canva's
+"Animate" button can add one simple preset animation before exporting as a
+clip for CapCut.
+
+Never build a custom animated chart (bar chart, donut chart, animated
+timeline, multi-element sequential build) — these require design and
+animation skills beyond this editor's level. If a comparison needs
+visualizing, use two simple side-by-side text/number cards instead of an
+animated chart.
+
+**Remotion** (`remotion/`) is a legacy pipeline from earlier in the project.
+It requires writing and rendering React code and is not part of the default
+storyboard workflow. Do not reference it in new storyboards unless the user
+explicitly asks for a Remotion-rendered graphic for a specific episode.

@@ -35,27 +35,33 @@ using the script's own Part names and in the script's own order:
 - **Script file:** scripts/NN_slug.md
 - **Structure:** flexible, N parts (matches script `section_count`) | legacy-A/B/C
 - **Palette:** light (#F8F9FA background) — current standard for ep 06+
-- **Remotion data:** remotion/data/epNN_data.json
+- **Editing tool:** CapCut only — beginner-friendly, one-tap animation presets
 - **Footage rights log:** research/source-registers/NN_slug_sources.csv
 
 ---
 
 ## Part 1 — [Name from script] (00:00 – MM:SS)
 
-### Motion graphic
-[Composition name, animation type, duration, data source, palette tokens used]
+### [00:00 – 00:XX] FOOTAGE — [short label]
+- Shot: [specific, topic-related scene — not generic filler; see "Footage
+  balance and specificity" below]
+- Source: [library]; licence; fallback if unavailable
+- Animation: none (footage plays as-is) or a simple CapCut zoom/pan
+- Duration: [X]s
 
-### B-roll / footage
-[Description of what to show; source library; licence; fallback if unavailable]
-
-### On-screen text
-[Exact text strings; font; timing; fade in / fade out]
-
-### Chart / data overlay (if applicable)
-[Chart type; data file reference; annotation text]
+### [00:XX – 00:YY] GRAPHIC — [short label]
+- Type: source-screenshot card | plain text/number card (see
+  `.claude/rules/visual-system.md`, "Source-screenshot cards")
+- Visual: [what's on screen — the screenshotted source + highlight, or the
+  text/number and label]
+- Animation: one CapCut preset only (fade in / slide in / zoom in) — never a
+  multi-element build
+- Source caption: "Source: [Institution/Publication], [Date]" (omit only for
+  the channel's own ESTIMATE/ANALYSIS cards, which are unsourced by nature)
+- Duration: [X]s
 
 ### Transition to Part 2
-[Cut / dissolve / wipe; duration]
+[Cut / dissolve; duration]
 
 ---
 
@@ -73,12 +79,37 @@ Apply the current palette (episodes 06+):
 - Green accent: `#1EB53A`
 - Red accent: `#D32F2F`
 
+## Footage balance and specificity
+
+The channel's editor works in CapCut only and has never edited before.
+Default to footage over graphics: most of the runtime should be B-roll the
+editor can drop straight onto the timeline. Reserve GRAPHIC cues for the
+handful of moments that genuinely need a number on screen (a headline figure,
+a central comparison) — not one graphic per statistic.
+
+Every footage cue must show something specific to the scene being narrated —
+search terms drawn from that specific moment, not the episode's general
+topic. Avoid interchangeable "any building" filler.
+
+## Graphics: source-screenshot cards first
+
+Default graphic technique: screenshot the actual source document (an
+uploaded PDF page, an official webpage, a news article) behind an on-screen
+figure, crop tight, add a highlight box over the key figure, caption
+"Source: [Institution], [Date]," apply one simple CapCut zoom/fade. This
+needs no design work and is more credible than a recreated chart. Use a
+plain text/number card only when no source document exists to screenshot.
+Never build a custom animated chart (bar/donut/timeline) — beyond this
+editor's skill level; use two simple side-by-side cards instead if a
+comparison needs visualizing.
+
 ## Footage notes
 
 Every B-roll cue must include:
 - Source library (Pexels / Pixabay / Pond5 / self-captured)
 - Licence type (CC0 / royalty-free / licensed)
-- A fallback (Remotion graphic or text card) if footage is unavailable
+- A fallback (a source-screenshot card or plain text card) if footage is
+  unavailable
 
 Add every footage cue to `research/source-registers/NN_slug_sources.csv`.
 Public availability does not equal reuse permission.
