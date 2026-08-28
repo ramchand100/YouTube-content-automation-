@@ -27,8 +27,8 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 ## Part 1 — The Factory That Costs Without Producing (00:00 – 03:00)
 
 **[00:00 – 00:12] FOOTAGE F001 — cold open: idle industrial site**
-- Shot: exterior of a large dormant industrial facility — rusted structures, still machinery, empty yard. Wide establishing shot, then slow push toward the structures.
-- Source: Pexels — search "abandoned factory exterior" / "industrial plant idle" / "steel mill ruins". CC0. Confirm licence on individual clip. [RIGHTS: pending — see clip_id F001 in sources CSV]
+- Shot: aerial drone footage of a deserted, rusted factory complex — industrial decay, no activity. Adjust cut from "wide-then-push" to a slow aerial descent/hold, matching the actual clip's camera movement.
+- Source: Pexels — `pexels.com/video/aerial-shot-of-an-abandoned-factory-854412/`. Licence type confirmed: free to use, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see clip_id F001 in sources CSV and F-001 in the footage queue]
 - Fallback: GRAPHIC — single still photograph or Remotion frame showing PSM site schematic. Text card: "BIN QASIM, KARACHI" on `#F8F9FA`.
 - Sound: ambient only — wind, distant machinery hum if available. No music, no voiceover. Silence frames the scale.
 - HOLD: 12 seconds static wide shot.
@@ -48,14 +48,12 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 - END: hard cut at 00:50.
 - Duration: 38s
 
-**[00:50 – 01:45] FOOTAGE F002 — the infrastructure that remains**
-- Shot: industrial machinery up close — furnace structures, pipes, industrial cranes, empty rolling halls. The equipment is present; the activity is absent. Static or very slow panning shots.
-- Source: Pexels — "steel mill interior", "industrial furnace", "factory machinery". CC0. Confirm individual clip licence. [RIGHTS: pending — clip_id F002]
-- Fallback: GRAPHIC — annotated schematic of an integrated steel mill layout with labels: blast furnace, coke oven, rolling mill, power station, port facility. `#F8F9FA` canvas, `#1A1A1A` labels, `#E0E0E0` connecting lines.
+**[00:50 – 01:45] GRAPHIC F002 (PRIMARY) — the infrastructure that remains**
+- No CC0 clip found that shows idle/empty machinery without contradicting the voiceover — every close-up industrial-interior candidate checked showed active operation (furnace sparks, molten metal, running equipment), which would visually contradict "the activity is absent." GRAPHIC is now the primary direction for this cue. [RIGHTS: see clip_id F002 in sources CSV — candidates checked and rejected, reasons logged]
+- Pre-comp: `millSchematic` — annotated schematic of an integrated steel mill layout with labels: blast furnace, coke oven, rolling mill, power station, port facility. `#F8F9FA` canvas, `#1A1A1A` labels, `#E0E0E0` connecting lines. Labels build in sequentially, matching the voiceover's list order.
 - Voiceover: *"The mill covers thousands of acres. It has blast furnaces, coke ovens…"*
-- No graphic overlay — let the footage carry the weight.
 - HOLD: run for voiceover duration (~55s).
-- END: hard cut to graphic at 01:45.
+- END: hard cut at 01:45.
 - Duration: ~55s
 
 **[01:45 – 02:25] GRAPHIC — shutdown event: date and trigger**
@@ -167,8 +165,8 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 - Duration: 50s
 
 **[07:10 – 07:55] FOOTAGE F004 — industrial steel yard / re-rolling operation**
-- Shot: steel scrap yard, rebar bundled, construction steel delivery. Contrast with the idle PSM footage from the open — this steel is moving.
-- Source: Pexels — "steel rebar", "scrap metal yard", "construction steel". CC0. Confirm individual clip. [RIGHTS: pending — clip_id F004]
+- Shot: active metal recycling/scrap yard. Contrast with the idle PSM footage from the open — this steel is moving.
+- Source: Pixabay — `pixabay.com/videos/scrap-recycling-recovery-metal-223170/`. Licence type confirmed: Pixabay Content License, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see F-004 in the footage queue]
 - Fallback: GRAPHIC — split-screen text card: "RE-ROLLING SECTOR (active)" vs. "PSM (idle)". Same frame, same composition.
 - Voiceover: *"Through the 1980s and 1990s, the global steel market changed…"*
 - HOLD: run for voiceover duration (~45s).
@@ -235,8 +233,8 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 ## Part 4 — What Pakistan Pays (12:00 – 19:30)
 
 **[12:00 – 12:45] FOOTAGE F005 — active construction: Pakistan buying imported steel**
-- Shot: construction site — rebar being placed, concrete poured, structural steel erected. The construction sector that has no domestic primary steel alternative.
-- Source: Pexels — "construction Pakistan", "concrete construction", "rebar construction". CC0. Confirm individual clip. [RIGHTS: pending — clip_id F005]
+- Shot: workers reinforcing a concrete structure at an outdoor building site. The construction sector that has no domestic primary steel alternative.
+- Source: Pexels — `pexels.com/video/construction-workers-on-building-site-35631533/`. Licence type confirmed: free to use, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see F-005 in the footage queue]
 - Fallback: GRAPHIC — text card: "Pakistan's construction sector, infrastructure projects, and manufacturing base buy steel. They buy it from importers."
 - Voiceover: *"Pakistan's construction sector, infrastructure projects, and manufacturing base buy steel…"*
 - HOLD: run for voiceover duration (~45s).
@@ -296,8 +294,8 @@ Part 1 (00:00 – 03:00) | Part 2 (03:00 – 05:30) | Part 3 (05:30 – 12:00) |
 - Duration: 70s
 
 **[16:30 – 17:30] FOOTAGE F006 — port and steel cargo**
-- Shot: port cranes unloading cargo containers / cargo ships. Representing the continuing import dependency — steel arriving from abroad that PSM was supposed to replace.
-- Source: Pexels / Pixabay — "cargo port", "container ship", "port crane". CC0. Confirm individual clip. [RIGHTS: pending — clip_id F006]
+- Shot: aerial drone footage of cargo container ships and crane activity at a busy port. Representing the continuing import dependency — steel arriving from abroad that PSM was supposed to replace.
+- Source: Pexels — `pexels.com/video/cargo-container-ships-in-port-3840442/`. Licence type confirmed: free to use, commercial OK, no attribution required. [RIGHTS: CANDIDATE — licence confirmed, visual content not yet watched by a human; see F-006 in the footage queue]
 - Fallback: GRAPHIC — animated map showing steel import routes from China, Ukraine, and other origins into Karachi port. `#F8F9FA` canvas with `#D32F2F` import arrows.
 - Voiceover: *"None of these paths is simple… Each requires a specific constituency to absorb a real cost…"*
 - HOLD: run for voiceover duration (~60s).
@@ -389,12 +387,18 @@ The following cues must be added to `research/source-registers/11_pakistan_steel
 
 | clip_id | description | source | licence | url | cleared | fallback |
 |---------|-------------|--------|---------|-----|---------|----------|
-| F001 | Dormant industrial facility exterior — idle machinery, empty yard | Pexels | CC0 (confirm per clip) | TBC | pending | GRAPHIC: PSM schematic + "BIN QASIM, KARACHI" text card |
-| F002 | Industrial machinery interiors — furnaces, pipes, cranes, empty halls | Pexels | CC0 (confirm per clip) | TBC | pending | GRAPHIC: annotated integrated mill schematic |
-| F003 | 1970s industrial construction context footage | Pixabay / Pexels | CC0 (confirm per clip) | TBC | pending | GRAPHIC: founding logic text card (three bullet points) |
-| F004 | Steel scrap yard or rebar construction footage | Pexels | CC0 (confirm per clip) | TBC | pending | GRAPHIC: re-roller vs. PSM split-screen card |
-| F005 | Active construction site — rebar placement, structural steel | Pexels | CC0 (confirm per clip) | TBC | pending | GRAPHIC: text card explaining import dependency |
-| F006 | Port cranes or cargo ships — representing import dependency | Pexels / Pixabay | CC0 (confirm per clip) | TBC | pending | GRAPHIC: animated import route map from origin countries to Karachi |
+| F001 | Dormant industrial facility exterior — idle machinery, empty yard | Pexels | Pexels Licence (type confirmed) | pexels.com/video/aerial-shot-of-an-abandoned-factory-854412/ | candidate | GRAPHIC: PSM schematic + "BIN QASIM, KARACHI" text card |
+| F002 | Industrial machinery interiors — furnaces, pipes, cranes, empty halls | — | — | — | no (GRAPHIC primary) | GRAPHIC: annotated integrated mill schematic — no idle-equipment clip found that didn't contradict the voiceover |
+| F003 | 1970s industrial construction context footage | Pixabay / Pexels | — | — | no (GRAPHIC primary) | GRAPHIC: founding logic text card (three bullet points) |
+| F004 | Steel scrap yard or rebar construction footage | Pixabay | Pixabay Content License (type confirmed) | pixabay.com/videos/scrap-recycling-recovery-metal-223170/ | candidate | GRAPHIC: re-roller vs. PSM split-screen card |
+| F005 | Active construction site — rebar placement, structural steel | Pexels | Pexels Licence (type confirmed) | pexels.com/video/construction-workers-on-building-site-35631533/ | candidate | GRAPHIC: text card explaining import dependency |
+| F006 | Port cranes or cargo ships — representing import dependency | Pexels | Pexels Licence (type confirmed) | pexels.com/video/cargo-container-ships-in-port-3840442/ | candidate | GRAPHIC: animated import route map from origin countries to Karachi |
+
+"Candidate" means: licence *type* is confirmed (Pexels/Pixabay site-wide terms), but
+the clip's actual visual content has not been watched by a human or by Claude — a
+page title/description is not an inspection. See `research/footage-queues/
+11_pakistan_steel_mills_footage-queue.md` for the F-XXX tickets an editor should
+work through before any of these move to EDITOR VERIFIED / cleared=yes.
 
 **Do not use:**
 - PSM corporate footage or news coverage (Pakistani TV networks: Geo, ARY, Hum, Dawn News)
@@ -435,4 +439,4 @@ The following cues must be added to `research/source-registers/11_pakistan_steel
 - Colour language consistent throughout: `#1EB53A` = target / milestone / what was intended. `#D32F2F` = cost / gap / failure / decline. Viewers learn this language across episodes.
 - Cut rhythm: every graphic cut falls on a sentence end or a breath pause. Voiceover sets the cut point — visuals do not drive the edit.
 - Export: 1080p minimum, 4K preferred. Audio: -14 LUFS integrated, -1 dBTP true peak.
-- Redirect to `/footage` to clear F001–F006 rights before production begins.
+- Footage rights: F001, F004, F005, F006 have CANDIDATE clips with confirmed licence type and live URLs (2026-08-22), but are NOT yet cleared — an editor must actually watch each clip and confirm content before use; see `research/footage-queues/11_pakistan_steel_mills_footage-queue.md` for the per-clip tickets. F002 and F003 run as GRAPHIC primary — no suitable idle-equipment / vintage-1970s CC0 clip exists that doesn't contradict the voiceover. See `research/source-registers/11_pakistan_steel_mills_sources.csv` for full notes.

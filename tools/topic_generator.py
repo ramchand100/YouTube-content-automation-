@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
 """
-topic_generator.py — Deep research-brief generator for the channel.
+topic_generator.py — Idea and research-scaffold generator for the channel.
 
-Structures video ideas and full research briefs across the four core pillars of
-Pakistan's business economy. Every brief is pre-wired to the channel's 5-Part
-Narrative Structure and to the real local data sources an analyst must pull from
-(SBP, PBS, FBR, SECP, PSX, and credible local business reporting).
+Structures video ideas and a rough starting research scaffold across the four
+core pillars of Pakistan's business economy, pointing at the real local data
+sources an analyst must pull from (SBP, PBS, FBR, SECP, PSX, and credible
+local business reporting).
+
+The generated brief is a starting scaffold, not a finished research brief.
+It has no fixed number of sections and does not map to a fixed script
+structure — the channel uses a flexible Part-N script structure chosen per
+topic during /write-script's structure-approval step (three, four, five, or
+more Parts, whatever the story logic requires; see .claude/rules/scripts.md).
+Before this scaffold can support scripting, finish it out to match the
+required research-brief structure in .claude/rules/research.md ("Research
+brief must include") — claim classification (VERIFIED/REPORTED/ANALYSIS/
+ESTIMATE/UNRESOLVED), a claim ledger, and a source register — and save it as
+research/briefs/NN_slug_brief.md, where NN is the approved episode number.
 
 Usage:
     python3 tools/topic_generator.py list
     python3 tools/topic_generator.py ideas --pillar startup [--count 5]
-    python3 tools/topic_generator.py brief --title "..." --pillar macro [--out topics]
+    python3 tools/topic_generator.py brief --title "..." --pillar macro [--out research/briefs]
 
 Pillars (slug -> name):
     startup   The Startup & Tech Landscape
@@ -129,15 +140,23 @@ BRIEF_TEMPLATE = Template(
 - **Pillar:** {{ pillar_name }}
 - **Status:** DRAFT / research in progress
 - **Created:** {{ created }}
-- **Target length:** 1,800-2,500 words (12-16 min voiceover)
+- **Target length:** 1,800-2,500 words (12-16 min voiceover); deeper topics may
+  run longer — length is earned by the topic, not set by a quota.
 
-> Fill every section with sourced facts before this brief is promoted to a script.
-> Tag unconfirmed or fast-moving numbers with [VERIFY]. Language of the final
-> script is 100% English (see CLAUDE.md).
+> This is a starting scaffold, not a finished research brief. The five
+> categories below are research-gathering prompts only — they do not map to
+> a fixed script structure. The actual number and names of script Parts are
+> chosen later, per topic, during /write-script's structure-approval step
+> (see .claude/rules/scripts.md). Before this scaffold can support scripting,
+> classify every claim (VERIFIED/REPORTED/ANALYSIS/ESTIMATE/UNRESOLVED), tag
+> unconfirmed or fast-moving numbers [VERIFY], build a claim ledger and source
+> register, and save the finished brief as research/briefs/NN_slug_brief.md
+> per .claude/rules/research.md. Language of the final script is 100%
+> English (see CLAUDE.md).
 
 ---
 
-## 1. Central Paradox / Hook Hypothesis  (maps to Narrative Part 1)
+## 1. Central Paradox / Hook Hypothesis
 State the single counter-intuitive tension this episode resolves. One or two
 shocking, sourced metrics that make a viewer stop scrolling.
 
@@ -145,12 +164,12 @@ shocking, sourced metrics that make a viewer stop scrolling.
 - Hook metric #1 [SOURCE: , year]:
 - Hook metric #2 [SOURCE: , year]:
 
-## 2. Ground-Truth Mechanics  (maps to Narrative Part 2)
+## 2. Ground-Truth Mechanics
 Exactly how the system works on the ground in Pakistan. Answer plainly:
 
 {% for q in mechanics_questions %}- {{ q }}
 {% endfor %}
-## 3. Core Conflict / Bottleneck  (maps to Narrative Part 3)
+## 3. Core Conflict / Bottleneck
 The structural friction. Regulation, cash-flow trap, capital misallocation, or
 competitive dynamics.
 
@@ -158,14 +177,14 @@ competitive dynamics.
 - Who benefits from it staying broken:
 - Who pays for it:
 
-## 4. Broader Macro Impact  (maps to Narrative Part 4)
+## 4. Broader Macro Impact
 Ripple effects to the wider economy, investors, and ordinary consumers.
 
 - Impact on GDP / investment / jobs:
 - Impact on the ordinary consumer:
 - Link to SBP / FBR / FX / energy reality:
 
-## 5. Strategic Takeaways & Outlook  (maps to Narrative Part 5)
+## 5. Strategic Takeaways & Outlook
 Honest, concrete lessons. No motivational filler.
 
 - Lesson for founders:
@@ -281,7 +300,13 @@ def cmd_brief(args) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{slugify(args.title)}.md"
     out_path.write_text(rendered, encoding="utf-8")
-    print(f"Research brief written: {out_path}")
+    print(f"Research scaffold written: {out_path}")
+    print(
+        "This is a starting scaffold, not a finished brief. Before scripting: "
+        "classify every claim, add a claim ledger and source register per "
+        ".claude/rules/research.md, and rename to "
+        "research/briefs/NN_slug_brief.md (NN = the approved episode number)."
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -300,10 +325,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_ideas.add_argument("--count", type=int, default=5, help="How many angles to show.")
     p_ideas.set_defaults(func=cmd_ideas)
 
-    p_brief = sub.add_parser("brief", help="Generate a full research brief in /topics.")
+    p_brief = sub.add_parser("brief", help="Generate a starting research scaffold.")
     p_brief.add_argument("--title", required=True, help="Working episode title.")
     p_brief.add_argument("--pillar", required=True, help="Pillar slug or 1-4.")
-    p_brief.add_argument("--out", default="topics", help="Output directory (default: topics).")
+    p_brief.add_argument("--out", default="research/briefs",
+                          help="Output directory (default: research/briefs).")
     p_brief.set_defaults(func=cmd_brief)
 
     return parser

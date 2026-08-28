@@ -56,8 +56,9 @@ Columns: clip_id | description | source | licence | url | cleared (yes/no/pendin
 ## Fallback hierarchy
 
 If footage cannot be cleared:
-1. Replace with a Remotion motion graphic.
-2. Replace with a text card on the channel's colour palette.
+1. Replace with a source-screenshot card (see `.claude/rules/visual-system.md`)
+   if the cue was standing in for a citable figure or document.
+2. Replace with a plain text card on the channel's colour palette.
 3. Replace with self-captured equivalent footage.
 
 Never ship a clip with an unclear or assumed licence.

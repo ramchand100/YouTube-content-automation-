@@ -18,7 +18,7 @@ converts into prose.
 
 ## What this agent does
 
-1. Reads the approved angle from `topics/ANGLE_TEMPLATE.md`.
+1. Reads the approved angle from `topics/angles/NN_slug_angle.md`.
 2. Identifies the claims required to support or test the tentative thesis.
 3. Searches for primary sources: SBP, PBS, FBR, NEPRA, OGRA, Ministry of Finance,
    Pakistan Economic Survey, company filings, PSX disclosures, IMF, World Bank.

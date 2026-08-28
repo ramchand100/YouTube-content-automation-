@@ -9,7 +9,8 @@ paths:
 ## Workflow gate
 
 A research brief or script may not begin until one angle has been explicitly approved
-by the user. The approved angle must be recorded in `topics/ANGLE_TEMPLATE.md` with
+by the user. The approved angle must be recorded in `topics/angles/NN_slug_angle.md`
+(one file per episode, using the blank form in `topics/ANGLE_TEMPLATE.md`) with
 `approval_status: approved` and a date.
 
 ## Claim classification
@@ -58,7 +59,7 @@ Where `NN` is the episode number and `slug` matches the script filename slug.
 
 ## Research brief must include
 
-1. Approved angle (copy from ANGLE_TEMPLATE)
+1. Approved angle (copy from `topics/angles/NN_slug_angle.md`)
 2. Central question
 3. Tentative thesis
 4. Claims required (from angle sub-questions)

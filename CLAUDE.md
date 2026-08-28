@@ -30,7 +30,10 @@ concepts only. Define each term in plain English the first time it appears.
 
 **Simple words. Full analytical depth.** Write for an intelligent viewer who
 knows little about finance or economics. Simplify the language, never the
-analysis.
+analysis. If an eighth-grade student or a small shop owner could not follow the
+argument on first listen, simplify the language further without cutting the
+analysis. Give large or technical numbers a daily-life reference point wherever
+possible — see `docs/editorial/prose-style.md`, "Relatable scale."
 
 **No undefined jargon.** When a technical term is required, define it in plain
 English immediately, then use it.
@@ -81,7 +84,14 @@ motivational filler. Write up to their intelligence.
 5. **Fairness and safety.** Frame around documented facts and mechanics. Present
    multiple sides on contested points. Never state an unproven allegation as fact.
    This protects credibility and the creator.
-6. **Freshness.** Macro figures (SBP rate, inflation, FX, tax rates) change fast.
+6. **Neutral, non-political framing.** Describe decisions, budgets, and
+   incentives in administrative and economic terms, not as political strategy.
+   Avoid election-timing, ribbon-cutting, and campaign imagery. Do not attribute
+   motives to a named office-holder unless a specific claim requires it and is
+   directly evidenced — name the institution and describe what it did, not why
+   an individual wanted credit or blame for it. See
+   `docs/editorial/prose-style.md` for worked examples.
+7. **Freshness.** Macro figures (SBP rate, inflation, FX, tax rates) change fast.
    Re-verify all time-sensitive figures before recording. Do not reuse a stale
    number from an older episode.
 
@@ -142,11 +152,16 @@ does not belong in the script.
   scripting engine (`script_engine.py`) and the script template (`TEMPLATE.md`).
 - `storyboards/` — visual and motion-graphic blueprints for editors, timestamp-
   linked to the matching script.
+- `delivery-notes/` — optional narrator performance markup (emphasis, pauses,
+  pacing) for a script that has reached a stable draft. Never changes the
+  narration itself. See `.claude/rules/delivery-notes.md`.
 - `prompts/` — thumbnail layout specs and Canva design briefs for static promotional
   assets. Animated in-video graphics belong in Remotion, not Canva.
 - `tools/` — automation scripts (`topic_generator.py`) and shared research
   templates, with dependencies in `requirements.txt`.
-- `research/` — research briefs, claim ledgers, and source registers per episode.
+- `research/` — research briefs, claim ledgers, source registers, audits, verification
+  queues, and footage queues per episode. See `.claude/rules/verification-queue.md`
+  for the queue format used to hand off unresolved claims and footage to a human.
 - `docs/editorial/` — detailed prose, storytelling, and structure guidelines.
 - `docs/templates/` — reusable document templates.
 

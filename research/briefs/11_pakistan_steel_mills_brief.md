@@ -12,7 +12,7 @@
 ## 1. Approved angle
 
 PSM: The SOE That Ate Itself — how a sequence of individually defensible institutional decisions collectively produced a mill that can neither function nor be dissolved.
-Copied from `topics/ANGLE_TEMPLATE.md`, approval date 2026-08-22.
+Copied from `topics/angles/11_pakistan_steel_mills_angle.md`, approval date 2026-08-22.
 
 ---
 

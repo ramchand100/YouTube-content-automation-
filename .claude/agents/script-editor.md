@@ -19,7 +19,7 @@ Every claim in the script must trace back to the research brief or claim ledger.
 
 1. Reads `CLAUDE.md` in full.
 2. Reads `.claude/rules/scripts.md`.
-3. Reads the approved angle from `topics/ANGLE_TEMPLATE.md`.
+3. Reads the approved angle from `topics/angles/NN_slug_angle.md`.
 4. Reads the research brief from `research/briefs/NN_slug_brief.md`.
 5. Selects Template A, B, or C based on the approved angle.
 6. Writes complete, production-ready voiceover prose for all five sections.

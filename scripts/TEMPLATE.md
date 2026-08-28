@@ -41,7 +41,7 @@ last_verified:
 
 ### Approved angle
 
-[Copy from topics/ANGLE_TEMPLATE.md]
+[Copy from topics/angles/NN_slug_angle.md]
 
 ### Central question
 

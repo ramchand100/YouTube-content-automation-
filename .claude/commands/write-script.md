@@ -8,7 +8,7 @@ Do not write the script until all of the following are confirmed:
 
 1. Read `CLAUDE.md` in full.
 2. Read `.claude/rules/scripts.md`.
-3. Read the approved angle from `topics/ANGLE_TEMPLATE.md` (`approval_status: approved`).
+3. Read the approved angle from `topics/angles/NN_slug_angle.md` (`approval_status: approved`).
 4. Read the research brief from `research/briefs/NN_slug_brief.md`.
 5. Read the claim ledger from `research/claim-ledgers/NN_slug_claims.csv`.
 6. Confirm no UNRESOLVED claims exist without `[VERIFY]` tags.
@@ -61,6 +61,22 @@ Use the YAML front-matter from `scripts/TEMPLATE.md`. Set `status: draft`.
 - No banned clichés (game-changer, synergy, disrupt, journey, etc.).
 - No invented characters, scenes, conversations, or motives.
 - The opening section must be grounded in a documented event or anomaly.
+- Land the hook in the first one or two sentences — the strongest documented
+  anomaly or comparison, not several paragraphs of setup. See
+  `docs/editorial/storytelling.md`, "Land the hook fast."
+- Immediately after the hook, include a two-to-three sentence retention bridge
+  previewing what the episode investigates, before widening into the full
+  documentary chain. See `docs/editorial/storytelling.md`, "Retention bridge."
+- Every large or technical number gets a daily-life reference point (a derived
+  rate, a share of another cited figure, a rupee conversion, a familiar
+  distance) the first time it appears. See `docs/editorial/prose-style.md`,
+  "Relatable scale."
+- Keep narration paragraphs to one or two sentences throughout — one spoken
+  beat per paragraph break, not dense multi-sentence blocks. See
+  `docs/editorial/prose-style.md`, "Paragraph rhythm."
+- No channel greeting or preamble before the hook. Every part (except the
+  last) ends by creating the next analytical question — see
+  `docs/editorial/storytelling.md`, "Section and part transitions."
 - The closing section must be honest and specific — name the real obstacles.
 
 ### Do not force five sections

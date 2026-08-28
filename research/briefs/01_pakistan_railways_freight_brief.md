@@ -27,7 +27,7 @@ This error must be corrected in the angle template before scripting begins.
 
 ---
 
-## 1. Approved Angle (from ANGLE_TEMPLATE)
+## 1. Approved Angle (from topics/angles/01_pakistan_railways_freight_angle.md)
 
 **Angle name:** The Freight Betrayal
 **Central question:** Why did Pakistan Railways effectively exit the freight business, and what has that cost the economy?

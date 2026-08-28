@@ -6,7 +6,7 @@ Generate scored angle options for a broad topic. Recommend one. Stop for approva
 
 1. Read `CLAUDE.md`.
 2. Read `.claude/rules/research.md`.
-3. Confirm no approved angle already exists for this topic in `topics/`.
+3. Confirm no approved angle already exists for this topic in `topics/angles/`.
 
 ## What to do
 
@@ -55,6 +55,32 @@ Score every angle 1–5 on each dimension:
 | Timeliness | 5% |
 
 Compute the weighted score for each angle.
+
+## Check for a comprehensive-combination opportunity
+
+Before writing the recommendation, look across the full set of scored angles.
+If several of them are really different layers or facets of the same
+underlying mechanism, not genuinely separate stories, say so explicitly and
+ask the user whether they want the narrowest strong angle or a widened,
+comprehensive version that combines the related layers into one episode.
+Propose what the widened central question, thesis, and part structure would
+look like so the choice is concrete, not abstract.
+
+Settle this before the user approves an angle, not after research or
+scripting has begun. Widening the scope later means retrofitting new
+material onto research or a script built for a narrower angle, which is
+exactly how inconsistencies creep in: figures that don't quite match because
+they came from two separate research passes, terms used in a later part
+that were never defined earlier, reused numbers with different rounding.
+Locking the final scope before `/research` starts avoids all of it.
+
+Do not default to recommending the comprehensive version, and do not raise
+this check reflexively on every topic. Most topics are correctly scoped
+narrow — CLAUDE.md's storytelling rules want one tested mechanism per
+episode, not a survey, and a documentary script is "a controlled sequence of
+discoveries," not a research summary. Only raise the comprehensive option
+when the scored angles genuinely read as facets of one system rather than
+distinct stories that happen to share a topic.
 
 ## Output format
 
@@ -107,5 +133,7 @@ End every angles output with this exact line:
 Do not begin research or scripting until the user explicitly approves an angle
 (either by number, name, or by saying "approved" or "go with [angle]").
 
-Once approved, save the angle details to `topics/ANGLE_TEMPLATE.md` with
-`approval_status: approved` and today's date, then proceed to `/research`.
+Once approved, save the angle details to `topics/angles/NN_slug_angle.md` (fill out
+the blank form in `topics/ANGLE_TEMPLATE.md` and save the completed copy under the
+episode's own number and slug) with `approval_status: approved` and today's date,
+then proceed to `/research`.

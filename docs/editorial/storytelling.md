@@ -91,6 +91,10 @@ statements such as:
 - "This is an important issue."
 - "The numbers tell a troubling story."
 
+Do not open with a channel greeting, a "welcome back" line, or any preamble
+before the hook. The first words of narration are the hook itself — see "Land
+the hook fast" below.
+
 If a personal scene is not documented, use an institutional or commercial scene:
 a port waiting for cargo, a factory choosing between transport options, a company
 filing showing a cost shift, a ministry changing an allocation, a regulator
@@ -126,6 +130,50 @@ the evidence establishes intent.
 End the opening by stating the central question in a natural sentence. The opening
 must create curiosity through an unresolved mechanism or contradiction, not through
 manufactured suspense.
+
+### Land the hook fast
+
+State the strongest documented anomaly or comparison in the first one or two
+sentences, not after several paragraphs of setup. A viewer should get the payoff
+before they decide whether to keep watching, not after.
+
+If the anomaly is more vivid as a derived comparison than as a raw figure (for
+example: two related numbers divided into a rate, or set against each other as a
+ratio), calculate it and state the result immediately. Label it `[ESTIMATE]` with
+the method shown, per the claim-classification rules in `.claude/rules/scripts.md`.
+Do not spend a paragraph building up to a number the viewer could have been given
+in sentence one.
+
+Weak (payoff arrives late):
+> In December 2024, an official told Parliament the port was fully operational.
+> That same year, the port moved 34,000 tonnes of cargo, down from 592,000 tonnes
+> the year before. Since the port opened, it has handled 4,789 containers, against
+> an installed capacity of 240,000 a year.
+
+Stronger (payoff first):
+> In 2024, Karachi Port moved more cargo in a single day than Gwadar moved in the
+> entire year. [ESTIMATE — Karachi Port's FY2024-25 total divided by 365 days,
+> against Gwadar's reported full-year 2024 total] That same year, an official told
+> Parliament the port was fully operational.
+
+## Retention bridge
+
+Immediately after the hook, and before the opening widens into the full
+documentary chain, include two or three sentences previewing what the episode
+investigates. This is not the central question restated — it sits one level
+below that, naming the shape of the argument to come: what was promised or
+assumed, why reality diverged from it, what it costs.
+
+State it as the investigation's roadmap in plain sentences, not as a list of
+teaser bullet points, and do not let it slow into filler ("in this video we're
+going to..."). One pass through the roadmap is enough — say it once and move on
+into the evidence.
+
+Example:
+> So which one is true? In this episode, we look at both sides of that gap. What
+> the port was actually promised. Why the cargo never came. And what it costs the
+> rest of the country, that one of its biggest infrastructure projects still
+> barely moves anything at all.
 
 ---
 
@@ -366,7 +414,10 @@ Whenever possible, connect a structural result to a decision:
 - Was the outcome intended or unintended?
 
 Do not assign motives without evidence. Use "the effect was," "the incentive
-was," or "the policy created" when intent cannot be proven.
+was," or "the policy created" when intent cannot be proven. Describe the
+decision and its effect in administrative or economic terms, not as political
+strategy — see `docs/editorial/prose-style.md`, "Political neutrality," for
+worked examples.
 
 ---
 

@@ -51,6 +51,45 @@ Use:
 > The current arrangement leaves the system exposed if demand rises or external
 > financing becomes less available.
 
+### Political neutrality
+
+Describe decisions, budgets, and incentives in administrative and economic
+terms. Do not frame a decision as political strategy, campaign timing, or a
+named office-holder's personal motive unless a specific claim requires it and
+is directly evidenced. Institutions are the actors; describe what an
+institution did, not why an individual wanted credit or blame for it.
+
+Instead of:
+> A Metro Bus project is one of the most politically efficient investments
+> available. It opens with a ribbon cutting, a prime minister riding the first
+> bus, and a launch date a government can put its name on before the next
+> election.
+
+Use:
+> A Metro Bus project is easy to feel good about on opening day. It is big, it
+> is new, and it is something people can see and ride immediately.
+
+Instead of:
+> The new fare lasted four days before the Prime Minister ordered it reversed.
+
+Use:
+> The new fare lasted four days before the federal government stepped in and
+> had it reversed.
+
+Instead of:
+> No government has the political incentive to close the gap.
+
+Use:
+> Closing that gap means charging daily riders more, and so far no authority
+> has been willing to do it and make it stick.
+
+This does not mean omitting real institutional incentives or realistic
+obstacles — a script can and should say that raising a price triggered public
+pushback that reversed the decision. It means describing the mechanism (what
+happened, who reversed it, what the effect was) instead of the strategy
+(why a specific politician wanted the launch, what it cost them at the ballot
+box). See CLAUDE.md §4 for the underlying rule.
+
 ### Authority
 
 Sound authoritative through:
@@ -84,7 +123,9 @@ concepts. Define each term in plain English the first time it appears.
 
 Write for an intelligent viewer who knows little about finance or economics.
 
-Use simple words without simplifying the analysis.
+Use simple words without simplifying the analysis. A useful test: could a small
+shop owner or an eighth-grade student follow the argument on first listen? If
+not, simplify the language, not the analysis.
 
 Prefer:
 
@@ -142,6 +183,40 @@ A normal paragraph should not contain a series of dramatic fragments.
 Use fragments rarely and deliberately.
 
 Do not repeat the same sentence pattern across paragraphs.
+
+## Paragraph rhythm
+
+Sentence rhythm governs how a sentence is built. Paragraph rhythm governs how
+much lands in one spoken breath before the next line break — a separate thing,
+and one this channel's scripts have under-used.
+
+Keep narration paragraphs to one or two sentences. Each paragraph is a single
+spoken beat: one idea, one number, or one short pair of connected sentences,
+then a break. A paragraph break in a script is a breath, not just a formatting
+convention — it tells the narrator where the pace resets.
+
+This does not shorten the sentences themselves — "Sentence rhythm" above still
+governs that, and medium or longer sentences remain correct where they connect
+a real chain of cause and effect. It only means breaking a block of three to
+six sentences into three to six short paragraphs instead of bundling them into
+one dense unit.
+
+Weak (one dense block):
+> Gwadar's 34,000 tonnes in 2024 was already a drop. The year before, in 2023,
+> the port had moved 592,000 tonnes. Since the port opened, it has handled a
+> cumulative total of 4,789 containers. The port was built to handle 240,000
+> containers every single year.
+
+Stronger (same sentences, broken into spoken beats):
+> Gwadar's 34,000 tonnes in 2024 was already a drop. The year before, in 2023,
+> the port had moved 592,000 tonnes.
+>
+> Since the port opened, it has handled a cumulative total of 4,789 containers.
+> The port was built to handle 240,000 containers every single year.
+
+Apply this across the whole script, not just the opening — a script that reads
+as short spoken beats in Part 1 and dense blocks by Part 3 will feel like the
+pacing broke down partway through.
 
 ---
 
@@ -314,6 +389,45 @@ scale. If using a conversion:
 
 Do not convert every foreign figure automatically. Convert only when it improves
 understanding.
+
+### Relatable scale
+
+A large or technical number does not mean much to a viewer who has never had a
+reason to picture a million tonnes of cargo or a billion dollars of investment.
+The first time a script states a large figure, especially in the opening or in
+any section carrying the episode's central comparison, give the viewer a way to
+picture it against something from daily life. This is not decoration — it is
+what makes "simple language" real instead of just an instruction to sound simple.
+
+Prefer, in this order:
+
+- A derived rate calculated from figures already cited in the same script (per
+  day, per truck, per household), with the method shown.
+- A share or fraction of another figure already cited in the same script (what
+  percentage of a total commitment one piece represents).
+- A conversion to rupees at a clearly stated, dated exchange rate, when the
+  source figure is in a foreign currency (see "Foreign-currency conversions").
+- A comparison to a distance, price, or scale most Pakistani viewers already
+  have some feel for — a driving distance between two well-known cities, for
+  example.
+
+Label any such comparison `[ESTIMATE]` and show the calculation, per the claim
+classification rules in `.claude/rules/scripts.md`, unless the comparison is
+itself a directly reported figure. Do not invent a comparison you cannot verify
+(a specific city's annual budget, a named company's revenue) unless it is
+actually sourced — an honest derived comparison from figures already in the
+script is safer than an unverified external one that merely sounds impressive.
+
+Examples:
+> The port company itself put in around 1.62 billion dollars, a small slice,
+> well under 3 percent, of the full 62 billion dollar plan.
+
+> A company can join for as little as 500,000 dollars plus a registration fee,
+> roughly 139 million rupees at today's exchange rate. That is well beyond what
+> almost any small or medium Pakistani business could put down.
+
+> The M8 motorway was planned to run nearly 900 kilometres, roughly the same
+> distance as driving from Karachi to Multan.
 
 ### Dates and financial years
 

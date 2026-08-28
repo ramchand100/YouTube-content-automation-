@@ -27,16 +27,28 @@ For each footage cue:
    - Use in modified / edited form
 4. Record the licence URL (the specific page for that clip, not the library homepage).
 
-### Step 3 — Write the footage-rights register
+### Step 3 — Write the footage-rights register and footage-queue tickets
 
-File: `research/source-registers/NN_slug_sources.csv`
+Add one row per footage cue to `research/source-registers/NN_slug_sources.csv`,
+using that file's existing header: `source_id,title,institution,date,url,tier,notes`
+(footage rows use `F001`, `F002`... as the `source_id`, matching the storyboard's
+clip IDs — do not introduce a different column schema; this file also holds every
+research source for the episode and must stay one consistent shape). Record in the
+`notes` field: what was directly fetched and confirmed (licence terms, content
+description), what's still unconfirmed (an actual watch-through), the storyboard
+cue it belongs to, and its fallback.
 
-Headers:
-```
-clip_id,description,timestamp,source,licence_type,licence_url,commercial_ok,cleared,fallback,notes
-```
+Then write `research/footage-queues/NN_slug_footage-queue.md` using the F-XXX
+ticket format in `.claude/rules/verification-queue.md` (see
+`research/footage-queues/11_pakistan_steel_mills_footage-queue.md` for a worked
+example) — one ticket per cue, ending with a Handoff Summary that gives the
+editor a priority-ordered watch-through list.
 
-One row per footage cue. `cleared` values: yes / no / pending.
+`cleared` status per clip: CANDIDATE (licence type and content description
+confirmed via a direct page fetch, but no human watch-through yet) → EDITOR
+VERIFIED (a human has watched the full clip and confirmed both content and
+licence). Never mark a clip cleared on a page description or search snippet
+alone — per `.claude/rules/research.md`, that is not final evidence.
 
 ### Step 4 — Flag and resolve unclear licences
 
@@ -46,10 +58,16 @@ Flag any clip where:
 - The licence is Creative Commons but requires attribution not given.
 - The clip requires a paid licence that has not been purchased.
 
-For each flagged clip, apply the fallback hierarchy:
-1. Remotion motion graphic
-2. Text card on channel palette
-3. Self-captured equivalent footage
+For each flagged clip, apply the fallback hierarchy in
+`.claude/rules/footage-rights.md`:
+1. A source-screenshot card (see `.claude/rules/visual-system.md`), if the cue
+   was standing in for a citable figure or document.
+2. A plain text card on the channel's colour palette.
+3. Self-captured equivalent footage.
+
+Remotion is not part of this fallback hierarchy — it's a legacy, optional
+pipeline (see `.claude/rules/visual-system.md`) and should only be used if the
+user explicitly asks for it on a specific episode.
 
 Update the storyboard's B-roll cue to reflect the fallback if the original clip
 cannot be cleared.

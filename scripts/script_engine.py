@@ -148,7 +148,7 @@ Label analysis explicitly — never present it as fact.
 
 - **Episode:** {{ number }}
 - **Pillar:** {{ pillar }}
-- **Approved angle:** [fill from ANGLE_TEMPLATE.md before writing]
+- **Approved angle:** [fill from topics/angles/NN_slug_angle.md before writing]
 - **Central question:** [fill from approved angle]
 - **Thesis:** [fill from approved angle]
 - **Template:** {{ template }}

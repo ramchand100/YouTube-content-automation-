@@ -16,7 +16,7 @@
 
 ---
 
-## 1. Approved angle (from ANGLE_TEMPLATE)
+## 1. Approved angle (from topics/angles/NN_slug_angle.md)
 
 [Copy the approved angle details here.]
 
