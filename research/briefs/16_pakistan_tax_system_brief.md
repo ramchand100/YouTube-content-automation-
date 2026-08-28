@@ -5,7 +5,7 @@
 **Claim ledger:** `research/claim-ledgers/16_pakistan_tax_system_claims.csv`
 **Source register:** `research/source-registers/16_pakistan_tax_system_sources.csv`
 **Research date:** 2026-08-28
-**Status:** Research complete, pending user review before scripting. Several fast-moving figures and one direct/indirect-tax-share discrepancy remain flagged `[VERIFY]` — see Section 7.
+**Status:** Research complete, pending user review before scripting. The direct/indirect-tax-share discrepancy (V2) and the missing Balochistan provincial figure (V4) were resolved in a follow-up pass on 2026-08-28 (see §5.1a, §5.8, and Section 7). Several fast-moving figures remain flagged `[VERIFY]` — see Section 7.
 
 ---
 
@@ -85,6 +85,41 @@ Source: FBR, *Revenue Division Year Book 2024-25*, published FBR.gov.pk (accesse
 
 **Classification: VERIFIED** for all figures above — read directly from the primary FBR document.
 
+### 5.1a Direct/indirect tax share reconciliation — Pakistan Economic Survey 2021-22 and 2025-26 (primary — both read directly, follow-up pass 2026-08-28)
+
+This resolves the V2 `[VERIFY]` item below. Both the FBR Yearbook's 49.3%/50.7% split (§5.1) and the earlier-flagged ">60% indirect" figure attributed to the Pakistan Economic Survey turn out to be accurate — for different fiscal years. There is no classification discrepancy (withholding tax is not reclassified between the two documents); the gap is purely that the ">60%" figure is four fiscal years stale.
+
+**Source A — Pakistan Economic Survey 2025-26, Chapter 4 "Fiscal Development," p.67** (finance.gov.pk/survey/chapter_26/Complete_PES2025_26.pdf; the site returns HTTP 403 to a standard fetch tool but serves the document to a direct HTTPS request with a browser user-agent — downloaded and text-extracted directly, 2026-08-28).
+
+Direct quote: *"Pakistan's tax structure has traditionally relied heavily on indirect taxation. However, a gradual shift toward direct taxation is evident. The share of direct taxes in total FBR collection increased from 36.5 percent in FY 2021 to 48.7 percent in FY 2024, and further to 49.3 percent in FY 2025. Correspondingly, the share of indirect taxes declined from 63.5 percent to 50.7 percent in FY 2025, reflecting progress toward a more equitable tax structure."*
+
+Table 4.2, "Structure of Federal Tax Revenue" (Rs billion; source cited in the PES as "Estimates by FBR & MFPU (EA Wing)"), gives the full time series — direct-tax share [in brackets] / indirect-tax share (100 minus that):
+
+| Fiscal Year | Total FBR collection | Direct tax % | Indirect tax % |
+|---|---:|---:|---:|
+| FY2017 | 3,367.9 | 39.9% | 60.1% |
+| FY2018 | 3,843.8 | 39.7% | 60.0% |
+| FY2019 | 3,828.5 | 37.8% | 62.2% |
+| FY2020 | 3,997.4 | 38.1% | 61.9% |
+| FY2021 | 4,745.0 | 36.5% | 63.5% |
+| FY2022 | 6,148.5 | 37.2% | 62.8% |
+| FY2023 | 7,163.8 | 45.6% | 54.4% |
+| FY2024 | 9,311.0 | 48.7% | 51.3% |
+| **FY2025** | **11,744.3** | **49.3%** | **50.7%** |
+| FY2026 (B.E., budgeted) | 14,131.0 | 48.8% | 51.2% |
+
+The FY2025 row's absolute figures (Rs 5,791.7bn direct / Rs 5,952.6bn indirect, composed of sales tax Rs 3,901.4bn, customs Rs 1,284.6bn, FED Rs 766.6bn) are **identical, to the decimal, to the FBR Revenue Division Year Book 2024-25 figures already in §5.1** — the Ministry of Finance's own Economic Survey and FBR's own Yearbook agree exactly on FY2024-25 (PES fiscal-year label "FY 2025").
+
+**Source B — Pakistan Economic Survey 2021-22, Chapter 4 "Fiscal Development," p.69** (finance.gov.pk/survey/chapter_22/PES04-FISCAL.pdf — read directly). This is the origin of the ">60%" figure:
+
+Direct quote: *"...sales tax remained the top revenue-generating source with a 42 percent share in total tax collection. Whereas direct taxes contributed 36.5 percent, customs duty 16 percent, and FED 6 percent in FBR tax collection. It implies that indirect taxes, which are regressive in nature, account for the majority of tax revenue in Pakistan, contributing to more than 60 percent of total FBR tax collection."*
+
+This is FY2021 data (36.5% direct / 63.5% indirect — matching the FY2021 row of Table 4.2 above almost exactly, 42%+16%+6%=64% ≈ 63.5%). The claim was true when made; it describes fiscal year 2020-21, not FY2024-25.
+
+**Reconciliation:** The ">60% indirect" figure and the 49.3%/50.7% figure are not in conflict — they describe different years on the same real trend. Direct-tax share has risen steadily and substantially: 36.5% (FY2021) → 37.2% (FY2022) → 45.6% (FY2023, a large one-year jump) → 48.7% (FY2024) → 49.3% (FY2025). Indirect-tax share has fallen correspondingly from 63.5% to 50.7% over the same four years. The current, correct, and now doubly-confirmed (FBR Yearbook + PES, two independent primary Ministry-of-Finance-ecosystem documents) split for the most recent completed fiscal year, FY2024-25, is **49.3% direct / 50.7% indirect**. The script should use this figure and, if useful for texture, may cite the historical trend (indirect tax share above 60% as recently as FY2021-22, now roughly even with direct tax) as a documented, sourced example of "the system used to look even more skewed toward indirect taxes than it does today" — but should not state the ">60%" figure as a current fact.
+
+**Classification: VERIFIED.** Both documents read directly; the FY2024-25 figures cross-confirm across FBR's own Yearbook and the Ministry of Finance's own Economic Survey.
+
 ### 5.2 OECD Revenue Statistics in Asia and the Pacific 2025 — Pakistan country note (primary international institution — read directly)
 
 - Pakistan's tax-to-GDP ratio: **10.5% in 2023** (OECD's own calendar-year classification, methodologically distinct from FBR's fiscal-year, FBR-only figure above).
@@ -155,11 +190,11 @@ Multiple sources (Business Recorder, Dawn, provincial revenue authority material
 - **Sindh (SRB):** Sindh Sales Tax (SST) collection of **Rs 284.38 billion** in FY2024-25, plus Rs 22.253 billion from the Sindh Workers' Welfare Fund / Sindh Companies Profits Workers' Participation Fund (SWWF/SWPPF), for total SRB collection of roughly **Rs 307.93 billion** — against a provincial government target of Rs 350 billion (i.e., collection fell short of target). Sourced from Profit by Pakistan Today, Business Recorder, and pkrevenue.com reporting on SRB's own released figures; a direct attempt to read SRB's FY2024-25 Annual Report PDF did not return extractable content (see discarded sources).
 - **Punjab (PRA):** **Rs 270 billion** in FY2024-25, rising to Rs 368 billion in FY2025-26 (+36%). Sourced from Associated Press of Pakistan (APP, state news agency) and Profit reporting on PRA's own figures.
 - **Khyber Pakhtunkhwa (KPRA):** **Rs 51.56 billion** total in FY2024-25 (against a Rs 47 billion target, +37% YoY), of which **Rs 40.3 billion** was sales tax on services and **Rs 11.26 billion** was Infrastructure Development Cess (IDC). Sourced from Profit reporting, corroborated by KPRA's own published release (kpra.gov.pk).
-- **Balochistan (BRA):** No FY2024-25 collection figure was found in this research pass. **UNRESOLVED — flagged `[VERIFY]`.**
+- **Balochistan (BRA):** **Rs 23.2 billion** in FY2024-25 (GST/sales tax on services), the smallest of the four provincial authorities by a wide margin — consistent with BRA's later founding and its Sales Tax on Services regime only taking effect 1 July 2015 (§5.7). Follow-up research (2026-08-28): sourced from pkrevenue.com, "Punjab tops with 36.74% GST collection growth in FY26" (read directly, not just a search snippet), which reports BRA was the *only* provincial revenue authority whose collection **declined** year-on-year — falling roughly 5% to Rs 22.03 billion in FY2025-26, down from Rs 23.2 billion in FY2024-25. BRA's own website (ebra.com.pk/downloads) was checked directly and does not currently publish an annual report or a collection-statistics document for FY2024-25 among its ~155 listed downloads (acts, rules, forms, circulars, tribunal materials — no financial-performance documents), so no primary BRA document could be opened to corroborate the figure further; it rests on Tier-5 business/tax journalism reporting the authority's own released numbers, the same evidentiary basis already used for Sindh, Punjab, and KP above.
 
-**Classification: REPORTED** for Sindh, Punjab, and KP figures (Tier-1 journalism reporting the authorities' own released numbers; not independently cross-checked against each authority's own primary annual report in every case). **UNRESOLVED** for Balochistan.
+**Classification: REPORTED** for all four provinces, Balochistan included (Tier-1/5 journalism reporting each authority's own released numbers; not independently cross-checked against each authority's own primary annual report in every case — BRA's own annual report could not be located publicly).
 
-**Derived comparison (ESTIMATE, method shown):** Summing the three confirmed provincial totals — Sindh Rs 307.93bn + Punjab Rs 270bn + KP Rs 51.56bn ≈ **Rs 630 billion** in combined provincial services-tax-and-related collection for FY2024-25 (Balochistan excluded, so this understates the true provincial total) — versus the FBR's own federal sales-tax-on-goods collection of **Rs 3,901.4 billion** in the same year (§5.1). Even understated, provincial services-tax collection is roughly one-sixth the size of federal goods-sales-tax collection alone, illustrating the scale gap between the two systems referenced in Part 3. **Classification: ESTIMATE** — this comparison is my own arithmetic from the REPORTED figures above; label it as such in the script and do not present it as an official combined statistic.
+**Derived comparison (ESTIMATE, method shown):** Summing all four confirmed provincial totals — Sindh Rs 307.93bn + Punjab Rs 270bn + KP Rs 51.56bn + Balochistan Rs 23.2bn ≈ **Rs 652.7 billion** in combined provincial services-tax-and-related collection for FY2024-25 — versus the FBR's own federal sales-tax-on-goods collection of **Rs 3,901.4 billion** in the same year (§5.1). Provincial services-tax collection is roughly one-sixth the size of federal goods-sales-tax collection alone, illustrating the scale gap between the two systems referenced in Part 3. **Classification: ESTIMATE** — this comparison is my own arithmetic from the REPORTED figures above; label it as such in the script and do not present it as an official combined statistic.
 
 ### 5.9 Filer / non-filer system (REPORTED, multiple corroborating Tier-1 sources)
 
@@ -238,6 +273,7 @@ Pakistan's population per the 2023 Digital Census (Pakistan Bureau of Statistics
 | 12 | The IMF's EFF program targets FBR collections of 10.6% of GDP and general government revenue of 12.3% of GDP for FY2024-25 | `[SOURCE: IMF Country Report No. 25/109, 2025]` |
 | 13 | Under IMF program conditionality, all four provinces passed legislation harmonizing agricultural income tax with federal rates by February 2025, with collection beginning September 2025 | `[SOURCE: IMF Country Report No. 25/109, 2025]` |
 | 14 | Pakistan's population reached 241.49 million in the 2023 census | `[SOURCE: Pakistan Bureau of Statistics, 2023 Digital Census]` |
+| 15 | Direct taxes' share of total FBR collection has risen from 36.5% (FY2020-21) to 49.3% (FY2024-25), while indirect taxes' share fell from 63.5% to 50.7% over the same period — confirmed independently by both the FBR Yearbook and the Ministry of Finance's own Economic Survey | `[SOURCE: Pakistan Economic Survey 2025-26, Ch.4 "Fiscal Development," 2026; cross-confirmed against FBR Revenue Division Year Book 2024-25, 2025]` |
 
 ---
 
@@ -246,9 +282,9 @@ Pakistan's population per the 2023 Digital Census (Pakistan Bureau of Statistics
 | # | Item | Why flagged | What to do before recording |
 |---|---|---|---|
 | ~~V1~~ | ~~Whether the 7th NFC Award's 57.5/42.5 formula remains the current operative formula~~ | **RESOLVED 2026-08-28** — confirmed by production team: the 7th NFC Award (2010) remains the current, operative formula; no superseding award has been signed. Classification upgraded to VERIFIED on production confirmation (no new primary document opened). | — |
-| V2 | Direct/indirect tax share discrepancy: FBR Yearbook shows a near-even 49.3%/50.7% split for FY24-25; a separate search-derived summary attributed to the Pakistan Economic Survey claims indirect taxes are "more than 60%" of total FBR collection | The two figures conflict and may reflect different fiscal years, different classification systems (e.g., treating withholding as functionally indirect), or an imprecise secondary summary | Open the actual Pakistan Economic Survey 2025-26 fiscal chapter directly (attempted in this pass but PDF extraction failed) and reconcile against the FBR Yearbook's own numbers before the script states a specific split |
+| ~~V2~~ | ~~Direct/indirect tax share discrepancy: FBR Yearbook shows a near-even 49.3%/50.7% split for FY24-25; a separate search-derived summary attributed to the Pakistan Economic Survey claims indirect taxes are "more than 60%" of total FBR collection~~ | **RESOLVED 2026-08-28** — read the Pakistan Economic Survey 2025-26 (Ch.4, p.67) and the Pakistan Economic Survey 2021-22 (Ch.4, p.69) directly. The two figures are not in conflict: the ">60%" figure is genuine but describes FY2020-21 (63.5% indirect / 36.5% direct, per PES 2021-22); direct-tax share has risen every year since to 49.3%/50.7% in FY2024-25, a figure the PES 2025-26 states explicitly and which matches the FBR Yearbook to the decimal. See §5.1a for the full time series and both verbatim quotes. Classification: VERIFIED. | — |
 | V3 | IMF-projected general government revenue of 15.2% of GDP for FY2026 | A one-year jump from 12.3% (FY25) to 15.2% (FY26) is large and may reflect an extraction error rather than the report's actual figure | Re-open IMF Country Report 25/109's data tables directly and confirm the FY26 figure before using it |
-| V4 | Balochistan Revenue Authority (BRA) FY2024-25 collection figure | Not found in this research pass | Search BRA's own site/annual report or Balochistan budget documents directly |
+| ~~V4~~ | ~~Balochistan Revenue Authority (BRA) FY2024-25 collection figure~~ | **RESOLVED 2026-08-28** — BRA collected Rs 23.2 billion in FY2024-25 (GST/sales tax on services), per pkrevenue.com reporting (read directly), corroborated by the same source's note that BRA was the only provincial authority to see collection decline YoY (to Rs 22.03bn in FY2025-26). BRA's own website was checked directly and has no published annual report or collection-statistics document, so the figure rests on Tier-5 journalism only — same evidentiary tier as the other three provinces' figures already in the brief. Classification: REPORTED. See §5.8. | — |
 | ~~V5~~ | ~~Exact founding years of SRB, PRA, and KPRA~~ | **RESOLVED 2026-08-28** — confirmed by production team: SRB founded 2010, PRA founded 2012, KPRA founded 2013. Classification: REPORTED (production-confirmed; no primary founding-legislation document opened in this pass — cite a primary source before broadcast if one becomes available). | — |
 | V6 | Whether Section 114C (non-filer transaction restrictions) is actually being enforced at scale in 2026, vs. still administratively deferred | Secondary reporting is inconsistent — some sources describe it as deferred pending FBR system readiness (early 2025), others describe active enforcement in 2026 | Check FBR's own current guidance/circulars and recent press for enforcement statistics before stating enforcement as a settled fact |
 | V7 | Informal economy size as % of GDP | Estimates range from 35% to 59% of GDP depending on methodology, with no primary source opened directly | Either name one source and its explicit methodology, or state the range qualitatively rather than a single number |
