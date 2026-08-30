@@ -101,6 +101,18 @@ Batch 4 — success/benefit angles + regional-diversity gap-fillers:
 - The former FATA merger's economic effects (KP) — regional-diversity gap-filler
 - Gilgit-Baltistan tourism recovery — regional-diversity gap-filler
 
+Batch 5:
+- 5G/telecom spectrum delay — why 5G hasn't launched despite years of discussion, a new sector (telecom) untouched so far
+- Islamic banking growth — a genuinely fast-growing share of the banking sector, a success angle in an unused sector
+- Sialkot's surgical instruments / sports goods export cluster — an SME export success cluster, distinct manufacturing sector
+- CPEC Special Economic Zones sitting empty — most planned industrial zones were never built, distinct from the Gwadar port story
+- Wheat procurement policy & the recurring flour crisis — a food-security policy mechanism, new agri-policy angle
+- Pakistan's dairy sector — the world's largest milk producer by volume, yet almost entirely informal and unprocessed (mixed: real strength held back by a real gap)
+- Flood recovery & climate financing — 2022 flood damage and the climate-financing/reparations question, a topical macro angle
+- Women's home-based workforce — labor force participation gap, a demographic-diversity gap-filler flagged but not yet used
+- Karachi's informal recycling/scrap economy — waste pickers feeding an export recycling supply chain, a new informal-economy angle
+- Mango/citrus export quality and wastage — Pakistan is a top producer but loses exports to certification/logistics gaps (mixed: strength held back by a fixable weakness)
+
 ---
 
 ## Log
@@ -111,3 +123,7 @@ Batch 4 — success/benefit angles + regional-diversity gap-fillers:
 - 2026-08-29: Added Batch 4 (11 ideas) after the user flagged that Batches
   1-3 were entirely failure/crisis-framed with no success angles and no
   regional diversity beyond Punjab/Sindh/Karachi. See "Known gap" note above.
+- 2026-08-29: Added Batch 5 (10 ideas) — new untouched sectors (telecom,
+  Islamic banking, SME export clusters, dairy, flood/climate financing) plus
+  a demographic-diversity gap-filler (women's home-based workforce),
+  continuing the mix of success and failure framings from Batch 4.
