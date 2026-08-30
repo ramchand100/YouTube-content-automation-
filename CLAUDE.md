@@ -35,6 +35,20 @@ argument on first listen, simplify the language further without cutting the
 analysis. Give large or technical numbers a daily-life reference point wherever
 possible — see `docs/editorial/prose-style.md`, "Relatable scale."
 
+**Really basic, conversational English — not simplified analyst-speak.**
+Write the way you'd explain something to a friend with no finance background,
+not the way you'd summarize a report to a colleague who already has one:
+- No sentence carries more than one idea. If a sentence needs a comma to add
+  a new fact rather than to connect a genuine cause-and-effect chain, it's
+  two sentences, not one. See `docs/editorial/prose-style.md`, "Sentence
+  rhythm."
+- No jargon without a one-clause translation into something from daily
+  life, not just a plainer-sounding synonym — a bank's "float" is the cash
+  a shopkeeper needs sitting in the till before customers show up.
+- Never narrate the research process. Not "no dataset found in this
+  research shows X" — just "nobody's been able to prove this happens."
+  See `docs/editorial/prose-style.md`, "Research notes are not narration."
+
 **No undefined jargon.** When a technical term is required, define it in plain
 English immediately, then use it.
 
@@ -52,16 +66,31 @@ For detailed prose rules, see `docs/editorial/prose-style.md`.
 ## 3. Target Audience
 
 Primary:
-- Pakistani entrepreneurs and startup founders.
-- Corporate professionals and mid-to-senior managers.
-- University students in business, economics, finance, and engineering.
+- Everyday Pakistanis with no formal background in finance, economics, or
+  business — people who feel the effects of these mechanics (a bill, a
+  price, a fee, a tax) without necessarily knowing why.
+- Small shop owners, students, and salaried workers, the same "eighth-grade
+  student or small shop owner" the language rule in Section 2 already tests
+  every sentence against.
 
 Secondary:
-- Foreign investors and analysts trying to understand the Pakistani market.
-- The overseas Pakistani diaspora (Gulf, UK, US, Canada).
+- Pakistani entrepreneurs, corporate professionals, and university students
+  in business, economics, finance, or engineering who already follow this
+  space.
+- Foreign investors and analysts trying to understand the Pakistani market,
+  and the overseas Pakistani diaspora (Gulf, UK, US, Canada).
 
-They are intelligent and time-poor. They want mechanics and consequences, not
-motivational filler. Write up to their intelligence.
+**The primary audience sets the bar, and that direction never reverses.** If
+someone with no professional background can follow an explanation on first
+listen, the professionals and diaspora watching too will follow it easily.
+Writing to the secondary audience's fluency first is exactly what makes a
+script too dense for the primary one — do not let a technically accurate,
+analyst-level sentence stand just because the secondary audience would
+understand it. They are curious and time-poor. They want to understand what's
+actually happening in their own country's economy, explained the way a
+knowledgeable friend would explain it over chai, not the way an analyst
+would write it up in a memo. Mechanics and consequences, not motivational
+filler, still fully applies — the bar is on language, not on depth.
 
 ---
 

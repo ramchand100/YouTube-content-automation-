@@ -50,6 +50,27 @@ BANNED_TRANSITIONS = [
     r"but the real story is",
 ]
 
+# docs/editorial/prose-style.md, "Research notes are not narration": a script
+# must state the plain result of a hedge, not narrate the research process
+# itself. These are real phrasings found in production scripts, not a
+# hypothetical list — the [VERIFY]/[ANALYSIS] tag already carries the
+# "unconfirmed" signal; the sentence around it doesn't need to re-explain
+# that a search happened.
+RESEARCH_META_PATTERNS = [
+    r"found in this research", r"this research could not",
+    r"not independently corroborated", r"the script has treated",
+    r"no dataset or analyst report", r"independently corroborated in this research",
+]
+
+# CLAUDE.md sec2 / docs/editorial/prose-style.md "Sentence rhythm": a long
+# sentence is only correct when it connects a genuine cause-and-effect
+# chain. Stacking several separate facts or qualifiers into one sentence
+# with commas is the paragraph-rhythm problem happening inside a single
+# sentence. These thresholds are a rough heuristic worth a human read, not
+# a hard gate — see check_sentence_complexity.
+MAX_SENTENCE_WORDS = 25
+MAX_SENTENCE_COMMAS = 2
+
 # CLAUDE.md sec4 rule 6 / docs/editorial/prose-style.md "Political neutrality".
 # Flags language that frames a decision as political strategy rather than
 # administrative/economic mechanics. Heuristic — a hit is worth a human look,
@@ -350,6 +371,42 @@ def check_script_purity(text: str) -> list[tuple]:
     return issues
 
 
+def check_research_meta_commentary(text: str) -> list[tuple]:
+    issues = []
+    for pattern in RESEARCH_META_PATTERNS:
+        if re.search(pattern, text, re.IGNORECASE):
+            issues.append(("WARN", "Language",
+                            f"Research-process narration found (pattern '{pattern}'). "
+                            "State the plain result of the hedge instead of describing "
+                            "the search itself — see docs/editorial/prose-style.md, "
+                            "'Research notes are not narration.'"))
+    return issues
+
+
+def check_sentence_complexity(sections: list[dict]) -> list[tuple]:
+    """docs/editorial/prose-style.md, 'Sentence rhythm': a long sentence is
+    only correct when it connects a genuine cause-and-effect chain, not
+    when it stacks unrelated facts or qualifiers together with commas. A
+    rough heuristic (word/comma count on bracket-stripped text) — worth a
+    human read, not a hard gate.
+    """
+    issues = []
+    for section in sections:
+        clean = re.sub(r"\[.*?\]", "", section["body"])
+        for raw in re.split(r"(?<=[.!?])\s+", clean):
+            sentence = raw.strip()
+            if not sentence:
+                continue
+            words = len(re.findall(r"\b\w+\b", sentence))
+            commas = sentence.count(",")
+            if words > MAX_SENTENCE_WORDS or commas > MAX_SENTENCE_COMMAS:
+                issues.append(("NOTE", f"Section {section['n']}",
+                                f"Long/complex sentence ({words} words, {commas} "
+                                f"commas) — check it's one idea, not several stacked "
+                                f"with commas: '{sentence[:70]}...'"))
+    return issues
+
+
 def check_political_framing(text: str) -> list[tuple]:
     issues = []
     for pattern in POLITICAL_FRAMING_PATTERNS:
@@ -494,6 +551,8 @@ def run(path: Path, strict: bool = False) -> int:
     all_issues += check_political_framing(clean_narration)
     all_issues += check_cliches(clean_narration)
     all_issues += check_em_dashes(clean_narration)
+    all_issues += check_research_meta_commentary(clean_narration)
+    all_issues += check_sentence_complexity(sections)
     all_issues += check_paragraph_rhythm(sections)
     all_issues += check_repetition(sections)
 

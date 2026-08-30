@@ -184,6 +184,26 @@ Use fragments rarely and deliberately.
 
 Do not repeat the same sentence pattern across paragraphs.
 
+A longer sentence is only correct when it connects a genuine chain of cause
+and effect. Stacking several separate facts or qualifiers into one sentence
+with commas, because they're all "related" to the same claim, is not that —
+it's the paragraph-rhythm problem happening inside a single sentence instead
+of across several. If a sentence needs a comma to add a new fact rather than
+to link an actual cause to its effect, split it.
+
+Weak (several unrelated facts stacked into one sentence, not a causal chain):
+> An arrangement some in the industry describe, where an agent routes a
+> customer's cash-out through the agent's own personal wallet or bank
+> account instead of the operator's official agent channel, treating it as
+> an ordinary transfer between two people rather than a company-tracked
+> agent transaction.
+
+Stronger (the same facts, as short sentences a friend could actually follow):
+> Some agents, industry sources say, don't process a cash-out the normal
+> way. They move the money into their own personal account instead, like an
+> ordinary transfer between two people. That way, the company never sees
+> the transaction, and never takes its cut.
+
 ## Paragraph rhythm
 
 Sentence rhythm governs how a sentence is built. Paragraph rhythm governs how
@@ -225,7 +245,12 @@ pacing broke down partway through.
 When a technical term is necessary:
 
 1. Name it.
-2. Define it in plain English.
+2. Define it using something from daily life, not just plainer vocabulary.
+   A definition that swaps one finance word for another still isn't
+   accessible — a bank's "float" is the cash a shopkeeper needs sitting in
+   the till before customers show up; a company's "margin" is what's left
+   over after paying for what a thing cost to make. Reach for that kind of
+   comparison before reaching for a cleaner-sounding synonym.
 3. Show how it works in Pakistan.
 4. Explain who pays, gains, or carries the risk.
 
@@ -292,6 +317,20 @@ Do not read research notes aloud. Do not place these phrases in final narration:
 - "Figure attributed to media reports."
 - "Source may reflect an older period."
 - "Treat as a working estimate until confirmed."
+- "No dataset or analyst report found in this research isolates..."
+- "This research could not close that gap..."
+- "...not independently corroborated in this research."
+- "The script has treated it as unresolved..."
+
+That last group is a real recurring failure mode, not a hypothetical one: a
+script that hedges an unresolved claim by describing the research process
+itself — what was searched, what wasn't found, what the script "treats" a
+claim as — is still doing exactly what this section bans, just with fancier
+phrasing. State the plain result of the hedge instead of narrating the
+hedging. Not "no independent record of it was found in this research" —
+just "nobody's been able to prove this happens." The `[VERIFY]` tag already
+carries the "this isn't confirmed" signal; the sentence around it doesn't
+need to re-explain that a search was conducted.
 
 Use `[VERIFY]` in the script where necessary, and place the detailed explanation
 in the source audit file.
