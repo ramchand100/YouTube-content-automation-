@@ -36,27 +36,45 @@ multi-option scoring ceremony does.
 ## Active episodes
 
 Two episodes are in flight at once — that's deliberate, not a mistake to
-reconcile. Ep16 is waiting on a review pass; Ep17 is waiting on research.
-Don't assume only one can be "current."
+reconcile. Both are now waiting on `/review-script`. Don't assume only
+one can be "current."
 
 **Episode 17 — The Agent Economy That Banked Pakistan's Unbanked** (`17_branchless_banking_agents`)
 
 | Step | Status |
 |---|---|
 | Angle | approved 2026-08-29 — `topics/angles/17_branchless_banking_agents_angle.md` |
-| Research | **not started** — next step is `/research` |
+| Research | complete — `research/briefs/17_branchless_banking_agents_brief.md`, `research/verification-queues/17_branchless_banking_agents_verification-queue.md` (9 open tickets, 2 ACCESS BLOCKED — SBP.org.pk/EasyData returned HTTP 403 to every fetch) |
+| Script | drafted — `scripts/17_branchless_banking_agents.md`, `status: draft`, 3,786 words / 7 parts |
+| Review | **not yet run** — `/review-script` is the next step |
+| Source audit | not started |
+| Storyboard | not started |
 
-Notable in this angle: it includes a claim from the user's own ground
-knowledge (agents route cash-outs through personal accounts to dodge the
-company's commission cut, and charge for cash-in despite it being mandated
-free) that must be corroborated during research (SBP's free-cash-in
-mandate, any malpractice reporting) rather than written into the script on
-the strength of this conversation alone — the angle file's "Main
-weakness / research risk" field has the exact fallback framing if it can't
-be corroborated. It also frames Raast as a threat to the agent commission
-model (Part 5) — a genuinely different angle from the still-unclaimed
-"Raast on its own terms" idea in `topics/IDEAS_BACKLOG.md`; don't conflate
-the two if picking that one up later.
+**How the ground-knowledge claim was resolved:** the user's account of
+agents routing cash-outs through personal accounts (to dodge the
+company's commission cut) and overcharging on cash-in (despite it being
+assumed mandated-free) did **not** find independent corroboration.
+Worse for the "free cash-in" half specifically: the actual 2019 SBP
+Branchless Banking Regulations were read directly and contain no
+explicit free-cash-in clause — what's real instead is SBP's
+quarterly-locked fee-schedule requirement, a different mechanism. A 2017
+CGAP field study (Pakistan included) further complicates the claim,
+classifying Pakistan as a "low informal OTC market." The user chose
+(2026-08-29) to keep this as Part 3 but hedged — "a practice some in the
+industry describe," never stated as fact, CGAP's complication
+acknowledged rather than hidden. Confirmed done correctly in the script.
+
+Raast's threat to the agent model (Part 5) is real growth (P2M
+transactions 36.3M→55.9M in one quarter) but an **anticipated** risk, not
+yet a measured decline in agent cash-in/cash-out volume — the script says
+so explicitly rather than overstating it.
+
+Also fixed while drafting this episode: `validate_script.py` was scanning
+the whole raw file for cliché/em-dash/purity checks, so a citation's own
+title (e.g. a paper literally titled "...Journey from OTC to
+Wallets...") or an `[ESTIMATE — method]`-style tag's internal em dash
+tripped false positives. Now scoped to narration only — see commit
+`d611f3c`.
 
 **Episode 16 — How Pakistan's Tax System Actually Works** (`16_pakistan_tax_system`)
 
