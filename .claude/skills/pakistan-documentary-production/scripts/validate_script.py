@@ -8,7 +8,7 @@ against CLAUDE.md rules. Reports findings without modifying any file.
 IMPORTANT: This tool checks mechanical, reliably-detectable things only:
 structure, front-matter completeness, banned phrases, citation presence,
 word counts, and paragraph length. It does NOT and cannot reliably check
-judgment-based rules — hook quality, retention-bridge quality, whether a
+judgment-based rules — hook quality, whether a
 number's daily-life comparison actually lands, whether the script reads as
 a decision chain rather than a fact list, or factual accuracy of sources.
 Those require a human or an LLM-driven review; see `/review-script`.
@@ -116,6 +116,25 @@ def word_count(text: str) -> int:
     return len(re.findall(r"\b\w+\b", text))
 
 
+def narration_word_count(sections: list[dict]) -> int:
+    """Counts only spoken narration prose.
+
+    Sums each '## Part N' section's body with [SOURCE:...]/[VERIFY]/
+    [ESTIMATE ...]/etc. bracket tags stripped first. Front matter, the
+    Editorial-frame section, part headings, and the Sources block are never
+    read aloud by a narrator, so they must not count toward word_count or
+    estimated_duration. An earlier version of this function ran word_count()
+    over the whole raw file, which inflated declared word counts by ~25-40%
+    across multiple episodes (confirmed by a full-repo audit, 2026-08-29) —
+    do not revert to that approach.
+    """
+    total = 0
+    for section in sections:
+        clean = re.sub(r"\[.*?\]", "", section["body"])
+        total += word_count(clean)
+    return total
+
+
 def estimate_duration(words: int) -> str:
     total_sec = round(words / WORDS_PER_MINUTE * 60)
     return f"{total_sec // 60}m {total_sec % 60:02d}s"
@@ -152,17 +171,29 @@ def extract_frontmatter(text: str) -> dict:
 def extract_sections(text: str, structure_type: str) -> list[dict]:
     """Extract '## Part N — Title' sections (the current flexible format), or
     '## SECTION N — Title' when structure_type is a legacy-A/B/C script.
+
+    The last Part's body is bounded by the next '## ' heading of ANY kind
+    (typically '## Sources'), not just the next Part/Section heading. An
+    earlier version let the last section run to end-of-file, which silently
+    folded the Sources block into the final Part's word count and into every
+    check that reads section bodies (paragraph rhythm, repetition) — do not
+    revert to that approach.
     """
     heading = "SECTION" if structure_type.startswith("legacy") else "Part"
     pattern = re.compile(
         rf"^## {heading} (\d+)\s*[—–-]+\s*(.+?)(?:\s+\(.*?\))?\s*$",
         re.MULTILINE,
     )
+    any_heading_pattern = re.compile(r"^## ", re.MULTILINE)
     matches = list(pattern.finditer(text))
     sections = []
     for i, m in enumerate(matches):
         start = m.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        if i + 1 < len(matches):
+            end = matches[i + 1].start()
+        else:
+            next_heading = any_heading_pattern.search(text, start)
+            end = next_heading.start() if next_heading else len(text)
         sections.append({
             "n": int(m.group(1)),
             "title": m.group(2).strip(),
@@ -255,9 +286,9 @@ def check_frontmatter(frontmatter: dict) -> list[tuple]:
 
 
 def check_opening(sections: list[dict]) -> list[tuple]:
-    """Mechanical checks only. Whether the hook actually lands fast and
-    whether the retention bridge actually reads well are judgment calls for
-    /review-script, not something this regex-based tool can assess safely.
+    """Mechanical checks only. Whether the hook actually lands fast is a
+    judgment call for /review-script, not something this regex-based tool
+    can assess safely.
     """
     issues = []
     if not sections:
@@ -430,7 +461,7 @@ def run(path: Path, strict: bool = False) -> int:
     frontmatter = extract_frontmatter(text)
     structure_type = frontmatter.get("structure_type", "flexible")
     sections = extract_sections(text, structure_type)
-    narration_words = word_count(text)
+    narration_words = narration_word_count(sections)
     duration = estimate_duration(narration_words)
 
     all_issues: list[tuple] = []
@@ -491,7 +522,7 @@ def run(path: Path, strict: bool = False) -> int:
     print()
 
     print("  NOTE: This tool checks mechanical structure, metadata, and banned")
-    print("  language only. Hook quality, retention-bridge quality, whether a")
+    print("  language only. Hook quality, whether a")
     print("  number's daily-life comparison lands, decision-chain vs. fact-list")
     print("  storytelling, neutral-framing nuance, and factual accuracy all")
     print("  require /review-script or a human read.")

@@ -88,6 +88,27 @@ use `## SECTION N — [Name]` headings. Do not use the legacy format by default.
 
 See `docs/editorial/storytelling.md` — Opening rhythm for full guidance.
 
+## Paragraph rhythm
+
+Keep narration paragraphs to one or two sentences — one spoken beat per
+paragraph break, not dense multi-sentence blocks. This applies to the whole
+script, not just the opening. See `docs/editorial/prose-style.md`,
+"Paragraph rhythm," for worked examples.
+
+## Relatable scale
+
+Every large or technical number gets a daily-life reference point (a derived
+rate, a share of another cited figure, a rupee conversion, a familiar
+distance) the first time it appears. Label a derived comparison `[ESTIMATE]`
+with the method shown. See `docs/editorial/prose-style.md`, "Relatable
+scale."
+
+## Section and part transitions
+
+Every part except the last ends by creating the next analytical question, not
+just stopping. See `docs/editorial/storytelling.md`, "Section and part
+transitions."
+
 ## No-repetition rule
 
 Every concept, figure, and definition is stated once — at the point where it first matters.

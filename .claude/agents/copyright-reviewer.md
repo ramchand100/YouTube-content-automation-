@@ -31,9 +31,14 @@ If a clip's licence cannot be confirmed, the agent flags it and applies the fall
 6. Populates `research/source-registers/NN_slug_sources.csv` with cleared/pending status.
 7. Flags any clip from a news broadcast, airline, or company without explicit rights.
 8. Applies fallback hierarchy for uncleared clips:
-   1. Remotion motion graphic
-   2. Text card on channel palette
+   1. Source-screenshot card (see `.claude/rules/visual-system.md`), if the
+      cue stands in for a citable figure or document
+   2. Plain text card on channel palette
    3. Self-captured equivalent footage
+
+   Remotion is not part of this fallback hierarchy — it's a legacy, optional
+   pipeline (see `.claude/rules/visual-system.md`) and is only used if the
+   user explicitly asks for it on a specific episode.
 
 ## What this agent does not do
 

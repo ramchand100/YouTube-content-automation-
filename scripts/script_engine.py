@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """
-script_engine.py — Full-length script scaffolder.
+script_engine.py — Legacy Template A/B/C script scaffolder.
+
+LEGACY / OPTIONAL: this only scaffolds the fixed five-section Template A/B/C
+skeleton (`## SECTION N —` headings). It is not the default script path — the
+current default is a flexible Part-N structure sized to the story logic, which
+`/write-script` proposes and writes directly (there is no CLI scaffolder for
+it). Use this tool only when the legacy five-section format has been
+explicitly requested or genuinely fits the topic. See `.claude/rules/scripts.md`,
+"Legacy five-section format," and `scripts/TEMPLATE.md` for the current
+default front-matter shape, which this tool's output does NOT match.
 
 Generates a production-ready, full-length script skeleton that enforces the
 channel's Investigative Brief structure (see CLAUDE.md section 7), word budgets,

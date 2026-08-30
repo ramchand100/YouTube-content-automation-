@@ -49,10 +49,11 @@ Use this naming convention:
 
 ```
 research/briefs/NN_slug_brief.md
-research/timelines/NN_slug_timeline.md
 research/claim-ledgers/NN_slug_claims.csv
 research/source-registers/NN_slug_sources.csv
 research/audits/NN_slug_research-audit.md
+research/verification-queues/NN_slug_verification-queue.md
+research/footage-queues/NN_slug_footage-queue.md
 ```
 
 Where `NN` is the episode number and `slug` matches the script filename slug.

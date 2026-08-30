@@ -48,10 +48,13 @@ Never assume a video, image, or audio file may be reused because:
 
 ## Rights register
 
-Every footage cue in a storyboard must appear in the episode's footage-rights log:
-`research/source-registers/NN_slug_sources.csv`
-
-Columns: clip_id | description | source | licence | url | cleared (yes/no/pending) | fallback
+Every footage cue in a storyboard must appear in the episode's own
+`research/source-registers/NN_slug_sources.csv` — the same file, same
+header (`source_id,title,institution,date,url,tier,notes`), used for every
+research source. Footage rows use `F001`, `F002`... as the `source_id`,
+matching the storyboard's clip IDs. Do not introduce a different column
+schema; record licence terms, content confirmation, and fallback in the
+`notes` field. See `.claude/commands/footage.md` for the full procedure.
 
 ## Fallback hierarchy
 

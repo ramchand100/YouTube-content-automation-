@@ -10,11 +10,12 @@ This directory holds all pre-production research organised by episode.
 
 ```
 research/
-├── briefs/          # Full research briefs — one per episode
-├── timelines/       # Source timelines for historical episodes
-├── claim-ledgers/   # CSV claim-by-claim classification tables
-├── source-registers/ # CSV source lists (also used for footage rights)
-└── audits/          # Source audit files for finalised scripts
+├── briefs/              # Full research briefs — one per episode
+├── claim-ledgers/       # CSV claim-by-claim classification tables
+├── source-registers/    # CSV source lists (also used for footage rights)
+├── audits/              # Source audit files for finalised scripts
+├── verification-queues/ # Actionable to-do tickets from an audit's open claims
+└── footage-queues/      # Actionable to-do tickets from unresolved footage cues
 ```
 
 ---
@@ -26,10 +27,11 @@ Use the episode number and script slug throughout:
 | File | Path |
 |------|------|
 | Research brief | `research/briefs/NN_slug_brief.md` |
-| Timeline | `research/timelines/NN_slug_timeline.md` |
 | Claim ledger | `research/claim-ledgers/NN_slug_claims.csv` |
 | Source register | `research/source-registers/NN_slug_sources.csv` |
 | Source audit | `research/audits/NN_slug_research-audit.md` |
+| Verification queue | `research/verification-queues/NN_slug_verification-queue.md` |
+| Footage queue | `research/footage-queues/NN_slug_footage-queue.md` |
 
 Where `NN` matches the script file number and `slug` matches the script filename slug.
 
@@ -94,8 +96,10 @@ source_id,title,institution,pub_date,url,tier,notes
 S001,"[full title]","[institution]","YYYY-MM-DD","[url]","Primary","[notes]"
 ```
 
-The source register also doubles as the footage-rights log when extended with these columns:
-`clip_id,description,timestamp,licence_type,licence_url,commercial_ok,cleared,fallback`
+The source register also doubles as the footage-rights log — footage rows use
+the same header, with `F001,F002...` as `source_id` (matching the storyboard's
+clip IDs) and licence/content/fallback detail recorded in `notes`. Do not
+introduce a different column schema. See `.claude/commands/footage.md`.
 
 ---
 

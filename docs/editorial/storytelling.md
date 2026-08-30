@@ -156,25 +156,6 @@ Stronger (payoff first):
 > against Gwadar's reported full-year 2024 total] That same year, an official told
 > Parliament the port was fully operational.
 
-## Retention bridge
-
-Immediately after the hook, and before the opening widens into the full
-documentary chain, include two or three sentences previewing what the episode
-investigates. This is not the central question restated — it sits one level
-below that, naming the shape of the argument to come: what was promised or
-assumed, why reality diverged from it, what it costs.
-
-State it as the investigation's roadmap in plain sentences, not as a list of
-teaser bullet points, and do not let it slow into filler ("in this video we're
-going to..."). One pass through the roadmap is enough — say it once and move on
-into the evidence.
-
-Example:
-> So which one is true? In this episode, we look at both sides of that gap. What
-> the port was actually promised. Why the cargo never came. And what it costs the
-> rest of the country, that one of its biggest infrastructure projects still
-> barely moves anything at all.
-
 ---
 
 ## Narrative tension

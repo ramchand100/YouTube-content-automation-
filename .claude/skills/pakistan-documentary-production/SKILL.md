@@ -39,7 +39,9 @@ Load the rule file that matches the current stage before writing any output:
 - Storyboard creation → `.claude/rules/storyboards.md`
 - Source auditing → `.claude/rules/source-audits.md`
 - Footage rights checking → `.claude/rules/footage-rights.md`
-- Visual system, palette, Remotion, thumbnails → `.claude/rules/visual-system.md`
+- Visual system, palette, CapCut/Remotion, thumbnails → `.claude/rules/visual-system.md`
+- Verification queues and footage queues (turning an audit's open items into
+  actionable tickets) → `.claude/rules/verification-queue.md`
 
 ## Step 4 — Require angle approval before research or scripting
 
@@ -153,7 +155,10 @@ Public availability is not copyright permission.
 
 Use these templates from this skill directory:
 - `templates/research-brief.md` — research brief structure
-- `templates/script-audit.md` — script audit checklist
-- `templates/storyboard.md` — storyboard section template
-- `templates/footage-rights.csv` — footage rights register headers
 - `scripts/validate_script.py` — automated script validator
+
+`templates/script-audit.md`, `templates/storyboard.md`, and
+`templates/footage-rights.csv` are superseded — each now just points to the
+current canonical file (`.claude/commands/review-script.md`,
+`storyboards/TEMPLATE.md`, and `.claude/commands/footage.md` respectively).
+Use those directly instead.

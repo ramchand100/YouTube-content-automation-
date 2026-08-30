@@ -1,5 +1,4 @@
-# Dependencies for the channel automation tools.
-# Install with: pip install -r tools/requirements.txt
-
-Jinja2>=3.1        # research-brief and script-skeleton templating
-rich>=13.0         # readable CLI tables/output (optional; tools degrade gracefully)
+# Same dependencies as the root requirements.txt. Kept here only so
+# `pip install -r tools/requirements.txt` also works from within tools/ —
+# do not duplicate the dependency list here, it will drift out of sync.
+-r ../requirements.txt

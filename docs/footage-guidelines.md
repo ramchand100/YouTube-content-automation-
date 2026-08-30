@@ -1,5 +1,11 @@
 # Footage and Copyright Guidelines
 
+This is supplementary detail (music, attribution, storage) that isn't
+duplicated in `.claude/rules/footage-rights.md`, which is the authoritative
+rule file `/footage` and the copyright-reviewer agent actually load. If the
+two ever disagree on a rule both cover, `.claude/rules/footage-rights.md`
+wins.
+
 ## Core principle
 
 **Public availability is not copyright permission.**
@@ -50,7 +56,7 @@ official releases may be usable, but this is not automatic.
 
 - Confirm whether the specific clip carries an explicit reuse licence.
 - Do not assume government footage is public domain.
-- If in doubt, use a fallback (Remotion graphic or text card).
+- If in doubt, use a fallback (a source-screenshot card or plain text card).
 
 ---
 
@@ -72,9 +78,15 @@ permission without a documented licence:
 
 When footage cannot be cleared, apply in this order:
 
-1. **Remotion motion graphic** — preferred; on-brand, data-driven, no rights risk.
-2. **Text card** — episode palette, key stat or quote, clean and clear.
+1. **Source-screenshot card** (see `.claude/rules/visual-system.md`) — if the
+   cue was standing in for a citable figure or document, screenshot the real
+   source instead of building a custom graphic.
+2. **Plain text card** — episode palette, key stat or quote, clean and clear.
 3. **Self-captured equivalent footage** — feasible for generic Pakistan street/city shots.
+
+Remotion is not part of this fallback hierarchy — it's a legacy, optional
+pipeline (see `.claude/rules/visual-system.md`) and is only used if the user
+explicitly asks for it on a specific episode.
 
 Update the storyboard's footage cue to reflect the fallback used. Record the
 decision in the footage rights register.
@@ -86,10 +98,14 @@ decision in the footage rights register.
 Every footage cue in every storyboard must have a corresponding row in:
 `research/source-registers/NN_slug_sources.csv`
 
-Required columns (extend the standard source register with):
-`clip_id | description | timestamp | source | licence_type | licence_url | commercial_ok | cleared | fallback | notes`
+There is no separate column schema for footage — footage rows use the
+source register's own header (`source_id,title,institution,date,url,tier,notes`),
+with `F001`, `F002`... as the `source_id`, matching the storyboard's clip IDs.
+Record licence terms, content confirmation, and the fallback (if any) in the
+`notes` field. See `.claude/commands/footage.md` for the full procedure.
 
-No episode may enter production with any `cleared: pending` entries.
+No episode may enter production with any clip left at `CANDIDATE` status —
+see `.claude/rules/verification-queue.md` for the full status vocabulary.
 
 ---
 

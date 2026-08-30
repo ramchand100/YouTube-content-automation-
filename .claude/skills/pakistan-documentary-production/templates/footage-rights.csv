@@ -1,2 +1,5 @@
-clip_id,description,timestamp,source,licence_type,licence_url,commercial_ok,attribution_required,cleared,fallback,notes
-C001,[describe clip],[00:00-00:15],[Pexels/Pixabay/Pond5/self],[CC0/royalty-free/licensed],[url to specific clip licence page],[yes/no],[yes/no],[yes/no/pending],[Remotion graphic/text card/self-captured],[any caveats]
+SUPERSEDED — see .claude/commands/footage.md
+There is no separate footage-rights CSV. /footage extends the episode's own
+research/source-registers/NN_slug_sources.csv (header: source_id,title,institution,date,url,tier,notes),
+using F001, F002... as source_id for footage rows, and records licence/content/fallback detail in the notes field.
+Do not introduce a different column schema.

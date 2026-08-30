@@ -28,7 +28,6 @@ topics/
   angles/                   NN_slug_angle.md — one completed, approved angle per episode
 research/
   briefs/                   NN_slug_brief.md — full research briefs per episode
-  timelines/                NN_slug_timeline.md — chronological source timelines
   claim-ledgers/            NN_slug_claims.csv — claim-by-claim classification
   source-registers/         NN_slug_sources.csv — all sources + footage rights
   audits/                   NN_slug_research-audit.md — source audit per final script
@@ -164,8 +163,8 @@ The validator checks mechanical/structural things only: the declared
 completeness, a populated Sources block, no visual cues or delivery-notes
 markup inside the script, no banned clichés or banned formulaic transitions,
 political-framing patterns, paragraph rhythm, sourcing density, `[VERIFY]`
-count, and more. It does not judge hook quality, retention-bridge quality,
-or factual accuracy — that's `/review-script`.
+count, and more. It does not judge hook quality or factual accuracy — that's
+`/review-script`.
 
 ### Step 5 — Source audit (`/audit-sources`)
 
@@ -264,16 +263,20 @@ Reflects what actually exists in this repo, not an aspirational target.
 
 | Ep | Topic | Script | Storyboard | Audit | Delivery notes |
 |----|-------|--------|------------|-------|-----------------|
-| 01 | Pakistan Railways freight | ✓ | — | — | — |
+| 01 | Pakistan Railways freight | draft only, incomplete | — | — | — |
 | 11 | Pakistan Steel Mills | ✓ | ✓ | ✓ | — |
 | 12 | Metro Bus subsidy | ✓ | — | — | — |
 | 13 | Gwadar vs. Karachi port | ✓ | — | — | ✓ |
+| 14 | Power/gas circular debt | ✓ | — | — | — |
+| 15 | Shaukat Khanum funding | ✓ | ✓ | ✓ | — |
+| 16 | Pakistan tax system | ✓ | — | — | — |
 
-Episodes 12 and 13 still need `/storyboard` and `/audit-sources`; episode
-11's footage/verification queues still have open items. See
-`.claude/rules/visual-system.md` for the palette (episodes 01–05 archived
-dark `#0A0A0A`; episode 06+ light `#F8F9FA` — episode 01 predates any
-storyboard in this repo, so it has not been assigned a palette).
+Episodes 12, 13, 14, and 16 still need `/storyboard` and `/audit-sources`.
+Episode 01's script file is not a usable draft — a research brief and claim
+ledger exist, but the script needs to be (re)written before this episode can
+proceed. See `.claude/rules/visual-system.md` for the palette (episodes
+01–05 archived dark `#0A0A0A`; episode 06+ light `#F8F9FA` — episode 01
+predates any storyboard in this repo, so it has not been assigned a palette).
 
 ---
 

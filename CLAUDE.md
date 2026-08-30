@@ -147,7 +147,9 @@ does not belong in the script.
 
 ## 7. Repository Map
 
-- `topics/` — staging area for video ideas and research briefs (pre-production).
+- `topics/` — staging area for video ideas. `ANGLE_TEMPLATE.md` is a blank
+  angle-selection form; `angles/` holds one completed, approved angle file per
+  episode (`NN_slug_angle.md`).
 - `scripts/` — completed, production-ready full-length English scripts, plus the
   scripting engine (`script_engine.py`) and the script template (`TEMPLATE.md`).
 - `storyboards/` — visual and motion-graphic blueprints for editors, timestamp-
@@ -156,7 +158,8 @@ does not belong in the script.
   pacing) for a script that has reached a stable draft. Never changes the
   narration itself. See `.claude/rules/delivery-notes.md`.
 - `prompts/` — thumbnail layout specs and Canva design briefs for static promotional
-  assets. Animated in-video graphics belong in Remotion, not Canva.
+  assets (not yet populated). Animated in-video graphics use CapCut, per
+  `.claude/rules/visual-system.md` — Remotion is a legacy, optional pipeline only.
 - `tools/` — automation scripts (`topic_generator.py`) and shared research
   templates, with dependencies in `requirements.txt`.
 - `research/` — research briefs, claim ledgers, source registers, audits, verification

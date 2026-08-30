@@ -36,9 +36,6 @@ Run these checks in order and report each finding:
 - [ ] The hook lands in the first one or two sentences — the strongest
       documented anomaly or comparison, not several paragraphs of setup. See
       `docs/editorial/storytelling.md`, "Land the hook fast."
-- [ ] Immediately after the hook, a two-to-three sentence retention bridge
-      previews what the episode investigates. See
-      `docs/editorial/storytelling.md`, "Retention bridge."
 - [ ] Sentences are short and punchy (flag any sentence over 25 words in the
       opening).
 - [ ] Does NOT contain a formulaic transitional echo sentence — "That [X] was
@@ -152,7 +149,7 @@ PASS (no blocking issues) | NEEDS REVISION (N blocking issues)
 
 This review is a structured read against documented rules — mechanical
 checks (front-matter fields, section counts, banned phrases, purity) are
-reliable; judgment-based checks (hook strength, retention-bridge quality,
+reliable; judgment-based checks (hook strength,
 whether a number's relatable-scale anchor actually helps, whether framing is
 genuinely neutral) are Claude's editorial read and should be treated as a
 strong recommendation, not an infallible gate. `validate_script.py` covers

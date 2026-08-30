@@ -1,99 +1,15 @@
-# Script Audit: [Episode Number — Title]
+# Script-audit template — superseded
 
-- **Script file:** scripts/NN_slug.md
-- **Audited:** YYYY-MM-DD
-- **Auditor:** [name or "Claude"]
+This file predates the channel's move to a flexible Part-N script structure
+(it still checks for "exactly 5 section headers") and was left un-migrated
+while `/review-script`'s real output format moved on. Rather than maintain
+two parallel copies that can drift out of sync again, this file now points
+to the current one instead of duplicating it:
 
----
+- **Script review checklist and output format:** `.claude/commands/review-script.md`
+  — the checks and the `## Script review: ...` output format every real
+  review actually uses.
+- **Mechanical pre-check:** `.claude/skills/pakistan-documentary-production/scripts/validate_script.py`.
 
-## Metrics
-
-| Metric | Value |
-|--------|-------|
-| Total word count | |
-| Estimated duration (at 150 wpm) | |
-| [SOURCE: ...] tag count | |
-| [VERIFY] tag count | |
-| Em dash count | |
-
----
-
-## Structure checks
-
-| Check | Result | Notes |
-|-------|--------|-------|
-| Exactly 5 section headers | PASS / FAIL | |
-| Section names match declared template | PASS / FAIL | |
-| SOURCES block exists and is populated | PASS / FAIL | |
-| Front-matter complete (all required fields) | PASS / FAIL | |
-
----
-
-## Section 1 checks
-
-| Check | Result | Notes |
-|-------|--------|-------|
-| Opens on documented event / anomaly | PASS / FAIL | |
-| Short punchy sentences (none >25 words) | PASS / FAIL | |
-| Echo / transitional sentence present | PASS / FAIL | |
-| Closes with single central question | PASS / FAIL | |
-| No fictional characters or invented scenes | PASS / FAIL | |
-
----
-
-## Nonfiction compliance
-
-| Check | Result | Notes |
-|-------|--------|-------|
-| No invented characters or protagonists | PASS / FAIL | |
-| No invented conversations or phone calls | PASS / FAIL | |
-| No invented motives or private reactions | PASS / FAIL | |
-| No fictional scenes | PASS / FAIL | |
-
----
-
-## Script purity
-
-| Check | Result | Notes |
-|-------|--------|-------|
-| No [VISUAL ...] annotations | PASS / FAIL | |
-| No [FOOTAGE ...] or [B-ROLL ...] cues | PASS / FAIL | |
-| No camera directions or editing notes | PASS / FAIL | |
-| No music or sound-effect notes | PASS / FAIL | |
-| No on-screen text specifications | PASS / FAIL | |
-
----
-
-## Language and editorial
-
-| Check | Result | Notes |
-|-------|--------|-------|
-| No banned clichés | PASS / FAIL | |
-| Em dashes replaced where possible | PASS / FAIL | |
-| All jargon defined on first use | PASS / FAIL | |
-| No concept / figure repeated across sections | PASS / FAIL | |
-
----
-
-## Sourcing
-
-| Check | Result | Notes |
-|-------|--------|-------|
-| Every stat has [SOURCE: ...] tag | PASS / FAIL | |
-| Claims classified (VERIFIED/REPORTED/etc.) | PASS / FAIL | |
-| [VERIFY] count acceptable (≤3 preferred) | PASS / FAIL | |
-
----
-
-## BLOCK items (must fix before production-ready)
-
-| # | Section | Issue |
-|---|---------|-------|
-| | | |
-
----
-
-## Overall status
-
-PASS — no blocking issues
-NEEDS REVISION — N blocking issues (list above)
+Use `/review-script` for a script audit. Do not resurrect a fixed
+five-section PASS/FAIL checklist here.
