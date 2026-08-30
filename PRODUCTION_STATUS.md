@@ -11,10 +11,25 @@ already written down here — update it instead when it goes stale.
 
 **Last updated:** 2026-08-29
 **Branch:** `claude/episode-16-branch-bp7k9n`
-**Local commits not yet pushed:** GitHub push is currently blocked — org
-admin needs to install/reconnect the Claude GitHub App
-(https://github.com/apps/claude/installations/select_target). Push as soon
-as access is restored; do not treat local-only commits as lost work.
+**Git:** all commits pushed as of this update. GitHub access was briefly
+blocked earlier the same day (org needed to reconnect the Claude GitHub
+App) — if a future push fails with a 403 naming that app, it's the same
+known issue, not something to work around; ask the user to reconnect.
+
+**Topic ideas:** every idea brainstormed in chat lives in
+`topics/IDEAS_BACKLOG.md` — read it before proposing new topics so you
+don't repeat one, and append new batches to it rather than only answering
+in chat. It also tracks two angles with full scoring done but never
+approved (PIA privatization, Saylani Welfare).
+
+**Angle-approval shortcut:** when the user already names a specific
+angle/framing themselves (not "give me options" but "let's do X, framed
+as Y"), don't run the full `/angles` scored-comparison — flesh out just
+that one angle into the standard `topics/angles/NN_slug_angle.md` format
+(central question, thesis, entities, evidence, exclusions, structure) and
+ask for direct approval. The angle file is still required before
+`/research` will proceed (that gate doesn't get skipped), only the
+multi-option scoring ceremony does.
 
 ---
 
