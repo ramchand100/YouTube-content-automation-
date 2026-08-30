@@ -463,6 +463,24 @@ def run(path: Path, strict: bool = False) -> int:
     sections = extract_sections(text, structure_type)
     narration_words = narration_word_count(sections)
     duration = estimate_duration(narration_words)
+    # Narration-only text (section bodies, WITH bracket tags kept intact —
+    # unlike narration_word_count this doesn't strip them) for checks that
+    # should never see the Sources block or front matter: a citation title
+    # or publisher name (e.g. "CGAP, 'The EasyPaisa Journey...'", "Business
+    # Recorder / BR Research") is not narration and must not trip a cliché,
+    # em-dash, purity, or political-framing check meant for spoken prose. An
+    # earlier version ran these over the whole raw file and produced false
+    # positives on exactly this pattern — do not revert to that approach.
+    narration_text = "\n\n".join(s["body"] for s in sections)
+    # A [SOURCE: ...]/[VERIFY]/[ESTIMATE ...] tag is never spoken aloud and
+    # can legitimately quote a citation's title verbatim (e.g. a paper
+    # literally titled "...Journey from OTC to Wallets...") without that
+    # word being narration at all. Pure-language checks (clichés, em dashes,
+    # fictional-scene patterns, political framing) must not see bracket-tag
+    # content; check_script_purity and check_sourcing need the tags intact
+    # (the tags are what those checks are looking for/counting), so they
+    # keep using narration_text above, not this.
+    clean_narration = re.sub(r"\[.*?\]", "", narration_text)
 
     all_issues: list[tuple] = []
 
@@ -471,15 +489,15 @@ def run(path: Path, strict: bool = False) -> int:
     all_issues += check_sources_block(text)
     all_issues += check_frontmatter(frontmatter)
     all_issues += check_opening(sections)
-    all_issues += check_nonfiction(text)
-    all_issues += check_script_purity(text)
-    all_issues += check_political_framing(text)
-    all_issues += check_cliches(text)
-    all_issues += check_em_dashes(text)
+    all_issues += check_nonfiction(clean_narration)
+    all_issues += check_script_purity(narration_text)
+    all_issues += check_political_framing(clean_narration)
+    all_issues += check_cliches(clean_narration)
+    all_issues += check_em_dashes(clean_narration)
     all_issues += check_paragraph_rhythm(sections)
     all_issues += check_repetition(sections)
 
-    sourcing_issues, source_tag_count, verify_count = check_sourcing(text)
+    sourcing_issues, source_tag_count, verify_count = check_sourcing(narration_text)
     all_issues += sourcing_issues
 
     block_issues = [i for i in all_issues if i[0] == "BLOCK"]
