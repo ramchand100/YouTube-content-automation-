@@ -36,6 +36,16 @@ Balochistan, KP, or Gilgit-Baltistan until Batch 4).
 | 15 | Shaukat Khanum Hospital funding model |
 | 16 | Pakistan's tax system |
 
+## In progress
+
+- **Episode 17 — Branchless banking agent networks** — angle approved
+  2026-08-29 as "The Agent Economy That Banked Pakistan's Unbanked."
+  Expanded beyond the original one-line idea to include the Raast threat to
+  the agent commission model and an agent-side workaround/overcharging
+  practice (personal-account cash-out routing, charging for mandated-free
+  cash-in). See `topics/angles/17_branchless_banking_agents_angle.md`.
+  Next step: `/research`.
+
 ## Parked — angle work already done, never approved
 
 These went through `/angles`-level scoring in a prior session but the user
@@ -82,14 +92,14 @@ Batch 3:
 - The trader tax-net fight — why FBR keeps failing to register retail/wholesale traders
 - Informal steel re-rolling mills — who supplied steel while PSM sat dormant
 - Daraz and cash-on-delivery economics — how COD breaks e-commerce margins
-- Branchless banking agent networks — Easypaisa/JazzCash agent economics
+- ~~Branchless banking agent networks~~ — **picked, now Episode 17, see "In progress" above**
 - "File trading" in housing societies — speculative plot trading before infrastructure exists
 - Basmati rice export economics — farmer price vs. importer price
 - LNG spot-market exposure — long-term contracts vs. spot purchases
 - Remittances and the Eid spike — seasonal pattern, hawala vs. banked transfers
 
 Batch 4 — success/benefit angles + regional-diversity gap-fillers:
-- Raast instant payments — a domestic payment rail that actually got adopted at scale and cut transaction costs
+- Raast instant payments — a domestic payment rail that actually got adopted at scale and cut transaction costs (note: Episode 17 touches Raast only as a threat to the agent commission model, per its deliberate exclusions — this standalone "Raast on its own terms" episode is still a distinct, unclaimed idea)
 - The 2023-24 disinflation — SBP brought inflation down from ~38% to single digits in about a year
 - NADRA's biometric ID system — cited internationally as a real government-digitization success, backbone for banking/tax/voting access
 - BISP cash-transfer program — one of the largest targeted poverty-transfer programs globally, examined honestly (real outcomes and real limits)

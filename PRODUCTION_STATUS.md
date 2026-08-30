@@ -33,7 +33,30 @@ multi-option scoring ceremony does.
 
 ---
 
-## Active episode
+## Active episodes
+
+Two episodes are in flight at once — that's deliberate, not a mistake to
+reconcile. Ep16 is waiting on a review pass; Ep17 is waiting on research.
+Don't assume only one can be "current."
+
+**Episode 17 — The Agent Economy That Banked Pakistan's Unbanked** (`17_branchless_banking_agents`)
+
+| Step | Status |
+|---|---|
+| Angle | approved 2026-08-29 — `topics/angles/17_branchless_banking_agents_angle.md` |
+| Research | **not started** — next step is `/research` |
+
+Notable in this angle: it includes a claim from the user's own ground
+knowledge (agents route cash-outs through personal accounts to dodge the
+company's commission cut, and charge for cash-in despite it being mandated
+free) that must be corroborated during research (SBP's free-cash-in
+mandate, any malpractice reporting) rather than written into the script on
+the strength of this conversation alone — the angle file's "Main
+weakness / research risk" field has the exact fallback framing if it can't
+be corroborated. It also frames Raast as a threat to the agent commission
+model (Part 5) — a genuinely different angle from the still-unclaimed
+"Raast on its own terms" idea in `topics/IDEAS_BACKLOG.md`; don't conflate
+the two if picking that one up later.
 
 **Episode 16 — How Pakistan's Tax System Actually Works** (`16_pakistan_tax_system`)
 
@@ -145,8 +168,9 @@ that scope boundary on purpose.
 
 1. Read this file (you probably just did, via the SessionStart hook).
 2. Read `CLAUDE.md` for the editorial constitution.
-3. If the user doesn't specify an episode, assume Episode 16 is current and
-   its next step is `/review-script`.
+3. If the user doesn't specify an episode, ask which of the two active
+   episodes they mean rather than guessing — Ep16 needs `/review-script`,
+   Ep17 needs `/research`. Don't assume one has priority over the other.
 4. If the user asks about repo health, system issues, or "what's broken,"
    the per-episode backlog above is the answer — don't re-audit from
    scratch unless something has clearly changed since 2026-08-29.
